@@ -82,11 +82,24 @@ class RequestTrialAction extends AbstractAction {
                         LicenseUtil.processSecretCode(ls.getSecretCode());
                     }
                 } else if(response.startsWith(MSG.success)){                   
+                    boolean canInstall = false;
                     if (!ls.hasSecretCode()) {
+                        canInstall = true;                        
+                    }else{
+                        if(FreeAcademicLicense.isFreeAcademicLicense(ls.getSecretCode())){
+                            FreeAcademicLicense academicLicense = FreeAcademicLicense.parse(ls.getSecretCode());
+                            String fingerprintLicense = academicLicense.getFingerprint();
+                            String fingerprintComputer = DiskUtil.getComputerFingerprint();
+                            if(!fingerprintComputer.equals(fingerprintLicense)){
+                                canInstall = true;
+                            }
+                        }                 
+                    }
+                    if(canInstall){
                         String[] splits = response.split(MSG.SPACE);
                         ImportLicenseAction a = new ImportLicenseAction(RequestTrialPanel.TITLE, splits[1]);
                         a.actionPerformed(null);
-                    }                  
+                    }
                 } else{
                     LicenseUtil.unexpectedServerError();
                     if(code == null || code.isEmpty()){
