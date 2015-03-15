@@ -1,0 +1,565 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>protein</DbName>
+	<MenuName>Protein</MenuName>
+	<Description>Protein sequence record</Description>
+	<Count>46853302</Count>
+	<LastUpdate>2012/01/25 13:09</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>280801842</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to each sequence</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>213</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>111965685</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Words in definition line</Description>
+			<TermCount>13681978</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KYWD</Name>
+			<FullName>Keyword</FullName>
+			<Description>Nonstandardized terms provided by submitter</Description>
+			<TermCount>32234</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Author(s) of publication</Description>
+			<TermCount>1548244</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JOUR</Name>
+			<FullName>Journal</FullName>
+			<Description>Journal abbreviation of publication</Description>
+			<TermCount>46543</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VOL</Name>
+			<FullName>Volume</FullName>
+			<Description>Volume number of publication</Description>
+			<TermCount>2869</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ISS</Name>
+			<FullName>Issue</FullName>
+			<Description>Issue number of publication</Description>
+			<TermCount>3615</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PAGE</Name>
+			<FullName>Page Number</FullName>
+			<Description>Page number(s) of publication</Description>
+			<TermCount>152222</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Scientific and common names of organism, and all higher levels of taxonomy</Description>
+			<TermCount>1262728</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Accession number of sequence</Description>
+			<TermCount>94849703</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PACC</Name>
+			<FullName>Primary Accession</FullName>
+			<Description>Does not include retired secondary accessions</Description>
+			<TermCount>93671172</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Name of gene associated with sequence</Description>
+			<TermCount>50609503</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROT</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Name of protein associated with sequence</Description>
+			<TermCount>2553167</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC number for enzyme or CAS registry number</Description>
+			<TermCount>3960</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>Date sequence added to GenBank</Description>
+			<TermCount>5274</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Date of last update</Description>
+			<TermCount>3936</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBS</Name>
+			<FullName>Substance Name</FullName>
+			<Description>CAS chemical name or MEDLINE Substance Name</Description>
+			<TermCount>185037</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Classification by source qualifiers and molecule type</Description>
+			<TermCount>6481</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SQID</Name>
+			<FullName>SeqID String</FullName>
+			<Description>String identifier for sequence</Description>
+			<TermCount>32241999</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GPRJ</Name>
+			<FullName>BioProject</FullName>
+			<Description>BioProject</Description>
+			<TermCount>14534</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SLEN</Name>
+			<FullName>Sequence Length</FullName>
+			<Description>Length of sequence</Description>
+			<TermCount>7286</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MLWT</Name>
+			<FullName>Molecular Weight</FullName>
+			<Description>Molecular Weight</Description>
+			<TermCount>266632</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FKEY</Name>
+			<FullName>Feature key</FullName>
+			<Description>Feature annotated on sequence</Description>
+			<TermCount>34</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PORG</Name>
+			<FullName>Primary Organism</FullName>
+			<Description>Scientific and common names of primary organism, and all higher levels of taxonomy</Description>
+			<TermCount>1262728</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>protein_bioproject</Name>
+				<Menu>BioProject Links</Menu>
+				<Description>Proteins related to BioProjects</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_biosystems</Name>
+				<Menu>BioSystem Links</Menu>
+				<Description>Pathways and other biosystems containing the current proteins.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_cdd</Name>
+				<Menu>Conserved Domain Links</Menu>
+				<Description>Full list of Conserved domains present in the current proteins as determined by a Conserved Domain Database search using RPS-BLAST. This set includes all domain models that meet or exceed the RPS-BLAST threshold for statistical significance, as well as the conserved domain superfamilies to which they belong.</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_cdd_concise_2</Name>
+				<Menu>Concise Conserved Domain Links</Menu>
+				<Description>Concise (top-scoring) list of conserved domains present in the current proteins as determined by a Conserved Domain Database search using RPS-BLAST. For each region on a protein query sequence, this set includes: (a) a specific hit, if one is available, (b) the conserved domain superfamily, and (c) the best-scoring hit that is classified as a multi-domain model, if the alignment is near-complete with respect to that multidomain model footprint.</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_cdd_summary</Name>
+				<Menu></Menu>
+				<Description>Graphical display of conserved domains identified in the protein using RPS-BLAST. The concise results (top-scoring hits) are shown by default, with an option to view the full results, if desired. Click on any domain footprint in the graphical display to see more details and to view the query protein sequence embedded in the domain model’s multiple sequence alignment.</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Gene records referencing the current protein sequence records. Sequences included in Gene records are added manually by NCBI.</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_genome</Name>
+				<Menu>Genome Links</Menu>
+				<Description>Genome records that have the current protein records as annotated features.</Description>
+				<DbTo>genome</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>Homologene clusters that contain the current RefSeq protein sequences.</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_mapview</Name>
+				<Menu></Menu>
+				<Description>Graphical Map Viewer display of the current proteins mapped to assembled genomes. Protein sequences are aligned through the corresponding mRNA sequence.</Description>
+				<DbTo>mapview</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Nucleotide records that are the source of protein records in the current set. The protein sequences are generated through translation of coding region features on the nucleotide records.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nuccore_mat_peptide</Name>
+				<Menu>Mature Peptides</Menu>
+				<Description>Source viral genome nucleotide records that have the current proteins annotated as mature peptides.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nuccore_mgc</Name>
+				<Menu>Nucleotide NIH cDNA clone links</Menu>
+				<Description>Order cDNA clones corresponding to Mammalian Gene Collection records that are the sources of the current protein records. The protein sequences are generated through translation of coding region features on the Mammalian Gene Collection sequences.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nuccore_mrna</Name>
+				<Menu>Encoding mRNA</Menu>
+				<Description>Link from protein to encoding mRNA</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nuccore_wgs</Name>
+				<Menu></Menu>
+				<Description>Whole genome shotgun derived nucleotide sequences in the current set that are sources for the current protein sequences. The protein sequences are generated through translation of coding region features on the nucleotide records.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Genome survey sequence (GSS) records that are the source of protein records in the current set. The protein sequences are generated through translation of coding region features on the GSS records.</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_nucleotide_mgc_url</Name>
+				<Menu></Menu>
+				<Description>Order cDNA clones corresponding to Mammalian Gene Collection records that are the sources of the current proteins. The protein sequences are generated through translation of coding region features on the Mammalian Gene Collection sequences.</Description>
+				<DbTo>nucleotide</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_omia</Name>
+				<Menu>OMIA Links</Menu>
+				<Description>Online Mendelian Inheritance in Animals (OMIA) records that refer to protein records in the current set.</Description>
+				<DbTo>omia</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Online Mendelian Inheritance in Man (OMIM) records that refer to protein records in the current set.</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pcassay</Name>
+				<Menu>BioAssay Links</Menu>
+				<Description>BioAssay records that refer to protein records in the current set.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pcassay_target</Name>
+				<Menu>BioAssay by target</Menu>
+				<Description>PubChem Bioassay records from screening experiments that test proteins in the current set as a molecular target. Information about biological modulators of the protein target, such as enzyme inhibitors, may be available through the bioassay records.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pcassay_target_pig</Name>
+				<Menu>BioAssay by target,identical sequence</Menu>
+				<Description>PubChem Bioassay records from screening experiments that test proteins with identical sequences to the current set as a molecular target. Information about biological modulators of the target, such as enzyme inhibitors, may be available through the bioassay records.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>PubChem compound records that cite the protein records in the current set. These compound records are typically associated with protein through a molecular structure containing the both the protein and the PubChem small molecule.</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>PubChem substance records that cite the protein records in the current set. These substance records are usually associated with a protein through a molecular structure containing both the protein and the PubChem small molecule.</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full-text articles in PubMed central that cite protein records in the current set.</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_popset</Name>
+				<Menu>PopSet Links</Menu>
+				<Description>Population, ecosystem, or phylogenetic sets in the PopSet database that include records in the current set.</Description>
+				<DbTo>popset</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_protein</Name>
+				<Menu>Related Sequences</Menu>
+				<Description>Protein sequences related by sequence similarity (BLAST) score to the current records.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_protein_cdart_summary</Name>
+				<Menu></Menu>
+				<Description>Conserved Domain Architecture Retrieval Tool (cDART) results for proteins in the current set. cDART identifies proteins that have similar kinds of conserved domains with similar organization.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_protein_identical</Name>
+				<Menu>Identical Proteins</Menu>
+				<Description>Proteins with identical sequences to the records in the current set.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_protein_refseq2uniprot</Name>
+				<Menu>Protein (UniProtKB)</Menu>
+				<Description>Corresponding UniProt records for Reference Sequence (RefSeq) protein records in the current set.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_protein_uniprot2refseq</Name>
+				<Menu>Protein (RefSeq)</Menu>
+				<Description>Corresponding Reference Sequence (RefSeq) records for UniProt protein records in the current set.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_proteinclusters</Name>
+				<Menu>Protein Cluster Links</Menu>
+				<Description>Protein Clusters of conserved proteins from prokaryotes and organelle genomes that contain records in the current set.</Description>
+				<DbTo>proteinclusters</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed articles that cite the protein records in the current set. These are articles that report the International Nucleotide Database Collaboration (DDBJ, EMBL, GenBank) records. These articles are also linked to Reference Sequences derived from the GenBank records.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pubmed_refseq</Name>
+				<Menu>PubMed (RefSeq) Links</Menu>
+				<Description>Link to RefSeq PubMed articles</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_pubmed_weighted</Name>
+				<Menu>PubMed (Weighted) Links</Menu>
+				<Description>PubMed articles associated with the current protein record through related Gene database records. These articles include Reference into Function, citations in related OMIM, and those associated with sequences in the Gene record.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Single nucleotide polymorphisms (SNPs) mapped to the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Genotype reports for single nucleotide polymorphisms (SNPs) associated with the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_snp_geneview</Name>
+				<Menu></Menu>
+				<Description>Geneview in dbSNP showing single nucleotide polymorphisms (SNPs) mapped to the genes associated with the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_structure</Name>
+				<Menu>Structure Links</Menu>
+				<Description>Three dimensional structure records that are the sources of the protein records in the current set. Each 3D structure and its corresponding sequence data can be viewed interactively in the free Cn3D tool.</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_structure_related</Name>
+				<Menu></Menu>
+				<Description>Graphical summary of three dimensional structures that contain one or more protein molecules similar in sequence to your query protein. Alignment footprints indicate regions of similarity between the query protein and the structure-based protein, with an option to view the 3D structure and corresponding sequence alignment interactively in the free Cn3D tool.</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_structure_related_list</Name>
+				<Menu>Related Structures (List)</Menu>
+				<Description>List of three dimensional structure records that contain one or more protein molecules similar in sequence to the current protein(s). Each 3D structure and its corresponding sequence data can be viewed interactively in the free Cn3D tool.</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>NCBI Taxonomy entries and classification information for the source organisms of the current set of records.</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>protein_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>UniGene clusters of expressed sequences that contain Reference Sequnce protein records in the current set. Protein records are included in UniGene through sequence similarity to the translations of expressed sequences in the UniGene cluster.</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>omia</DbName>
+	<MenuName>OMIA</MenuName>
+	<Description>OMIA records</Description>
+	<Count>2787</Count>
+	<LastUpdate>2012/01/09 16:17</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>37479</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>11</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>OMIA</Name>
+			<FullName>Group ID</FullName>
+			<Description>Group ID</Description>
+			<TermCount>1419</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PNID</Name>
+			<FullName>Phene ID</FullName>
+			<Description>Phene ID is species-specific identifier</Description>
+			<TermCount>2787</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PHEN</Name>
+			<FullName>Phenotype</FullName>
+			<Description>Observable trait</Description>
+			<TermCount>3707</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GNID</Name>
+			<FullName>Gene ID</FullName>
+			<Description>Gene ID</Description>
+			<TermCount>692</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>gene name</Description>
+			<TermCount>1692</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>PubMed ID</FullName>
+			<Description>PubMed IDs of accessions linked to the record</Description>
+			<TermCount>10166</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXID</Name>
+			<FullName>Taxonomy ID</FullName>
+			<Description>NCBI Unique taxonomy ID</Description>
+			<TermCount>180</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism name</Description>
+			<TermCount>1918</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>OID</Name>
+			<FullName>OMIM ID</FullName>
+			<Description>Unique identifier</Description>
+			<TermCount>963</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>20481</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>omia_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Gene articles</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>Related HomoloGene records</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Related OMIM records</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Related Protein records</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Related PubMed articles</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_pubmed_five</Name>
+				<Menu></Menu>
+				<Description>Related PubMed articles</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Related Taxonomy articles</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene records</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>omia_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Related UniSTS records</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

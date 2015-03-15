@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="/das/das.xsl"?>
+<!DOCTYPE DASTYPES SYSTEM "http://www.biodas.org/dtd/dastypes.dtd">
+<DASTYPES>
+<GFF href="http://www.ensembl.org/das/Homo_sapiens.GRCh37.reference/types" version="1.0">
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+<SEGMENT>
+</SEGMENT>
+</GFF>
+</DASTYPES>

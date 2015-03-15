@@ -1,0 +1,260 @@
+LOCUS       NM_133504               1570 bp    mRNA    linear   PRI 02-SEP-2012
+DEFINITION  Homo sapiens decorin (DCN), transcript variant B, mRNA.
+ACCESSION   NM_133504
+VERSION     NM_133504.2  GI:47419924
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1570)
+  AUTHORS   Bi,X., Pohl,N.M., Qian,Z., Yang,G.R., Gou,Y., Guzman,G.,
+            Kajdacsy-Balla,A., Iozzo,R.V. and Yang,W.
+  TITLE     Decorin-mediated inhibition of colorectal cancer growth and
+            migration is associated with E-cadherin in vitro and in mice
+  JOURNAL   Carcinogenesis 33 (2), 326-330 (2012)
+   PUBMED   22159220
+  REMARK    GeneRIF: Loss of decorin and E-cadherin accelerated colon cancer
+            cell growth and invasion in Dcn(-/-) mice.
+REFERENCE   2  (bases 1 to 1570)
+  AUTHORS   Boivin,W.A., Shackleford,M., Vanden Hoek,A., Zhao,H., Hackett,T.L.,
+            Knight,D.A. and Granville,D.J.
+  TITLE     Granzyme B cleaves decorin, biglycan and soluble betaglycan,
+            releasing active transforming growth factor-beta1
+  JOURNAL   PLoS ONE 7 (3), E33163 (2012)
+   PUBMED   22479366
+  REMARK    GeneRIF: Data show that granzyme B (GrB) liberated TGF-beta1 from
+            substrates decorin, biglycan and betaglycan.
+            Erratum:[PLoS One. 2012;7(5):
+            doi/10.1371/annotation/b1e4ff60-ba18-4f92-b856-0f2dd27e9a65]
+REFERENCE   3  (bases 1 to 1570)
+  AUTHORS   Cawthorn,T.R., Moreno,J.C., Dharsee,M., Tran-Thanh,D., Ackloo,S.,
+            Zhu,P.H., Sardana,G., Chen,J., Kupchak,P., Jacks,L.M., Miller,N.A.,
+            Youngson,B.J., Iakovlev,V., Guidos,C.J., Vallis,K.A., Evans,K.R.,
+            McCready,D., Leong,W.L. and Done,S.J.
+  TITLE     Proteomic analyses reveal high expression of decorin and
+            endoplasmin (HSP90B1) are associated with breast cancer metastasis
+            and decreased survival
+  JOURNAL   PLoS ONE 7 (2), E30992 (2012)
+   PUBMED   22363530
+  REMARK    GeneRIF: These analyses identified decorin (DCN) and endoplasmin
+            (HSP90B1) which play important roles regulating the tumour
+            microenvironment and in pathways related to tumorigenesis.
+REFERENCE   4  (bases 1 to 1570)
+  AUTHORS   Kim,J.H., Ko,J.M., Lee,I., Kim,J.Y., Kim,M.J. and Tchah,H.
+  TITLE     A novel mutation of the decorin gene identified in a Korean family
+            with congenital hereditary stromal dystrophy
+  JOURNAL   Cornea 30 (12), 1473-1477 (2011)
+   PUBMED   21993463
+  REMARK    GeneRIF: A novel frameshift mutation in decorin gene in stromal
+            dystrophy, hereditary.
+REFERENCE   5  (bases 1 to 1570)
+  AUTHORS   Wu,Y., Xiao,T., Li,M., Zhang,Y., Gao,Y. and Sun,K.
+  TITLE     [Decorin protein is down-regulated in non-small cell lung cancer
+            tissue and significantly associated with histological type]
+  JOURNAL   Zhongguo Fei Ai Za Zhi 14 (11), 848-852 (2011)
+   PUBMED   22104218
+  REMARK    GeneRIF: Decorin protein is significantly down-regulated in
+            non-small cell lung cancer tissue.
+REFERENCE   6  (bases 1 to 1570)
+  AUTHORS   Krumdieck,R., Hook,M., Rosenberg,L.C. and Volanakis,J.E.
+  TITLE     The proteoglycan decorin binds C1q and inhibits the activity of the
+            C1 complex
+  JOURNAL   J. Immunol. 149 (11), 3695-3701 (1992)
+   PUBMED   1431141
+REFERENCE   7  (bases 1 to 1570)
+  AUTHORS   Winnemoller,M., Schon,P., Vischer,P. and Kresse,H.
+  TITLE     Interactions between thrombospondin and the small proteoglycan
+            decorin: interference with cell attachment
+  JOURNAL   Eur. J. Cell Biol. 59 (1), 47-55 (1992)
+   PUBMED   1468447
+REFERENCE   8  (bases 1 to 1570)
+  AUTHORS   Murphy-Ullrich,J.E., Schultz-Cherry,S. and Hook,M.
+  TITLE     Transforming growth factor-beta complexes with thrombospondin
+  JOURNAL   Mol. Biol. Cell 3 (2), 181-188 (1992)
+   PUBMED   1550960
+REFERENCE   9  (bases 1 to 1570)
+  AUTHORS   Pulkkinen,L., Alitalo,T., Krusius,T. and Peltonen,L.
+  TITLE     Expression of decorin in human tissues and cell lines and defined
+            chromosomal assignment of the gene locus (DCN)
+  JOURNAL   Cytogenet. Cell Genet. 60 (2), 107-111 (1992)
+   PUBMED   1611907
+REFERENCE   10 (bases 1 to 1570)
+  AUTHORS   McBride,O.W., Fisher,L.W. and Young,M.F.
+  TITLE     Localization of PGI (biglycan, BGN) and PGII (decorin, DCN, PG-40)
+            genes on human chromosomes Xq13-qter and 12q, respectively
+  JOURNAL   Genomics 6 (2), 219-225 (1990)
+   PUBMED   1968422
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AF138301.1, BX571756.1 and
+            BM672011.1.
+            On May 17, 2004 this sequence version replaced gi:19743847.
+            
+            Summary: The protein encoded by this gene is a small cellular or
+            pericellular matrix proteoglycan that is closely related in
+            structure to biglycan protein. The encoded protein and biglycan are
+            thought to be the result of a gene duplication. This protein is a
+            component of connective tissue, binds to type I collagen fibrils,
+            and plays a role in matrix assembly. It contains one attached
+            glycosaminoglycan chain. This protein is capable of suppressing the
+            growth of various tumor cell lines. There are multiple
+            alternatively spliced transcript variants known for this gene. This
+            gene is a candidate gene for Marfan syndrome. [provided by RefSeq,
+            Jul 2008].
+            
+            Transcript Variant: This variant (B) lacks exons 3 and 4 in the
+            coding region compared to variant A1. This does not cause
+            frameshift but the encoded isoform b lacks an internal 109 amino
+            acids. Thus it is not clear if cleavage takes place for the mature
+            peptide to be produced from the proprotein.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##RefSeq-Attributes-START##
+            Transcript_exon_combination_evidence :: AF138301.1  [ECO:0000332]
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-753               AF138301.1         1-753
+            754-1285            BX571756.1         1298-1829
+            1286-1570           BM672011.1         1-285               c
+FEATURES             Location/Qualifiers
+     source          1..1570
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="12"
+                     /map="12q21.33"
+     gene            1..1570
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /note="decorin"
+                     /db_xref="GeneID:1634"
+                     /db_xref="HGNC:2705"
+                     /db_xref="HPRD:00501"
+                     /db_xref="MIM:125255"
+     CDS             1..753
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /note="isoform b precursor is encoded by transcript
+                     variant B; small leucine-rich protein 1B; decorin
+                     proteoglycan; dermatan sulphate proteoglycans II; bone
+                     proteoglycan II; proteoglycan core protein; PG-S2"
+                     /codon_start=1
+                     /product="decorin isoform b precursor"
+                     /protein_id="NP_598011.1"
+                     /db_xref="GI:19743848"
+                     /db_xref="CCDS:CCDS9040.1"
+                     /db_xref="GeneID:1634"
+                     /db_xref="HGNC:2705"
+                     /db_xref="HPRD:00501"
+                     /db_xref="MIM:125255"
+                     /translation="MKATIILLLLAQVSWAGPFQQRGLFDFMLEDEASGIGPEVPDDR
+                     DFEPSLGPVCPFRCQCHLRVVQCSDLELGTNPLKSSGIENGAFQGMKKLSYIRIADTN
+                     ITSIPQGLPPSLTELHLDGNKISRVDAASLKGLNNLAKLGLSFNSISAVDNGSLANTP
+                     HLRELHLDNNKLTRVPGGLAEHKYIQVVYLHNNNISVVGSSDFCPPGHNTKKASYSGV
+                     SLFSNPVQYWEIQPSTFRCVYVRSAIQLGNYK"
+     sig_peptide     1..48
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     exon            1..211
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /inference="alignment:Splign"
+                     /number=3b
+     exon            212..325
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /inference="alignment:Splign"
+                     /number=6
+     exon            326..419
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /inference="alignment:Splign"
+                     /number=7
+     exon            420..558
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /inference="alignment:Splign"
+                     /number=8
+     exon            559..1553
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /inference="alignment:Splign"
+                     /number=9
+     STS             732..877
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /standard_name="RH41859"
+                     /db_xref="UniSTS:64097"
+     STS             847..1120
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /standard_name="RH68984"
+                     /db_xref="UniSTS:46953"
+     STS             1095..1221
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /standard_name="WI-20146"
+                     /db_xref="UniSTS:70612"
+     polyA_signal    1258..1263
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+     polyA_site      1282
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     polyA_site      1285
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+     STS             1405..1533
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+                     /standard_name="WI-17110"
+                     /db_xref="UniSTS:77474"
+     polyA_signal    1529..1534
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+     polyA_signal    1536..1541
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+     polyA_site      1553
+                     /gene="DCN"
+                     /gene_synonym="CSCD; DSPG2; PG40; PGII; PGS2; SLRR1B"
+ORIGIN      
+        1 atgaaggcca ctatcatcct ccttctgctt gcacaagttt cctgggctgg accgtttcaa
+       61 cagagaggct tatttgactt tatgctagaa gatgaggctt ctgggatagg cccagaagtt
+      121 cctgatgacc gcgacttcga gccctcccta ggcccagtgt gccccttccg ctgtcaatgc
+      181 catcttcgag tggtccagtg ttctgatttg gaactgggca ccaatccgct gaagagctca
+      241 ggaattgaaa atggggcttt ccagggaatg aagaagctct cctacatccg cattgctgat
+      301 accaatatca ccagcattcc tcaaggtctt cctccttccc ttacggaatt acatcttgat
+      361 ggcaacaaaa tcagcagagt tgatgcagct agcctgaaag gactgaataa tttggctaag
+      421 ttgggattga gtttcaacag catctctgct gttgacaatg gctctctggc caacacgcct
+      481 catctgaggg agcttcactt ggacaacaac aagcttacca gagtacctgg tgggctggca
+      541 gagcataagt acatccaggt tgtctacctt cataacaaca atatctctgt agttggatca
+      601 agtgacttct gcccacctgg acacaacacc aaaaaggctt cttattcggg tgtgagtctt
+      661 ttcagcaacc cggtccagta ctgggagata cagccatcca ccttcagatg tgtctacgtg
+      721 cgctctgcca ttcaactcgg aaactataag taattctcaa gaaagccctc atttttataa
+      781 cctggcaaaa tcttgttaat gtcattgcta aaaaataaat aaaagctaga tactggaaac
+      841 ctaactgcaa tgtggatgtt ttacccacat gacttattat gcataaagcc aaatttccag
+      901 tttaagtaat tgcctacaat aaaaagaaat tttgcctgcc attttcagaa tcatcttttg
+      961 aagctttctg ttgatgttaa ctgagctact agagatattc ttatttcact aaatgtaaaa
+     1021 tttggagtaa atatatatgt caatatttag taaagctttt cttttttaat ttccaggaaa
+     1081 aaataaaaag agtatgagtc ttctgtaatt cattgagcag ttagctcatt tgagataaag
+     1141 tcaaatgcca aacactagct ctgtattaat ccccatcatt actggtaaag cctcatttga
+     1201 atgtgtgaat tcaatacagg ctatgtaaaa tttttactaa tgtcattatt ttgaaaaaat
+     1261 aaatttaaaa atacattcaa aattactatt gtatacaagc ttaattgtta atattcccta
+     1321 aacacaattt tatgaaggga gaagacattg gtttgttgac aataacagta catcttttca
+     1381 agttctcagc tatttcttct acctctccct atcttacatt tgagtatggt aacttatgtc
+     1441 atctatgttg aatgtaagct tataaagcac aaagcataca tttcctgact ggtctagaga
+     1501 actgatgttt caatttaccc ctctgctaaa taaatattaa aactatcatg tgaaaaaaaa
+     1561 aaaaaaaaaa
+//
+

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.gas.domain.ui
+OpenIDE-Module-Localizing-Bundle: com/gas/domain/ui/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

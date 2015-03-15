@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>blastdbinfo</DbName>
+	<MenuName>BlastdbInfo</MenuName>
+	<Description>BlastdbInfo Database</Description>
+	<Count>11518</Count>
+	<LastUpdate>2012/01/29 17:01</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>908316</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DB</Name>
+			<FullName>Database Name</FullName>
+			<Description>Official name of the database</Description>
+			<TermCount>10049</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Database Title</FullName>
+			<Description>Words in the title of database (e.g., &quot;NCBI Transcript Reference Sequences&quot;)</Description>
+			<TermCount>31000</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DATE</Name>
+			<FullName>Last Update</FullName>
+			<Description>Date of last database update</Description>
+			<TermCount>1246</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Database Organism Taxid</FullName>
+			<Description>Organism Taxid</Description>
+			<TermCount>866678</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ASM</Name>
+			<FullName>Genome Collection Assembly Name</FullName>
+			<Description>Genome Collection Assembly Name</Description>
+			<TermCount>27</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SEQT</Name>
+			<FullName>Blast Sequence Type</FullName>
+			<Description>One of genomic, cdna, other-dna, or protein, of which genomic and cdna could be further specified</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SEQS</Name>
+			<FullName>Blast Sequence Strategy</FullName>
+			<Description>Appropriate sequence strategy for the sequence type specified</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRC</Name>
+			<FullName>Blast Database Source</FullName>
+			<Description>States where the sequences came from, e.g., genbank, refseq, trace, etc.</Description>
+			<TermCount>9</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KEYW</Name>
+			<FullName>Search Term</FullName>
+			<Description>Search term identifying this database entry</Description>
+			<TermCount>2660</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRJ</Name>
+			<FullName>NCBI Genome Project ID</FullName>
+			<Description>NCBI Genome Project Identifier</Description>
+			<TermCount>3957</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GPB</Name>
+			<FullName>Gpipe Build Name</FullName>
+			<Description>Gpipe Build</Description>
+			<TermCount>21</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WGPR</Name>
+			<FullName>NCBI WGS Project ID</FullName>
+			<Description>NCBI WGS Project Identifier</Description>
+			<TermCount>3744</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>blastdbinfo_pubmed</Name>
+				<Menu>Pubmed Links</Menu>
+				<Description>Link from BlastInfo to Pubmed</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>blastdbinfo_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Link from BlastInfo to Taxonomy</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

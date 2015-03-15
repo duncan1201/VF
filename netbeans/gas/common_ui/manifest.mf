@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.gas.common.ui
+OpenIDE-Module-Localizing-Bundle: com/gas/common/ui/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

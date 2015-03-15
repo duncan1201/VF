@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD eSearchResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eSearch_020511.dtd">
+<eSearchResult><Count>967</Count><RetMax>30</RetMax><RetStart>0</RetStart><IdList>
+		<Id>158139163</Id>
+		<Id>58801256</Id>
+		<Id>1161384</Id>
+		<Id>1177438</Id>
+		<Id>145232585</Id>
+		<Id>1743860</Id>
+		<Id>145232603</Id>
+		<Id>215397753</Id>
+		<Id>215397751</Id>
+		<Id>215397749</Id>
+		<Id>215397747</Id>
+		<Id>215397745</Id>
+		<Id>215397743</Id>
+		<Id>215397741</Id>
+		<Id>215397739</Id>
+		<Id>215397737</Id>
+		<Id>215397735</Id>
+		<Id>215397733</Id>
+		<Id>215397731</Id>
+		<Id>215397729</Id>
+		<Id>215397727</Id>
+		<Id>215397725</Id>
+		<Id>19070167</Id>
+		<Id>1523982</Id>
+		<Id>1523980</Id>
+		<Id>1523876</Id>
+		<Id>66967942</Id>
+		<Id>1905988</Id>
+		<Id>299773541</Id>
+		<Id>299773539</Id>
+	</IdList><TranslationSet/><TranslationStack>   <TermSet>    <Term>brca2[All Fields]</Term>    <Field>All Fields</Field>    <Count>967</Count>    <Explode>Y</Explode>   </TermSet>   <OP>GROUP</OP>  </TranslationStack><QueryTranslation>brca2[All Fields]</QueryTranslation></eSearchResult>

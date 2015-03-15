@@ -1,0 +1,167 @@
+LOCUS       pRS416                  4891 bp    DNA     circular     05-DEC-2007
+DEFINITION  Cloning vector pRS416, complete sequence.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Cloning vector pRS416
+  ORGANISM  Cloning vector pRS416
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 4891)
+  AUTHORS   Sikorski,R.S. and Hieter,P.
+  TITLE     A system of shuttle vectors and yeast host strains designed for
+            efficient manipulation of DNA in Saccharomyces cerevisiae
+  JOURNAL   Genetics 122 (1), 19-27 (1989)
+   PUBMED   2659436
+REFERENCE   2  (bases 1 to 4891)
+  AUTHORS   Christianson,T.W., Sikorski,R.S., Dante,M., Shero,J.H. and
+            Hieter,P.
+  TITLE     Multifunctional yeast high-copy-number shuttle vectors
+  JOURNAL   Gene 110 (1), 119-122 (1992)
+   PUBMED   1544568
+REFERENCE   3  (bases 1 to 4891)
+  AUTHORS   New England Biolabs.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2007) Research Department, New England Biolabs,
+            240 County Road, Ipswich, MA 01938, USA
+COMMENT     See also GenBank accession U03450.
+FEATURES             Location/Qualifiers
+     source          1..4891
+                     /organism="Cloning vector pRS416"
+                     /mol_type="other DNA"
+     gene            410..1213
+                     /gene="URA3"
+     CDS             410..1213
+                     /gene="URA3"
+                     /codon_start=1
+                     /product="orotidine-5'-phosphate (OMP) decarboxylase"
+                     /translation="MSKATYKERAATHPSPVAAKLFNIMHEKQTNLCASLDVRTTKEL
+                     LELVEALGPKICLLKTHVDILTDFSMEGTVKPLKALSAKYNFLLFEDRKFADIGNTVK
+                     LQYSAGVYRIAEWADITNAHGVVGPGIVSGLKQAAEEVTKEPRGLLMLAELSCKGSLS
+                     TGEYTKGTVDIAKSDKDFVIGFIAQRDMGGRDEGYDWLIMTPGVGLDDKGDALGQQYR
+                     TVDDVVSTGSDIIIVGRGLFAKGRDAKVEGERYRKAGWEAYLRRCGQQN"
+     rep_origin      complement(1344..1799)
+                     /note="f1 origin of replication (+ -)"
+     gene            complement(1582..2160)
+                     /gene="lacZalpha"
+     CDS             complement(1582..2160)
+                     /gene="lacZalpha"
+                     /codon_start=1
+                     /product="beta-galactosidase alpha fragment"
+                     /translation="MTMITPSAQLTLTKGNKSWSSTAVAAALELVDPPGCRNSISSLS
+                     IPSTSRGGPVPNSPYSESYYARSLAVVLQRRDWENPGVTQLNRLAAHPPFASWRNSEE
+                     ARTDRPSQQLRSLNGEWRDAPCSGALSAAGVVVTRSVTATLASALAPAPFAFFPSFLA
+                     TFAGFPRQALNRGLPLGFRFSALRHLDPKKLD"
+     misc_feature    1997..2104
+                     /gene="lacZalpha"
+                     /note="multiple cloning site (KpnI-SacI)"
+     rep_origin      complement(2558..3145)
+                     /note="pMB1 origin of replication (counter-clockwise)
+                     (RNAII -35 to RNA/DNA switch point); rop gene has been
+                     disrupted"
+     gene            complement(3317..4177)
+                     /gene="bla"
+     CDS             complement(3317..4177)
+                     /gene="bla"
+                     /note="ampR (confers resistance to ampicillin)"
+                     /codon_start=1
+                     /product="beta-lactamase"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+     sig_peptide     complement(4109..4177)
+                     /gene="bla"
+                     /note="required for secretion to the periplasm; cleaved
+                     off to form the mature beta-lactamase protein"
+     misc_structure  4318..4436
+                     /note="CEN6 (yeast chromosome VI centromere sequence)"
+     rep_origin      4449..4822
+                     /note="ARS209; histone H4 autonomously replicating
+                     sequence (ARS)"
+BASE COUNT     1359 a   1077 c   1166 g   1289 t
+ORIGIN
+        1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
+       61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
+      121 ttggcgggtg tcggggctgg cttaactatg cggcatcaga gcagattgta ctgagagtgc
+      181 accataccac cttttcaatt catcattttt tttttattct tttttttgat ttcggtttcc
+      241 ttgaaatttt tttgattcgg taatctccga acagaaggaa gaacgaagga aggagcacag
+      301 acttagattg gtatatatac gcatatgtag tgttgaagaa acatgaaatt gcccagtatt
+      361 cttaacccaa ctgcacagaa caaaaacctg caggaaacga agataaatca tgtcgaaagc
+      421 tacatataag gaacgtgctg ctactcatcc tagtcctgtt gctgccaagc tatttaatat
+      481 catgcacgaa aagcaaacaa acttgtgtgc ttcattggat gttcgtacca ccaaggaatt
+      541 actggagtta gttgaagcat taggtcccaa aatttgttta ctaaaaacac atgtggatat
+      601 cttgactgat ttttccatgg agggcacagt taagccgcta aaggcattat ccgccaagta
+      661 caatttttta ctcttcgaag acagaaaatt tgctgacatt ggtaatacag tcaaattgca
+      721 gtactctgcg ggtgtataca gaatagcaga atgggcagac attacgaatg cacacggtgt
+      781 ggtgggccca ggtattgtta gcggtttgaa gcaggcggca gaagaagtaa caaaggaacc
+      841 tagaggcctt ttgatgttag cagaattgtc atgcaagggc tccctatcta ctggagaata
+      901 tactaagggt actgttgaca ttgcgaagag cgacaaagat tttgttatcg gctttattgc
+      961 tcaaagagac atgggtggaa gagatgaagg ttacgattgg ttgattatga cacccggtgt
+     1021 gggtttagat gacaagggag acgcattggg tcaacagtat agaaccgtgg atgatgtggt
+     1081 ctctacagga tctgacatta ttattgttgg aagaggacta tttgcaaagg gaagggatgc
+     1141 taaggtagag ggtgaacgtt acagaaaagc aggctgggaa gcatatttga gaagatgcgg
+     1201 ccagcaaaac taaaaaactg tattataagt aaatgcatgt atactaaact cacaaattag
+     1261 agcttcaatt taattatatc agttattacc ctatgcggtg tgaaataccg cacagatgcg
+     1321 taaggagaaa ataccgcatc aggaaattgt aaacgttaat attttgttaa aattcgcgtt
+     1381 aaatttttgt taaatcagct cattttttaa ccaataggcc gaaatcggca aaatccctta
+     1441 taaatcaaaa gaatagaccg agatagggtt gagtgttgtt ccagtttgga acaagagtcc
+     1501 actattaaag aacgtggact ccaacgtcaa agggcgaaaa accgtctatc agggcgatgg
+     1561 cccactacgt gaaccatcac cctaatcaag ttttttgggg tcgaggtgcc gtaaagcact
+     1621 aaatcggaac cctaaaggga gcccccgatt tagagcttga cggggaaagc cggcgaacgt
+     1681 ggcgagaaag gaagggaaga aagcgaaagg agcgggcgct agggcgctgg caagtgtagc
+     1741 ggtcacgctg cgcgtaacca ccacacccgc cgcgcttaat gcgccgctac agggcgcgtc
+     1801 gcgccattcg ccattcaggc tgcgcaactg ttgggaaggg cgatcggtgc gggcctcttc
+     1861 gctattacgc cagctggcga aagggggatg tgctgcaagg cgattaagtt gggtaacgcc
+     1921 agggttttcc cagtcacgac gttgtaaaac gacggccagt gagcgcgcgt aatacgactc
+     1981 actatagggc gaattgggta ccgggccccc cctcgaggtc gacggtatcg ataagcttga
+     2041 tatcgaattc ctgcagcccg ggggatccac tagttctaga gcggccgcca ccgcggtgga
+     2101 gctccagctt ttgttccctt tagtgagggt taattgcgcg cttggcgtaa tcatggtcat
+     2161 agctgtttcc tgtgtgaaat tgttatccgc tcacaattcc acacaacata ggagccggaa
+     2221 gcataaagtg taaagcctgg ggtgcctaat gagtgaggta actcacatta attgcgttgc
+     2281 gctcactgcc cgctttccag tcgggaaacc tgtcgtgcca gctgcattaa tgaatcggcc
+     2341 aacgcgcggg gagaggcggt ttgcgtattg ggcgctcttc cgcttcctcg ctcactgact
+     2401 cgctgcgctc ggtcgttcgg ctgcggcgag cggtatcagc tcactcaaag gcggtaatac
+     2461 ggttatccac agaatcaggg gataacgcag gaaagaacat gtgagcaaaa ggccagcaaa
+     2521 aggccaggaa ccgtaaaaag gccgcgttgc tggcgttttt ccataggctc cgcccccctg
+     2581 acgagcatca caaaaatcga cgctcaagtc agaggtggcg aaacccgaca ggactataaa
+     2641 gataccaggc gtttccccct ggaagctccc tcgtgcgctc tcctgttccg accctgccgc
+     2701 ttaccggata cctgtccgcc tttctccctt cgggaagcgt ggcgctttct catagctcac
+     2761 gctgtaggta tctcagttcg gtgtaggtcg ttcgctccaa gctgggctgt gtgcacgaac
+     2821 cccccgttca gcccgaccgc tgcgccttat ccggtaacta tcgtcttgag tccaacccgg
+     2881 taagacacga cttatcgcca ctggcagcag ccactggtaa caggattagc agagcgaggt
+     2941 atgtaggcgg tgctacagag ttcttgaagt ggtggcctaa ctacggctac actagaagga
+     3001 cagtatttgg tatctgcgct ctgctgaagc cagttacctt cggaaaaaga gttggtagct
+     3061 cttgatccgg caaacaaacc accgctggta gcggtggttt ttttgtttgc aagcagcaga
+     3121 ttacgcgcag aaaaaaagga tctcaagaag atcctttgat cttttctacg gggtctgacg
+     3181 ctcagtggaa cgaaaactca cgttaaggga ttttggtcat gagattatca aaaaggatct
+     3241 tcacctagat ccttttaaat taaaaatgaa gttttaaatc aatctaaagt atatatgagt
+     3301 aaacttggtc tgacagttac caatgcttaa tcagtgaggc acctatctca gcgatctgtc
+     3361 tatttcgttc atccatagtt gcctgactcc ccgtcgtgta gataactacg atacgggagg
+     3421 gcttaccatc tggccccagt gctgcaatga taccgcgaga cccacgctca ccggctccag
+     3481 atttatcagc aataaaccag ccagccggaa gggccgagcg cagaagtggt cctgcaactt
+     3541 tatccgcctc catccagtct attaattgtt gccgggaagc tagagtaagt agttcgccag
+     3601 ttaatagttt gcgcaacgtt gttgccattg ctacaggcat cgtggtgtca cgctcgtcgt
+     3661 ttggtatggc ttcattcagc tccggttccc aacgatcaag gcgagttaca tgatccccca
+     3721 tgttgtgcaa aaaagcggtt agctccttcg gtcctccgat cgttgtcaga agtaagttgg
+     3781 ccgcagtgtt atcactcatg gttatggcag cactgcataa ttctcttact gtcatgccat
+     3841 ccgtaagatg cttttctgtg actggtgagt actcaaccaa gtcattctga gaatagtgta
+     3901 tgcggcgacc gagttgctct tgcccggcgt caatacggga taataccgcg ccacatagca
+     3961 gaactttaaa agtgctcatc attggaaaac gttcttcggg gcgaaaactc tcaaggatct
+     4021 taccgctgtt gagatccagt tcgatgtaac ccactcgtgc acccaactga tcttcagcat
+     4081 cttttacttt caccagcgtt tctgggtgag caaaaacagg aaggcaaaat gccgcaaaaa
+     4141 agggaataag ggcgacacgg aaatgttgaa tactcatact cttccttttt caatattatt
+     4201 gaagcattta tcagggttat tgtctcatga gcggatacat atttgaatgt atttagaaaa
+     4261 ataaacaaat aggggttccg cgcacatttc cccgaaaagt gccacctggg tccttttcat
+     4321 cacgtgctat aaaaataatt ataatttaaa ttttttaata taaatatata aattaaaaat
+     4381 agaaagtaaa aaaagaaatt aaagaaaaaa tagtttttgt tttccgaaga tgtaaaagac
+     4441 tctaggggga tcgccaacaa atactacctt ttatcttgct cttcctgctc tcaggtatta
+     4501 atgccgaatt gtttcatctt gtctgtgtag aagaccacac acgaaaatcc tgtgatttta
+     4561 cattttactt atcgttaatc gaatgtatat ctatttaatc tgcttttctt gtctaataaa
+     4621 tatatatgta aagtacgctt tttgttgaaa ttttttaaac ctttgtttat ttttttttct
+     4681 tcattccgta actcttctac cttctttatt tactttctaa aatccaaata caaaacataa
+     4741 aaataaataa acacagagta aattcccaaa ttattccatc attaaaagat acgaggcgcg
+     4801 tgtaagttac aggcaagcga tccgtcctaa gaaaccatta ttatcatgac attaacctat
+     4861 aaaaataggc gtatcacgag gccctttcgt c
+//

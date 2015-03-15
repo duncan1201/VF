@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+
+Copyright 1997-2012 Oracle and/or its affiliates. All rights reserved.
+
+Oracle and Java are registered trademarks of Oracle and/or its affiliates.
+Other names may be trademarks of their respective owners.
+
+
+The contents of this file are subject to the terms of either the GNU
+General Public License Version 2 only ("GPL") or the Common
+Development and Distribution License("CDDL") (collectively, the
+"License"). You may not use this file except in compliance with the
+License. You can obtain a copy of the License at
+http://www.netbeans.org/cddl-gplv2.html
+or nbbuild/licenses/CDDL-GPL-2-CP. See the License for the
+specific language governing permissions and limitations under the
+License.  When distributing the software, include this License Header
+Notice in each file and include the License file at
+nbbuild/licenses/CDDL-GPL-2-CP.  Oracle designates this
+particular file as subject to the "Classpath" exception as provided
+by Oracle in the GPL Version 2 section of the License file that
+accompanied this code. If applicable, add the following below the
+License Header, with the fields enclosed by brackets [] replaced by
+your own identifying information:
+"Portions Copyrighted [year] [name of copyright owner]"
+
+Contributor(s):
+
+The Original Software is NetBeans. The Initial Developer of the Original
+Software is Sun Microsystems, Inc. Portions Copyright 1997-2006 Sun
+Microsystems, Inc. All Rights Reserved.
+
+If you wish your version of this file to be governed by only the CDDL
+or only the GPL Version 2, indicate your decision by adding
+"[Contributor] elects to include this software in this distribution
+under the [CDDL or GPL Version 2] license." If you do not indicate a
+single choice of license, a recipient has the option to distribute
+your version of this file under either the CDDL, the GPL Version 2 or
+to extend the choice of license to its licensees as provided above.
+However, if you add GPL Version 2 code and therefore, elected the GPL
+Version 2 license, then the option applies only if the new code is
+made subject to such option by the copyright holder.
+-->
+<project name="obfuscate-impl" basedir=".">
+
+    <property name="proguard.jar.path" value="${suite.dir}/proguard-4-9.jar"/>
+
+    <target name="obfuscate" depends="">
+        <!--copy file="${suite.dir}/build/obfuscated/${module.jar}"
+              tofile="${cluster}/${module.jar}"/-->
+    </target>
+    
+    <target name="yguard" depends="init">
+        <echo message="${suite.dir}"/>
+        <property name="renamelog" value="build/renamelog.xml"/>
+        <taskdef name="yguard"
+                 classname="com.yworks.yguard.YGuardTask"
+                 classpath="${suite.dir}/yguard.jar"/>
+        <mkdir dir="${suite.dir}/build/obfuscated/modules"/>
+        <echo message="${cluster}"/>
+        <yguard>
+            <!-- insert your yguard elements here -->
+            <inoutpair in="${cluster}/${module.jar}" out="${suite.dir}/build/obfuscated/${module.jar}" resources="auto"/>
+                  
+            <externalclasses>
+                <fileset dir="${nbplatform.active.dir}/platform/modules">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="${nbplatform.active.dir}/platform/core">
+                    <include name="*.jar"/>
+                </fileset>    
+                <fileset dir="${nbplatform.active.dir}/ide/modules">
+                    <include name="*.jar"/>
+                </fileset>                            
+                <fileset dir="../../libs/commons-exec-1.1/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>                
+                <fileset dir="../../libs/commons-io-2.1/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="../../libs/hibernate_3-6-10/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="../../libs/apache_httpclient_4.1.2/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>                
+                <fileset dir="../../libs/h2_1.3.160/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="../../libs/commons-lang-3.1/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>                                
+                <fileset dir="../../libs/Jmol-12-2-14/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>
+                <fileset dir="../../libs/biojava3/release/modules/ext">
+                    <include name="*.jar"/>
+                </fileset>                                                 
+                   
+                      
+                <pathelement location="${module.run.classpath}"/>
+                <pathelement location="${nbjdk.home}/jre/lib/rt.jar"/>
+                <fileset dir="${suite.dir}/build/obfuscated/modules">
+                    <include name="*.jar"/>
+                </fileset>
+            </externalclasses>
+            
+            <attribute name="Deprecated, SourceFile, LineNumberTable, LocalVariableTable, Exception"/>
+            <rename mainclass="${mainclass}" logfile="${renamelog}">
+                <property name="error-checking" value="pedantic"/>
+
+                <keep>
+                    <class classes="public"
+                           methods="protected" fields="protected">              
+                    </class>                  
+                </keep>
+            </rename>            
+        </yguard>
+      
+    </target>
+    
+</project>

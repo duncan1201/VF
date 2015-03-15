@@ -1,0 +1,171 @@
+LOCUS       EU579019                2785 bp    RNA     linear   VRL 05-JUN-2009
+DEFINITION  HIV-1 isolate CH77S_H8 from USA rev protein (rev) and tat protein
+            (tat) genes, partial cds; and vpu protein (vpu) and envelope
+            glycoprotein (env) genes, complete cds.
+ACCESSION   EU579019
+VERSION     EU579019.2  GI:238915380
+KEYWORDS    .
+SOURCE      Human immunodeficiency virus 1 (HIV-1)
+  ORGANISM  Human immunodeficiency virus 1
+            Viruses; Retro-transcribing viruses; Retroviridae;
+            Orthoretrovirinae; Lentivirus; Primate lentivirus group.
+REFERENCE   1  (bases 1 to 2785)
+  AUTHORS   Keele,B.F., Giorgi,E.E., Salazar-Gonzalez,J.F., Decker,J.M.,
+            Pham,K.T., Salazar,M.G., Sun,C., Grayson,T., Wang,S., Li,H.,
+            Wei,X., Jiang,C., Kirchherr,J.L., Gao,F., Anderson,J.A., Ping,L.H.,
+            Swanstrom,R., Tomaras,G.D., Blattner,W.A., Goepfert,P.A.,
+            Kilby,J.M., Saag,M.S., Delwart,E.L., Busch,M.P., Cohen,M.S.,
+            Montefiori,D.C., Haynes,B.F., Gaschen,B., Athreya,G.S., Lee,H.Y.,
+            Wood,N., Seoighe,C., Perelson,A.S., Bhattacharya,T., Korber,B.T.,
+            Hahn,B.H. and Shaw,G.M.
+  TITLE     Identification and characterization of transmitted and early
+            founder virus envelopes in primary HIV-1 infection
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (21), 7552-7557 (2008)
+   PUBMED   18490657
+REFERENCE   2  (bases 1 to 2785)
+  AUTHORS   Keele,B.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-MAR-2008) Department of Medicine, Kaul 806,
+            University of Alabama at Birmingham, 720 20th Street South,
+            Birmingham, AL 35294, USA
+REFERENCE   3  (bases 1 to 2785)
+  AUTHORS   Salazar-Gonzalez,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-2009) University of Alabama at Birmingham,
+            Department of Medicine, Kaul 806, 720 20th Street South,
+            Birmingham, AL 35294, USA
+  REMARK    Sequence update by submitter
+COMMENT     On Jun 5, 2009 this sequence version replaced gi:187947144.
+            Annotation information was provided by the author. Some of the
+            information does not have GenBank feature identifiers and is being
+            provided in the comment section. Information in this section is
+            searchable in HIV Database at Los Alamos (www.hiv.lanl.gov).
+            
+            ##HIVDataBaseData-START##
+            Patient cohort   :: CHAVI001
+            Fiebig Stage     :: 2
+            Sequence Name    :: CH77S_H8
+            Sample tissue    :: plasma
+            Viral Load       :: 3565728
+            Patient sex      :: M
+            Sequence Number  :: 6577
+            Subtype          :: B
+            Sample Timepoint :: S
+            Sample date      :: Aug-25-2006
+            Patient code     :: 700010077
+            Sample city      :: NorthCarolina
+            DBID             :: 2087492766
+            Subtype          :: B
+            ##HIVDataBaseData-END##
+FEATURES             Location/Qualifiers
+     source          1..2785
+                     /organism="Human immunodeficiency virus 1"
+                     /mol_type="genomic RNA"
+                     /isolate="CH77S_H8"
+                     /db_xref="taxon:11676"
+                     /country="USA"
+                     /note="subtype: B"
+     gene            <1..2643
+                     /gene="rev"
+     CDS             join(<1..62,2369..2643)
+                     /gene="rev"
+                     /codon_start=2
+                     /product="rev protein"
+                     /protein_id="ACD41612.2"
+                     /db_xref="GI:238915382"
+                     /translation="GDSDEDLLKTVRLIKRLYQSNPPPSSEGTRQARRNRRRRWRERQ
+                     RQIRTLSGWILDDFLGGPAEPVPLHLPPIERLTLDCNEDSGTSGTQGVGNPQILVEPP
+                     TVLESGTKE"
+     gene            <1..2459
+                     /gene="tat"
+     CDS             join(<1..62,2369..2459)
+                     /gene="tat"
+                     /codon_start=1
+                     /product="tat protein"
+                     /protein_id="ACD41611.2"
+                     /db_xref="GI:238915381"
+                     /translation="RRQRRRPAQDSKINQAPLPKQPTSQLRGDPTGPKESKKKVERET
+                     ETDPNT"
+     gene            79..324
+                     /gene="vpu"
+     CDS             79..324
+                     /gene="vpu"
+                     /codon_start=1
+                     /product="vpu protein"
+                     /protein_id="ACD41613.2"
+                     /db_xref="GI:238915383"
+                     /translation="MQSLYILGIVALVVAAILAIVVWTIVYIEYRKIVRQRKIDRLLD
+                     RIIDRAEDSGNESEGDQEELSALMEMGHHAPWVIDDQ"
+     gene            242..2785
+                     /gene="env"
+     CDS             242..2785
+                     /gene="env"
+                     /codon_start=1
+                     /product="envelope glycoprotein"
+                     /protein_id="ACD41614.1"
+                     /db_xref="GI:187947148"
+                     /translation="MRARVIRRNCQHLWRWGTMLLGLLMISSAAEQLWVTVYYGVPVW
+                     KEATTNLFCASDAKVYDTETHNVWATHAGVPTDPNPQEVELENVTENFNMWKNNMVEQ
+                     MHEDVISLWDQSLKPCVKLTPLCVTLNCTDSNGDSSIANSSSSEAVKEMKNCSFNITT
+                     SIRDKLQKEYALFYKLDVVPIDTKTNTSKYRLISCNTSVITQACPKVSFEPIPIHYCA
+                     PAGFAILKCKDKKFNGTGPCKKVSTVQCTHGIKPVVSTQLLLNGSLAEEEVVIRSENF
+                     TNNAKTILVQLNTSVVIKCMRPGNNTSKSIHMGALRAFHATSRIIGDTRRAHCNVSGE
+                     DWNKTLSHVVDKLREQFRNKTIVFNHSSGGDPEIVMHTFNCGGEFFYCDSTALFNSTW
+                     RRNNTWTGTTGNITLQCRIKQIINMWQKVGKAMYAPPIRGYINCSSNITGLILTRDGG
+                     NNDSETEIFRPGGGNMKDNWRSELYKYKVIKIEPLGIAPTKAKRRVVQREKRAIGIGA
+                     LLLGFLGAAGSTMGAASVTLTVQARQLLSGIVQQQNNLLRAIEAQQHLLQLTVWGIKQ
+                     LQARILAVERYLQDQQLLGIWGCSGRVICTTTVPWNVSWSNKSLNEIWNNMTWMEWEK
+                     EINNYTGIIYTLLERSQSQQEKNEQELLELDKWASLWNWFDITNWLWYIKIFIMIVGG
+                     LIGLRIVFTVLSIVNRVRQGYSPLSFQTHLPAPRGPDRPEGIEEEGGERDRDRSEHLV
+                     GGFLTIFWVDLRNLFLFIYHRLRDLLLIATRILELLGRRGWEILKYWWNLLLYWSQEL
+                     KNSAVSLLNTIAIAVAEGTDRVIEELQRAWRAVLNIPTRIRQGLERALL"
+ORIGIN      
+        1 cggagacagc gacgaagacc tgctcaagac agtaagatta atcaagcgcc tctaccaaag
+       61 cagtaagtag catctgtaat gcaatcttta tatatattag gaatagtagc attagtagta
+      121 gcagcaatat tagcaatagt tgtgtggacc atagtataca tagaatatag gaaaatagta
+      181 agacaaagga aaatagacag attacttgat agaataatag acagagcaga agacagtggc
+      241 aatgagagcg agggtgatca ggaggaattg tcagcactta tggagatggg gcaccatgct
+      301 ccttgggtta ttgatgatca gtagtgctgc agaacaattg tgggtcacag tttattatgg
+      361 ggtgcctgtg tggaaagaag caaccaccaa tctattttgt gcatcagatg ctaaagtata
+      421 tgatacagag acacataatg tttgggccac ccacgccggt gtacccacag accccaaccc
+      481 acaagaagta gaattggaaa atgtgacaga aaattttaac atgtggaaaa ataatatggt
+      541 agaacagatg catgaggatg taatcagttt atgggaccaa agcctaaagc catgtgtaaa
+      601 attaaccccg ctctgtgtta ctttaaattg cactgattct aatggtgata gtagcattgc
+      661 taatagtagc agcagtgagg cggtgaaaga aatgaaaaac tgctctttta atattaccac
+      721 aagcataaga gataagttgc aaaaagaata tgcacttttt tataaacttg atgtagtacc
+      781 aatagataca aaaactaata cttctaaata taggttaata agttgtaaca cctcagtcat
+      841 tacacaggcc tgtccaaagg tatcctttga gccaattccc atacattatt gtgccccggc
+      901 tggttttgcg atcctaaaat gtaaagataa aaagttcaat ggaacagggc catgtaaaaa
+      961 ggtcagcaca gtacaatgta cacatggaat taagccagta gtatcaacac agctgctgtt
+     1021 aaatggcagt ctagcagaag aagaggtagt aattagatct gaaaatttca caaacaatgc
+     1081 taaaaccata ctagtacagc tgaacacatc tgtagtaatc aaatgtatga gacccggcaa
+     1141 taatacaagc aaaagtatac atatgggagc attgagagct tttcatgcaa catcaagaat
+     1201 aataggagac acaaggcgag cacattgtaa tgttagtgga gaagattgga ataagacttt
+     1261 aagccatgta gttgacaaat taagagaaca atttaggaat aaaacaatag tctttaacca
+     1321 ttcctcagga ggggatccag aaattgtaat gcacactttt aattgtggag gagaattttt
+     1381 ctactgcgat tcaacagcgc tgtttaatag tacatggagg agaaataaca cttggactgg
+     1441 tactacagga aatatcacac tccaatgcag aataaaacaa attataaaca tgtggcagaa
+     1501 agtaggaaaa gcaatgtatg cccctcccat cagaggatac attaactgtt catcaaatat
+     1561 tacaggactg atattaacaa gagatggtgg taataatgat agtgaaaccg agatcttcag
+     1621 gcctggagga gggaatatga aggacaattg gagaagtgaa ttatataaat ataaagtaat
+     1681 aaaaattgaa ccattaggaa tagcacccac caaggcaaag agaagagtgg tgcaaagaga
+     1741 aaaaagagca ataggaatag gagctcttct ccttgggttc ttaggagcag caggaagcac
+     1801 tatgggcgca gcgtcagtga cgctgacggt acaagccaga caattattgt ctggtatagt
+     1861 gcaacagcag aacaatctgc tgagggctat tgaggcgcaa cagcatctgt tgcaactcac
+     1921 agtctggggc atcaagcagc tccaggcaag aatcctggct gtggaaagat acctacagga
+     1981 tcaacagctc ctagggattt ggggttgctc tggaagagtc atttgcacca ctactgtgcc
+     2041 ttggaatgtt agttggagta ataaatctct gaacgagatt tggaacaaca tgacatggat
+     2101 ggaatgggaa aaagaaatta acaattacac aggtataata tacaccttac ttgaacgatc
+     2161 gcaaagccag caagaaaaga atgaacaaga attattggaa ttggataaat gggcaagttt
+     2221 gtggaattgg tttgacataa caaattggct gtggtacata aaaatattca taatgatagt
+     2281 aggaggctta ataggtttaa gaatagtttt tactgtgctt tctatagtaa atagagttag
+     2341 gcagggatat tcacccttat cgtttcagac ccacctccca gctccgaggg gacccgacag
+     2401 gcccgaagga atcgaagaag aaggtggaga gagagacaga gacagatccg aacacttagt
+     2461 gggtggattc ttgacgattt tctgggtgga cctgcggaac ctgttcctct tcatctacca
+     2521 ccgattgaga gacttactct tgattgcaac gaggattctg gaacttctgg gacgcagggg
+     2581 gtgggaaatc ctcaaatact ggtggaacct cctactgtat tggagtcagg aactaaagaa
+     2641 tagtgctgtt agcttgctca atactatagc catagcagta gctgagggga cagatagggt
+     2701 tatagaagaa ttacaaaggg cttggagagc tgttcttaac atacctacaa gaataagaca
+     2761 gggcttagaa agggctttgc tataa
+//
+

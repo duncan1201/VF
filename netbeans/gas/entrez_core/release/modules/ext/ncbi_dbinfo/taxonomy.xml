@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>taxonomy</DbName>
+	<MenuName>Taxonomy</MenuName>
+	<Description>TAXONOMY records</Description>
+	<Count>860644</Count>
+	<LastUpdate>2012/01/29 18:57</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>8329432</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>Taxonomy ID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>352</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SCIN</Name>
+			<FullName>Scientific Name</FullName>
+			<Description>Scientific name of organism</Description>
+			<TermCount>860477</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COMN</Name>
+			<FullName>Common Name</FullName>
+			<Description>Common name of organism</Description>
+			<TermCount>34041</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXSY</Name>
+			<FullName>Synonym</FullName>
+			<Description>Synonym of organism name</Description>
+			<TermCount>159347</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ALLN</Name>
+			<FullName>All Names</FullName>
+			<Description>All aliases for organism</Description>
+			<TermCount>1219289</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NXLV</Name>
+			<FullName>Next Level</FullName>
+			<Description>Immediate parent in taxonomic hierarchy</Description>
+			<TermCount>144048</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SBTR</Name>
+			<FullName>Subtree</FullName>
+			<Description>Any parent node in taxonomic hierarchy</Description>
+			<TermCount>2079933</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LNGE</Name>
+			<FullName>Lineage</FullName>
+			<Description>Lineage in taxonomic hierarchy</Description>
+			<TermCount>1368520</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GC</Name>
+			<FullName>GC</FullName>
+			<Description>Nuclear genetic code</Description>
+			<TermCount>16</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MGC</Name>
+			<FullName>MGC</FullName>
+			<Description>Mitochondrial genetic code</Description>
+			<TermCount>32</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXDV</Name>
+			<FullName>Division</FullName>
+			<Description>GenBank division</Description>
+			<TermCount>24</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RANK</Name>
+			<FullName>Rank</FullName>
+			<Description>Hierarchical position (e.g., order, genus)</Description>
+			<TermCount>28</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>EDAT</Name>
+			<FullName>Entrez Date</FullName>
+			<Description>Date record first accessible through Entrez</Description>
+			<TermCount>5738</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Property defined on particular node (e.g., terminal node)</Description>
+			<TermCount>70</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>6230941</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>taxonomy_bioproject</Name>
+				<Menu>BioProject Links</Menu>
+				<Description>Related BioProjects</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_biosample</Name>
+				<Menu>BioSample Links</Menu>
+				<Description>BioSample links</Description>
+				<DbTo>biosample</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_biosystems</Name>
+				<Menu>BioSystem Links</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_cdd</Name>
+				<Menu>Conserved Domain Links</Menu>
+				<Description>Link to related CDD entry</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Link from Taxonomy to dbVar</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_epigenomics</Name>
+				<Menu>Epigenomics Links</Menu>
+				<Description>Related Epigenomics records</Description>
+				<DbTo>epigenomics</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_gds</Name>
+				<Menu>GEO DataSet Links</Menu>
+				<Description>Related GEO DataSets</Description>
+				<DbTo>gds</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_gene_exp</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Gene records associated with taxonomy record (exploded for higher taxa)</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_gensat</Name>
+				<Menu>GENSAT Links</Menu>
+				<Description>Related GENSAT</Description>
+				<DbTo>gensat</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_geoprofiles</Name>
+				<Menu></Menu>
+				<Description>GEO records associated with taxonomy record</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>Related HomoloGene</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_mesh</Name>
+				<Menu>MeSH Links</Menu>
+				<Description>Related MeSH term</Description>
+				<DbTo>mesh</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>EST sequences associated with taxonomy record</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>GSS sequences associated with taxonomy record</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_nucleotide_exp</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Nucleotide sequences associated with taxonomy record (exploded for higher taxa)</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_omia</Name>
+				<Menu>OMIA Links</Menu>
+				<Description>Related OMIA articles</Description>
+				<DbTo>omia</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_pcassay</Name>
+				<Menu>PubChem BioAssay Links</Menu>
+				<Description>Related PubChem BioAssay</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>PubChem Compounds</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>PubChem Substances</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full text articles in PMC</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_popset</Name>
+				<Menu>PopSet Links</Menu>
+				<Description>Popset sequences associated with taxonomy record</Description>
+				<DbTo>popset</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_probe</Name>
+				<Menu>Probe Links</Menu>
+				<Description>Related Probe entry</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_protein_exp</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Protein sequences associated with taxonomy record (exploded for higher taxa)</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_proteinclusters</Name>
+				<Menu>Protein Cluster Links</Menu>
+				<Description>Related Protein Clusters</Description>
+				<DbTo>proteinclusters</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Link to related PubMed articles</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_pubmed_entrez</Name>
+				<Menu>PubMed via GenBank</Menu>
+				<Description>Links generated by using the relationship between Taxonomy -&gt; (Nucleotide, Protein, Gene, SNP, Structure) -&gt; PubMed.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_snp_exp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Snp records associated with taxonomy record (exploded for higher taxa)</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_sra</Name>
+				<Menu>SRA Links</Menu>
+				<Description>Links to Short Read Archive Experiments</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_structure_exp</Name>
+				<Menu>Structure Links</Menu>
+				<Description>Structure sequences associated with taxonomy record (exploded for higher taxa)</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related unigene entry</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>taxonomy_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Related UniSTS records</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

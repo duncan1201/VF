@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright
+	(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the
+	@author tags or express copyright attribution ~ statements applied by the
+	authors. All third-party contributions are ~ distributed under license by
+	Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing
+	to use, modify, ~ copy, or redistribute it subject to the terms and conditions
+	of the GNU ~ Lesser General Public License, as published by the Free Software
+	Foundation. ~ ~ This program is distributed in the hope that it will be useful,
+	~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+	~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+	License ~ for more details. ~ ~ You should have received a copy of the GNU
+	Lesser General Public License ~ along with this distribution; if not, write
+	to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~
+	Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.ace">
+
+    <class name="ACE$Contig">
+        <id name="hibernateId" column="contigId">
+            <generator class="increment" />
+        </id>
+        <property name="name" />
+        <property name="complemented" />
+        <property name="sequence" type="text" />
+        <property name="baseQualities" type="text" />
+        
+        <map name="reads" cascade="all,delete-orphan">
+            <key column="id" />
+            <index column="name" type="string" />
+            <many-to-many column="readId" unique="true" class="ACE$Read"/>
+        </map>     
+        
+        <set name="baseSegments" cascade="all,delete-orphan">
+            <key column="contigId" />
+            <many-to-many column="bsId" unique="true" class="ACE$BS" />
+        </set>
+        
+    </class>
+
+    <class name="ACE$Read">
+        <id name="hibernateId" column="readId">
+            <generator class="increment" />
+        </id>
+        <property name="name" />
+        <property name="complemented" />
+        <property name="paddedStart" />
+        <property name="sequence" type="text" />
+        <property name="qualClippingStart" />
+        <property name="qualClippingEnd" />
+        <property name="alignClippingStart" />
+        <property name="alignClippingEnd" />
+        <property name="dataSource" type="text"/>
+    </class>
+    
+    <class name="ACE$BS">
+        <id name="hibernateId" column="bsId">
+            <generator class="increment" />
+        </id>                             
+        <property name="paddedStart" />
+        <property name="paddedEnd" />
+        <property name="readName" />
+    </class>    
+
+</hibernate-mapping>

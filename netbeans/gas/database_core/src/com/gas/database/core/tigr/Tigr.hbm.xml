@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright
+	(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the
+	@author tags or express copyright attribution ~ statements applied by the
+	authors. All third-party contributions are ~ distributed under license by
+	Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing
+	to use, modify, ~ copy, or redistribute it subject to the terms and conditions
+	of the GNU ~ Lesser General Public License, as published by the Free Software
+	Foundation. ~ ~ This program is distributed in the hope that it will be useful,
+	~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+	~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+	License ~ for more details. ~ ~ You should have received a copy of the GNU
+	Lesser General Public License ~ along with this distribution; if not, write
+	to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~
+	Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.tigr">
+
+    <class name="TigrProject">
+        <id name="hibernateId" column="tigrId">
+            <generator class="uuid" />
+        </id>
+        <property name="name"/>  
+        <property name="desc" />
+        <property name="creationDate" />
+        <property name="lastModifiedDate" />
+        <property name="read" />
+        <property name="prevFolderPath" type="text" />
+
+        <many-to-one name="folder" 
+                     column="folderId"
+                     not-null="true"/>
+        
+        <set name="condigs" cascade="all,delete-orphan" lazy="true">
+            <key column="tigrId" />
+            <many-to-many column="condigId" unique="true" class="com.gas.domain.core.tasm.Condig" />
+        </set>         
+        
+        <set name="kromatograms" cascade="all,delete-orphan" lazy="true">
+            <key column="tigrId" />
+            <many-to-many column="kromatogramId" unique="true" entity-name="KromatogramInProject" />
+        </set>
+        
+        <many-to-one name="settings" cascade="all,delete-orphan"
+                     column="settingsId" 
+                     unique="true"
+                     not-null="false"/>
+
+    </class>
+
+    <class name="Kromatogram" entity-name="Kromatogram" polymorphism="explicit">
+        <id name="hibernateId">
+            <generator class="uuid" />
+        </id>
+        <property name="offsetsStr" type="text"/>
+        <property name="qualityValuesStr" type="text"/>        
+        <property name="fileName" />
+        <property name="name" />
+        <property name="desc" />
+        <property name="read" />
+        <property name="lastModifiedDate" />
+        <property name="sequence" type="text"/>
+        <many-to-one name="folder" 
+                     column="folderId"
+                     not-null="true" class="com.gas.domain.core.filesystem.Folder"/>        
+        <map name="traces" cascade="all,delete-orphan">
+            <key column="id" />
+            <index column="name" type="string" />
+            <many-to-many column="traceId" unique="true" class="Trace"/>
+        </map>
+    
+    </class>
+    
+    <class name="Kromatogram" entity-name="KromatogramInProject" polymorphism="explicit">
+        <id name="hibernateId" column="kromatogramId">
+            <generator class="uuid" />
+        </id>
+        <property name="offsetsStr" type="text"/>
+        <property name="qualityValuesStr" type="text"/>        
+        <property name="fileName" />        
+        <property name="sequence" type="text"/>
+        <map name="traces" cascade="all,delete-orphan">
+            <key column="id" />
+            <index column="name" type="string" />
+            <many-to-many column="traceId" unique="true" class="Trace"/>
+        </map>
+    
+    </class>
+
+    <class name="TIGRSettings">
+        <id name="hibernateId" column="settingsId">
+            <generator class="increment" />
+        </id>
+        <property name="generateACE" />
+        <property name="generateCoverage" />
+        <property name="maximumEnd" />
+        <property name="generateRepeatFile" />
+        <property name="maxError32" />
+        <property name="minimumLength" />
+        <property name="lowScores" />
+        <property name="noNorm" />
+        <property name="minPercent" />
+        <property name="restart_inc" />
+        <property name="generateSingletons" />
+        <property name="maxSpanLength" />
+        <property name="searchTandem" />
+        <property name="repeatNumCufoff" />
+        <property name="numConflicts" />        
+
+    </class>
+
+    <class name="Trace">
+        <id name="hibernateId" column="traceId">
+            <generator class="increment" />
+        </id>
+        <property name="name" />
+        <property name="dataStr" type="text"/>
+    </class>
+
+
+</hibernate-mapping>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright
+	(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the
+	@author tags or express copyright attribution ~ statements applied by the
+	authors. All third-party contributions are ~ distributed under license by
+	Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing
+	to use, modify, ~ copy, or redistribute it subject to the terms and conditions
+	of the GNU ~ Lesser General Public License, as published by the Free Software
+	Foundation. ~ ~ This program is distributed in the hope that it will be useful,
+	~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+	~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+	License ~ for more details. ~ ~ You should have received a copy of the GNU
+	Lesser General Public License ~ along with this distribution; if not, write
+	to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~
+	Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.ren">
+
+    <class name="RENList">
+        <id name="hibernateId" column="listId">
+            <generator class="uuid" />
+        </id>
+        <property name="name"/>  
+        <property name="creationDate" />
+        <property name="lastModifiedDate"/>
+        <property name="size" />
+        <property name="read" />
+        <property name="deletable" />
+        <property name="prevFolderPath" type="text" />
+        <property name="desc" type="text" />        
+
+        <many-to-one name="folder" 
+                     column="folderId"
+                     not-null="false"/>
+
+        <set name="rens" cascade="all,delete-orphan" lazy="false">
+            <key column="listId" />
+            <many-to-many column="renId" unique="true" class="REN" />
+        </set>
+
+    </class>
+
+    <class name="REN">
+        <id name="hibernateId" column="renId">
+            <generator class="increment" />
+        </id>
+        <property name="name" />
+        <property name="recognitionSite" />
+        <property name="cutType" />
+        <property name="forwardRegex" />
+        <property name="reverseRegex" />
+        <property name="summary" />
+      
+        <primitive-array name="downstreamCutPos"> 
+            <key column="renId"/> 
+            <index column="IDX"/> 
+            <element type="int"/> 
+        </primitive-array>
+
+        <primitive-array name="upstreamCutPos" > 
+            <key column="renId"/> 
+            <index column="IDX"/> 
+            <element type="int"/> 
+        </primitive-array> 
+
+    </class>
+
+
+
+
+</hibernate-mapping>

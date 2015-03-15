@@ -1,0 +1,375 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2012//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_120101.dtd">
+<PubmedArticleSet>
+    <PubmedArticle>
+        <MedlineCitation Owner="NLM" Status="MEDLINE">
+            <PMID Version="1">22264442</PMID>
+            <DateCreated>
+                <Year>2012</Year>
+                <Month>03</Month>
+                <Day>19</Day>
+            </DateCreated>
+            <DateCompleted>
+                <Year>2012</Year>
+                <Month>07</Month>
+                <Day>17</Day>
+            </DateCompleted>
+            <DateRevised>
+                <Year>2012</Year>
+                <Month>10</Month>
+                <Day>09</Day>
+            </DateRevised>
+            <Article PubModel="Print-Electronic">
+                <Journal>
+                    <ISSN IssnType="Electronic">1873-2402</ISSN>
+                    <JournalIssue CitedMedium="Internet">
+                        <Volume>71</Volume>
+                        <Issue>7</Issue>
+                        <PubDate>
+                            <Year>2012</Year>
+                            <Month>Apr</Month>
+                            <Day>1</Day>
+                        </PubDate>
+                    </JournalIssue>
+                    <Title>Biological psychiatry</Title>
+                    <ISOAbbreviation>Biol. Psychiatry</ISOAbbreviation>
+                </Journal>
+                <ArticleTitle>Adenylate cyclase 7 is implicated in the biology of depression and modulation of affective neural circuitry.</ArticleTitle>
+                <Pagination>
+                    <MedlinePgn>627-32</MedlinePgn>
+                </Pagination>
+                <Abstract>
+                    <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Evolutionarily conserved genes and their associated molecular pathways can serve as a translational bridge between human and mouse research, extending our understanding of biological pathways mediating individual differences in behavior and risk for psychopathology.</AbstractText>
+                    <AbstractText Label="METHODS" NlmCategory="METHODS">Comparative gene array analysis in the amygdala and cingulate cortex between the serotonin transporter knockout mouse, a genetic animal model replicating features of human depression, and existing brain transcriptome data from postmortem tissue derived from clinically depressed humans was conducted to identify genes with similar changes across species (i.e., conserved) that may help explain risk of depressive-like phenotypes. Human neuroimaging analysis was then used to investigate the impact of a common single-nucleotide polymorphism (rs1064448) in a gene with identified conserved human-mouse changes, adenylate cyclase 7 (ADCY7), on threat-associated amygdala reactivity in two large independent samples.</AbstractText>
+                    <AbstractText Label="RESULTS" NlmCategory="RESULTS">Comparative analysis identified genes with conserved transcript changes in amygdala (n = 29) and cingulate cortex (n = 19), both critically involved in the generation and regulation of emotion. Selected results were confirmed by real-time quantitative polymerase chain reaction, including upregulation in the amygdala of transcripts for ADCY7, a gene previously implicated in human depression and associated with altered emotional responsiveness in mouse models. Translating these results back to living healthy human subjects, we show that genetic variation (rs1064448) in ADCY7 biases threat-related amygdala reactivity.</AbstractText>
+                    <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">This converging cross-species evidence implicates ADCY7 in the modulation of mood regulatory neural mechanisms and, possibly, risk for and pathophysiology of depression, together supporting a continuous dimensional approach to major depressive disorder and other affective disorders.</AbstractText>
+                    <CopyrightInformation>Copyright Â© 2012 Society of Biological Psychiatry. Published by Elsevier Inc. All rights reserved.</CopyrightInformation>
+                </Abstract>
+                <Affiliation>Department of Psychiatry, University of Pittsburgh, Pennsylvania 15219, USA.</Affiliation>
+                <AuthorList CompleteYN="Y">
+                    <Author ValidYN="Y">
+                        <LastName>Joeyen-Waldorf</LastName>
+                        <ForeName>Jennifer</ForeName>
+                        <Initials>J</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Nikolova</LastName>
+                        <ForeName>Yuliya S</ForeName>
+                        <Initials>YS</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Edgar</LastName>
+                        <ForeName>Nicole</ForeName>
+                        <Initials>N</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Walsh</LastName>
+                        <ForeName>Chris</ForeName>
+                        <Initials>C</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Kota</LastName>
+                        <ForeName>Rama</ForeName>
+                        <Initials>R</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Lewis</LastName>
+                        <ForeName>David A</ForeName>
+                        <Initials>DA</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Ferrell</LastName>
+                        <ForeName>Robert</ForeName>
+                        <Initials>R</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Manuck</LastName>
+                        <ForeName>Stephen B</ForeName>
+                        <Initials>SB</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Hariri</LastName>
+                        <ForeName>Ahmad R</ForeName>
+                        <Initials>AR</Initials>
+                    </Author>
+                    <Author ValidYN="Y">
+                        <LastName>Sibille</LastName>
+                        <ForeName>Etienne</ForeName>
+                        <Initials>E</Initials>
+                    </Author>
+                </AuthorList>
+                <Language>eng</Language>
+                <GrantList CompleteYN="Y">
+                    <Grant>
+                        <GrantID>HL040962</GrantID>
+                        <Acronym>HL</Acronym>
+                        <Agency>NHLBI NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>K02 MH084060-01A1</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>K02 MH084060-02</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>K02 MH084060-03</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>K02 MH084060-04</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>MH043784</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>MH072837</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>MH077159</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>MH084053</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>MH084060</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R01 MH077159-03</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R01 MH077159-04</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R21 MH085111-01</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                    <Grant>
+                        <GrantID>R21 MH085111-02</GrantID>
+                        <Acronym>MH</Acronym>
+                        <Agency>NIMH NIH HHS</Agency>
+                        <Country>United States</Country>
+                    </Grant>
+                </GrantList>
+                <PublicationTypeList>
+                    <PublicationType>Journal Article</PublicationType>
+                    <PublicationType>Research Support, N.I.H., Extramural</PublicationType>
+                </PublicationTypeList>
+                <ArticleDate DateType="Electronic">
+                    <Year>2012</Year>
+                    <Month>01</Month>
+                    <Day>20</Day>
+                </ArticleDate>
+            </Article>
+            <MedlineJournalInfo>
+                <Country>United States</Country>
+                <MedlineTA>Biol Psychiatry</MedlineTA>
+                <NlmUniqueID>0213264</NlmUniqueID>
+                <ISSNLinking>0006-3223</ISSNLinking>
+            </MedlineJournalInfo>
+            <ChemicalList>
+                <Chemical>
+                    <RegistryNumber>0</RegistryNumber>
+                    <NameOfSubstance>Serotonin Plasma Membrane Transport Proteins</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 4.6.1.1</RegistryNumber>
+                    <NameOfSubstance>Adenylate Cyclase</NameOfSubstance>
+                </Chemical>
+                <Chemical>
+                    <RegistryNumber>EC 4.6.1.1</RegistryNumber>
+                    <NameOfSubstance>adenylyl cyclase 7</NameOfSubstance>
+                </Chemical>
+            </ChemicalList>
+            <CitationSubset>IM</CitationSubset>
+            <CommentsCorrectionsList>
+                <CommentsCorrections RefType="CommentIn">
+                    <RefSource>Biol Psychiatry. 2012 Apr 1;71(7):572-3</RefSource>
+                    <PMID Version="1">22424112</PMID>
+                </CommentsCorrections>
+                <CommentsCorrections RefType="ErratumIn">
+                    <RefSource>Biol Psychiatry. 2012 Jul 15;72(2):164</RefSource>
+                </CommentsCorrections>
+            </CommentsCorrectionsList>
+            <MeshHeadingList>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Adenylate Cyclase</DescriptorName>
+                    <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                    <QualifierName MajorTopicYN="Y">physiology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Amygdala</DescriptorName>
+                    <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                    <QualifierName MajorTopicYN="Y">physiopathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Animals</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Depressive Disorder</DescriptorName>
+                    <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+                    <QualifierName MajorTopicYN="Y">physiopathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Disease Models, Animal</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Emotions</DescriptorName>
+                    <QualifierName MajorTopicYN="Y">physiology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Functional Neuroimaging</DescriptorName>
+                    <QualifierName MajorTopicYN="N">methods</QualifierName>
+                    <QualifierName MajorTopicYN="Y">psychology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Gene Expression</DescriptorName>
+                    <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                    <QualifierName MajorTopicYN="N">physiology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Genetic Predisposition to Disease</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Genotype</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Gyrus Cinguli</DescriptorName>
+                    <QualifierName MajorTopicYN="N">physiopathology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Magnetic Resonance Imaging</DescriptorName>
+                    <QualifierName MajorTopicYN="N">methods</QualifierName>
+                    <QualifierName MajorTopicYN="N">psychology</QualifierName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Mice</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Mice, Inbred C57BL</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Mice, Knockout</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Polymorphism, Single Nucleotide</DescriptorName>
+                </MeshHeading>
+                <MeshHeading>
+                    <DescriptorName MajorTopicYN="N">Serotonin Plasma Membrane Transport Proteins</DescriptorName>
+                    <QualifierName MajorTopicYN="N">genetics</QualifierName>
+                </MeshHeading>
+            </MeshHeadingList>
+            <OtherID Source="NLM">NIHMS346198 [Available on 04/01/13]</OtherID>
+            <OtherID Source="NLM">PMC3307939 [Available on 04/01/13]</OtherID>
+        </MedlineCitation>
+        <PubmedData>
+            <History>
+                <PubMedPubDate PubStatus="received">
+                    <Year>2011</Year>
+                    <Month>7</Month>
+                    <Day>5</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="revised">
+                    <Year>2011</Year>
+                    <Month>11</Month>
+                    <Day>23</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="accepted">
+                    <Year>2011</Year>
+                    <Month>11</Month>
+                    <Day>23</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="aheadofprint">
+                    <Year>2012</Year>
+                    <Month>1</Month>
+                    <Day>20</Day>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="entrez">
+                    <Year>2012</Year>
+                    <Month>1</Month>
+                    <Day>24</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pubmed">
+                    <Year>2012</Year>
+                    <Month>1</Month>
+                    <Day>24</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="medline">
+                    <Year>2012</Year>
+                    <Month>7</Month>
+                    <Day>18</Day>
+                    <Hour>6</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+                <PubMedPubDate PubStatus="pmc-release">
+                    <Year>2013</Year>
+                    <Month>4</Month>
+                    <Day>1</Day>
+                    <Hour>0</Hour>
+                    <Minute>0</Minute>
+                </PubMedPubDate>
+            </History>
+            <PublicationStatus>ppublish</PublicationStatus>
+            <ArticleIdList>
+                <ArticleId IdType="pii">S0006-3223(11)01205-4</ArticleId>
+                <ArticleId IdType="doi">10.1016/j.biopsych.2011.11.029</ArticleId>
+                <ArticleId IdType="pubmed">22264442</ArticleId>
+                <ArticleId IdType="pmc">PMC3307939</ArticleId>
+                <ArticleId IdType="mid">NIHMS346198</ArticleId>
+            </ArticleIdList>
+        </PubmedData>
+    </PubmedArticle>
+
+</PubmedArticleSet>

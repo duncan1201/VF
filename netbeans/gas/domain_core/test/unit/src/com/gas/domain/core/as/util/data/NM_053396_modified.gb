@@ -1,0 +1,162 @@
+LOCUS       NM_053396               4164 bp    mRNA    linear   ROD 16-JUL-2011
+DEFINITION  Rattus norvegicus adenylate cyclase 7 (Adcy7), mRNA.
+ACCESSION   NM_053396 XM_001056453 XM_001063157 XM_001063214 XM_226333
+VERSION     NM_053396.1  GI:228480245
+KEYWORDS    .
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 4164)
+  AUTHORS   Fan,P., Jiang,Z., Diamond,I. and Yao,L.
+  TITLE     Up-regulation of AGS3 during morphine withdrawal promotes cAMP
+            superactivation via adenylyl cyclase 5 and 7 in rat nucleus
+            accumbens/striatal neurons
+  JOURNAL   Mol. Pharmacol. 76 (3), 526-533 (2009)
+   PUBMED   19549762
+REFERENCE   2  (bases 1 to 4164)
+  AUTHORS   Sadana,R. and Dessauer,C.W.
+  TITLE     Physiological roles for G protein-regulated adenylyl cyclase
+            isoforms: insights from knockout and overexpression studies
+  JOURNAL   Neurosignals 17 (1), 5-22 (2009)
+   PUBMED   18948702
+  REMARK    Review article
+REFERENCE   3  (bases 1 to 4164)
+  AUTHORS   Ostrom,R.S., Naugle,J.E., Hase,M., Gregorian,C., Swaney,J.S.,
+            Insel,P.A., Brunton,L.L. and Meszaros,J.G.
+  TITLE     Angiotensin II enhances adenylyl cyclase signaling via
+            Ca2+/calmodulin. Gq-Gs cross-talk regulates collagen production in
+            cardiac fibroblasts
+  JOURNAL   J. Biol. Chem. 278 (27), 24461-24468 (2003)
+   PUBMED   12711600
+REFERENCE   4  (bases 1 to 4164)
+  AUTHORS   Wackym,P.A., Troyanovskaya,M. and Popper,P.
+  TITLE     Adenylyl cyclase isoforms in the vestibular periphery of the rat
+  JOURNAL   Brain Res. 859 (2), 378-380 (2000)
+   PUBMED   10719090
+REFERENCE   5  (bases 1 to 4164)
+  AUTHORS   Suzuki,Y., Shen,T., Miyamoto,N., Defer,N., Matsuoka,I. and
+            Hanoune,J.
+  TITLE     Changes in the expression of adenylyl cyclases in the rat uterus
+            during the course of pregnancy
+  JOURNAL   Biol. Reprod. 57 (4), 778-782 (1997)
+   PUBMED   9314580
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AABR03113521.1.
+            On or before May 1, 2009 this sequence version replaced
+            gi:109508467, gi:109508469, gi:109507801, gi:109507803.
+            
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-171               AABR03113521.1     64979-65149         c
+            172-375             AABR03113521.1     62636-62839         c
+            376-543             AABR03113521.1     61641-61808         c
+            544-693             AABR03113521.1     60799-60948         c
+            694-842             AABR03113521.1     60345-60493         c
+            843-954             AABR03113521.1     59415-59526         c
+            955-1082            AABR03113521.1     57631-57758         c
+            1083-1241           AABR03113521.1     56236-56394         c
+            1242-1374           AABR03113521.1     55955-56087         c
+            1375-1566           AABR03113521.1     53741-53932         c
+            1567-1601           AABR03113521.1     53457-53491         c
+            1602-1682           AABR03113521.1     52968-53048         c
+            1683-1755           AABR03113521.1     52758-52830         c
+            1756-1853           AABR03113521.1     51648-51745         c
+            1854-1938           AABR03113521.1     49988-50072         c
+            1939-2064           AABR03113521.1     49628-49753         c
+            2065-2163           AABR03113521.1     48836-48934         c
+            2164-2339           AABR03113521.1     48042-48217         c
+            2340-2508           AABR03113521.1     47251-47419         c
+            2509-2664           AABR03113521.1     46729-46884         c
+            2665-2811           AABR03113521.1     46183-46329         c
+            2812-2916           AABR03113521.1     45532-45636         c
+            2917-3031           AABR03113521.1     45209-45323         c
+            3032-3156           AABR03113521.1     44120-44244         c
+            3157-4164           AABR03113521.1     42927-43934         c
+FEATURES             Location/Qualifiers
+     source          1..>4164
+                     /map="19p11"
+     misc_feature    7
+                     /db_xref="taxon:10116"
+     gene            join(12..78,134..202)
+                     /gene="Adcy7"
+     CDS             complement(join(2691..4571,4918..5163))
+                     /db_xref="RGD:619966"   
+ORIGIN      
+        1 atgccagcca aggggcgcta cttcctaaat gagggtgacg aaggccccaa gcaggcagcg
+       61 ctctatgaga agtacaggct caccagccag cacgggccac tgctgctcct gctcctcctg
+      121 gtggctgtgg ccacctgcat cgccctcgtc agcatcgtct tcagccatga ggatctccgc
+      181 agacaccagg ctgtcctggg cactgcgttc ttcatgctga cgctgtttgt ggctctctat
+      241 gtgctggtgt atgttgagtg cctagcacag cgatggctgc gcgtcttggc tctactcacc
+      301 tgggcttgcc tcatgatact aggctccgtg ctgatgtggg actccttgga gaatgaagcc
+      361 tatgcgtggg agcaggtgcc tttcttcctg ttcatcgtct ttgtggtgta cgtactgttg
+      421 cctctcagca cgagggcagc tatcgcggtg ggcgtagcct ccaccatctc ccatctcctg
+      481 gtgtttggag ctgtgacaag agccttcaag acatccatgt ccagcacaca gctggggctg
+      541 cagctcctgg ccaatgccgt tatccttctg ggtgggaact tcaccggtgc cttccacaag
+      601 caccagcttc aggacgcttc gagggatctc ttcatctaca ccgtcaagtg tatccagatc
+      661 cgccggaagc ttcgcgtgga gaagcgccag caggagaacc tgctgctttc agtgctccca
+      721 gctcacatct ccatgggtat gaagctggcc atcattgaac gcctcaaaga gggtggtgac
+      781 cgccactaca cgcctgacaa caactttcac agcctctatg tcaagcggca ccagaacgtc
+      841 agcatcttgt atgcagacat cgtgggtttc acgaggctgg ccagcgactg ctctcccaag
+      901 gagctagtgg tggtgctcaa cgagctgttt gggaagtttg accagattgc caaggccaac
+      961 gagtgcatgc ggatcaagat cctgggtgac tgctactact gcgtgtcagg cctgcctgtg
+     1021 tcgctgccca cgcacgcccg caactgtgtg aagatgggtc tggacatatg tgaggccatt
+     1081 aagcaggtgc gtgaggccac cggagtggac atcagcatgc gtgtgggcat tcactctggg
+     1141 aatgtcctgt gtggggtcat cgggctccgc aagtggcagt atgacgtgtg gtcccatgac
+     1201 gtgtccctgg ccaacaggat ggaggcagct ggagtccctg gccgggtgca catcacagag
+     1261 gcgacactga atcacctgga caaggcatac gaggtggagg acgggcacgg ggagcagcgc
+     1321 gacccctatc tgaaagagat gaacatccgt acctacttgg tgattgaccc ccggagtcag
+     1381 cagccgcccc tacccagcca ccacctgtcc aagcccaagg gggatgcaac tctgaagatg
+     1441 cgggcttccg tgcgtgtaac ccgctatctg gagtcctggg gggcagcgcg gccctttgca
+     1501 cacctcaacc accgggagag cgtgagcagc agtgagatcc ccatccccaa cggacggagg
+     1561 cagaaggcca ttcctctgcg tcgacaccgt gcccctgata ggagtgcatc ccccaaggga
+     1621 cgcctggaag atgactgtga tgacgagatg ctgtcagcca ttgaggggct cagctccacc
+     1681 aggccctgct gctccaagtc tgatgacttc cacacctttg gtcccatctt cctggagaag
+     1741 ggctttgagc gtgagtaccg cctggtgccc atcccccggg ctcgctatga cttcgcctgt
+     1801 gccagccttg tcttcgtctg catcctgctt gtccacctcc tagtgatgcc caggatggca
+     1861 actctgggct tgtcctttgg gctggtggcc tgcctgctgg ggctggttct aagcttctgc
+     1921 tttgctactg agttctcgag gtgccttcca gcccgaagta cactccaggc catctcggag
+     1981 agtgtggaga cacagcccct gctcagactt tccctggttg tggtgactgt tggcagctta
+     2041 ctgactgttg ccatcatcaa catgccactg acatttaacc caggcccaga gcagcctgga
+     2101 gacaatgaga caagcccact ggctgcaagg aacagagttg ggaccccatg tgaactcctc
+     2161 ccgtactaca cctgcagctg cgtcctgggc ttcattgcat gctctgtttt cctgcggatg
+     2221 agcctggaac tgaaggccat gttgctgacg gtggccttgg tggcctacct gctgctcttc
+     2281 aacctctccc catgctggca ggtctcaggc aacagcacag agaccaacag cacacacagg
+     2341 acacgtcggc tcctgtctgc agaacaaagc atgaacagcc acacccttgc tctgggggct
+     2401 cagatgactg ccccctcccc cagcagttgt ttagagagag acctgaagac catgatcaac
+     2461 ttctacctgg tcctgttcta tgccaccctc atcttgctgt ctagacagat tgactattac
+     2521 tgccgcttgg actgtctgtg gaagaagaag tttaagaagg agcatgagga gtttgaaaca
+     2581 atggagaatg tgaaccgcct cctcctagag aatgttctgc cagcacatgt ggctgcccac
+     2641 ttcatcggtg acaaggcagc tgaggactgg taccatcaat cttatgactg tgtctgtgtc
+     2701 atgtttgcat ccgttccgga cttcaaagtg ttctatactg agtgtgatgt caacaaagaa
+     2761 ggattggagt gccttcgcct gctgaatgag atcattgctg attttgacga gctgctgctg
+     2821 aagcccaagt tcagtggtgt ggagaagatc aagaccattg gcagcaccta catggctgct
+     2881 gcagggctca gtgtcccctc aggacatgag aaccaggacc tggagcggaa gcatgtgcac
+     2941 attggtgtct tggtggagtt tagcatggcc ctgatgagca agctggatgg aatcaacagg
+     3001 cactccttca actccttccg cctccgagtt ggcataaacc acggccctgt gattgctgga
+     3061 gtgattggcg cacgcaagcc tcagtatgac atctggggaa acacagtcaa tgttgccagc
+     3121 cgcatggaga gcaccggaga gcttgggaag atccaggtta ccgaggagac gtgcaccatc
+     3181 ctccagggac tgggatattc ttgtgagtgc cgtgggctca tcaacgtcaa aggcaaaggg
+     3241 gagctgcgga cttactttgt ttgtacagac actgccaagt ttcaagggct ggggctaaac
+     3301 tgaggtgtct ggtggtttgt ctccttccct gagggagccc tgcctgctgc agatggctgt
+     3361 ggcttctttg gacctgcact acaggatggc tgactgtaca tcagattttt tgaagcagct
+     3421 actgtgcggt acacagaggc tctgtgcttc agctacttta ggctgggttc ctttccaggg
+     3481 tgctgaggaa gagactttag gacatgtatc ttggtggcca gtgaacagca tacctgggga
+     3541 ggaaaacctc tactggctac aggaggctca gccaggctgt ctagcatggg ctgatgcccc
+     3601 cccttcctcc tcccatcaaa cctaccaagg gatgctagtc tctcaattag gcgttctggc
+     3661 aaatggagtt caaaactgcg tatcggtggg taatctcaga gaaaacgtct gatcgacact
+     3721 tgtcactttt accatctctg gcttatgttt gaagtggacg ttgtaaatgg gagtttcatc
+     3781 ttcatactga ctcttagatg ctagacaaag atctcatttc tagtgtattt tctcttgttg
+     3841 accatggact acccatacat aggactgctg ttcagtgtca gcttacagga ccagcttggc
+     3901 tgcagggaca gagttctaag gaatggggct cttagcaaga cataagcagc agcaaagctt
+     3961 caaatttgca atcaagcatt tttttttttt ttgatgcaag tcttttggga cgaggttcag
+     4021 gaagttcaga gtctagaaat gaggtatatg atgtttcggt tcttcagtct gcactttatt
+     4081 ttgaagagag ggtcagccta ggttggtctt aaatttttaa cctgtttcag tctctagagt
+     4141 gcttcaatta cagatgtgca ctac
+//
+

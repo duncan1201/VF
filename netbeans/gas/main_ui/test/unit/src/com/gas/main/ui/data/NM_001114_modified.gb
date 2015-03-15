@@ -1,0 +1,100 @@
+LOCUS       NM_001114               120 bp    mRNA    linear   PRI 10-SEP-2012
+DEFINITION  Homo sapiens adenylate cyclase 7 (ADCY7), mRNA.
+ACCESSION   NM_001114
+VERSION     NM_001114.3  GI:115298680
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 6138)
+  AUTHORS   Joeyen-Waldorf,J., Nikolova,Y.S., Edgar,N., Walsh,C., Kota,R.,
+            Lewis,D.A., Ferrell,R., Manuck,S.B., Hariri,A.R. and Sibille,E.
+  TITLE     Adenylate cyclase 7 is implicated in the biology of depression and
+            modulation of affective neural circuitry
+  JOURNAL   Biol. Psychiatry 71 (7), 627-632 (2012)
+   PUBMED   22264442
+  REMARK    GeneRIF: evidence implicates ADCY7 in the modulation of mood
+            regulatory neural mechanisms and, possibly, risk for and
+            pathophysiology of depression.
+            Erratum:[Biol Psychiatry. 2012 Jul 15;72(2):164]
+REFERENCE   2  (bases 1 to 6138)
+  AUTHORS   Xu,B., Roos,J.L., Dexheimer,P., Boone,B., Plummer,B., Levy,S.,
+            Gogos,J.A. and Karayiorgou,M.
+  TITLE     Exome sequencing supports a de novo mutational paradigm for
+            schizophrenia
+  JOURNAL   Nat. Genet. 43 (9), 864-868 (2011)
+   PUBMED   21822266
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 6138)
+  AUTHORS   Desrivieres,S., Pronko,S.P., Lourdusamy,A., Ducci,F., Hoffman,P.L.,
+            Wodarz,N., Ridinger,M., Rietschel,M., Zelenika,D., Lathrop,M.,
+            Schumann,G. and Tabakoff,B.
+  TITLE     Sex-specific role for adenylyl cyclase type 7 in alcohol dependence
+  JOURNAL   Biol. Psychiatry 69 (11), 1100-1108 (2011)
+   PUBMED   21481845
+  REMARK    GeneRIF: we found that single nucleotide polymorphisms in ADCY7
+            associate with alcohol dependence in women, and these markers are
+            also associated with ADCY7 expression (messenger RNA) levels.
+REFERENCE   4  (bases 1 to 6138)
+  AUTHORS   Townsend,P.D., Holliday,P.M., Fenyk,S., Hess,K.C., Gray,M.A.,
+            Hodgson,D.R. and Cann,M.J.
+  TITLE     Stimulation of mammalian G-protein-responsive adenylyl cyclases by
+            carbon dioxide
+  JOURNAL   J. Biol. Chem. 284 (2), 784-791 (2009)
+   PUBMED   19008230
+  REMARK    GeneRIF: soluble adenylyl cyclase is responsive to both CO(2) and
+            bicarbonate ion
+REFERENCE   5  (bases 1 to 6138)
+  AUTHORS   Tabakoff,B., Saba,L., Printz,M., Flodman,P., Hodgkinson,C.,
+            Goldman,D., Koob,G., Richardson,H.N., Kechris,K., Bell,R.L.,
+            Hubner,N., Heinig,M., Pravenec,M., Mangion,J., Legault,L.,
+            Dongier,M., Conigrave,K.M., Whitfield,J.B., Saunders,J., Grant,B.
+            and Hoffman,P.L.
+  CONSRTM   WHO/ISBRA Study on State and Trait Markers of Alcoholism
+  TITLE     Genetical genomic determinants of alcohol consumption in rats and
+            humans
+  JOURNAL   BMC Biol. 7, 70 (2009)
+   PUBMED   19874574
+  REMARK    GeneRIF: Observational study of gene-disease association. (HuGE
+            Navigator)
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 6138)
+  AUTHORS   Hellevuo,K., Welborn,R., Menninger,J.A. and Tabakoff,B.
+  TITLE     Human adenylyl cyclase type 7 contains polymorphic repeats in the
+            3' untranslated region: investigations of association with
+            alcoholism
+  JOURNAL   Am. J. Med. Genet. 74 (1), 95-98 (1997)
+   PUBMED   9034014
+REFERENCE   7  (bases 1 to 6138)
+  AUTHORS   Dessauer,C.W. and Gilman,A.G.
+  TITLE     Purification and characterization of a soluble form of mammalian
+            adenylyl cyclase
+  JOURNAL   J. Biol. Chem. 271 (28), 16967-16974 (1996)
+   PUBMED   8663304
+REFERENCE   8  (bases 1 to 6138)
+  AUTHORS   Hellevuo,K., Berry,R., Sikela,J.M. and Tabakoff,B.
+  TITLE     Localization of the gene for a novel human adenylyl cyclase (ADCY7)
+            to chromosome 16
+  JOURNAL   Hum. Genet. 95 (2), 197-200 (1995)
+   PUBMED   7860067
+REFERENCE   9  (bases 1 to 6138)
+  AUTHORS   Kleuss,C., Raw,A.S., Lee,E., Sprang,S.R. and Gilman,A.G.
+  TITLE     Mechanism of GTP hydrolysis by G-protein alpha subunits
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (21), 9828-9831 (1994)
+   PUBMED   7937899
+REFERENCE   10 (bases 1 to 6138)
+  AUTHORS   Taylor,S.S., Buechler,J.A. and Yonemoto,W.
+  TITLE     cAMP-dependent protein kinase: framework for a diverse family of
+            regulatory enzymes
+  JOURNAL   Annu. Rev. Biochem. 59, 971-1005 (1990)
+   PUBMED   2165385
+  REMARK    Review article
+FEATURES             Location/Qualifiers
+     CDS             join(38..41, 43..48)
+ORIGIN      
+        1 agctgaggaa ctgcgtgtgg agtcagccca gtctggatgc acaggaggat gctggcggca
+       61 cagtgagtga ggcctggtgc cagagctgtg cggacccctt gttggccatg gagcagcagg
+//
+

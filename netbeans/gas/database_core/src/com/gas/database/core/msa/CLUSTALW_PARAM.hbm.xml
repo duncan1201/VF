@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright 
+(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the 
+@author tags or express copyright attribution ~ statements applied by the 
+authors. All third-party contributions are ~ distributed under license by 
+Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing 
+to use, modify, ~ copy, or redistribute it subject to the terms and conditions 
+of the GNU ~ Lesser General Public License, as published by the Free Software 
+Foundation. ~ ~ This program is distributed in the hope that it will be useful, 
+~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public 
+License ~ for more details. ~ ~ You should have received a copy of the GNU 
+Lesser General Public License ~ along with this distribution; if not, write 
+to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~ 
+Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.msa.clustalw">
+
+    <class name="ClustalwParam">
+        <id name="hibernateId" column="msaParamId">
+            <generator class="increment" />
+        </id>  
+        
+        <set name="generalParams" cascade="all" lazy="true">
+            <key column="msaParamId" />
+            <many-to-many column="generalParamId" unique="true" class="GeneralParam" />
+        </set>  
+        
+        <set name="slows" cascade="all">
+            <key column="msaParamId" />
+            <many-to-many column="slowId" unique="true" class="ClustalwParam$Slow" />
+        </set>  
+        
+        <set name="fasts" cascade="all">
+            <key column="msaParamId" not-null="true"/>
+            <many-to-many column="fastId" unique="true" class="ClustalwParam$Fast" />
+        </set>   
+        
+        <set name="multiples" cascade="all">
+            <key column="msaParamId" />
+            <many-to-many column="multipleId" unique="true" class="ClustalwParam$Multiple" />
+        </set>                                                                   
+        
+    </class>
+    
+    <class name="GeneralParam">
+        <id name="hibernateId" column="generalParamId">
+            <generator class="increment" />
+        </id>
+        <property name="dataType" />
+        <property name="quickTree" />        
+    </class>
+    
+    <class name="ClustalwParam$Fast">
+        <id name="hibernateId" column="fastId">
+            <generator class="increment" />
+        </id>        
+        <property name="ktuple" />
+        <property name="pairGap" />
+        <property name="topDiags" />
+        <property name="windowSize" />
+    </class>
+    
+    <class name="ClustalwParam$Slow">
+        <id name="hibernateId" column="slowId">
+            <generator class="increment" />
+        </id>
+        <property name="gapOpen" />
+        <property name="gapExt" />
+        <property name="dnaWeightMatrix" />
+        <property name="proWeightMatrix" />
+    </class>
+    
+    <class name="ClustalwParam$Multiple">
+        <id name="hibernateId" column="multipleId">
+            <generator class="increment" />
+        </id>    
+        <property name="gapOpenPenalty" />
+        <property name="gapExtPenalty" />
+        <property name="transWeight" />
+        <property name="ignoreEndGaps" />
+        <property name="hydrophilicPenalty" /> 
+        <property name="residueSpecificPenalty" />
+        <property name="hydrophilicResidue" />
+                
+        <property name="iteration" />
+        <property name="proteinMatrix" />
+        <property name="dnaMatrix" />
+                        
+    </class>
+
+</hibernate-mapping>

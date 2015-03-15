@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>gap</DbName>
+	<MenuName>dbGaP</MenuName>
+	<Description>dbGaP Data</Description>
+	<Count>141019</Count>
+	<LastUpdate>2012/01/24 18:56</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>1011225</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>11</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DISC</Name>
+			<FullName>Discriminator</FullName>
+			<Description>Discriminator</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>OBJ</Name>
+			<FullName>Object Type</FullName>
+			<Description>Object Type</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANCE</Name>
+			<FullName>Ancestor</FullName>
+			<Description>Ancestor</Description>
+			<TermCount>623</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BELO</Name>
+			<FullName>Belongs To</FullName>
+			<Description>Belongs To</Description>
+			<TermCount>623</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ATTR</Name>
+			<FullName>Attribution</FullName>
+			<Description>Attribution</Description>
+			<TermCount>5355</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RTST</Name>
+			<FullName>Is Root Study</FullName>
+			<Description>Is Root Study</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TLST</Name>
+			<FullName>Is Top-Level Study</FullName>
+			<Description>Is Top-Level Study</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STID</Name>
+			<FullName>Study ID</FullName>
+			<Description>Study ID</Description>
+			<TermCount>623</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STNM</Name>
+			<FullName>Study Name</FullName>
+			<Description>Study Name</Description>
+			<TermCount>1498</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DIS</Name>
+			<FullName>Disease</FullName>
+			<Description>Disease</Description>
+			<TermCount>519</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROJ</Name>
+			<FullName>Project</FullName>
+			<Description>Project</Description>
+			<TermCount>393</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENO</Name>
+			<FullName>Genotype Platform</FullName>
+			<Description>Genotype Platform</Description>
+			<TermCount>311</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRA</Name>
+			<FullName>Study Has SRA Components</FullName>
+			<Description>Study Has SRA components</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STUD</Name>
+			<FullName>Study</FullName>
+			<Description>Study</Description>
+			<TermCount>23353</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HASV</Name>
+			<FullName>Has Variable</FullName>
+			<Description>Has Variable</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VRID</Name>
+			<FullName>Variable ID</FullName>
+			<Description>Variable ID</Description>
+			<TermCount>259742</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VRNM</Name>
+			<FullName>Variable Name</FullName>
+			<Description>Variable Name</Description>
+			<TermCount>85580</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VAR</Name>
+			<FullName>Variable</FullName>
+			<Description>Variable</Description>
+			<TermCount>620615</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HASD</Name>
+			<FullName>Has Document</FullName>
+			<Description>Has Document</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DCID</Name>
+			<FullName>Document ID</FullName>
+			<Description>Document ID</Description>
+			<TermCount>5480</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DCNM</Name>
+			<FullName>Document Name</FullName>
+			<Description>Document Name</Description>
+			<TermCount>5134</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOC</Name>
+			<FullName>Document</FullName>
+			<Description>Document</Description>
+			<TermCount>447123</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOCP</Name>
+			<FullName>Document Part</FullName>
+			<Description>Document Part</Description>
+			<TermCount>87222</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HASA</Name>
+			<FullName>Has Analysis</FullName>
+			<Description>Has Analysis</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANID</Name>
+			<FullName>Analysis ID</FullName>
+			<Description>Analysis ID</Description>
+			<TermCount>6206</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANNM</Name>
+			<FullName>Analysis Name</FullName>
+			<Description>Analysis Name</Description>
+			<TermCount>1968</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANLS</Name>
+			<FullName>Analysis</FullName>
+			<Description>Analysis</Description>
+			<TermCount>19938</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HAST</Name>
+			<FullName>Has Dataset</FullName>
+			<Description>Has Dataset</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DSID</Name>
+			<FullName>Dataset ID</FullName>
+			<Description>Dataset ID</Description>
+			<TermCount>6518</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DSNM</Name>
+			<FullName>Dataset Name</FullName>
+			<Description>Dataset Name</Description>
+			<TermCount>3464</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DS</Name>
+			<FullName>Dataset</FullName>
+			<Description>Dataset</Description>
+			<TermCount>23146</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PX</Name>
+			<FullName>PhenX</FullName>
+			<Description>PhenX</Description>
+			<TermCount>1691</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HASP</Name>
+			<FullName>Has PhenX Mapping</FullName>
+			<Description>Has PhenX Mapping</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ARCH</Name>
+			<FullName>Study Archive</FullName>
+			<Description>Study Archive</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>gap_bioproject</Name>
+				<Menu>BioProject Links</Menu>
+				<Description>BioProject Links</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_biosample</Name>
+				<Menu>BioSample Links</Menu>
+				<Description>BioSample links</Description>
+				<DbTo>biosample</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Link from dbGaP to dbVar</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_gds</Name>
+				<Menu>GEO DataSets</Menu>
+				<Description>GEO DataSet links</Description>
+				<DbTo>gds</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Gene Links</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Related PubMed article</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>SNP Links</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>gap_sra</Name>
+				<Menu>SRA Links</Menu>
+				<Description>Links to Short Read Archive Experiments</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

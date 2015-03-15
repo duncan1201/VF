@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2012//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_120101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">22274685</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>01</Month>
+            <Day>25</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2012</Year>
+            <Month>01</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1538-3598</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>307</Volume>
+                    <Issue>4</Issue>
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jan</Month>
+                        <Day>25</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>JAMA : the journal of the American Medical Association</Title>
+                <ISOAbbreviation>JAMA</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Association between BRCA1 and BRCA2 mutations and survival in women with invasive epithelial ovarian cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>382-90</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="CONTEXT" NlmCategory="BACKGROUND">Approximately 10% of women with invasive epithelial ovarian cancer (EOC) carry deleterious germline mutations in BRCA1 or BRCA2. A recent article suggested that BRCA2-related EOC was associated with an improved prognosis, but the effect of BRCA1 remains unclear.</AbstractText>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">To characterize the survival of BRCA carriers with EOC compared with noncarriers and to determine whether BRCA1 and BRCA2 carriers show similar survival patterns.</AbstractText>
+                <AbstractText Label="DESIGN, SETTING, AND PARTICIPANTS" NlmCategory="METHODS">A pooled analysis of 26 observational studies on the survival of women with ovarian cancer, which included data from 1213 EOC cases with pathogenic germline mutations in BRCA1 (n = 909) or BRCA2 (n = 304) and from 2666 noncarriers recruited and followed up at variable times between 1987 and 2010 (the median year of diagnosis was 1998).</AbstractText>
+                <AbstractText Label="MAIN OUTCOME MEASURE" NlmCategory="METHODS">Five-year overall mortality.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">The 5-year overall survival was 36% (95% CI, 34%-38%) for noncarriers, 44% (95% CI, 40%-48%) for BRCA1 carriers, and 52% (95% CI, 46%-58%) for BRCA2 carriers. After adjusting for study and year of diagnosis, BRCA1 and BRCA2 mutation carriers showed a more favorable survival than noncarriers (for BRCA1: hazard ratio [HR], 0.78; 95% CI, 0.68-0.89; P &lt; .001; and for BRCA2: HR, 0.61; 95% CI, 0.50-0.76; P &lt; .001). These survival differences remained after additional adjustment for stage, grade, histology, and age at diagnosis (for BRCA1: HR, 0.73; 95% CI, 0.64-0.84; P &lt; .001; and for BRCA2: HR, 0.49; 95% CI, 0.39-0.61; P &lt; .001). The BRCA1 HR estimate was significantly different from the HR estimated in the adjusted model (P for heterogeneity = .003).</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Among patients with invasive EOC, having a germline mutation in BRCA1 or BRCA2 was associated with improved 5-year overall survival. BRCA2 carriers had the best prognosis.</AbstractText>
+            </Abstract>
+            <Affiliation>Division of Cancer Epidemiology and Genetics, National Cancer Institute, Bethesda, Maryland, USA.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Bolton</LastName>
+                    <ForeName>Kelly L</ForeName>
+                    <Initials>KL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chenevix-Trench</LastName>
+                    <ForeName>Georgia</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goh</LastName>
+                    <ForeName>Cindy</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sadetzki</LastName>
+                    <ForeName>Siegal</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ramus</LastName>
+                    <ForeName>Susan J</ForeName>
+                    <Initials>SJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Karlan</LastName>
+                    <ForeName>Beth Y</ForeName>
+                    <Initials>BY</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lambrechts</LastName>
+                    <ForeName>Diether</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Despierre</LastName>
+                    <ForeName>Evelyn</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barrowdale</LastName>
+                    <ForeName>Daniel</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McGuffog</LastName>
+                    <ForeName>Lesley</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Healey</LastName>
+                    <ForeName>Sue</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Easton</LastName>
+                    <ForeName>Douglas F</ForeName>
+                    <Initials>DF</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sinilnikova</LastName>
+                    <ForeName>Olga</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Benítez</LastName>
+                    <ForeName>Javier</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>García</LastName>
+                    <ForeName>María J</ForeName>
+                    <Initials>MJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Neuhausen</LastName>
+                    <ForeName>Susan</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gail</LastName>
+                    <ForeName>Mitchell H</ForeName>
+                    <Initials>MH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hartge</LastName>
+                    <ForeName>Patricia</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Peock</LastName>
+                    <ForeName>Susan</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Frost</LastName>
+                    <ForeName>Debra</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Evans</LastName>
+                    <ForeName>D Gareth</ForeName>
+                    <Initials>DG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eeles</LastName>
+                    <ForeName>Rosalind</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Godwin</LastName>
+                    <ForeName>Andrew K</ForeName>
+                    <Initials>AK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Daly</LastName>
+                    <ForeName>Mary B</ForeName>
+                    <Initials>MB</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kwong</LastName>
+                    <ForeName>Ava</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ma</LastName>
+                    <ForeName>Edmond S K</ForeName>
+                    <Initials>ES</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lázaro</LastName>
+                    <ForeName>Conxi</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Blanco</LastName>
+                    <ForeName>Ignacio</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Montagna</LastName>
+                    <ForeName>Marco</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>D'Andrea</LastName>
+                    <ForeName>Emma</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nicoletto</LastName>
+                    <ForeName>Maria Ornella</ForeName>
+                    <Initials>MO</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Johnatty</LastName>
+                    <ForeName>Sharon E</ForeName>
+                    <Initials>SE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kjær</LastName>
+                    <ForeName>Susanne Krüger</ForeName>
+                    <Initials>SK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jensen</LastName>
+                    <ForeName>Allan</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Høgdall</LastName>
+                    <ForeName>Estrid</ForeName>
+                    <Initials>E</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Goode</LastName>
+                    <ForeName>Ellen L</ForeName>
+                    <Initials>EL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fridley</LastName>
+                    <ForeName>Brooke L</ForeName>
+                    <Initials>BL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Loud</LastName>
+                    <ForeName>Jennifer T</ForeName>
+                    <Initials>JT</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Greene</LastName>
+                    <ForeName>Mark H</ForeName>
+                    <Initials>MH</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mai</LastName>
+                    <ForeName>Phuong L</ForeName>
+                    <Initials>PL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chetrit</LastName>
+                    <ForeName>Angela</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lubin</LastName>
+                    <ForeName>Flora</ForeName>
+                    <Initials>F</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hirsh-Yechezkel</LastName>
+                    <ForeName>Galit</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Glendon</LastName>
+                    <ForeName>Gord</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Andrulis</LastName>
+                    <ForeName>Irene L</ForeName>
+                    <Initials>IL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Toland</LastName>
+                    <ForeName>Amanda E</ForeName>
+                    <Initials>AE</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Senter</LastName>
+                    <ForeName>Leigha</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gore</LastName>
+                    <ForeName>Martin E</ForeName>
+                    <Initials>ME</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gourley</LastName>
+                    <ForeName>Charlie</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Michie</LastName>
+                    <ForeName>Caroline O</ForeName>
+                    <Initials>CO</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Song</LastName>
+                    <ForeName>Honglin</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Tyrer</LastName>
+                    <ForeName>Jonathan</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Whittemore</LastName>
+                    <ForeName>Alice S</ForeName>
+                    <Initials>AS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>McGuire</LastName>
+                    <ForeName>Valerie</ForeName>
+                    <Initials>V</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sieh</LastName>
+                    <ForeName>Weiva</ForeName>
+                    <Initials>W</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Kristoffersson</LastName>
+                    <ForeName>Ulf</ForeName>
+                    <Initials>U</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Olsson</LastName>
+                    <ForeName>Håkan</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borg</LastName>
+                    <ForeName>Åke</ForeName>
+                    <Initials>Å</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Levine</LastName>
+                    <ForeName>Douglas A</ForeName>
+                    <Initials>DA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Steele</LastName>
+                    <ForeName>Linda</ForeName>
+                    <Initials>L</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Beattie</LastName>
+                    <ForeName>Mary S</ForeName>
+                    <Initials>MS</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chan</LastName>
+                    <ForeName>Salina</ForeName>
+                    <Initials>S</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Nussbaum</LastName>
+                    <ForeName>Robert L</ForeName>
+                    <Initials>RL</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Moysich</LastName>
+                    <ForeName>Kirsten B</ForeName>
+                    <Initials>KB</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gross</LastName>
+                    <ForeName>Jenny</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cass</LastName>
+                    <ForeName>Ilana</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Walsh</LastName>
+                    <ForeName>Christine</ForeName>
+                    <Initials>C</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Li</LastName>
+                    <ForeName>Andrew J</ForeName>
+                    <Initials>AJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Leuchter</LastName>
+                    <ForeName>Ronald</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gordon</LastName>
+                    <ForeName>Ora</ForeName>
+                    <Initials>O</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Garcia-Closas</LastName>
+                    <ForeName>Montserrat</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gayther</LastName>
+                    <ForeName>Simon A</ForeName>
+                    <Initials>SA</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chanock</LastName>
+                    <ForeName>Stephen J</ForeName>
+                    <Initials>SJ</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Antoniou</LastName>
+                    <ForeName>Antonis C</ForeName>
+                    <Initials>AC</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pharoah</LastName>
+                    <ForeName>Paul D P</ForeName>
+                    <Initials>PD</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>EMBRACE</CollectiveName>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>kConFab Investigators</CollectiveName>
+                </Author>
+                <Author ValidYN="Y">
+                    <CollectiveName>Cancer Genome Atlas Research Network</CollectiveName>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>2P50 CA 058207</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>C1287/A10118</GrantID>
+                    <Agency>Cancer Research UK</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>C1287/A11990</GrantID>
+                    <Agency>Cancer Research UK</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>C490/A10119</GrantID>
+                    <Agency>Cancer Research UK</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>C490/A10124</GrantID>
+                    <Agency>Cancer Research UK</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>C5047/A8385</GrantID>
+                    <Agency>Cancer Research UK</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>CA 61126-03</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>CA 74415</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>N02-CP-11019-50</GrantID>
+                    <Acronym>CP</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>N02-CP-65504</GrantID>
+                    <Acronym>CP</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P01 CA 130818</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>P50 CA 136393</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01-CA 122443</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <GrantID>R01-CA 61107</GrantID>
+                    <Acronym>CA</Acronym>
+                    <Agency>NCI NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+                <Grant>
+                    <Agency>Chief Scientist Office</Agency>
+                    <Country>United Kingdom</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Meta-Analysis</PublicationType>
+                <PublicationType>Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType>Research Support, N.I.H., Intramural</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>JAMA</MedlineTA>
+            <NlmUniqueID>7501160</NlmUniqueID>
+            <ISSNLinking>0098-7484</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>AIM</CitationSubset>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="CommentIn">
+                <RefSource>JAMA. 2012 Jan 25;307(4):408-10</RefSource>
+                <PMID Version="1">22274690</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Genes, BRCA1</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Genes, BRCA2</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="Y">Germ-Line Mutation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Ovarian Neoplasms</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+                <QualifierName MajorTopicYN="Y">mortality</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Survival Analysis</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <InvestigatorList>
+            <Investigator ValidYN="Y">
+                <LastName>Campbell</LastName>
+                <ForeName>Ian</ForeName>
+                <Initials>I</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Brown</LastName>
+                <ForeName>Melissa</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Evans</LastName>
+                <ForeName>Gerda</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Kirk</LastName>
+                <ForeName>Judy</ForeName>
+                <Initials>J</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lakhani</LastName>
+                <ForeName>Sunil</ForeName>
+                <Initials>S</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Lindeman</LastName>
+                <ForeName>Geoff</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Mitchell</LastName>
+                <ForeName>Gillian</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Phillips</LastName>
+                <ForeName>Kelly</ForeName>
+                <Initials>K</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Price</LastName>
+                <ForeName>Melanie</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Saunders</LastName>
+                <ForeName>Christobel</ForeName>
+                <Initials>C</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Spurdle</LastName>
+                <ForeName>Mandy</ForeName>
+                <Initials>M</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Suthers</LastName>
+                <ForeName>Graeme</ForeName>
+                <Initials>G</Initials>
+            </Investigator>
+            <Investigator ValidYN="Y">
+                <LastName>Milne</LastName>
+                <ForeName>Roger</ForeName>
+                <Initials>R</Initials>
+            </Investigator>
+        </InvestigatorList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">307/4/382</ArticleId>
+            <ArticleId IdType="doi">10.1001/jama.2012.20</ArticleId>
+            <ArticleId IdType="pubmed">22274685</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

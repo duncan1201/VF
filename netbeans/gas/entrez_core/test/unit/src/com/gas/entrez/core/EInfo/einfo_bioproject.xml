@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD einfo 20130322//EN" "http://eutils.ncbi.nlm.nih.gov/eutils/dtd/20130322/einfo.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>bioproject</DbName>
+	<MenuName>BioProject</MenuName>
+	<Description>BioProject Database</Description>
+	<DbBuild>Build150102-0730.1</DbBuild>
+	<Count>144444</Count>
+	<LastUpdate>2015/01/02 08:56</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>2230166</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>96</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism</Description>
+			<TermCount>200732</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRJA</Name>
+			<FullName>Project Accession</FullName>
+			<Description>Project Accession</Description>
+			<TermCount>198142</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TYPE</Name>
+			<FullName>Project Type</FullName>
+			<Description>Project Type</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STPE</Name>
+			<FullName>Project Subtype</FullName>
+			<Description>Project Subtype</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DATE</Name>
+			<FullName>Registration Date</FullName>
+			<Description>Registration Date</Description>
+			<TermCount>4251</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Title</Description>
+			<TermCount>397223</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CEN</Name>
+			<FullName>Submitter Organization</FullName>
+			<Description>Submitter Organization(s)</Description>
+			<TermCount>44473</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Replicon accession</FullName>
+			<Description>Space delimited GenBank or RefSeq Replicon Accessions</Description>
+			<TermCount>34804</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RTYP</Name>
+			<FullName>Replicon type</FullName>
+			<Description>Replicon Type</Description>
+			<TermCount>17</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RNME</Name>
+			<FullName>Replicon name</FullName>
+			<Description>Replicon Name</Description>
+			<TermCount>3555</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>LTP</Name>
+			<FullName>Locus Tag Prefix</FullName>
+			<Description>Locus Tag Prefix</Description>
+			<TermCount>78116</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Description</FullName>
+			<Description>Organism/Project Description</Description>
+			<TermCount>1482521</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KWRD</Name>
+			<FullName>Keyword</FullName>
+			<Description>Keyword</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Project/Organism Properties</Description>
+			<TermCount>45</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DTPE</Name>
+			<FullName>Project Data Type</FullName>
+			<Description>Project Data Type</Description>
+			<TermCount>24</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GRNT</Name>
+			<FullName>Grant ID</FullName>
+			<Description>Grant ID</Description>
+			<TermCount>3382</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FUND</Name>
+			<FullName>Funding Agency</FullName>
+			<Description>Funding Agency</Description>
+			<TermCount>2359</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>PMID</FullName>
+			<Description>Pubmed ID</Description>
+			<TermCount>40984</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOID</Name>
+			<FullName>DOI</FullName>
+			<Description>DOI ID</Description>
+			<TermCount>258</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>PID</Name>
+			<FullName>ProjectID</FullName>
+			<Description>Project ID</Description>
+			<TermCount>144461</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RELV</Name>
+			<FullName>Relevance</FullName>
+			<Description>Relevance</Description>
+			<TermCount>410</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANME</Name>
+			<FullName>Assembly name</FullName>
+			<Description>Assembly Name</Description>
+			<TermCount>43024</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BPRJ</Name>
+			<FullName>BioProject ID</FullName>
+			<Description>BioProject ID or accession</Description>
+			<TermCount>342586</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>TPRJ</Name>
+			<FullName>Top Bioproject</FullName>
+			<Description>Top Bioproject ID</Description>
+			<TermCount>14038</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>WGSA</Name>
+			<FullName>WGS Accession</FullName>
+			<Description>WGS Accessions</Description>
+			<TermCount>28549</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AACC</Name>
+			<FullName>Assembly Accession</FullName>
+			<Description>Assembly Accession</Description>
+			<TermCount>59251</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>bioproject_assembly_all</Name>
+				<Menu>Assembly Links</Menu>
+				<Description>All related Assemblies</Description>
+				<DbTo>assembly</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_bioproject</Name>
+				<Menu>BioProject</Menu>
+				<Description>Links from project to related projects</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_bioproject_d2u</Name>
+				<Menu>Umbrella projects</Menu>
+				<Description>All Umbrella projects</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_bioproject_u2d</Name>
+				<Menu>Data projects</Menu>
+				<Description>All Data projects</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_biosample_all</Name>
+				<Menu>BioSample Links</Menu>
+				<Description>All related BioSamples</Description>
+				<DbTo>biosample</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Link from BioProjects to dbVar</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_epigenomics</Name>
+				<Menu>Epigenomics Links</Menu>
+				<Description>Related Epigenomics records</Description>
+				<DbTo>epigenomics</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_gap</Name>
+				<Menu>dbGaP Links</Menu>
+				<Description>dbGaP Links</Description>
+				<DbTo>gap</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_gds</Name>
+				<Menu>GEO DataSet Links</Menu>
+				<Description>GEO DataSet links</Description>
+				<DbTo>gds</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_gene</Name>
+				<Menu>Related Genes</Menu>
+				<Description>Genes related to a genome project</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_genome</Name>
+				<Menu>Genome Links</Menu>
+				<Description>Related Genomes</Description>
+				<DbTo>genome</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Related Nucleotide entry</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_genomic_dna</Name>
+				<Menu>Genomic DNA</Menu>
+				<Description>Link to genomic DNA records</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_genomic_rna</Name>
+				<Menu>Genomic RNA</Menu>
+				<Description>Link to genomic RNA records</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_map</Name>
+				<Menu>Map Records</Menu>
+				<Description>Link to map record(s)</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_reference</Name>
+				<Menu>Reference Genome Sequences Links</Menu>
+				<Description>Reference Genome Sequences</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_repr</Name>
+				<Menu>Representative Genome Sequences Links</Menu>
+				<Description>Representative Genome Sequences</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_transcript</Name>
+				<Menu>Transcript</Menu>
+				<Description>Link to transcript records</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_tsamaster</Name>
+				<Menu>TSA master</Menu>
+				<Description>Link to TSA master record(s)</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nuccore_wgsmaster</Name>
+				<Menu>WGS master</Menu>
+				<Description>Link to WGS master record(s)</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Related GSS entry</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PMC links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_popset</Name>
+				<Menu>PopSet Links</Menu>
+				<Description>Population sets for BioProject</Description>
+				<DbTo>popset</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Related Proteins</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed Links</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNP record</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_sra_all</Name>
+				<Menu>SRA Links</Menu>
+				<Description>All related SRA Experiments</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Taxonomy Links</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>bioproject_trace</Name>
+				<Menu>trace</Menu>
+				<Description>Link to related Traces</Description>
+				<DbTo>trace</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

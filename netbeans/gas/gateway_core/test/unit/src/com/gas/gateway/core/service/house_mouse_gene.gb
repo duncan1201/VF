@@ -1,0 +1,75 @@
+LOCUS       house_mouse_gene        1596 bp    DNA     linear   ROD 14-SEP-2012
+DEFINITION  Mus musculus 1-Cys peroxiredoxin protein gene, exons 3 and 4.
+ACCESSION   AF093856.1
+VERSION     AF093856.1  GI:4139183
+KEYWORDS    .
+SEGMENT     3 of 4.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus.
+REFERENCE   1 (bases 1 to 1596)
+  AUTHORS   Lee,T.H., Yu,S.L., Kim,Y.K., Kang,S.W., Rhee,S.G., Seong,J.K. and
+            Yu,D.Y.
+REFERENCE   2 (bases 1 to 1596)
+  AUTHORS   Lee,T.H., Rhee,S.G. and Yu,D.Y.
+FEATURES             Location/Qualifiers
+     source          1..1596
+                     /organism="Mus musculus"
+                     /mol_type="genomic DNA"
+                     /strain="129SvJ"
+                     /db_xref="taxon:10090"
+     mRNA            join(525..671,1146..1292)
+                     /Foreign_Intervals="AF093857.1: 245 -> 1,085"
+                     /Foreign_Intervals="AF093854.1: 617 -> 760"
+                     /Foreign_Intervals="AF093855.1: 656 -> 812"
+                     /product="1-Cys peroxiredoxin protein"
+     CDS             join(525..671,1146..1292)
+                     /Foreign_Intervals="AF093857.1: 245 -> 373"
+                     /Foreign_Intervals="AF093854.1: 666 -> 760"
+                     /Foreign_Intervals="AF093855.1: 656 -> 812"
+                     /note="CP-3"
+                     /codon_start=1
+                     /transl_table=1
+                     /product="1-Cys peroxiredoxin protein"
+                     /protein_id="AAD03716.1"
+                     /db_xref="GI:4139186"
+                     /translation="MPGGLLLGDEAPNFEANTTIGRIRFHDFLGDSWGILFSHPRDFT
+                     PVCTTELGRAAKLAPEFAKRNVKLIALSIDSVEDHLAWSKDINAYNGETPTEKLPFPI
+                     IDDKGRDLAILLGMLDPVEKDDNNMPVTARVVFIFGPDKKLKLSILYPATTGRNFDEI
+                     LRVVDSLQLTGTKPVATPVDRKKGESVMVVPTLSEEEAKQCFPKGVFTKELPSGKKYL
+                     RYTPQP"
+     exon            525..671
+                     /number=3
+     exon            1146..1292
+                     /number=4
+ORIGIN      
+        1 gttaaccctt taagggtgct ggctcttttg ctttaaaatt caacatgtgt tcttttgaag
+       61 gatattaatt ccaaagcagg ccgtttgttc tatacgttcc cggaactcag gttcttcaag
+      121 gaaatagggt tttaattggg tgggttaatt atcatgagcc tgcccccaca aagggggttt
+      181 gggcagttaa taaatagtag ccatttcaaa aggttaaatt ccctctcatt tcagaggagg
+      241 cacaactccc acagtttgat ctgatgttgt cttgtcagtc gtatccattg gttcatgtga
+      301 caataaatcc ttctttattt gaacccattc taaatctcta gttatttgta atattccttg
+      361 agtgagtaat ggcttaggta ggagtaccgt tcagctttat taagatccct tgagggcttg
+      421 tgatggtggt tccttggctt gcagagtggt attctcagct tggtgagatg cagagacaga
+      481 cccgtgtcag ctttaagagt ccatcccctt ttctcttgtt taaggacatc aatgcttaca
+      541 atggtgaaac acccacggaa aagttgccat ttcccatcat tgatgataag ggcagggacc
+      601 ttgccatcct tttgggcatg ttggatccag tcgagaagga cgataacaac atgcctgtga
+      661 cggcccgtgt ggtgagtcgg aaggctgtgt gaatgcttga gccaatacaa gaggaatatg
+      721 tacagttgtg catgttagag cagtggttct cagcctttgg ggtcatgacc cctttggggg
+      781 gggtcaaaca accttttcac aggggtcaca cacagaatat tcttcctatc agtatttaca
+      841 tcatgattca taacagtagc aaaattacag ttatgaagta gcaataaaat aacttggggg
+      901 aatcacatga gggtcgcagc attgggaagg ttgaggaccc ctctgtgtta gaggaagggt
+      961 ggacagacta ggaggagtct ttccctccct cctttggcta cctagtaata aactccattt
+     1021 tcctctgcca gttctgtttt cttccctgga ctaaggggaa aagaggtgta tagagctcat
+     1081 gatgctgagt gtcagaagca gctttaccgt catgtactaa cgaaggcctc ctgtgtgctt
+     1141 tacaggtgtt catttttggc cctgacaaga aactgaagct gtctatcctc taccctgcca
+     1201 ccacgggcag gaactttgat gagattctca gagtggttga ctctctccag ctgacaggca
+     1261 caaagccggt tgccacccca gttgacagga aggtaaaact gctcttaaga actggatgcc
+     1321 cagcttgcca gaaagatcca aaggacagtc tctcatggcc actttcagga tgtgggtttc
+     1381 ttgggccttt atctattgtc ccagtagagt gtcccaggag gatttgttta agagttcatt
+     1441 cacactgatt tgtataaaac acaaactgtg gtttttgcta accctacata attccaacag
+     1501 atataggtca cagtgatccc agaagttaaa cattcgtaac cccaaaatcc cagctccaaa
+     1561 gcgctccaaa atccaagact tcttggtttt tcttta
+//

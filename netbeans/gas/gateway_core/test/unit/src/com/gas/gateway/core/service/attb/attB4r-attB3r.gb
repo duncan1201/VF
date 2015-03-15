@@ -1,0 +1,63 @@
+LOCUS       AF093856                1651 bp    DNA     linear
+ACCESSION   AF093856
+VERSION     AF093856.1
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     mRNA            join(553..1320,553..1320)
+                     /Foreign_Intervals="AF093855.1: 656 -> 812"
+                     /product="1-Cys peroxiredoxin protein"
+     source          29..1624
+                     /mol_type="genomic DNA"
+                     /strain="129SvJ"
+                     /db_xref="taxon:10090"
+     attB4r          5..26
+                     /label=attB4r
+     attB3r          1626..1647
+                     /label=attB3r
+     CDS             join(553..1320,553..1320)
+                     /Foreign_Intervals="AF093855.1: 656 -> 812"
+                     /codon_start=1
+                     /note="CP-3"
+                     /product="1-Cys peroxiredoxin protein"
+                     /protein_id="AAD03716.1"
+                     /transl_table=1
+                     /translation="MPGGLLLGDEAPNFEANTTIGRIRFHDFLGDSWGILFSHPRDFT
+                     PVCTTELGRAAKLAPEFAKRNVKLIALSIDSVEDHLAWSKDINAYNGETPTEKLPFPI
+                     IDDKGRDLAILLGMLDPVEKDDNNMPVTARVVFIFGPDKKLKLSILYPATTGRNFDEI
+                     LRVVDSLQLTGTKPVATPVDRKKGESVMVVPTLSEEEAKQCFPKGVFTKELPSGKKYL
+                     RYTPQP"
+                     /db_xref="GI:4139186"
+     exon            553..699
+                     /number=3
+     exon            1174..1320
+                     /number=4
+ORIGIN
+        1 ggggacaact tttctataca aagttgctgt taacccttta agggtgctgg ctcttttgct
+       61 ttaaaattca acatgtgttc ttttgaagga tattaattcc aaagcaggcc gtttgttcta
+      121 tacgttcccg gaactcaggt tcttcaagga aatagggttt taattgggtg ggttaattat
+      181 catgagcctg cccccacaaa gggggtttgg gcagttaata aatagtagcc atttcaaaag
+      241 gttaaattcc ctctcatttc agaggaggca caactcccac agtttgatct gatgttgtct
+      301 tgtcagtcgt atccattggt tcatgtgaca ataaatcctt ctttatttga acccattcta
+      361 aatctctagt tatttgtaat attccttgag tgagtaatgg cttaggtagg agtaccgttc
+      421 agctttatta agatcccttg agggcttgtg atggtggttc cttggcttgc agagtggtat
+      481 tctcagcttg gtgagatgca gagacagacc cgtgtcagct ttaagagtcc atcccctttt
+      541 ctcttgttta aggacatcaa tgcttacaat ggtgaaacac ccacggaaaa gttgccattt
+      601 cccatcattg atgataaggg cagggacctt gccatccttt tgggcatgtt ggatccagtc
+      661 gagaaggacg ataacaacat gcctgtgacg gcccgtgtgg tgagtcggaa ggctgtgtga
+      721 atgcttgagc caatacaaga ggaatatgta cagttgtgca tgttagagca gtggttctca
+      781 gcctttgggg tcatgacccc tttggggggg gtcaaacaac cttttcacag gggtcacaca
+      841 cagaatattc ttcctatcag tatttacatc atgattcata acagtagcaa aattacagtt
+      901 atgaagtagc aataaaataa cttgggggaa tcacatgagg gtcgcagcat tgggaaggtt
+      961 gaggacccct ctgtgttaga ggaagggtgg acagactagg aggagtcttt ccctccctcc
+     1021 tttggctacc tagtaataaa ctccattttc ctctgccagt tctgttttct tccctggact
+     1081 aaggggaaaa gaggtgtata gagctcatga tgctgagtgt cagaagcagc tttaccgtca
+     1141 tgtactaacg aaggcctcct gtgtgcttta caggtgttca tttttggccc tgacaagaaa
+     1201 ctgaagctgt ctatcctcta ccctgccacc acgggcagga actttgatga gattctcaga
+     1261 gtggttgact ctctccagct gacaggcaca aagccggttg ccaccccagt tgacaggaag
+     1321 gtaaaactgc tcttaagaac tggatgccca gcttgccaga aagatccaaa ggacagtctc
+     1381 tcatggccac tttcaggatg tgggtttctt gggcctttat ctattgtccc agtagagtgt
+     1441 cccaggagga tttgtttaag agttcattca cactgatttg tataaaacac aaactgtggt
+     1501 ttttgctaac cctacataat tccaacagat ataggtcaca gtgatcccag aagttaaaca
+     1561 ttcgtaaccc caaaatccca gctccaaagc gctccaaaat ccaagacttc ttggtttttc
+     1621 tttaacaact ttgtataata aagttgtccc c
+//

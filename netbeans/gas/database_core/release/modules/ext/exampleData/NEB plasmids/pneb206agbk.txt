@@ -1,0 +1,137 @@
+LOCUS       pNEB206a                2722 bp    DNA     circular     18-OCT-2007
+DEFINITION  Cloning vector pNEB206a, complete sequence.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Cloning vector pNEB206a
+  ORGANISM  Cloning vector pNEB206a
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 2722)
+  AUTHORS   Bitinaite,J., Rubino,M., Varma,K.H., Schildkraut,I., Vaisvila,R.
+            and Vaiskunaite,R.
+  TITLE     USER friendly DNA engineering and cloning method by uracil excision
+  JOURNAL   Nucleic Acids Res 35 (6), 1992-2002 (2007)
+   PUBMED   17341463
+REFERENCE   2  (bases 1 to 2722)
+  AUTHORS   Bitinaite,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2007) Research Department, New England Biolabs,
+            240 County Road, Ipswich, MA 01938, USA
+COMMENT     The plasmid is supplied in a linearized form 2706 bp in length
+            (with bp 438..453 excised from the circular form), including two
+            flanking, noncomplementary 8-base 3' overhangs at the intended
+            cloning site.  This form consists of bases (454..2722,1..437) where
+            430..437 and 454..461 are single stranded.
+FEATURES             Location/Qualifiers
+     source          1..2722
+                     /organism="Cloning vector pNEB206a"
+                     /mol_type="other DNA"
+     gene            complement(146..505)
+                     /gene="lacZalpha"
+     CDS             complement(146..505)
+                     /gene="lacZalpha"
+                     /codon_start=1
+                     /product="beta-galactosidase alpha fragment"
+                     /translation="MTMITPSFLQGLNAEETSRGSSRLSLSLIKARLSSNSLAVVLQR
+                     RDWENPGVTQLNRLAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRLMRYFLLTHLCG
+                     ISHRIWCTLSTICSDAA"
+     misc_feature    396..488
+                     /gene="lacZalpha"
+                     /note="multiple cloning site (EcoRI-HindIII); top strand
+                     nt 438-461 and bottom strand nt 430-453 deleted by XbaI +
+                     N.BbvCIB digestion"
+     -10_signal      complement(550..555)
+                     /note="Plac promoter (drives lacZalpha;
+                     counter-clockwise); TATGTT"
+     -35_signal      complement(574..579)
+                     /note="Plac promoter (drives lacZalpha;
+                     counter-clockwise); TTTACA"
+     protein_bind    complement(599..611)
+                     /note="CAP protein binding site"
+                     /bound_moiety="catabolite activator protein (CAP)"
+     rep_origin      complement(903..1491)
+                     /note="pMB1 origin of replication (counter-clockwise)
+                     (RNAII -35 to RNA/DNA switch point)"
+     misc_RNA        complement(903..1455)
+                     /note="RNAII transcript (complementary strand)"
+     -35_signal      1309..1314
+                     /note="RNAI promoter (clockwise); TTGAAG"
+     -10_signal      1331..1336
+                     /note="RNAI promoter (clockwise); GCTACA"
+     misc_RNA        1345..1452
+                     /note="RNAI transcript"
+     -10_signal      complement(1465..1470)
+                     /note="RNAII promoter (counter-clockwise); CGTAAT"
+     -35_signal      complement(1486..1491)
+                     /note="RNAII promoter (counter-clockwise); TTGAGA"
+     gene            complement(1662..2522)
+                     /gene="bla"
+     CDS             complement(1662..2522)
+                     /gene="bla"
+                     /note="ampR (confers resistance to ampicillin)"
+                     /codon_start=1
+                     /product="beta-lactamase"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+     sig_peptide     complement(2454..2522)
+                     /gene="bla"
+                     /note="required for secretion to the periplasm; cleaved
+                     off to form the mature beta-lactamase protein."
+     -10_signal      complement(2566..2571)
+                     /note="bla promoter (counter-clockwise); GAGACA;
+                     transcript start 2557 (complementary strand)"
+     -35_signal      complement(2587..2592)
+                     /note="bla promoter (counter-clockwise); TTCAAA"
+BASE COUNT      679 a    681 c    692 g    670 t
+ORIGIN
+        1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
+       61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
+      121 ttggcgggtg tcggggctgg cttaactatg cggcatcaga gcagattgta ctgagagtgc
+      181 accatatgcg gtgtgaaata ccgcacagat gcgtaaggag aaaataccgc atcaggcgcc
+      241 attcgccatt caggctgcgc aactgttggg aagggcgatc ggtgcgggcc tcttcgctat
+      301 tacgccagct ggcgaaaggg ggatgtgctg caaggcgatt aagttgggta acgccagggt
+      361 tttcccagtc acgacgttgt aaaacgacgg ccagtgaatt cgagctcagg cgcgccttaa
+      421 ttaagctgag ggaaagtcta gaggatcctc tagatgtctc ctcagcgttt aaaccctgca
+      481 ggaagcttgg cgtaatcatg gtcatagctg tttcctgtgt gaaattgtta tccgctcaca
+      541 attccacaca acatacgagc cggaagcata aagtgtaaag cctggggtgc ctaatgagtg
+      601 agctaactca cattaattgc gttgcgctca ctgcccgctt tccagtcggg aaacctgtcg
+      661 tgccagctgc attaatgaat cggccaacgc gcggggagag gcggtttgcg tattgggcgc
+      721 tcttccgctt cctcgctcac tgactcgctg cgctcggtcg ttcggctgcg gcgagcggta
+      781 tcagctcact caaaggcggt aatacggtta tccacagaat caggggataa cgcaggaaag
+      841 aacatgtgag caaaaggcca gcaaaaggcc aggaaccgta aaaaggccgc gttgctggcg
+      901 tttttccata ggctccgccc ccctgacgag catcacaaaa atcgacgctc aagtcagagg
+      961 tggcgaaacc cgacaggact ataaagatac caggcgtttc cccctggaag ctccctcgtg
+     1021 cgctctcctg ttccgaccct gccgcttacc ggatacctgt ccgcctttct cccttcggga
+     1081 agcgtggcgc tttctcatag ctcacgctgt aggtatctca gttcggtgta ggtcgttcgc
+     1141 tccaagctgg gctgtgtgca cgaacccccc gttcagcccg accgctgcgc cttatccggt
+     1201 aactatcgtc ttgagtccaa cccggtaaga cacgacttat cgccactggc agcagccact
+     1261 ggtaacagga ttagcagagc gaggtatgta ggcggtgcta cagagttctt gaagtggtgg
+     1321 cctaactacg gctacactag aagaacagta tttggtatct gcgctctgct gaagccagtt
+     1381 accttcggaa aaagagttgg tagctcttga tccggcaaac aaaccaccgc tggtagcggt
+     1441 ggtttttttg tttgcaagca gcagattacg cgcagaaaaa aaggatctca agaagatcct
+     1501 ttgatctttt ctacggggtc tgacgctcag tggaacgaaa actcacgtta agggattttg
+     1561 gtcatgagat tatcaaaaag gatcttcacc tagatccttt taaattaaaa atgaagtttt
+     1621 aaatcaatct aaagtatata tgagtaaact tggtctgaca gttaccaatg cttaatcagt
+     1681 gaggcaccta tctcagcgat ctgtctattt cgttcatcca tagttgcctg actccccgtc
+     1741 gtgtagataa ctacgatacg ggagggctta ccatctggcc ccagtgctgc aatgataccg
+     1801 cgagacccac gctcaccggc tccagattta tcagcaataa accagccagc cggaagggcc
+     1861 gagcgcagaa gtggtcctgc aactttatcc gcctccatcc agtctattaa ttgttgccgg
+     1921 gaagctagag taagtagttc gccagttaat agtttgcgca acgttgttgc cattgctaca
+     1981 ggcatcgtgg tgtcacgctc gtcgtttggt atggcttcat tcagctccgg ttcccaacga
+     2041 tcaaggcgag ttacatgatc ccccatgttg tgcaaaaaag cggttagctc cttcggtcct
+     2101 ccgatcgttg tcagaagtaa gttggccgca gtgttatcac tcatggttat ggcagcactg
+     2161 cataattctc ttactgtcat gccatccgta agatgctttt ctgtgactgg tgagtactca
+     2221 accaagtcat tctgagaata gtgtatgcgg cgaccgagtt gctcttgccc ggcgtcaata
+     2281 cgggataata ccgcgccaca tagcagaact ttaaaagtgc tcatcattgg aaaacgttct
+     2341 tcggggcgaa aactctcaag gatcttaccg ctgttgagat ccagttcgat gtaacccact
+     2401 cgtgcaccca actgatcttc agcatctttt actttcacca gcgtttctgg gtgagcaaaa
+     2461 acaggaaggc aaaatgccgc aaaaaaggga ataagggcga cacggaaatg ttgaatactc
+     2521 atactcttcc tttttcaata ttattgaagc atttatcagg gttattgtct catgagcgga
+     2581 tacatatttg aatgtattta gaaaaataaa caaatagggg ttccgcgcac atttccccga
+     2641 aaagtgccac ctgacgtcta agaaaccatt attatcatga cattaaccta taaaaatagg
+     2701 cgtatcacga ggccctttcg tc
+//

@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<ExchangeSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.ncbi.nlm.nih.gov/SNP/docsum"
+	xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/SNP/docsumftp://ftp.ncbi.nlm.nih.gov/snp/specs/docsum_3.1.xsd">
+	<SourceDatabase taxId="0" organism="" />
+	<Rs rsId="121965089" snpClass="snp" snpType="notwithdrawn" molType="genomic"
+		bitField="050060080A05000011000100" taxId="9606">
+		<Het type="est" value="0" stdError="0" />
+		<Validation></Validation>
+		<Create build="133" date="2010-12-22 09:45" />
+		<Update build="133" date="2011-01-04 14:55" />
+		<Sequence exemplarSs="288500451">
+			<Seq5>ATTTTACCATGAAGAAATAAATTTGCATTAATAACATAGAAGTTATAATTGAGTCACTTTATACAAGGAGAAAATTTACTTTTGCCAAAGATTTAGAAGAAACTACTTTCTAGTATTATTATCCTATGCCCCTTTTGGAAATTAATGGACTAAACTGATGTGATCCTGCAGATTGGAGACTTTAGAAGCTTGGAGAAGATTTCACGGGAAGTCAAATCAATTACGATTATCGGTGGGGGCTTCCTTGGTA
+			</Seq5>
+			<Observed>A/G</Observed>
+			<Seq3>CGAACTGGCCTGTGCTCTTGGCAGAAAGGGTGAGTATTGAGGAGTGACCTTGATTTTCTTTCTCTAGTCTTATATAGCTTTTCTGTGAATCCCAGAGATGTGTTTGGCAGGATCAGTAGGAAGAGTTTAATTAAGGTTTATTTATTTATTTTTTTTTGAGATGGAGTCTCGCTCTGTCACCCAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAAGCTCCGCTTCCCGGGTTCAGGCCATTCTCC
+			</Seq3>
+		</Sequence>
+		<Ss ssId="288500451" handle="XHDGD" batchId="1052777" locSnpId="aif S313N"
+			subSnpClass="snp" orient="forward" strand="top" molType="genomic"
+			buildId="133" methodClass="sequence" validated="by-submitter">
+			<Sequence>
+				<Seq5>ATTTTACCATGAAGAAATAAATTTGCATTAATAACATAGAAGTTATAATTGAGTCACTTTATACAAGGAGAAAATTTACTTTTGCCAAAGATTTAGAAGAAACTACTTTCTAGTATTATTATCCTATGCCCCTTTTGGAAATTAATGGACTAAACTGATGTGATCCTGCAGATTGGAGACTTTAGAAGCTTGGAGAAGATTTCACGGGAAGTCAAATCAATTACGATTATCGGTGGGGGCTTCCTTGGTA
+				</Seq5>
+				<Observed>A/G</Observed>
+				<Seq3>CGAACTGGCCTGTGCTCTTGGCAGAAAGGGTGAGTATTGAGGAGTGACCTTGATTTTCTTTCTCTAGTCTTATATAGCTTTTCTGTGAATCCCAGAGATGTGTTTGGCAGGATCAGTAGGAAGAGTTTAATTAAGGTTTATTTATTTATTTTTTTTTGAGATGGAGTCTCGCTCTGTCACCCAGGCTGGAGTGCAGTGGCGCGATCTCGGCTCACTGCAAGCTCCGCTTCCCGGGTTCAGGCCATTCTCC
+				</Seq3>
+			</Sequence>
+		</Ss>
+		<Assembly dbSnpBuild="132" genomeBuild="37_1" groupLabel="GRCh37"
+			current="true" reference="true">
+			<Component componentType="contig" ctgId="224514722"
+				accession="NT_011786.16" name="NT_011786.16" chromosome="X" start="115732290"
+				end="143507323" orientation="fwd" gi="224514722" groupTerm="GRCh37"
+				contigLabel="GRCh37">
+				<MapLoc asnFrom="13540306" asnTo="13540306" locType="exact"
+					orient="reverse" physMapInt="129272596" leftFlankNeighborPos="0"
+					rightFlankNeighborPos="0" leftContigNeighborPos="13540305"
+					rightContigNeighborPos="13540307">
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_001130847"
+						mrnaVer="2" protAcc="NP_001124319" protVer="1" fxnClass="missense"
+						readingFrame="2" allele="A" residue="N" aaPosition="312" />
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_001130847"
+						mrnaVer="2" protAcc="NP_001124319" protVer="1" fxnClass="reference"
+						readingFrame="2" allele="G" residue="S" aaPosition="312" />
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_004208"
+						mrnaVer="3" protAcc="NP_004199" protVer="1" fxnClass="reference"
+						readingFrame="2" allele="G" residue="S" aaPosition="312" />
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_145812"
+						mrnaVer="2" protAcc="NP_665811" protVer="1" fxnClass="missense"
+						readingFrame="2" allele="A" residue="N" aaPosition="308" />
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_004208"
+						mrnaVer="3" protAcc="NP_004199" protVer="1" fxnClass="missense"
+						readingFrame="2" allele="A" residue="N" aaPosition="312" />
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_145812"
+						mrnaVer="2" protAcc="NP_665811" protVer="1" fxnClass="reference"
+						readingFrame="2" allele="G" residue="S" aaPosition="308" />
+					<FxnSet geneId="9131" symbol="AIFM1" mrnaAcc="NM_145813"
+						mrnaVer="1" fxnClass="intron" allele="A" />
+				</MapLoc>
+			</Component>
+			<SnpStat mapWeight="unique-in-contig" chromCount="1"
+				placedContigCount="1" unplacedContigCount="0" seqlocCount="1"
+				hapCount="0" />
+		</Assembly>
+		<PrimarySequence dbSnpBuild="132" gi="261599023"
+			source="hgvs" accession="NG_013217">
+			<MapLoc asnFrom="32211" asnTo="32211" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<PrimarySequence dbSnpBuild="132" gi="296923790"
+			source="hgvs" accession="NM_004208">
+			<MapLoc asnFrom="1168" asnTo="1168" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<PrimarySequence dbSnpBuild="132" gi="296923792"
+			source="hgvs" accession="NM_145812">
+			<MapLoc asnFrom="1156" asnTo="1156" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<PrimarySequence dbSnpBuild="132" gi="296923794"
+			source="hgvs" accession="NM_001130847">
+			<MapLoc asnFrom="1168" asnTo="1168" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<RsLinkout resourceId="1" linkValue="121965089" />
+		<hgvs>NG_013217.1:g.32212G&gt;A</hgvs>
+		<hgvs>NM_001130847.2:c.938G&gt;A</hgvs>
+		<hgvs>NM_004208.3:c.938G&gt;A</hgvs>
+		<hgvs>NM_145812.2:c.926G&gt;A</hgvs>
+		<hgvs>NM_145813.1:c.107-1437G&gt;A</hgvs>
+		<hgvs>NP_001124319.1:p.Ser313Asn</hgvs>
+		<hgvs>NP_004199.1:p.Ser313Asn</hgvs>
+		<hgvs>NP_665811.1:p.Ser309Asn</hgvs>
+	</Rs>
+	<Rs rsId="121965087" snpClass="snp" snpType="notwithdrawn" molType="genomic"
+		bitField="050060000605000011000100" taxId="9606">
+		<Het type="est" value="0" stdError="0" />
+		<Validation></Validation>
+		<Create build="133" date="2010-12-21 15:29" />
+		<Update build="133" date="2011-01-04 14:55" />
+		<Sequence exemplarSs="288289833">
+			<Seq5>AATGATGAAACTGAAGTTTAACCAGACACCGGTAGGTGGAACACAAGCGTGAAACAAGGGAGGATTTACTCTTGTGATGAGAAGTTGGCTACTAGATTTAGCAGACTAAAATTTCAATGACAAATGCTTTCTTAAAGCCTGGAGAACATAGTTTATCTGCTCCTTTGCTTGTTAATGTGGGAGACTGTTTCAGATTCTGTCCACCCAATTTCCATCGTCCTTTTTCTCTACAGAGTGAAATTATCTCTTA
+			</Seq5>
+			<Observed>C/G</Observed>
+			<Seq3>TGGGGATTCCCTAGTGAGGAATACCTAGTTGAGACAGAAGATGGATATATTCTGTGCCTTAACCGAATTCCTCATGGGAGGAAGAACCATTCTGACAAAGGTATGGGAAGGCTCTTAAAAGTAAAAACCAGAATTCTTCTGGGTTTTGTGTTAGTAACCAAGTTCAGATTTAACTTAAAAACATTGAAATGGGATTATTTTTAGACGAAAGCACTAACTGTGTTGAGGTTTGCAAGGCAAAGAAAAATAA
+			</Seq3>
+		</Sequence>
+		<Ss ssId="288289833" handle="OMIM-CURATED-RECORDS" batchId="1052775"
+			locSnpId="6569" subSnpClass="snp" orient="forward" molType="genomic"
+			buildId="133" methodClass="sequence" validated="by-submitter">
+			<Sequence>
+				<Seq5>AATGATGAAACTGAAGTTTAACCAGACACCGGTAGGTGGAACACAAGCGTGAAACAAGGGAGGATTTACTCTTGTGATGAGAAGTTGGCTACTAGATTTAGCAGACTAAAATTTCAATGACAAATGCTTTCTTAAAGCCTGGAGAACATAGTTTATCTGCTCCTTTGCTTGTTAATGTGGGAGACTGTTTCAGATTCTGTCCACCCAATTTCCATCGTCCTTTTTCTCTACAGAGTGAAATTATCTCTTA
+				</Seq5>
+				<Observed>C/G</Observed>
+				<Seq3>TGGGGATTCCCTAGTGAGGAATACCTAGTTGAGACAGAAGATGGATATATTCTGTGCCTTAACCGAATTCCTCATGGGAGGAAGAACCATTCTGACAAAGGTATGGGAAGGCTCTTAAAAGTAAAAACCAGAATTCTTCTGGGTTTTGTGTTAGTAACCAAGTTCAGATTTAACTTAAAAACATTGAAATGGGATTATTTTTAGACGAAAGCACTAACTGTGTTGAGGTTTGCAAGGCAAAGAAAAATAA
+				</Seq3>
+			</Sequence>
+		</Ss>
+		<Assembly dbSnpBuild="132" genomeBuild="37_1" groupLabel="GRCh37"
+			current="true" reference="true">
+			<Component componentType="contig" ctgId="224514917"
+				accession="NT_030059.13" name="NT_030059.13" chromosome="10" start="49195536"
+				end="128616068" orientation="fwd" gi="224514917" groupTerm="GRCh37"
+				contigLabel="GRCh37">
+				<MapLoc asnFrom="41809996" asnTo="41809996" locType="exact"
+					orient="reverse" physMapInt="91005532" leftFlankNeighborPos="0"
+					rightFlankNeighborPos="0" leftContigNeighborPos="41809995"
+					rightContigNeighborPos="41809997">
+					<FxnSet geneId="3988" symbol="LIPA" mrnaAcc="NM_000235"
+						mrnaVer="2" protAcc="NP_000226" protVer="2" fxnClass="reference"
+						readingFrame="3" allele="C" residue="Y" aaPosition="42" />
+					<FxnSet geneId="3988" symbol="LIPA" mrnaAcc="NM_000235"
+						mrnaVer="2" protAcc="NP_000226" protVer="2" fxnClass="stop-gain"
+						readingFrame="3" allele="G" residue="X" aaPosition="42" />
+					<FxnSet geneId="3988" symbol="LIPA" mrnaAcc="NM_001127605"
+						mrnaVer="1" protAcc="NP_001121077" protVer="1" fxnClass="reference"
+						readingFrame="3" allele="C" residue="Y" aaPosition="42" />
+					<FxnSet geneId="3988" symbol="LIPA" mrnaAcc="NM_001127605"
+						mrnaVer="1" protAcc="NP_001121077" protVer="1" fxnClass="stop-gain"
+						readingFrame="3" allele="G" residue="X" aaPosition="42" />
+				</MapLoc>
+			</Component>
+			<SnpStat mapWeight="unique-in-contig" chromCount="1"
+				placedContigCount="1" unplacedContigCount="0" seqlocCount="1"
+				hapCount="0" />
+		</Assembly>
+		<PrimarySequence dbSnpBuild="132" gi="51317398"
+			source="hgvs" accession="NM_000235">
+			<MapLoc asnFrom="296" asnTo="296" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<PrimarySequence dbSnpBuild="132" gi="189083850"
+			source="hgvs" accession="NM_001127605">
+			<MapLoc asnFrom="326" asnTo="326" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<PrimarySequence dbSnpBuild="132" gi="194018742"
+			source="hgvs" accession="NG_008194">
+			<MapLoc asnFrom="11127" asnTo="11127" locType="exact" orient="forward"></MapLoc>
+		</PrimarySequence>
+		<RsLinkout resourceId="1" linkValue="121965087" />
+		<hgvs>NG_008194.1:g.11128C&gt;G</hgvs>
+		<hgvs>NM_000235.2:c.129C&gt;G</hgvs>
+		<hgvs>NM_001127605.1:c.129C&gt;G</hgvs>
+		<hgvs>NP_000226.2:p.Tyr43X</hgvs>
+		<hgvs>NP_001121077.1:p.Tyr43X</hgvs>
+	</Rs>
+	<Summary />
+	<BaseURL></BaseURL>
+</ExchangeSet>

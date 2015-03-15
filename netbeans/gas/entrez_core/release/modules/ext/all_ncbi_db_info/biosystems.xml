@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>biosystems</DbName>
+	<MenuName>BioSystems</MenuName>
+	<Description>BioSystems Database</Description>
+	<Count>303820</Count>
+	<LastUpdate>2012/01/25 10:42</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>18289449</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>38</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRC</Name>
+			<FullName>Source Name</FullName>
+			<Description>Name of the organization that is the source of the record</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRID</Name>
+			<FullName>Source ID</FullName>
+			<Description>A numerical id that is assigned to a particular source of biosystem records</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TYPE</Name>
+			<FullName>BioSystem Type</FullName>
+			<Description>Type of the biosystem</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Create Date</FullName>
+			<Description>The date the biosystem record first appeared in the NCBI biosystems database</Description>
+			<TermCount>172</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modify Date</FullName>
+			<Description>The date the biosystem record last changed in the NCBI biosystems database</Description>
+			<TermCount>149</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SACC</Name>
+			<FullName>Source Accession</FullName>
+			<Description>The accession used by the source of the biosystem</Description>
+			<TermCount>303820</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>The name of the biosystem</Description>
+			<TermCount>73942</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DESC</Name>
+			<FullName>Description</FullName>
+			<Description>The text description of a biosystem</Description>
+			<TermCount>210125</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COM</Name>
+			<FullName>Comments</FullName>
+			<Description>Comments on the biosystem</Description>
+			<TermCount>5954</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism that contain the biosystem</Description>
+			<TermCount>20376</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PN</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Names of proteins in a biosystem (definition line)</Description>
+			<TermCount>3448886</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CN</Name>
+			<FullName>Chemical Name</FullName>
+			<Description>Names of small molecules in a biosystem (taken from PubChem)</Description>
+			<TermCount>54040</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SEID</Name>
+			<FullName>SID External ID</FullName>
+			<Description>Id given to a small molecule by the source of a biosystem</Description>
+			<TermCount>11861</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GN</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene name</Description>
+			<TermCount>1548348</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GEID</Name>
+			<FullName>Gene External ID</FullName>
+			<Description>Id given to a gene by the source of a biosystem</Description>
+			<TermCount>1788799</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PID</Name>
+			<FullName>Protein ID</FullName>
+			<Description>Protein accessions and gis in a biosystem</Description>
+			<TermCount>10212196</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CID</Name>
+			<FullName>CID</FullName>
+			<Description>PubChem compound identifiers (cid) found in a biosystem</Description>
+			<TermCount>9347</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GID</Name>
+			<FullName>Gene ID</FullName>
+			<Description>NCBI gene ids found in a biosystem</Description>
+			<TermCount>1958511</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SID</Name>
+			<FullName>SID</FullName>
+			<Description>PubChem substance ids (sid) found in a biosystem</Description>
+			<TermCount>7460</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>The biosystem accession (bsid plus version)</Description>
+			<TermCount>303820</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SCT</Name>
+			<FullName>SID Count</FullName>
+			<Description>Total Count of PubChem substance ids (sid) found in a biosystem</Description>
+			<TermCount>170</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CCT</Name>
+			<FullName>CID Count</FullName>
+			<Description>Total Count of PubChem compound ids (cid) found in a biosystem</Description>
+			<TermCount>174</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GCT</Name>
+			<FullName>Gene Count</FullName>
+			<Description>Total Count of NCBI Gene records (geneid) found in a biosystem</Description>
+			<TermCount>2061</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCT</Name>
+			<FullName>Protein Count</FullName>
+			<Description>Total Count of NCBI Protein records (gi) found in a biosystem</Description>
+			<TermCount>4869</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>biosystems_biosystems_conserved</Name>
+				<Menu>Conserved BioSystems</Menu>
+				<Description>The conserved biosystem, if one is available, that corresponds to an organism specific biosystem. Conserved biosystems are canonical biosystems that are used to group together orthologous, organism specific biosystems.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_biosystems_linked</Name>
+				<Menu>Linked BioSystems</Menu>
+				<Description>Biosystems that the source database has explicitly stated are connected in some way.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_biosystems_similar</Name>
+				<Menu>Similar BioSystems</Menu>
+				<Description>Biosystems share at least one identical protein sequence from the same source organism. In other words, the shared protein is in the same protein identity group (&amp;quot;PIG,&amp;quot; a group of proteins that are identical in sequence) and has the same Taxonomy ID.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_biosystems_specific</Name>
+				<Menu>Organism Specific BioSystems</Menu>
+				<Description>The organism specific biosystems that correspond to a conserved biosystem, as determined by the source database.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_biosystems_sub</Name>
+				<Menu>Subset BioSystems</Menu>
+				<Description>Biosystems that are one node below the one currently being viewed, according to a hierarchical organization used by the source database.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_biosystems_super</Name>
+				<Menu>Superset BioSystems</Menu>
+				<Description>Biosystems that are one node above the one currently being viewed, according to a hierarchical organization used by the source database.</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_cdd_specific</Name>
+				<Menu>Conserved Domains</Menu>
+				<Description>Conserved domains that are specific hits to the proteins involved in biosystems, representing high confidence functional annotations. The association between the proteins and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_gene_all</Name>
+				<Menu>Gene (all)</Menu>
+				<Description>Genes contained in the BioSystem</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_homologene</Name>
+				<Menu>Homologene</Menu>
+				<Description>HomoloGene records that are linked to the proteins involved in the biosystem. The HomoloGene records list putative orthologs of the genes that coded the proteins. The association between proteins and biosystems was made using the method descibed in the data processing section of the BioSystems help document.</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_nuccore</Name>
+				<Menu>Nucleotides</Menu>
+				<Description>Nucleotides</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_omim</Name>
+				<Menu>OMIM</Menu>
+				<Description>Records from the Online Mendelian Inheritance in Man (OMIM) database that are linked to the Entrez Gene records associated with a BioSystem. The association between genes and biosystems was made using the method descibed in the data processing section of the BioSystems help document.</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_pcassay_active</Name>
+				<Menu>BioAssays via Actives</Menu>
+				<Description>BioAssays in which compounds from biosystems have been found to be active. The association between the compounds and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_pcassay_target</Name>
+				<Menu>BioAssays via Target</Menu>
+				<Description>BioAssays whose protein targets are involved in biosystems. The association between the proteins and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_pccompound</Name>
+				<Menu>PubChem Compounds</Menu>
+				<Description>Compounds involved in biosystems. The association between the compounds and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_pcsubstance</Name>
+				<Menu>PubChem Substances</Menu>
+				<Description>Substances involved in biosystems. The association between the substances and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_protein</Name>
+				<Menu>Proteins</Menu>
+				<Description>Proteins involved in biosystems. The association between the proteins and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_proteinclusters</Name>
+				<Menu>Protein Clusters</Menu>
+				<Description>Protein Clusters database records that are linked to the proteins involved in the biosystem. The association between the proteins and biosystems was made using the method described in the data processing section of the BioSystems help document. The Protein Clusters database contains both curated and uncurated clusters of proteins (from four major groups: prokaryotes, bacteriophages and the mitochondrial and chloroplast organelles) that are grouped by sequence similarity.</Description>
+				<DbTo>proteinclusters</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_pubmed</Name>
+				<Menu>PubMed</Menu>
+				<Description>PubMed articles describing biosystems. These are PubMed records whose PMIDs were explicitly cited in the source database biosystem record.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_structure</Name>
+				<Menu>Structures</Menu>
+				<Description>3D macromolecular structures of proteins involved in biosystems. The association between the proteins and biosystems was made using the method described in the data processing section of the BioSystems help document.</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>biosystems_taxonomy</Name>
+				<Menu>Taxonomy</Menu>
+				<Description>The source organisms of the biosytems, whose Taxonomy IDs were provided in the biosystem records deposited by the source database. For additional information, see the data processing/taxonomy section of the BioSystems help document.</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

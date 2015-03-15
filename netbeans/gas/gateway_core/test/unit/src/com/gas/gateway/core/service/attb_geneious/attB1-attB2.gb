@@ -1,0 +1,81 @@
+LOCUS       house_mouse_gene        1657 bp    dna     linear   UNA 16-AUG-2012
+DEFINITION  .
+ACCESSION   urn.local...1343794042170.39
+VERSION     urn.local...1343794042170.39
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus.
+FEATURES             Location/Qualifiers
+     misc_feature    5..31
+                     /note="Geneious type: attB1"
+                     /label="attB1"
+     misc_feature    complement(1628..1653)
+                     /note="Geneious type: attB2"
+                     /label="attB2"
+     source          32..1627
+                     /organism="Mus musculus"
+                     /mol_type="genomic DNA"
+                     /strain="129SvJ"
+                     /db_xref="taxon:10090"
+                     /label="source Mus musculus"
+     exon            556..702
+                     /number=3
+                     /label="exon 3"
+     mRNA            join(556..702,1177..1323)
+                     /Foreign_Intervals="AF093857.1: 245 -> 1,085"
+                     /Foreign_Intervals="AF093854.1: 617 -> 760"
+                     /Foreign_Intervals="AF093855.1: 656 -> 812"
+                     /product="1-Cys peroxiredoxin protein"
+                     /label="1-Cys peroxiredoxin protein mRNA"
+     CDS             join(556..702,1177..1323)
+                     /Foreign_Intervals="AF093857.1: 245 -> 373"
+                     /Foreign_Intervals="AF093854.1: 666 -> 760"
+                     /Foreign_Intervals="AF093855.1: 656 -> 812"
+                     /note="CP-3"
+                     /codon_start=1
+                     /transl_table=1
+                     /product="1-Cys peroxiredoxin protein"
+                     /protein_id="AAD03716.1"
+                     /db_xref="GI:4139186"
+                     /translation="MPGGLLLGDEAPNFEANTTIGRIRFHDFLGDSWGILFSHPRDFT
+                     PVCTTELGRAAKLAPEFAKRNVKLIALSIDSVEDHLAWSKDINAYNGETPTEKLPFPI
+                     IDDKGRDLAILLGMLDPVEKDDNNMPVTARVVFIFGPDKKLKLSILYPATTGRNFDEI
+                     LRVVDSLQLTGTKPVATPVDRKKGESVMVVPTLSEEEAKQCFPKGVFTKELPSGKKYL
+                     RYTPQP"
+                     /label="1-Cys peroxiredoxin protein CDS"
+     exon            1177..1323
+                     /number=4
+                     /label="exon 4"
+ORIGIN      
+        1 ggggacaagt ttgtacaaaa aagcaggctt agttaaccct ttaagggtgc tggctctttt
+       61 gctttaaaat tcaacatgtg ttcttttgaa ggatattaat tccaaagcag gccgtttgtt
+      121 ctatacgttc ccggaactca ggttcttcaa ggaaataggg ttttaattgg gtgggttaat
+      181 tatcatgagc ctgcccccac aaagggggtt tgggcagtta ataaatagta gccatttcaa
+      241 aaggttaaat tccctctcat ttcagaggag gcacaactcc cacagtttga tctgatgttg
+      301 tcttgtcagt cgtatccatt ggttcatgtg acaataaatc cttctttatt tgaacccatt
+      361 ctaaatctct agttatttgt aatattcctt gagtgagtaa tggcttaggt aggagtaccg
+      421 ttcagcttta ttaagatccc ttgagggctt gtgatggtgg ttccttggct tgcagagtgg
+      481 tattctcagc ttggtgagat gcagagacag acccgtgtca gctttaagag tccatcccct
+      541 tttctcttgt ttaaggacat caatgcttac aatggtgaaa cacccacgga aaagttgcca
+      601 tttcccatca ttgatgataa gggcagggac cttgccatcc ttttgggcat gttggatcca
+      661 gtcgagaagg acgataacaa catgcctgtg acggcccgtg tggtgagtcg gaaggctgtg
+      721 tgaatgcttg agccaataca agaggaatat gtacagttgt gcatgttaga gcagtggttc
+      781 tcagcctttg gggtcatgac ccctttgggg ggggtcaaac aaccttttca caggggtcac
+      841 acacagaata ttcttcctat cagtatttac atcatgattc ataacagtag caaaattaca
+      901 gttatgaagt agcaataaaa taacttgggg gaatcacatg agggtcgcag cattgggaag
+      961 gttgaggacc cctctgtgtt agaggaaggg tggacagact aggaggagtc tttccctccc
+     1021 tcctttggct acctagtaat aaactccatt ttcctctgcc agttctgttt tcttccctgg
+     1081 actaagggga aaagaggtgt atagagctca tgatgctgag tgtcagaagc agctttaccg
+     1141 tcatgtacta acgaaggcct cctgtgtgct ttacaggtgt tcatttttgg ccctgacaag
+     1201 aaactgaagc tgtctatcct ctaccctgcc accacgggca ggaactttga tgagattctc
+     1261 agagtggttg actctctcca gctgacaggc acaaagccgg ttgccacccc agttgacagg
+     1321 aaggtaaaac tgctcttaag aactggatgc ccagcttgcc agaaagatcc aaaggacagt
+     1381 ctctcatggc cactttcagg atgtgggttt cttgggcctt tatctattgt cccagtagag
+     1441 tgtcccagga ggatttgttt aagagttcat tcacactgat ttgtataaaa cacaaactgt
+     1501 ggtttttgct aaccctacat aattccaaca gatataggtc acagtgatcc cagaagttaa
+     1561 acattcgtaa ccccaaaatc ccagctccaa agcgctccaa aatccaagac ttcttggttt
+     1621 ttctttatac ccagctttct tgtacaaagt ggtcccc
+//

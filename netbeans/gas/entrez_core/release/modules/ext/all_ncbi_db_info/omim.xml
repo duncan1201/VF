@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>omim</DbName>
+	<MenuName>OMIM</MenuName>
+	<Description>OMIM records</Description>
+	<Count>22120</Count>
+	<LastUpdate>2012/01/29 03:21</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>2080745</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>MIM</FullName>
+			<Description>Unique number assigned to OMIM record</Description>
+			<TermCount>22120</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>131</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Words in title of record</Description>
+			<TermCount>150715</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>894539</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Contributor</FullName>
+			<Description>Contributor to OMIM record</Description>
+			<TermCount>366</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CLIN</Name>
+			<FullName>Clinical Synopsis</FullName>
+			<Description>Clinical features of disorder</Description>
+			<TermCount>62171</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>The last date on which the record was updated</Description>
+			<TermCount>253</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ALVR</Name>
+			<FullName>Allelic Variant</FullName>
+			<Description>A subset of disease-producing mutations</Description>
+			<TermCount>248726</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDHS</Name>
+			<FullName>Modification History</FullName>
+			<Description>All dates on which the record was updated</Description>
+			<TermCount>333</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>REFR</Name>
+			<FullName>Reference</FullName>
+			<Description>Authors and titles of citations</Description>
+			<TermCount>1200911</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GMAP</Name>
+			<FullName>Gene Map</FullName>
+			<Description>Chromosomal map location</Description>
+			<TermCount>3060</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DSDR</Name>
+			<FullName>Gene Map Disorder</FullName>
+			<Description>Text word in disorder</Description>
+			<TermCount>13027</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Name of gene associated with record</Description>
+			<TermCount>32688</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC number for enzyme or CAS registry number</Description>
+			<TermCount>638</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHR</Name>
+			<FullName>Chromosome</FullName>
+			<Description>Chromosome number; also &apos;mitochondrial&apos;, &apos;unknown&apos; properties</Description>
+			<TermCount>27</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>EDTR</Name>
+			<FullName>Editor</FullName>
+			<Description>A username of an OMIM record Editor</Description>
+			<TermCount>44</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Properties of OMIM record</Description>
+			<TermCount>16</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>The date on which this record first appeared</Description>
+			<TermCount>332</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CSK</Name>
+			<FullName>Clinical Synopsis Key</FullName>
+			<Description>The keyword designating a part of the Clinical Synopsis</Description>
+			<TermCount>103</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CSED</Name>
+			<FullName>Clinical Synopsis Editor</FullName>
+			<Description>A username of an OMIM record Editor</Description>
+			<TermCount>13</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CSDT</Name>
+			<FullName>Clinical Synopsis Date</FullName>
+			<Description>The last date on which the Clinical Synopsis was updated</Description>
+			<TermCount>177</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>omim_biosystems</Name>
+				<Menu>BioSystem Links</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_books</Name>
+				<Menu>Book Links</Menu>
+				<Description>Related Books</Description>
+				<DbTo>books</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Link from OMIM to dbVar</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Links between OMIM and Gene are calculated by Gene based on MIM numbers included in the summary and phenotype sections of the Gene record.</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_genetests</Name>
+				<Menu>genetests</Menu>
+				<Description>Gene Tests links</Description>
+				<DbTo>genetests</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_geoprofiles</Name>
+				<Menu>GEO Profile Links</Menu>
+				<Description>Related GEO Profile</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_homologene</Name>
+				<Menu>HomoloGene  Links</Menu>
+				<Description>Related Homologene</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_mapview</Name>
+				<Menu></Menu>
+				<Description>Map Viewer Links</Description>
+				<DbTo>mapview</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Nucleotide sequences associated with OMIM record</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>EST sequences associated with OMIM record</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>GSS sequences associated with OMIM record</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_omia</Name>
+				<Menu>OMIA Links</Menu>
+				<Description>Related OMIA records</Description>
+				<DbTo>omia</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_omim</Name>
+				<Menu>Related Entries</Menu>
+				<Description>Related OMIM records, curated by OMIM editors</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_pcassay</Name>
+				<Menu>PubChem BioAssay Links</Menu>
+				<Description>Related PubChem BioAssay</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>PubChem Compounds</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>PubChem Substances</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full text articles in PMC</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Protein sequences associated with OMIM record</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_pubmed_calculated</Name>
+				<Menu>PubMed (calculated) Links</Menu>
+				<Description>PubMed (calculated) Links</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_pubmed_cited</Name>
+				<Menu>PubMed (cited) Links</Menu>
+				<Description>PubMed (cited) Links</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNPs</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Gene Genotype Report</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_snp_geneview</Name>
+				<Menu></Menu>
+				<Description>SNPs linked from GeneView</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_sra</Name>
+				<Menu>Omim links</Menu>
+				<Description>Omim links</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_structure</Name>
+				<Menu>Structure Links</Menu>
+				<Description>3D structures associated with OMIM record</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene records</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>omim_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Link to related UniSTS entry</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

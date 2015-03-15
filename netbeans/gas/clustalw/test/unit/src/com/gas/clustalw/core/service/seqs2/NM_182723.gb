@@ -1,0 +1,294 @@
+LOCUS       NM_182723               2144 bp    mRNA    linear   PRI 15-SEP-2012
+DEFINITION  Homo sapiens cAMP responsive element modulator (CREM), transcript
+            variant 10, mRNA.
+ACCESSION   NM_182723
+VERSION     NM_182723.1  GI:34335199
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2144)
+  AUTHORS   Passon,N., Puppin,C., Lavarone,E., Bregant,E., Franzoni,A.,
+            Hershman,J.M., Fenton,M.S., D'Agostino,M., Durante,C., Russo,D.,
+            Filetti,S. and Damante,G.
+  TITLE     Cyclic AMP-response element modulator inhibits the promoter
+            activity of the sodium iodide symporter gene in thyroid cancer
+            cells
+  JOURNAL   Thyroid 22 (5), 487-493 (2012)
+   PUBMED   22510021
+  REMARK    GeneRIF: CREM expression is increased in thyroid cancer tissue and
+            may play a role in the downregulation of sodium iodide symporter
+            expression in thyroid cancer acting at the transcriptional level
+REFERENCE   2  (bases 1 to 2144)
+  AUTHORS   Hedrich,C.M., Rauen,T., Kis-Toth,K., Kyttaris,V.C. and Tsokos,G.C.
+  TITLE     cAMP-responsive element modulator alpha (CREMalpha) suppresses
+            IL-17F protein expression in T lymphocytes from patients with
+            systemic lupus erythematosus (SLE)
+  JOURNAL   J. Biol. Chem. 287 (7), 4715-4725 (2012)
+   PUBMED   22184122
+  REMARK    GeneRIF: cAMP-responsive element modulator alpha (CREMalpha)
+            suppresses IL-17F protein expression in T lymphocytes from patients
+            with systemic lupus erythematosus (SLE).
+REFERENCE   3  (bases 1 to 2144)
+  AUTHORS   Crisafulli,C., Chiesa,A., Han,C., Lee,S.J., Shim,D.S., Balzarro,B.,
+            Andrisano,C., Sidoti,A., Patkar,A.A., Pae,C.U. and Serretti,A.
+  TITLE     Possible influence of CREB1, CREBBP and CREM variants on diagnosis
+            and treatment outcome in patients with schizophrenia
+  JOURNAL   Neurosci. Lett. 508 (1), 37-41 (2012)
+   PUBMED   22198373
+  REMARK    GeneRIF: scriptive Statement The rsults of this study suggested the
+            lack of influence of SNPs under investigation in the present study
+            on the susceptibility to schizophrenia and on the response to
+            antipsychotics.
+REFERENCE   4  (bases 1 to 2144)
+  AUTHORS   Moulton,V.R., Holcomb,D.R., Zajdel,M.C. and Tsokos,G.C.
+  TITLE     Estrogen upregulates cyclic AMP response element modulator alpha
+            expression and downregulates interleukin-2 production by human T
+            lymphocytes
+  JOURNAL   Mol. Med. 18 (1), 370-378 (2012)
+   PUBMED   22281835
+  REMARK    GeneRIF: Estrogen can modulate the expression of CREMalpha and lead
+            to IL-2 suppression in human T lymphocytes, thus revealing a
+            molecular link between hormones and the immune system in Systemic
+            lupus erythematosus
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 2144)
+  AUTHORS   Rauen,T., Hedrich,C.M., Juang,Y.T., Tenbrock,K. and Tsokos,G.C.
+  TITLE     cAMP-responsive element modulator (CREM)alpha protein induces
+            interleukin 17A expression and mediates epigenetic alterations at
+            the interleukin-17A gene locus in patients with systemic lupus
+            erythematosus
+  JOURNAL   J. Biol. Chem. 286 (50), 43437-43446 (2011)
+   PUBMED   22025620
+  REMARK    GeneRIF: cAMP-responsive element modulator (CREM)alpha protein
+            induces interleukin 17A expression and mediates epigenetic
+            alterations at the interleukin-17A gene locus in patients with
+            systemic lupus erythematosus.
+REFERENCE   6  (bases 1 to 2144)
+  AUTHORS   Pongubala,J.M. and Atchison,M.L.
+  TITLE     Activating transcription factor 1 and cyclic AMP response element
+            modulator can modulate the activity of the immunoglobulin kappa 3'
+            enhancer
+  JOURNAL   J. Biol. Chem. 270 (17), 10304-10313 (1995)
+   PUBMED   7730336
+REFERENCE   7  (bases 1 to 2144)
+  AUTHORS   Walker,W.H., Sanborn,B.M. and Habener,J.F.
+  TITLE     An isoform of transcription factor CREM expressed during
+            spermatogenesis lacks the phosphorylation domain and represses
+            cAMP-induced transcription
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (26), 12423-12427 (1994)
+   PUBMED   7809053
+REFERENCE   8  (bases 1 to 2144)
+  AUTHORS   Fujimoto,T., Fujisawa,J. and Yoshida,M.
+  TITLE     Novel isoforms of human cyclic AMP-responsive element modulator
+            (hCREM) mRNA
+  JOURNAL   J. Biochem. 115 (2), 298-303 (1994)
+   PUBMED   8206879
+REFERENCE   9  (bases 1 to 2144)
+  AUTHORS   Masquilier,D., Foulkes,N.S., Mattei,M.G. and Sassone-Corsi,P.
+  TITLE     Human CREM gene: evolutionary conservation, chromosomal
+            localization, and inducibility of the transcript
+  JOURNAL   Cell Growth Differ. 4 (11), 931-937 (1993)
+   PUBMED   7916662
+REFERENCE   10 (bases 1 to 2144)
+  AUTHORS   Meyer,T.E. and Habener,J.F.
+  TITLE     Cyclic AMP response element binding protein CREB and modulator
+            protein CREM are products of distinct genes
+  JOURNAL   Nucleic Acids Res. 20 (22), 6106 (1992)
+   PUBMED   1461747
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from CD686814.1, AL117336.22 and
+            BC041810.1.
+            
+            Summary: This gene encodes a bZIP transcription factor that binds
+            to the cAMP responsive element found in many viral and cellular
+            promoters. It is an important component of cAMP-mediated signal
+            transduction during the spermatogenetic cycle, as well as other
+            complex processes. Alternative promoter and translation initiation
+            site usage allows this gene to exert spatial and temporal
+            specificity to cAMP responsiveness. Multiple alternatively spliced
+            transcript variants encoding several different isoforms have been
+            found for this gene, with some of them functioning as activators
+            and some as repressors of transcription. [provided by RefSeq, Jul
+            2008].
+            
+            Transcript Variant: This variant (10) uses an alternative
+            downstream promoter, and differs in the 5' UTR, 3' UTR, and coding
+            region, compared to variant 1. This results in a shorter isoform
+            (10, also known as j) with distinct N- and C-termini, compared to
+            isoform 1. This isoform represents one of the early repressor ICER
+            isoforms.
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##RefSeq-Attributes-START##
+            Transcript_exon_combination_evidence :: CD640913.1, CD640926.1
+                                                    [ECO:0000332]
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-541               CD686814.1         84-624
+            542-2127            AL117336.22        4508-6093
+            2128-2144           BC041810.1         2209-2225
+FEATURES             Location/Qualifiers
+     source          1..2144
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="10"
+                     /map="10p11.21"
+     gene            1..2144
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /note="cAMP responsive element modulator"
+                     /db_xref="GeneID:1390"
+                     /db_xref="HGNC:2352"
+                     /db_xref="HPRD:00444"
+                     /db_xref="MIM:123812"
+     exon            1..241
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=12b
+     misc_feature    163..165
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /note="upstream in-frame stop codon"
+     exon            242..277
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=13
+     CDS             271..579
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /note="isoform 10 is encoded by transcript variant 10;
+                     inducible cAMP early repressor ICER; cAMP-responsive
+                     element modulator; CREM 2beta-a protein; CREM 2alpha-b
+                     protein; cAMP response element modulator"
+                     /codon_start=1
+                     /product="cAMP-responsive element modulator isoform 10"
+                     /protein_id="NP_874392.1"
+                     /db_xref="GI:34335200"
+                     /db_xref="CCDS:CCDS53521.1"
+                     /db_xref="GeneID:1390"
+                     /db_xref="HGNC:2352"
+                     /db_xref="HPRD:00444"
+                     /db_xref="MIM:123812"
+                     /translation="MAAATGDMPTYQIRAPTAALPQGVVMAASPGSLHSPQQLAEEAT
+                     RKRELRLMKNREAARECRRKKKEYVKCLENRVAVLENQNKTLIEELKALKDLYCHKVE
+                     "
+     exon            278..434
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=14
+     exon            435..2139
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=16
+     STS             609..823
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="CREM"
+                     /db_xref="UniSTS:480037"
+     STS             622..863
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="RH80748"
+                     /db_xref="UniSTS:88709"
+     STS             694..819
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="G07255"
+                     /db_xref="UniSTS:46257"
+     STS             1056..1266
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="RH46931"
+                     /db_xref="UniSTS:6270"
+     polyA_site      1057
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+     polyA_signal    1281..1286
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+     polyA_site      1306
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+     STS             1340..2088
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="CREM_2014"
+                     /db_xref="UniSTS:280622"
+     STS             1393..1641
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="A005C47"
+                     /db_xref="UniSTS:47448"
+     polyA_site      1560
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+     polyA_site      1648
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+     STS             1822..1941
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+                     /standard_name="RH79198"
+                     /db_xref="UniSTS:59165"
+     polyA_signal    2099..2104
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+     polyA_site      2139
+                     /gene="CREM"
+                     /gene_synonym="CREM-2; hCREM-2; ICER"
+ORIGIN      
+        1 gtaaaatgct gctgacagat ttagagttaa ctagctcacc actgcctctg cctccaagct
+       61 gccttttaga ctgaatagct tttcttgtta gccctacttt aacatttctt ttgaagtggt
+      121 tgtctgcttg aagagggaaa cacgtcatga aactgtaatg catgaacaga actcaggagt
+      181 tgtctggcca gcttagtggt aagatcgagc ctcctactga ggccgtccct gcatgcgcct
+      241 gatgaggaaa ctgaacttgc cccaagtcac atggctgctg ccactggtga catgccaact
+      301 taccagatcc gagctcctac tgctgctttg ccacagggag tggtgatggc tgcatcgccc
+      361 ggaagtttgc acagtcccca gcagctggca gaagaagcaa cacgcaaacg agagctgagg
+      421 ctaatgaaaa acagggaagc tgcccgggag tgtcgcagga agaagaaaga atatgtcaaa
+      481 tgtcttgaaa atcgtgtggc tgtgcttgaa aaccaaaaca agactctcat tgaggaactc
+      541 aaggccctca aagatcttta ttgccataaa gtagagtaac tgtctttgac ttggaccttg
+      601 tttactctaa tcaaggcagg agatgcagca gtcctactta ttgccatgtg gacttgtggg
+      661 aaggacacgt gtgaccctta agaatccagt ttggattagt gtttgaaatt gaattgggaa
+      721 tgttgttcca ggatgtggaa tgcagccgtg atcacactta ccgagcttac tttgatctgt
+      781 ttgtcaatag catgcaaaaa atgctttgtt tgccctttgc ttctgctttt tttcagggaa
+      841 gctgccaaag aatgtcgacg tcgaaagaaa gaatatgtaa aatgtctgga gagccgagtt
+      901 gcagtgctgg aagtccagaa caagaagctt atagaggaac ttgaaacctt gaaagacatt
+      961 tgttctccca aaacagatta ctagaaatat ttaactatga actgaaggca gcatgtatag
+     1021 ttgcttttga aggaatacaa tatatagctg gcaagaatgg tggcttcttt tctttgtatc
+     1081 attcatcttc ttctttaatc acttaacatt cctaaaatgc ttcactgtac gtagttaagt
+     1141 cgtagctata acttcaaatt ttttaaaaga gacaaactgt aaaaaatgtg tgtattctta
+     1201 aaatgcaata tttgtaaggc ttgttccaat gccacatact tgcagctccc attctatgtg
+     1261 tcatcaatag tgtcctatgc aataaaatta tttgcaggtc tttaaatcat tttaggaaag
+     1321 gatgatcaaa aataatgcat ccagcagtac aataaaagta aaccacaaaa aaatacctca
+     1381 ggaaagaata gaaagaaagt ctatctaatg acatgcctat atgagaagaa tagcctagat
+     1441 atgaatatat ggcatttgca gatttttata ttagttgctt tgttaaaaaa aaaaagattg
+     1501 tattgctgtc cttgaatgcc atagtcaaag agagttttta atagaaccat gttggttgca
+     1561 ctttgtagtg tttggtgctc atttaaatat ctgaacattt actacagttt ttaactctac
+     1621 tgtgtaatat aaaagatctt gcagaagttc ttagtgttgg tttaatatta cctaatgaaa
+     1681 gtgatgacat attttttata tctggaatga gcctgttggg atcgcattgc ataccttcgg
+     1741 ggtacaagtc agtttctaca ctgggtgctg atccttgcac gcgccctttc taccatctca
+     1801 cggtggggat ggccgcaggg ctgtgcaccc agaagaagat ggctgttagc gtttcggcct
+     1861 tcataatggc ctgagacttt ctttctgtag gtggtctgga gctgtccggc tggtggcccc
+     1921 ctattttgcc atttagcgaa caaccacagg aattttaaaa acaaaaacat cccaagattt
+     1981 tttcatttca aaatgcttca aagtccacat tagatcagat actccgctgt cggcacattc
+     2041 agctgaggtt cattacaatc gagactgcaa tgtgatctat gtttcatctt gtttttataa
+     2101 taaaaagctt cagggaacaa gcccaaagcc ctcaccacaa aaaa
+//
+

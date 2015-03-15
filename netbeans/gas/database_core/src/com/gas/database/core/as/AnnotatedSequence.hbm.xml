@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright 
+(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the 
+@author tags or express copyright attribution ~ statements applied by the 
+authors. All third-party contributions are ~ distributed under license by 
+Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing 
+to use, modify, ~ copy, or redistribute it subject to the terms and conditions 
+of the GNU ~ Lesser General Public License, as published by the Free Software 
+Foundation. ~ ~ This program is distributed in the hope that it will be useful, 
+~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public 
+License ~ for more details. ~ ~ You should have received a copy of the GNU 
+Lesser General Public License ~ along with this distribution; if not, write 
+to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~ 
+Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.as">
+
+    <class name="AnnotatedSeq">
+        <id name="hibernateId" column="asId">
+            <generator class="uuid" />
+        </id>
+        <!--property name="name" /-->
+        <property name="locus" />
+        <property name="creationDate" />
+        <property name="lastModifiedDate" />        
+        <property name="accession" />
+        <property name="desc" type="text"/>
+        <property name="division" />
+        <property name="original" />
+        <property name="length" />
+        <property name="circular" />
+        <property name="read" />
+        <property name="oligo" />
+        <property name="prevFolderPath" type="text"/>
+                
+        <many-to-one name="folder" 
+                     column="folderId"
+                     not-null="true" class="com.gas.domain.core.filesystem.Folder"/>
+        
+        <many-to-one name="fetureSet" lazy="proxy" cascade="all" column="fetureSetId" not-null="false" unique="true"/>
+        
+        <many-to-one name="parentLocSet" lazy="proxy" cascade="all" column="parentLocSetId" not-null="false" unique="true"/>
+     
+        <set name="rmaps" lazy="true" cascade="all,delete-orphan">
+            <key column="asId" />
+            <one-to-many class="com.gas.domain.core.ren.RMap"/>
+        </set>
+        
+        <set name="orfResults" lazy="true" cascade="all,delete-orphan">
+            <key column="asId" />
+            <one-to-many class="com.gas.domain.core.orf.api.ORFResult"/>
+        </set>
+        
+        <set name="p3outputs" lazy="true" cascade="all,delete-orphan">
+            <key column="asId" />
+            <one-to-many class="com.gas.domain.core.primer3.P3Output"/>
+        </set>
+        
+        <set name="gbOutputs" lazy="true" cascade="all,delete-orphan">
+            <key column="asId" />
+            <one-to-many class="com.gas.domain.core.primer3.GbOutput"/>
+        </set>
+                
+        <many-to-one name="asPref" lazy="proxy" cascade="all" column="asPrefId" not-null="true" unique="true"/>                
+                
+        <many-to-one name="gcResult" lazy="proxy" cascade="all" column="gcResultId" not-null="false" unique="true"/>
+        
+        <many-to-one name="siquence"  lazy="proxy" cascade="all" column="siquenceId" not-null="true" unique="true"/>
+	
+        <set name="overhangs" cascade="all,delete-orphan" lazy="false">
+            <key column="asId" />
+            <one-to-many class="com.gas.domain.core.as.Overhang" />
+        </set>    
+                                    
+        <set name="translationResults" cascade="all,delete-orphan" lazy="false">
+            <key column="asId" />
+            <one-to-many class="com.gas.domain.core.as.TranslationResult" />
+        </set>                
+
+        <set name="_keywords" cascade="all,delete-orphan" lazy="true">
+            <key column="asId" />
+            <element type="text" />
+        </set>
+        
+        <set name="dbrefs" cascade="all,delete-orphan" lazy="false">
+            <key column="asId"  not-null="true"/>
+            <many-to-many column="dbrefId" unique="true" class="com.gas.domain.core.as.Dbref" />
+        </set>
+        
+        <set name="references" cascade="all,delete-orphan" lazy="true">
+            <key column="asId" />
+            <one-to-many class="Reference" />
+        </set>
+		
+        <set name="comments" cascade="all,delete-orphan" lazy="false">
+            <key column="asId" />
+            <many-to-many column="commentId" unique="true" class="Comment" />
+        </set>
+
+        <set name="structuredComments" cascade="all,delete-orphan" lazy="false">
+            <key column="asId" />
+            <many-to-many column="scId" unique="true" class="StructuredComment" />
+        </set>
+
+        <map name="_sequenceProperties" cascade="all,delete-orphan" lazy="false">
+            <key column="id" />
+            <index column="name" type="string" />
+            <element column="value" type="string" />
+        </map>
+        
+        <set name="operations" cascade="all,delete-orphan" lazy="false">
+            <key column="asId" />
+            <one-to-many class="Operation" />
+        </set>        
+        
+    </class>
+    
+    <class name="Operation">
+        <id name="hibernateId" column="operationId">
+            <generator class="increment" />
+        </id>
+        <property name="name"/>
+        <property name="date"/>
+        <set name="participants" cascade="all,delete-orphan" lazy="false">
+            <key column="operationId" />
+            <one-to-many class="Operation$Participant" />
+        </set>        
+    </class>
+    
+    <class name="Operation$Participant">
+        <id name="hibernateId" column="participantId">
+            <generator class="increment" />
+        </id>    
+        <property name="absolutePath"/>
+        <property name="active"/>    
+    </class>
+    
+    <class name="AsPref">
+        <id name="hibernateId" column="asPrefId">
+            <generator class="increment" />
+        </id>
+        <property name="baseNumberShown"/>
+        <property name="doubleStranded"/>
+        <property name="minimapShown"/>
+        <property name="zoom"/>
+        <map name="trackData" cascade="all,delete-orphan" lazy="false">
+            <key column="id" />
+            <index column="name" type="string" />
+            <element column="value" type="boolean" />
+        </map>
+    </class>
+
+    <class name="FetureSet">
+        <id name="hibernateId" column="fetureSetId">
+            <generator class="increment" />
+        </id>
+        <set name="fetures" cascade="all,delete-orphan" lazy="true">
+            <key column="fetureSetId" />
+            <many-to-many column="fetureId" unique="true" class="Feture" />
+        </set>
+    </class>
+    
+    <class name="QualifierSet">
+        <id name="hibernateId" column="qualifierSetId">
+            <generator class="increment" />
+        </id>
+        <set name="qualifiers" cascade="all,delete-orphan" lazy="true">
+            <key column="qualifierSetId" />
+            <many-to-many column="qualifierId" unique="true" class="Qualifier" />
+        </set>        
+    </class>        
+
+    <class name="Overhang">
+        <id name="hibernateId" column="overhangId">
+            <generator class="increment" />
+        </id>
+        <property name="name" />
+        <property name="strand" />
+        <property name="fivePrime" />
+        <property name="length"/>
+    </class>
+    
+    <class name="ParentLocSet">
+        <id name="hibernateId" column="parentLocSetId">
+            <generator class="increment" />
+        </id>
+        <set name="parentLocs" lazy="true" cascade="all,delete-orphan">
+            <key column="parentLocSetId" />
+            <one-to-many class="ParentLoc"/>
+        </set>           
+    </class>
+    
+    <class name="ParentLoc">
+        <id name="hibernateId" column="parentLocId">
+            <generator class="increment" />
+        </id>
+        <property name="start" />
+        <property name="end" />
+        <property name="offset" />  
+        <property name="totalPos" />    
+    </class>    
+
+    <class name="Reference">
+        <id name="hibernateId" column="referenceId">
+            <generator class="increment" />
+        </id>
+
+        <property name="start" />
+        <property name="end" />
+        <property name="rank" />
+        <property name="title" type="text" />
+        <property name="authors" type="text" />
+        <property name="remark" type="text" />
+        <property name="doi" />
+        <property name="doiVerified" />
+        <property name="db" />
+        <property name="accession" />
+        <property name="location" type="text"/>
+        
+    </class>
+
+    <class name="Feture">
+        <id name="hibernateId" column="fetureId">
+            <generator class="increment" />
+        </id>
+
+        <property name="displayName" />
+        <property name="key" />        
+
+        <many-to-one name="Lucation" 
+                     column="lucationId" 
+                     unique="true"
+                     not-null="true" cascade="all" lazy="false"/>   
+        
+        <many-to-one name="qualifierSet" 
+                     column="qualifierSetId" 
+                     unique="true"
+                     not-null="false" cascade="all" lazy="false"/>                       
+
+    </class>
+    
+    <class name="Qualifier">
+        <id name="hibernateId" column="qualifierId">
+            <generator class="increment" />
+        </id>        
+        <property name="key"/>
+        <property name="value" type="text"/>
+    </class>    
+    
+    <class name="Lucation">
+        <id name="hibernateId" column="lucationId">
+            <generator class="increment" />
+        </id>
+        
+        <property name="term" />        
+        <property name="strand" />       
+
+        <list name="pozitions" cascade="all" lazy="false">
+            <key column="lucationId" />
+            <list-index column="pozitionIdx"/>
+            <many-to-many unique="true" class="Pozition" />
+        </list>            
+
+    </class>
+
+    <class name="Pozition">
+        <id name="hibernateId" column="pozitionId">
+            <generator class="increment" />
+        </id>
+
+        <property name="fuzzyStart" />
+        <property name="fuzzyEnd" />
+        <property name="start" />
+        <property name="end" />
+        <property name="type" />
+        <property name="strand" />
+        <property name="rank" />
+
+    </class>
+    
+    <class name="Dbref" table="dbref_of_as">
+        <id name="hibernateId" column="dbrefId">
+            <generator class="increment" />
+        </id>
+
+        <property name="db" />
+        <property name="entry" />
+        
+    </class>    
+
+    <class name="Siquence">
+        <id name="hibernateId" column="siquenceId">
+            <generator class="increment" />
+        </id>
+
+        <property name="data" type="text"/>
+    </class>
+	
+    <class name="Comment">
+        <id name="hibernateId" column="commentId">
+            <generator class="increment" />
+        </id>
+        <property name="rank"/>
+        <property name="data" type="text"/>
+    </class>
+    
+    <class name="FetureKey">
+        <id name="hibernateId" column="fetureKeyId">
+            <generator class="increment" />
+        </id>
+        <property name="name" unique="true"/>
+        <property name="definition" type="text"/>
+        
+        <set name="qualifiers" cascade="all,delete-orphan">
+            <key column="fetureKeyId" />
+            <element type="text" />
+        </set>     
+    </class> 
+
+</hibernate-mapping>

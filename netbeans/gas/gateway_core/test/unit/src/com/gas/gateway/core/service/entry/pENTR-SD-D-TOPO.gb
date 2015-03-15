@@ -1,0 +1,99 @@
+LOCUS       pENTR/SD/D-TOPO         2601 bp    DNA     linear   UNA 06-JAN-2004
+DEFINITION  .
+ACCESSION   urn.local...1341802462837.595
+VERSION     urn.local...1341802462837.595
+KEYWORDS    .
+SOURCE      
+  ORGANISM  
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    complement(1..5)
+                     /note="Geneious type: protein_binding"
+                     /label="TOPO binding site"
+     terminator      2319..2362
+                     /label="rrnB T1 transcription terminator"
+     terminator      2160..2187
+                     /label="rrnB T2 transcription terminator"
+     RBS             2586..2592
+                     /label="RBS"
+     misc_feature    2593..2597
+                     /note="Geneious type: protein_binding"
+                     /label="TOPO binding site"
+     enhancer        2576..2584
+                     /label="T7 gene 10 translational enhancer"
+     misc_feature    2598..2601
+                     /note="Geneious type: protein_binding"
+                     /label="directional TOPO overhang"
+     misc_feature    2409..2425
+                     /note="Geneious type: primer"
+                     /label="M13 (-40) forward primer"
+     CDS             286..1095
+                     /label="Kan(R)"
+     misc_feature    complement(136..152)
+                     /note="Geneious type: promoter prokaryotic"
+                     /label="T7 promoter"
+     rep_origin      1216..1889
+                     /label="pUC origin"
+     misc_feature    complement(133..152)
+                     /note="Geneious type: primer"
+                     /label="T7 primer"
+     misc_feature    2461..2560
+                     /note="Geneious type: attL1"
+                     /label="attL1"
+     misc_feature    complement(157..173)
+                     /note="Geneious type: primer"
+                     /label="M13 reverse primer"
+     misc_feature    2429..2444
+                     /note="Geneious type: primer"
+                     /label="M13 (-20) forward primer"
+     source          1..2601
+                     /label="Invitrogen vector 663"
+     misc_feature    complement(17..116)
+                     /note="Geneious type: attL2"
+                     /label="attL2"
+ORIGIN      
+        1 aagggtgggc gcgccgaccc agctttcttg tacaaagttg gcattataag aaagcattgc
+       61 ttatcaattt gttgcaacga acaggtcact atcagtcaaa ataaaatcat tatttgccat
+      121 ccagctgata tcccctatag tgagtcgtat tacatggtca tagctgtttc ctggcagctc
+      181 tggcccgtgt ctcaaaatct ctgatgttac attgcacaag ataaaaatat atcatcatga
+      241 acaataaaac tgtctgctta cataaacagt aatacaaggg gtgttatgag ccatattcaa
+      301 cgggaaacgt cgaggccgcg attaaattcc aacatggatg ctgatttata tgggtataaa
+      361 tgggctcgcg ataatgtcgg gcaatcaggt gcgacaatct atcgcttgta tgggaagccc
+      421 gatgcgccag agttgtttct gaaacatggc aaaggtagcg ttgccaatga tgttacagat
+      481 gagatggtca gactaaactg gctgacggaa tttatgcctc ttccgaccat caagcatttt
+      541 atccgtactc ctgatgatgc atggttactc accactgcga tccccggaaa aacagcattc
+      601 caggtattag aagaatatcc tgattcaggt gaaaatattg ttgatgcgct ggcagtgttc
+      661 ctgcgccggt tgcattcgat tcctgtttgt aattgtcctt ttaacagcga tcgcgtattt
+      721 cgtctcgctc aggcgcaatc acgaatgaat aacggtttgg ttgatgcgag tgattttgat
+      781 gacgagcgta atggctggcc tgttgaacaa gtctggaaag aaatgcataa acttttgcca
+      841 ttctcaccgg attcagtcgt cactcatggt gatttctcac ttgataacct tatttttgac
+      901 gaggggaaat taataggttg tattgatgtt ggacgagtcg gaatcgcaga ccgataccag
+      961 gatcttgcca tcctatggaa ctgcctcggt gagttttctc cttcattaca gaaacggctt
+     1021 tttcaaaaat atggtattga taatcctgat atgaataaat tgcagtttca tttgatgctc
+     1081 gatgagtttt tctaatcaga attggttaat tggttgtaac actggcagag cattacgctg
+     1141 acttgacggg acggcgcaag ctcatgacca aaatccctta acgtgagtta cgcgtcgttc
+     1201 cactgagcgt cagaccccgt agaaaagatc aaaggatctt cttgagatcc tttttttctg
+     1261 cgcgtaatct gctgcttgca aacaaaaaaa ccaccgctac cagcggtggt ttgtttgccg
+     1321 gatcaagagc taccaactct ttttccgaag gtaactggct tcagcagagc gcagatacca
+     1381 aatactgtcc ttctagtgta gccgtagtta ggccaccact tcaagaactc tgtagcaccg
+     1441 cctacatacc tcgctctgct aatcctgtta ccagtggctg ctgccagtgg cgataagtcg
+     1501 tgtcttaccg ggttggactc aagacgatag ttaccggata aggcgcagcg gtcgggctga
+     1561 acggggggtt cgtgcacaca gcccagcttg gagcgaacga cctacaccga actgagatac
+     1621 ctacagcgtg agcattgaga aagcgccacg cttcccgaag ggagaaaggc ggacaggtat
+     1681 ccggtaagcg gcagggtcgg aacaggagag cgcacgaggg agcttccagg gggaaacgcc
+     1741 tggtatcttt atagtcctgt cgggtttcgc cacctctgac ttgagcgtcg atttttgtga
+     1801 tgctcgtcag gggggcggag cctatggaaa aacgccagca acgcggcctt tttacggttc
+     1861 ctggcctttt gctggccttt tgctcacatg ttctttcctg cgttatcccc tgattctgtg
+     1921 gataaccgta ttaccgcctt tgagtgagct gataccgctc gccgcagccg aacgaccgag
+     1981 cgcagcgagt cagtgagcga ggaagcggaa gagcgcccaa tacgcaaacc gcctctcccc
+     2041 gcgcgttggc cgattcatta atgcagctgg cacgacaggt ttcccgactg gaaagcgggc
+     2101 agtgagcgca acgcaattaa tacgcgtacc gctagccagg aagagtttgt agaaacgcaa
+     2161 aaaggccatc cgtcaggatg gccttctgct tagtttgatg cctggcagtt tatggcgggc
+     2221 gtcctgcccg ccaccctccg ggccgttgct tcacaacgtt caaatccgct cccggcggat
+     2281 ttgtcctact caggagagcg ttcaccgaca aacaacagat aaaacgaaag gcccagtctt
+     2341 ccgactgagc ctttcgtttt atttgatgcc tggcagttcc ctactctcgc gttaacgcta
+     2401 gcatggatgt tttcccagtc acgacgttgt aaaacgacgg ccagtcttaa gctcgggccc
+     2461 caaataatga ttttattttg actgatagtg acctgttcgt tgcaacaaat tgatgagcaa
+     2521 tgctttttta taatgccaac tttgtacaaa aaagcaggct ccgcggccgc cttgtttaac
+     2581 tttaagaagg agcccttcac c
+//

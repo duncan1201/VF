@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD eSummaryResult, 29 October 2004//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eSummary_041029.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>83105</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/01 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa05200</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">hsa05200</Item>
+		<Item Name="biosystemname" Type="String">Pathways in cancer</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String"></Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa05200</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa05200</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>83108</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/01/26 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa05212</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">hsa05212</Item>
+		<Item Name="biosystemname" Type="String">Pancreatic cancer</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Infiltrating ductal adenocarcinoma is the most common malignancy of the pancreas. When most investigators use the term 'pancreatic cancer' they are referring to pancreatic ductal adenocarcinoma (PDA). Normal duct epithelium progresses to infiltrating cancer through a series of histologically defined precursors (PanINs). The overexpression of HER-2/neu and activating point mutations in the K-ras gene occur early, inactivation of the p16 gene at an intermediate stage, and the inactivation of p53, SMAD4, and BRCA2 occur relatively late. Activated K-ras engages multiple effector pathways. Although EGF receptors are conventionally regarded as upstream activators of RAS proteins, they can also act as RAS signal transducers via RAS-induced autocrine activation of the EGFR family ligands. Moreover, PDA shows extensive genomic instability and aneuploidy. Telomere attrition and mutations in p53 and BRCA2 are likely to contribute to these phenotypes. Inactivation of the SMAD4 tumour suppressor gene leads to loss of the inhibitory influence of the transforming growth factor-beta signalling pathway.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa05212</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa05212</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>377262</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa03460</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">hsa03460</Item>
+		<Item Name="biosystemname" Type="String">Fanconi anemia pathway</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">The Fanconi anemia pathway is required for the efficient repair of damaged DNA, especially interstrand cross-links (ICLs). DNA ICL is directly recognized by FANCM and associated proteins, that recruit the FA core complex. The FA core complex monoubiquitinates FANCD2 and FANCI. The monoubiquitinated FANCD2/FANCI becomes an active form and interacts with a series of DNA repair proteins and facilitates downstream repair pathways. Fanconi anemia is caused by mutations in one of at least 13 FA genes and is characterized by congenital growth abnormalities, bone marrow failure and cancer predisposition.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa03460</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa03460</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>205242</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_27271</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_27271</Item>
+		<Item Name="biosystemname" Type="String">Meiotic Recombination</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Meiotic recombination exchanges segments of duplex DNA between chromosomal homologs, generating genetic diversity (reviewed in Handel and Schimenti 2010, Inagaki et al. 2010, Cohen et al. 2006). There are two forms of recombination: non-crossover (NCO) and crossover (CO). In mammals, the former is required for correct pairing and synapsis of homologous chromosomes, while CO intermediates called chiasmata are required for correct segregation of bivalents.Meiotic recombination is initiated by double-strand breaks created by SPO11, which remains covalently attached to the 5' ends after cleavage. SPO11 is removed by cleavage of single DNA strands adjacent to the covalent linkage. The resulting 5' ends are further resected to produce protruding 3' ends. The single-stranded 3' ends are bound by RAD51 and DMC1, homologs of RecA that catalyze a search for homology between the bound single strand and duplex DNA of the chromosomal homolog. RAD51 and DMC1 then catalyze the invasion of the single strand into the homologous duplex and the formation of a D-loop heteroduplex. Approximately 90% of heteroduplexes are resolved without crossovers (NCO), probably by synthesis-dependent strand annealing.The invasive strand is extended along the homolog and ligated back to its original duplex, creating a double Holliday junction. The mismatch repair proteins MSH4, MSH5 participate in this process, possibly by stabilizing the duplexes. The mismatch repair proteins MLH1 and MLH3 are then recruited to the double Holliday structure and an unidentified resolvase (Mus81? Gen1?) cleaves the junctions to yield a crossover. Crossovers are not randomly distributed: The histone methyltransferase PRDM9 recruits the recombination machinery to genetically determined hotspots in the genome and each incipient crossover somehow inhibits formation of crossovers nearby, a phenomenon called crossover interference. Each chromosome bivalent, including the X-Y body in males, has at least one crossover and this is required for meiosis to proceed correctly.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_27271</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105837</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_216</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_216</Item>
+		<Item Name="biosystemname" Type="String">DNA Repair</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">DNA repair is a phenomenal multi-enzyme, multi-pathway system required to ensure the integrity of the cellular genome. These cellular mechanisms that must cope with the plethora of DNA base pair adducts that arise.DNA damage can arise spontaneously in the cellular milieu through chemical alteration of base nucleotides or as a consequence of errors during DNA replication. For example, it is well known that normal cellular pH and temperature offer an environment, which is hostile to the integrity of DNA and its nucleotide components. Additionally, DNA damage may be induced in response to environmental exposures, including exposure to physical agents such as ionizing or ultraviolet (UV) radiation. Finally, specific chemical agents are known to alkylate or cross-link DNA bases, produce bulky adducts on DNA bases, or break DNA phosphate-sugar backbone.The pioneering work from a number of laboratories have elucidated the basic mechanisms underlying distinct DNA repair pathways that include nucleotide excision repair (NER), base excision repair (BER), DNA strand break repair (DSBR), direct reversal of DNA damage, and the replication past DNA lesions by specialized DNA bypass polymerases (bypass replication). Defects in most of these repair pathways have been associated with one or more specific human diseases. Additionally, the repair of damaged DNA is intimately associated with a number of other distinct cellular processes such as DNA replication, DNA recombination, cell cycle checkpoint arrest, and other basic cellular mechanisms as outlined herein.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_216</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>454</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/01/26 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko03440</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">ko03440</Item>
+		<Item Name="biosystemname" Type="String">Homologous recombination</Item>
+		<Item Name="biosystemtype" Type="String">conserved biosystem</Item>
+		<Item Name="description" Type="String">Homologous recombination (HR) is essential for the accurate repair of DNA double-strand breaks (DSBs), potentially lethal lesions. HR takes place in the late S-G2 phase of the cell cycle and involves the generation of a single-stranded region of DNA, followed by strand invasion, formation of a Holliday junction, DNA synthesis using the intact strand as a template, branch migration and resolution. It is investigated that RecA/Rad51 family proteins play a central role. The breast cancer susceptibility protein Brca2 and the RecQ helicase BLM (Bloom syndrome mutated) are tumor suppressors that maintain genome integrity, at least in part, through HR.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko03440</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko03440</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List"></Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105871</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_408</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_408</Item>
+		<Item Name="biosystemname" Type="String">Presynaptic phase of homologous DNA pairing and strand exchange</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">The presynaptic phase of homologous DNA pairing and strand exchange begins with the displacement of RPA from ssDNA, followed by the association of RAD51 with BRCA2, formation of RAD52 heptameric ring structure complexes on ssDNA, association of RAD52 with the RPA complex, association of RAD52 with ssDNA at resected ends of double-strand break and assembly of the RAD51-ssDNA nucleoprotein complex.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_408</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105861</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_2054</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_2054</Item>
+		<Item Name="biosystemname" Type="String">Double-Strand Break Repair</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Numerous types of DNA damage can occur within a cell due to the endogenous production of oxygen free radicals, normal alkylation reactions, or exposure to exogenous radiations and chemicals. Double-strand breaks (DSBs), one of the most dangerous type of DNA damage along with interstrand crosslinks, are caused by ionizing radiation or certain chemicals such as bleomycin, and occur normally during the processes of DNA replication, meiotic exchange, and V(D)J recombination. Two distinct mechanisms for DSB repair are the error-free homologous recombination repair (HRR) pathway and the error-prone nonhomologous end-joining (NHEJ) pathway. The choice of pathway may be determined by whether the DNA region has already replicated and the precise nature of the break. NHEJ functions at all stages of the cell cycle, but plays the predominant role in both the G1 phase and in S-phase regions of DNA that have not yet replicated (Rothkamm et al. 2003). HRR functions primarily in repairing both one-sided DSBs that arise at DNA replication forks and two-sided DSBs arising in S or G2-phase chromatid regions that have replicated.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_2054</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105870</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_1763</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_1763</Item>
+		<Item Name="biosystemname" Type="String">Homologous DNA pairing and strand exchange</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Following double-strand break end-processing, the resulting single-stranded ends must locate and pair with complementary sequences within homologous duplex DNA. RAD51, which has been implicated in both the search for homology between DNA strands and the formation of joint molecules, plays an important role in these processes. RAD54, which has been shown to interact with RAD51, may play an important role in the homologous DNA pairing reaction that occurs during strand invasion. Rad54 has DNA strand opening activities that are stimulated following association with Rad51(Sigurdsson et al., 2002).</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_1763</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>520</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/01/26 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko05212</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">ko05212</Item>
+		<Item Name="biosystemname" Type="String">Pancreatic cancer</Item>
+		<Item Name="biosystemtype" Type="String">conserved biosystem</Item>
+		<Item Name="description" Type="String">Infiltrating ductal adenocarcinoma is the most common malignancy of the pancreas. When most investigators use the term 'pancreatic cancer' they are referring to pancreatic ductal adenocarcinoma (PDA). Normal duct epithelium progresses to infiltrating cancer through a series of histologically defined precursors (PanINs). The overexpression of HER-2/neu and activating point mutations in the K-ras gene occur early, inactivation of the p16 gene at an intermediate stage, and the inactivation of p53, SMAD4, and BRCA2 occur relatively late. Activated K-ras engages multiple effector pathways. Although EGF receptors are conventionally regarded as upstream activators of RAS proteins, they can also act as RAS signal transducers via RAS-induced autocrine activation of the EGFR family ligands. Moreover, PDA shows extensive genomic instability and aneuploidy. Telomere attrition and mutations in p53 and BRCA2 are likely to contribute to these phenotypes. Inactivation of the SMAD4 tumour suppressor gene leads to loss of the inhibitory influence of the transforming growth factor-beta signalling pathway.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko05212</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko05212</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List"></Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105863</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_1587</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_1587</Item>
+		<Item Name="biosystemname" Type="String">Homologous recombination repair of replication-independent double-strand breaks</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Homologous recombination repair of replication-independent double-strand breaks requires the activation of ATM followed by ATM mediated phosphorylation of DNA repair proteins. DNA repair and signaling proteins are then recruited to double-strand breaks. The ends of the DNA double strand breaks must be resectioned and RPA complexes associate with the resulting ssDNA. Homologous DNA pairing and strand exchange then occurs followed by DNA repair synthesis and resolution of D-loop structures.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_1587</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105862</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_1874</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_1874</Item>
+		<Item Name="biosystemname" Type="String">Homologous Recombination Repair</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">The HRR pathway is an "error free" DNA repair mechanism that utilizes information encoded by homologous sequence to repair double-strand breaks (DSBs). HRR acts on DSBs occurring within replicated DNA (replication-independent DSBs) or on DSBs that are generated at broken replication forks (replication-dependent DSBs). Repair by homologous recombination involves processing of the ends of the DNA double-strand break, homologous DNA pairing and strand exchange, repair DNA synthesis, and resolution of the heteroduplex molecules.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_1874</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>83046</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/01/26 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa03440</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">hsa03440</Item>
+		<Item Name="biosystemname" Type="String">Homologous recombination</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Homologous recombination (HR) is essential for the accurate repair of DNA double-strand breaks (DSBs), potentially lethal lesions. HR takes place in the late S-G2 phase of the cell cycle and involves the generation of a single-stranded region of DNA, followed by strand invasion, formation of a Holliday junction, DNA synthesis using the intact strand as a template, branch migration and resolution. It is investigated that RecA/Rad51 family proteins play a central role. The breast cancer susceptibility protein Brca2 and the RecQ helicase BLM (Bloom syndrome mutated) are tumor suppressors that maintain genome integrity, at least in part, through HR.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa03440</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?hsa03440</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>137935</Id>
+	<Item Name="source" Type="String">Pathway Interaction Database</Item>
+	<Item Name="ModifyDate" Type="Date">2010/10/04 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=foxm1pathway&amp;pathway_name=FOXM1 transcription factor network&amp;source=NCI-Nature%20curated&amp;what=graphic&amp;jpg=on</Item>
+	<Item Name="sourceurl" Type="String">http://pid.nci.nih.gov</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">foxm1pathway</Item>
+		<Item Name="biosystemname" Type="String">FOXM1 transcription factor network</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String"></Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://pid.nci.nih.gov/search/pathway_landing.shtml?pathway_id=foxm1pathway&amp;pathway_name=FOXM1 transcription factor network&amp;source=NCI-Nature%20curated&amp;what=graphic&amp;jpg=on</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>105895</Id>
+	<Item Name="source" Type="String">REACTOME</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_18410</Item>
+	<Item Name="sourceurl" Type="String">http://www.reactome.org</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">REACT_18410</Item>
+		<Item Name="biosystemname" Type="String">Fanconi Anemia pathway</Item>
+		<Item Name="biosystemtype" Type="String">organism-specific biosystem</Item>
+		<Item Name="description" Type="String">Fanconi anemia (FA) is a genetic disease of genome instability characterized by congenital skeletal defects, aplastic anemia, susceptibility to leukemias, and cellular sensitivity to DNA damaging agents. Patients with FA have been categorized into at least 13 complementation groups (FA-A, -B, -C, -D1, -D2, -E, -F, -G, -I, -J, -L, -M, and -N). These complementation groups correspond to the genes FANCA, FANCB, FANCC, FANCD1/BRCA2, FANCD2, FANCE, FANCF, FANCG, FANCJ/BRIP1, FANCL, FANCM, and FANCN/PALB2. Although the functions of most of these proteins are mostly unknown, eight of them, FANCA, FANCB, FANCC, FANCE, FANCF, FANCG, FANCL, and FANCM products together with AAP24 and FAAP100 form a nuclear complex termed the FA core complex. The core complex is essential for FANCD2 and FANCI monoubiquitination after DNA damage. FANCD2 and FANCI are mutually dependent on one another for their respective monoubiquitination. After DNA damage and during S phase, FANCD2 localizes to chromatin, forming foci that overlap those containing proteins involved in homologous recombination, such as BRCA1 and RAD51. The FA pathway is regulated by the deubiquitination of FANCD2 and the phosphorylation FANCD2 and FANCI. The USP1/UAF1 complex is responsible for deubiquitination of FANCD2 and negatively regulates the FA pathway (Cohn et al., 2007) ATR and ATM dependent phosphorylation of FANCD2 promotes the monoubiquitination of FANCD2 stimulating the FA pathway (Cohn and D'Andrea, 2008; Wang, 2007).</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.reactome.org/cgi-bin/eventbrowser_st_id?ST_ID=REACT_18410</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String"></Item>
+		</Item>
+		<Item Name="taxonomy" Type="List">
+			<Item Name="taxnodestruct" Type="Structure">
+				<Item Name="taxid" Type="Integer">9606</Item>
+				<Item Name="taxonomyname" Type="String">Homo sapiens</Item>
+			</Item>
+		</Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+<DocSum>
+	<Id>377128</Id>
+	<Item Name="source" Type="String">KEGG</Item>
+	<Item Name="ModifyDate" Type="Date">2011/08/15 00:00</Item>
+	<Item Name="feedbackurl" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko03460</Item>
+	<Item Name="sourceurl" Type="String">http://www.genome.jp/kegg/</Item>
+	<Item Name="citations" Type="List"></Item>
+	<Item Name="biosystem" Type="Structure">
+		<Item Name="externalid" Type="String">ko03460</Item>
+		<Item Name="biosystemname" Type="String">Fanconi anemia pathway</Item>
+		<Item Name="biosystemtype" Type="String">conserved biosystem</Item>
+		<Item Name="description" Type="String">The Fanconi anemia pathway is required for the efficient repair of damaged DNA, especially interstrand cross-links (ICLs). DNA ICL is directly recognized by FANCM and associated proteins, that recruit the FA core complex. The FA core complex monoubiquitinates FANCD2 and FANCI. The monoubiquitinated FANCD2/FANCI becomes an active form and interacts with a series of DNA repair proteins and facilitates downstream repair pathways. Fanconi anemia is caused by mutations in one of at least 13 FA genes and is characterized by congenital growth abnormalities, bone marrow failure and cancer predisposition.</Item>
+		<Item Name="comment" Type="List"></Item>
+		<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko03460</Item>
+		<Item Name="highliteurl" Type="Structure">
+			<Item Name="hilitetype" Type="Enumerator">simple</Item>
+			<Item Name="idtypes" Type="List"></Item>
+			<Item Name="url" Type="String">http://www.genome.jp/kegg-bin/show_pathway?ko03460</Item>
+		</Item>
+		<Item Name="taxonomy" Type="List"></Item>
+		<Item Name="genes" Type="List"></Item>
+		<Item Name="smallmolecules" Type="List"></Item>
+		<Item Name="citations" Type="List"></Item>
+		<Item Name="linkedsystems" Type="List"></Item>
+	</Item>
+</DocSum>
+
+</eSummaryResult>

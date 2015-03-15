@@ -1,0 +1,117 @@
+LOCUS       LITMUS28i-Mal           3593 bp    DNA     circular     11-NOV-2009
+DEFINITION  Control vector LITMUS28i-Mal, complete sequence.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Control vector LITMUS28i-Mal
+  ORGANISM  Control vector LITMUS28i-Mal
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 3593)
+  AUTHORS   Noren,K. and Noren,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2009) Research Department, New England Biolabs,
+            240 County Road, Ipswich, MA 01938, USA
+FEATURES             Location/Qualifiers
+     source          1..3593
+                     /organism="Control vector LITMUS28i-Mal"
+                     /mol_type="other DNA"
+     gene            143..1003
+                     /gene="bla"
+     CDS             143..1003
+                     /gene="bla"
+                     /note="ampR (confers resistance to ampicillin)"
+                     /codon_start=1
+                     /product="beta-lactamase"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERSPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+     sig_peptide     143..211
+                     /gene="bla"
+                     /note="Required for secretion to the periplasm; cleaved
+                     off to form the mature beta-lactamase protein."
+     rep_origin      complement(1045..1554)
+                     /note="M13 origin of replication (+ -)"
+     rep_origin      1665..2253
+                     /note="pMB1 origin of replication (clockwise) (RNAII -35
+                     to RNA/DNA switch point)"
+     promoter        2350..2379
+                     /note="Plac promoter (-35 signal TTTACA, -10 signal
+                     TATGTT)"
+     promoter        2449..2466
+                     /note="T7 promoter (transcript start 2466 clockwise)"
+     misc_feature    2470..3283
+                     /note="BglII-EcoRI fragment of malE (from pMAL-p2X);
+                     template for transcription from T7 promoter."
+     misc_feature    3369..3374
+                     /note="StuI restriction site; as supplied in the HiScribe
+                     T7 In Vitro Transcription Kit (NEB #E2030S), LITMUS28i-Mal
+                     is linearized at this site"
+     promoter        complement(3373..3390)
+                     /note="T7 promoter (transcript start 3373
+                     counter-clockwise)"
+BASE COUNT      973 a    869 c    916 g    835 t
+ORIGIN
+        1 gttaactacg tcaggtggca cttttcgggg aaatgtgcgc ggaaccccta tttgtttatt
+       61 tttctaaata cattcaaata tgtatccgct catgagacaa taaccctgat aaatgcttca
+      121 ataatattga aaaaggaaga gtatgagtat tcaacatttc cgtgtcgccc ttattccctt
+      181 ttttgcggca ttttgccttc ctgtttttgc tcacccagaa acgctggtga aagtaaaaga
+      241 tgctgaagat cagttgggtg cacgagtggg ttacatcgaa ctggatctca acagcggtaa
+      301 gatccttgag agttttcgcc ccgaagaacg ttctccaatg atgagcactt ttaaagttct
+      361 gctatgtggc gcggtattat cccgtgttga cgccgggcaa gagcaactcg gtcgccgcat
+      421 acactattct cagaatgact tggttgagta ctcaccagtc acagaaaagc atcttacgga
+      481 tggcatgaca gtaagagaat tatgcagtgc tgccataacc atgagtgata acactgcggc
+      541 caacttactt ctgacaacga tcggaggacc gaaggagcta accgcttttt tgcacaacat
+      601 gggggatcat gtaactcgcc ttgatcgttg ggaaccggag ctgaatgaag ccataccaaa
+      661 cgacgagcgt gacaccacga tgcctgtagc aatggcaaca acgttgcgca aactattaac
+      721 tggcgaacta cttactctag cttcccggca acaattaata gactggatgg aggcggataa
+      781 agttgcagga ccacttctgc gctcggccct tccggctggc tggtttattg ctgataaatc
+      841 tggagccggt gagcgtgggt ctcgcggtat cattgcagca ctggggccag atggtaagcc
+      901 ctcccgtatc gtagttatct acacgacggg gagtcaggca actatggatg aacgaaatag
+      961 acagatcgct gagataggtg cctcactgat taagcattgg taactgtcag accaagttta
+     1021 ctcatatata ctttagattg atttaccccg gttgataatc agaaaagccc caaaaacagg
+     1081 aagattgtat aagcaaatat ttaaattgta aacgttaata ttttgttaaa attcgcgtta
+     1141 aatttttgtt aaatcagctc attttttaac caataggccg aaatcggcaa aatcccttat
+     1201 aaatcaaaag aatagcccga gatagggttg agtgttgttc cagtttggaa caagagtcca
+     1261 ctattaaaga acgtggactc caacgtcaaa gggcgaaaaa ccgtctatca gggcgatggc
+     1321 ccactacgtg aaccatcacc caaatcaagt tttttggggt cgaggtgccg taaagcacta
+     1381 aatcggaacc ctaaagggag cccccgattt agagcttgac ggggaaagcg aacgtggcga
+     1441 gaaaggaagg gaagaaagcg aaaggagcgg gcgctagggc gctggcaagt gtagcggtca
+     1501 cgctgcgcgt aaccaccaca cccgccgcgc ttaatgcgcc gctacagggc gcgtaaaagg
+     1561 atctaggtga agatcctttt tgataatctc atgaccaaaa tcccttaacg tgagttttcg
+     1621 ttccactgag cgtcagaccc cgtagaaaag atcaaaggat cttcttgaga tccttttttt
+     1681 ctgcgcgtaa tctgctgctt gcaaacaaaa aaaccaccgc taccagcggt ggtttgtttg
+     1741 ccggatcaag agctaccaac tctttttccg aaggtaactg gcttcagcag agcgcagata
+     1801 ccaaatactg ttcttctagt gtagccgtag ttaggccacc acttcaagaa ctctgtagca
+     1861 ccgcctacat acctcgctct gctaatcctg ttaccagtgg ctgctgccag tggcgataag
+     1921 tcgtgtctta ccgggttgga ctcaagacga tagttaccgg ataaggcgca gcggtcgggc
+     1981 tgaacggggg gttcgtgcac acagcccagc ttggagcgaa cgacctacac cgaactgaga
+     2041 tacctacagc gtgagctatg agaaagcgcc acgcttcccg aagggagaaa ggcggacagg
+     2101 tatccggtaa gcggcagggt cggaacagga gagcgcacga gggagcttcc agggggaaac
+     2161 gcctggtatc tttatagtcc tgtcgggttt cgccacctct gacttgagcg tcgatttttg
+     2221 tgatgctcgt caggggggcg gagcctatgg aaaaacgcca gcaacgcggc ctttttacgg
+     2281 ttcctggcct tttgctggcc ttttgctcac atgtaatgtg agttagctca ctcattaggc
+     2341 accccaggct ttacacttta tgcttccggc tcgtatgttg tgtggaattg tgagcggata
+     2401 acaatttcac acaggaaaca gctatgacca tgattacgcc aagctacgta atacgactca
+     2461 ctatagggca gatctgctgc cgaacccgcc aaaaacctgg gaagagatcc cggcgctgga
+     2521 taaagaactg aaagcgaaag gtaagagcgc gctgatgttc aacctgcaag aaccgtactt
+     2581 cacctggccg ctgattgctg ctgacggggg ttatgcgttc aagtatgaaa acggcaagta
+     2641 cgacattaaa gacgtgggcg tggataacgc tggcgcgaaa gcgggtctga ccttcctggt
+     2701 tgacctgatt aaaaacaaac acatgaatgc agacaccgat tactccatcg cagaagctgc
+     2761 ctttaataaa ggcgaaacag cgatgaccat caacggcccg tgggcatggt ccaacatcga
+     2821 caccagcaaa gtgaattatg gtgtaacggt actgccgacc ttcaagggtc aaccatccaa
+     2881 accgttcgtt ggcgtgctga gcgcaggtat taacgccgcc agtccgaaca aagagctggc
+     2941 aaaagagttc ctcgaaaact atctgctgac tgatgaaggt ctggaagcgg ttaataaaga
+     3001 caaaccgctg ggtgccgtag cgctgaagtc ttacgaggaa gagttggcga aagatccacg
+     3061 tattgccgcc actatggaaa acgcccagaa aggtgaaatc atgccgaaca tcccgcagat
+     3121 gtccgctttc tggtatgccg tgcgtactgc ggtgatcaac gccgccagcg gtcgtcagac
+     3181 tgtcgatgaa gccctgaaag acgcgcagac taattcgagc tcgaacaaca acaacaataa
+     3241 caataacaac aacctcggga tcgagggaag gatttcagaa ttcctgcagg atatctggat
+     3301 ccacgaagct tcccatggtg acgtcaccgg ttctagatac ctaggtgagc tctggtaccc
+     3361 tctagtcaag gcctatagtg agtcgtatta cggactggcc gtcgttttac aacgtcgtga
+     3421 ctgggaaaac cctggcgtta cccaacttaa tcgccttgca gcacatcccc ctttcgccag
+     3481 ctggcgtaat agcgaagagg cccgcaccga tcgcccttcc caacagttgc gcagcctgaa
+     3541 tggcgaatgg cgcttcgctt ggtaataaag cccgcttcgg cgggcttttt ttt
+//

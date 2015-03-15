@@ -1,0 +1,189 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="/das/das.xsl"?>
+<!DOCTYPE DASGFF SYSTEM "http://www.biodas.org/dtd/dasgff.dtd">
+<DASGFF>
+<GFF href="http://www.ensembl.org/das/Homo_sapiens.GRCh37.reference/features" version="1.0">
+<SEGMENT id="1" start="1" stop="249250621">
+  <FEATURE id="1">
+    <START>1</START>
+    <END>249250621</END>
+    <TYPE id="chromosome" reference="yes" superparts="no" subparts="yes" category="component">chromosome</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="1" start="1" stop="249250621" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG1">
+    <START>10001</START>
+    <END>267719</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG1" start="1" stop="257719" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG2">
+    <START>317720</START>
+    <END>471368</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG2" start="1" stop="153649" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG3">
+    <START>521369</START>
+    <END>3845268</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG3" start="1" stop="3323900" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG5">
+    <START>3995269</START>
+    <END>13219912</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG5" start="1" stop="9224644" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG8">
+    <START>13319913</START>
+    <END>29878082</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG8" start="1" stop="16558170" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG11">
+    <START>30028083</START>
+    <END>120936695</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG11" start="1" stop="90908613" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG12">
+    <START>121086696</START>
+    <END>121485434</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG12" start="1" stop="398739" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG14">
+    <START>142535435</START>
+    <END>142967761</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG14" start="1" stop="432327" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG16">
+    <START>143117762</START>
+    <END>143544525</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG16" start="1" stop="426764" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG17">
+    <START>143644526</START>
+    <END>143771002</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG17" start="1" stop="126477" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG19">
+    <START>143871003</START>
+    <END>144095783</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG19" start="1" stop="224781" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG20">
+    <START>144145784</START>
+    <END>144224481</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG20" start="1" stop="78698" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG21">
+    <START>144274482</START>
+    <END>144622413</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG21" start="1" stop="347932" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG26">
+    <START>144672414</START>
+    <END>148026038</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG26" start="1" stop="3353625" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG27">
+    <START>148176039</START>
+    <END>148361358</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG27" start="1" stop="185320" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG31">
+    <START>148511359</START>
+    <END>205922707</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG31" start="1" stop="57411349" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG32">
+    <START>206072708</START>
+    <END>206332221</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG32" start="1" stop="259514" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG34">
+    <START>206482222</START>
+    <END>248908210</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG34" start="1" stop="42425989" />
+  </FEATURE>
+  <FEATURE id="HSCHR1_CTG36">
+    <START>249058211</START>
+    <END>249240621</END>
+    <TYPE id="supercontig" reference="yes" superparts="yes" subparts="yes" category="component">supercontig</TYPE>
+    <METHOD id=""></METHOD>
+    <SCORE>-</SCORE>
+    <ORIENTATION>+</ORIENTATION>
+    <TARGET id="HSCHR1_CTG36" start="1" stop="182411" />
+  </FEATURE>
+</SEGMENT>
+</GFF>
+</DASGFF>

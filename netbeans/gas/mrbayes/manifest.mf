@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.gas.mrbayes
+OpenIDE-Module-Localizing-Bundle: com/gas/mrbayes/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

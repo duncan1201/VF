@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.gas.main.ui
+OpenIDE-Module-Layer: com/gas/main/ui/layer.xml
+OpenIDE-Module-Install: com/gas/main/ui/Installer.class
+OpenIDE-Module-Localizing-Bundle: com/gas/main/ui/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>gencoll</DbName>
+	<MenuName>GenColl</MenuName>
+	<Description>GenColl Database</Description>
+	<Count>28075</Count>
+	<LastUpdate>2012/01/29 03:21</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>141914</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>12</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Chromosome accessions</Description>
+			<TermCount>29143</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ASAC</Name>
+			<FullName>Assembly Accession</FullName>
+			<Description>Space delimited assembly accessions w/ &amp; w/o versions</Description>
+			<TermCount>57329</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CAT</Name>
+			<FullName>Category</FullName>
+			<Description>Assembly Set type or &quot;assembly-unit&quot;</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXID</Name>
+			<FullName>Taxonomy Id</FullName>
+			<Description>Taxonomy Id</Description>
+			<TermCount>8321</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Exploded organism names</Description>
+			<TermCount>60971</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROJ</Name>
+			<FullName>Project Id</FullName>
+			<Description>Uid(s) of this Assembly&apos;s Projects</Description>
+			<TermCount>12501</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NAME</Name>
+			<FullName>Assembly Name</FullName>
+			<Description>Assembly Name</Description>
+			<TermCount>10093</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ALLN</Name>
+			<FullName>All Names</FullName>
+			<Description>All Names, space separated</Description>
+			<TermCount>29977</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COV</Name>
+			<FullName>Coverage</FullName>
+			<Description>Sequencing Coverage</Description>
+			<TermCount>258</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CLAS</Name>
+			<FullName>Assembly Class</FullName>
+			<Description>Type of the Assembly</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>REL</Name>
+			<FullName>Release Type</FullName>
+			<Description>Release Type</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PART</Name>
+			<FullName>Partial Genome Representation</FullName>
+			<Description>Partial Genome Representation</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RELS</Name>
+			<FullName>NCBI Release Date</FullName>
+			<Description>NCBI Release Date</Description>
+			<TermCount>548</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LEN</Name>
+			<FullName>Total Sequence Length</FullName>
+			<Description>Total length of chromosome/genome including bases and gaps.</Description>
+			<TermCount>386</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>REPL</Name>
+			<FullName>Chromosome count</FullName>
+			<Description>Number of chromosomes in assembly</Description>
+			<TermCount>35</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PLAC</Name>
+			<FullName>Placed Scaffolds Count</FullName>
+			<Description>Number of placed scaffolds</Description>
+			<TermCount>138</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UNLO</Name>
+			<FullName>Unlocalized Scaffolds Count</FullName>
+			<Description>Number of unordered(unlocalized) scaffolds belonging to chromosomes</Description>
+			<TermCount>136</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UNPL</Name>
+			<FullName>Unplaced Scaffolds Count</FullName>
+			<Description>Number of unplaced scaffolds which do not belong to any chromosome, ie ChrUn</Description>
+			<TermCount>810</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Properties</Description>
+			<TermCount>15</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>gencoll_nuccore</Name>
+				<Menu>GenColl assemblies for Scaffold sequence</Menu>
+				<Description>Links from Scaffold Sequences to GenColl assemblies.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gencoll_nuccore_chr</Name>
+				<Menu>GenColl assemblies for Chromosome sequence</Menu>
+				<Description>Links from Chromosome sequences to GenColl assemblies.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gencoll_nuccore_tlm</Name>
+				<Menu>GenColl assemblies for Top-level- sequences</Menu>
+				<Description>Links from Top-level-sequences to GenColl assemblies.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

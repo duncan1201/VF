@@ -1,0 +1,524 @@
+LOCUS       NM_001114               6138 bp    mRNA    linear   PRI 10-SEP-2012
+DEFINITION  Homo sapiens adenylate cyclase 7 (ADCY7), mRNA.
+ACCESSION   NM_001114
+VERSION     NM_001114.3  GI:115298680
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 6138)
+  AUTHORS   Joeyen-Waldorf,J., Nikolova,Y.S., Edgar,N., Walsh,C., Kota,R.,
+            Lewis,D.A., Ferrell,R., Manuck,S.B., Hariri,A.R. and Sibille,E.
+  TITLE     Adenylate cyclase 7 is implicated in the biology of depression and
+            modulation of affective neural circuitry
+  JOURNAL   Biol. Psychiatry 71 (7), 627-632 (2012)
+   PUBMED   22264442
+  REMARK    GeneRIF: evidence implicates ADCY7 in the modulation of mood
+            regulatory neural mechanisms and, possibly, risk for and
+            pathophysiology of depression.
+            Erratum:[Biol Psychiatry. 2012 Jul 15;72(2):164]
+REFERENCE   2  (bases 1 to 6138)
+  AUTHORS   Xu,B., Roos,J.L., Dexheimer,P., Boone,B., Plummer,B., Levy,S.,
+            Gogos,J.A. and Karayiorgou,M.
+  TITLE     Exome sequencing supports a de novo mutational paradigm for
+            schizophrenia
+  JOURNAL   Nat. Genet. 43 (9), 864-868 (2011)
+   PUBMED   21822266
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 6138)
+  AUTHORS   Desrivieres,S., Pronko,S.P., Lourdusamy,A., Ducci,F., Hoffman,P.L.,
+            Wodarz,N., Ridinger,M., Rietschel,M., Zelenika,D., Lathrop,M.,
+            Schumann,G. and Tabakoff,B.
+  TITLE     Sex-specific role for adenylyl cyclase type 7 in alcohol dependence
+  JOURNAL   Biol. Psychiatry 69 (11), 1100-1108 (2011)
+   PUBMED   21481845
+  REMARK    GeneRIF: we found that single nucleotide polymorphisms in ADCY7
+            associate with alcohol dependence in women, and these markers are
+            also associated with ADCY7 expression (messenger RNA) levels.
+REFERENCE   4  (bases 1 to 6138)
+  AUTHORS   Townsend,P.D., Holliday,P.M., Fenyk,S., Hess,K.C., Gray,M.A.,
+            Hodgson,D.R. and Cann,M.J.
+  TITLE     Stimulation of mammalian G-protein-responsive adenylyl cyclases by
+            carbon dioxide
+  JOURNAL   J. Biol. Chem. 284 (2), 784-791 (2009)
+   PUBMED   19008230
+  REMARK    GeneRIF: soluble adenylyl cyclase is responsive to both CO(2) and
+            bicarbonate ion
+REFERENCE   5  (bases 1 to 6138)
+  AUTHORS   Tabakoff,B., Saba,L., Printz,M., Flodman,P., Hodgkinson,C.,
+            Goldman,D., Koob,G., Richardson,H.N., Kechris,K., Bell,R.L.,
+            Hubner,N., Heinig,M., Pravenec,M., Mangion,J., Legault,L.,
+            Dongier,M., Conigrave,K.M., Whitfield,J.B., Saunders,J., Grant,B.
+            and Hoffman,P.L.
+  CONSRTM   WHO/ISBRA Study on State and Trait Markers of Alcoholism
+  TITLE     Genetical genomic determinants of alcohol consumption in rats and
+            humans
+  JOURNAL   BMC Biol. 7, 70 (2009)
+   PUBMED   19874574
+  REMARK    GeneRIF: Observational study of gene-disease association. (HuGE
+            Navigator)
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 6138)
+  AUTHORS   Hellevuo,K., Welborn,R., Menninger,J.A. and Tabakoff,B.
+  TITLE     Human adenylyl cyclase type 7 contains polymorphic repeats in the
+            3' untranslated region: investigations of association with
+            alcoholism
+  JOURNAL   Am. J. Med. Genet. 74 (1), 95-98 (1997)
+   PUBMED   9034014
+REFERENCE   7  (bases 1 to 6138)
+  AUTHORS   Dessauer,C.W. and Gilman,A.G.
+  TITLE     Purification and characterization of a soluble form of mammalian
+            adenylyl cyclase
+  JOURNAL   J. Biol. Chem. 271 (28), 16967-16974 (1996)
+   PUBMED   8663304
+REFERENCE   8  (bases 1 to 6138)
+  AUTHORS   Hellevuo,K., Berry,R., Sikela,J.M. and Tabakoff,B.
+  TITLE     Localization of the gene for a novel human adenylyl cyclase (ADCY7)
+            to chromosome 16
+  JOURNAL   Hum. Genet. 95 (2), 197-200 (1995)
+   PUBMED   7860067
+REFERENCE   9  (bases 1 to 6138)
+  AUTHORS   Kleuss,C., Raw,A.S., Lee,E., Sprang,S.R. and Gilman,A.G.
+  TITLE     Mechanism of GTP hydrolysis by G-protein alpha subunits
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 91 (21), 9828-9831 (1994)
+   PUBMED   7937899
+REFERENCE   10 (bases 1 to 6138)
+  AUTHORS   Taylor,S.S., Buechler,J.A. and Yonemoto,W.
+  TITLE     cAMP-dependent protein kinase: framework for a diverse family of
+            regulatory enzymes
+  JOURNAL   Annu. Rev. Biochem. 59, 971-1005 (1990)
+   PUBMED   2165385
+  REMARK    Review article
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA047753.1, D25538.1 and
+            AC007597.3.
+            On Sep 22, 2006 this sequence version replaced gi:41327757.
+            
+            Summary: This gene encodes a membrane-bound adenylate cyclase that
+            catalyses the formation of cyclic AMP from ATP and is inhibitable
+            by calcium. The product of this gene is a member of the adenylyl
+            cyclase class-4/guanylyl cyclase enzyme family that is
+            characterized by the presence of twelve membrane-spanning domains
+            in its sequences. [provided by RefSeq, Jul 2008].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##RefSeq-Attributes-START##
+            Transcript_exon_combination_evidence :: D25538.1, BC126271.1
+                                                    [ECO:0000332]
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-3                 DA047753.1         25-27
+            4-879               D25538.1           1-876
+            880-955             AC007597.3         33233-33308         c
+            956-1104            AC007597.3         32556-32704         c
+            1105-1216           AC007597.3         31307-31418         c
+            1217-1344           AC007597.3         27027-27154         c
+            1345-1503           AC007597.3         25185-25343         c
+            1504-1636           AC007597.3         24844-24976         c
+            1637-1828           AC007597.3         21507-21698         c
+            1829-1863           AC007597.3         21099-21133         c
+            1864-1947           AC007597.3         20472-20555         c
+            1948-2020           AC007597.3         20209-20281         c
+            2021-2118           AC007597.3         18911-19008         c
+            2119-2203           AC007597.3         17647-17731         c
+            2204-2329           AC007597.3         17266-17391         c
+            2330-2428           AC007597.3         16412-16510         c
+            2429-5363           D25538.1           2426-5360
+            5364-6138           D25538.1           5422-6196
+FEATURES             Location/Qualifiers
+     source          1..6138
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="16"
+                     /map="16q12.1"
+     gene            1..6138
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /note="adenylate cyclase 7"
+                     /db_xref="GeneID:113"
+                     /db_xref="HGNC:238"
+                     /db_xref="HPRD:02663"
+                     /db_xref="MIM:600385"
+     exon            1..439
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=1
+     misc_feature    242..244
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /note="upstream in-frame stop codon"
+     CDS             269..3511
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /EC_number="4.6.1.1"
+                     /note="adenylyl cyclase 7; ATP pyrophosphate-lyase 7;
+                     adenylate cyclase type VII"
+                     /codon_start=1
+                     /product="adenylate cyclase type 7"
+                     /protein_id="NP_001105.1"
+                     /db_xref="GI:4557255"
+                     /db_xref="CCDS:CCDS10741.1"
+                     /db_xref="GeneID:113"
+                     /db_xref="HGNC:238"
+                     /db_xref="HPRD:02663"
+                     /db_xref="MIM:600385"
+                     /translation="MPAKGRYFLNEGEEGPDQDALYEKYQLTSQHGPLLLTLLLVAAT
+                     ACVALIIIAFSQGDPSRHQAILGMAFLVLAVFAALSVLMYVECLLRRWLRALALLTWA
+                     CLVALGYVLVFDAWTKAACAWEQVPFFLFIVFVVYTLLPFSMRGAVAVGAVSTASHLL
+                     VLGSLMGGFTTPSVRVGLQLLANAVIFLCGNLTGAFHKHQMQDASRDLFTYTVKCIQI
+                     RRKLRIEKRQQENLLLSVLPAHISMGMKLAIIERLKEHGDRRCMPDNNFHSLYVKRHQ
+                     NVSILYADIVGFTQLASDCSPKELVVVLNELFGKFDQIAKANECMRIKILGDCYYCVS
+                     GLPVSLPTHARNCVKMGLDMCQAIKQVREATGVDINMRVGIHSGNVLCGVIGLRKWQY
+                     DVWSHDVSLANRMEAAGVPGRVHITEATLKHLDKAYEVEDGHGQQRDPYLKEMNIRTY
+                     LVIDPRSQQPPPPSQHLPRPKGDAALKMRASVRMTRYLESWGAARPFAHLNHRESVSS
+                     GETHVPNGRRPKSVPQRHRRTPDRSMSPKGRSEDDSYDDEMLSAIEGLSSTRPCCSKS
+                     DDFYTFGSIFLEKGFEREYRLAPIPRARHDFACASLIFVCILLVHVLLMPRTAALGVS
+                     FGLVACVLGLVLGLCFATKFSRCCPARGTLCTISERVETQPLLRLTLAVLTIGSLLTV
+                     AIINLPLMPFQVPELPVGNETGLLAASSKTRALCEPLPYYTCSCVLGFIACSVFLRMS
+                     LEPKVVLLTVALVAYLVLFNLSPCWQWDCCGQGLGNLTKPNGTTSGTPSCSWKDLKTM
+                     TNFYLVLFYITLLTLSRQIDYYCRLDCLWKKKFKKEHEEFETMENVNRLLLENVLPAH
+                     VAAHFIGDKLNEDWYHQSYDCVCVMFASVPDFKVFYTECDVNKEGLECLRLLNEIIAD
+                     FDELLLKPKFSGVEKIKTIGSTYMAAAGLSVASGHENQELERQHAHIGVMVEFSIALM
+                     SKLDGINRHSFNSFRLRVGINHGPVIAGVIGARKPQYDIWGNTVNVASRMESTGELGK
+                     IQVTEETCTILQGLGYSCECRGLINVKGKGELRTYFVCTDTAKFQGLGLN"
+     misc_feature    368..430
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    455..517
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    551..619
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    632..694
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    707..769
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    794..856
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    2051..2113
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    2126..2188
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    2273..2332
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    2420..2479
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    2504..2587
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     misc_feature    2648..2710
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P51828.1);
+                     transmembrane region"
+     exon            440..643
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=2
+     exon            644..805
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=3
+     exon            806..955
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=4
+     exon            956..1104
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=5
+     exon            1105..1216
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=6
+     exon            1217..1344
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=7
+     exon            1345..1503
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=8
+     exon            1504..1636
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=9
+     exon            1637..1828
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=10
+     exon            1829..1863
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=11
+     exon            1864..1947
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=12
+     exon            1948..2020
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=13
+     exon            2021..2118
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=14
+     exon            2119..2203
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=15
+     exon            2204..2329
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=16
+     exon            2330..2428
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=17
+     exon            2429..2622
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=18
+     exon            2623..2716
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=19
+     exon            2717..2872
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=20
+     exon            2873..3019
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=21
+     exon            3020..3124
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=22
+     exon            3125..3239
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=23
+     exon            3240..3364
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=24
+     exon            3365..6138
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /inference="alignment:Splign"
+                     /number=25
+     STS             4770..5086
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /standard_name="RH25275"
+                     /db_xref="UniSTS:85793"
+     STS             5040..5147
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /standard_name="D16S2967"
+                     /db_xref="UniSTS:76377"
+     STS             5170..5379
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /standard_name="GDB:511421"
+                     /db_xref="UniSTS:157509"
+     STS             5594..5830
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+                     /standard_name="G10670"
+                     /db_xref="UniSTS:60219"
+     polyA_signal    6114..6119
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+ORIGIN      
+        1 agctgaggaa ctgcgtgtgg agtcagccca gtctggatgc acaggaggat gctggcggca
+       61 cagtgagtga ggcctggtgc cagagctgtg cggacccctt gttggccatg gagcagcagg
+      121 cccagaggcc ctctccccag ccctgcttgc ctgcctcgga gaggacagag gcctaggccc
+      181 acgggggagg gtgttggcag acagatgccc tccaggccct ggggcctcct taacggcccc
+      241 ttaacgacac gcgtgccaag ggtggaggat gccagccaag gggcgctact tcctcaacga
+      301 gggcgaggag ggccctgacc aagatgcgct ctacgagaag taccagctca ccagccagca
+      361 tgggccgctg ctgctcacgc tcctgctggt ggccgccact gcctgcgtgg ccctcatcat
+      421 cattgccttc agccaggggg acccctccag acaccaggcc attctgggca tggcgttcct
+      481 ggtgctggcg gtgtttgcgg ccctctctgt gctgatgtac gtcgagtgtc tcctgcggcg
+      541 ctggctcagg gccttggcgc tgctcacctg ggcctgcttg gtggcgctgg gctatgtgct
+      601 ggtgttcgac gcatggacaa aggcggcctg tgcgtgggag caggtgccct tcttcctgtt
+      661 cattgtcttc gtggtgtaca cactactgcc cttcagcatg cggggcgctg tcgccgttgg
+      721 ggccgtctcc actgcctccc acctcctggt gctcggttct ttgatgggag gcttcacgac
+      781 acccagtgtc cgggtggggc tgcagctgct ggccaacgca gtcatcttcc tgtgtgggaa
+      841 cctgacaggc gccttccaca agcaccaaat gcaggatgca tcccgggacc tcttcaccta
+      901 cactgtgaag tgcatccaga tccgccggaa gctgcgcatc gagaagcgcc agcaggagaa
+      961 cctgctgctg tcagtgcttc cggcccacat ctccatgggc atgaagctgg ccatcatcga
+     1021 acggctcaag gagcatggtg accgtcgctg catgcctgac aacaacttcc acagcctcta
+     1081 cgtcaagagg caccagaatg tcagcatcct ctatgcggac atcgtgggct tcacgcagct
+     1141 ggccagcgac tgttctccca aggagctggt ggtggtgctg aatgagctct ttggcaagtt
+     1201 cgaccagatc gccaaggcca acgagtgcat gcgaatcaag atcctcggcg actgctacta
+     1261 ctgtgtatcg ggcctgcccg tgtcgctgcc tacccacgcc cggaactgcg tgaagatggg
+     1321 gctggacatg tgccaggcca tcaagcaggt gcgggaggcc acgggcgtgg acatcaacat
+     1381 gcgtgtgggc atacactcgg ggaatgtgct gtgcggggtc atcgggctgc gcaagtggca
+     1441 gtatgacgtg tggtcccacg acgtgtccct ggccaaccgg atggaggcag ccggagtacc
+     1501 cggccgggtg cacatcacgg aggccacgct aaagcacctg gacaaggcgt acgaggtgga
+     1561 ggatgggcac gggcagcagc gggaccccta cctcaaggag atgaacatcc gcacctacct
+     1621 ggtcatcgac ccccggagcc agcagccacc cccgcccagc caacacctcc ccaggcccaa
+     1681 gggggacgcg gccctgaaga tgcgggcgtc agtgcgcatg acccggtacc tcgagtcctg
+     1741 gggggcggca cggccctttg cacatctcaa ccaccgtgag agcgtgagca gtggtgagac
+     1801 ccacgtcccc aacgggcgga ggcctaagag cgttccccag cgccaccgcc ggaccccaga
+     1861 cagaagcatg tcccccaagg ggcggtcgga ggatgactcg tacgatgacg agatgctgtc
+     1921 agccattgag gggctcagct ccacgaggcc ctgctgctcc aagtccgatg acttctacac
+     1981 ctttgggtcc atcttcctgg agaagggctt tgagcgcgag taccgcctgg cacccatccc
+     2041 ccgggcccgc cacgactttg cctgcgccag cctgatcttc gtctgcatcc tgctcgtcca
+     2101 tgtcctgctc atgcccagga cggcggcact gggtgtgtcc ttcgggctgg tggcctgtgt
+     2161 actggggctg gtgctgggcc tgtgctttgc caccaagttc tcgaggtgct gcccagctcg
+     2221 ggggacgctc tgcactatct ctgagagggt ggagacacag cccctgctga ggctgaccct
+     2281 ggccgtcctg accatcggca gcctgctcac tgtggccatc atcaacctgc ccctgatgcc
+     2341 tttccaagtt ccagagctgc ctgttggcaa tgagacaggc ctactggccg cgagcagcaa
+     2401 gacaagagcc ctgtgtgagc ccctcccgta ctacacctgc agctgtgtcc tgggcttcat
+     2461 cgcctgctcg gtcttcctga ggatgagcct ggagccaaag gttgtgctgc tgacagtggc
+     2521 cctggtggcc tacctggtgc tcttcaacct ctccccatgc tggcagtggg actgctgcgg
+     2581 ccaaggcctg ggcaacctca ccaagcccaa cggcaccacc agtggcaccc ctagctgttc
+     2641 ctggaaggac ctgaagacca tgaccaattt ctacctggtc ctgttctaca tcaccctgct
+     2701 tacactctcc agacagattg actattactg ccgcttggac tgcctatgga agaagaagtt
+     2761 caagaaggag cacgaggagt ttgagaccat ggagaacgtg aaccgccttc ttctggagaa
+     2821 cgtcctgcca gcccacgtgg ctgcccactt tatcggtgac aagttaaacg aggactggta
+     2881 ccatcagtcc tatgactgcg tctgtgtcat gtttgcctcc gtgccggact tcaaagtgtt
+     2941 ctacacagag tgcgatgtca acaaagaagg gctggagtgc ctacgcctgc tcaatgagat
+     3001 cattgccgac ttcgacgagc tcctactgaa gcccaagttc agcggcgtgg agaagatcaa
+     3061 gaccatcggc agcacgtaca tggcagctgc agggctcagc gtcgcctcag ggcacgagaa
+     3121 ccaggagctg gagcggcagc atgcccacat tggtgtcatg gtggagttca gcatcgccct
+     3181 gatgagtaag ctggacggca tcaacaggca ctccttcaac tccttccgcc tccgcgtcgg
+     3241 cataaaccat gggcctgtga ttgctggagt gattggggcc cgaaaacctc agtatgacat
+     3301 ctggggaaac actgtcaatg tggccagccg aatggaaagc actggagaac ttgggaaaat
+     3361 ccaggttacc gaggagacct gcaccatcct ccagggcctc gggtactctt gtgaatgccg
+     3421 tggcctgatc aacgtcaaag gcaaaggcga gctgaggact tactttgtct gtacggacac
+     3481 tgccaagttt caggggctgg ggctgaactg agggctcctg ctggattccg aaaaggccgg
+     3541 gaagccagtc tccttccctg aagcaagccc aggagaagac tctccgcccc acgccaatcc
+     3601 caaaggcatg cagatggctg tgcatgttgg cttctttgga cctgcactgg aggatttctc
+     3661 agacacatgc accagattct ggctcgaagc agccactgag ccataatgcg caggggaggc
+     3721 cagaagctct gtgcctggtc tgtaacagtt tccaggccag ctggagaatg ttcactggtt
+     3781 cggggctgac tttgagatct ttgttccctg aggtgccagg caggcaactt tagcacatga
+     3841 tgaaaacaga cttccacctc agtggcctgt gggcacgcac aagtgaggtc tgtttttcta
+     3901 gacaccaagg gggagtaagc tgagctgtct agcacggatt ggagactccc tctccctggt
+     3961 gggcctggca atgacagcat ttctcacaga ggcattctgg taaatgaagc tgaaaggggt
+     4021 gttttacatc tgtaaacggt ttcaaacagg tagagagaaa aacaccacaa ttaacactgt
+     4081 tactttttgc cttgtctggc atgtttgttt taaatgaata cattaatggg gtttttatcc
+     4141 ttttgaatga cttttcagac actagacata aatctcttcc ctccagtgta tgctctgcct
+     4201 ttttaaccac tgacatgtaa ggaggactac tgtctagcat cagcttatgg ggtcagctgg
+     4261 ctgtggggat agagtcctga ggaatgtggt cacagcaaga aggcggggag cagcagagcc
+     4321 ttgcctttga atgaggcagc ttgtgaggca agcattctgg agagaggtgc tttgaaagta
+     4381 aggtgcggcc tttcacctct tccttgatta ctcacacatc tttgcgttct cccctgccgt
+     4441 ccttcaactg tatcttactt ttcttaccag aaaggaatgg agtctgttta gagacaactt
+     4501 ggacaacctg tgagtgcatc tcttctttcc tttagtcttc acagctaact ctggagagct
+     4561 tcaaaactag aaggatctac tccgcatggg tgcatgcaga ggctcctgga tctgggaagc
+     4621 ccgccccctc acaaatgctg agccgttctt gctctgaaac tgcgtgagtc aaggcaaatg
+     4681 caaaaagcca ggttttgggg atgtgtctta ctgtgcttca acttcccaag gaattgaaag
+     4741 tcaacctaac tgtaacaaca gggtgagaaa tgaccaaact gcccgtgact ttttctgaat
+     4801 ggacttcata accggaagac ttaaccggtg gcctcatcac cagagcatcg ccaggatttc
+     4861 taatgcactc agtttcccta catagcaggg attcttagct aggtgtcccc atgaaccccg
+     4921 taaagttcta cacaaagtct tgcatacagg agcctttaca agatgattat acagggttgc
+     4981 agattgggtg actgaccaga cttgttgggg tcctgggatg agttgccccg ggctgcaaat
+     5041 taagagtaca gctaagtgcg ggggtggcgg tggagggaac gaaaattgaa cctgtctgcc
+     5101 tgtgctgtgt cgtgtggctt tatcagcccg aggaagggca ggtgtattct aatttgcaca
+     5161 aaggtgctgg gtagactagt ggcagctctc atgtgctgca cataagtgga atcagtatga
+     5221 atagaagaac ttgctgtata aaggaatttc atggcaacaa tgctggtaag ggcaattagc
+     5281 ctcgcttaag ttgccttttt tacacaccaa aactttttac atgaagggct ggtttcacat
+     5341 gaatactata ctgaaatctg tgctctcaag atctagcagt gaccagggct gcccggcggg
+     5401 ggctctcctg gcaagtcagg aaggtttctg ttgctaatat aacatagaaa cacattagtg
+     5461 cactgggcct ctctgaggtc agcatatttg tactcttgga atatttgttt ttttcttcag
+     5521 taacaacaga aaccccagtt gggagtttaa caaataactg actaccactc actcatgcat
+     5581 ttttatttcc aattaaagca aagcactgtg ctgtgctcag ataataatag tttgtaagta
+     5641 aaagttttta gttttcagtg ttcaggttat agaatataac tgaccataaa aattacctgc
+     5701 aggtattttc tttttatgaa cttgttttta aattaccaag taattactgg tgtcattttg
+     5761 ttttatgaca gacacacgta tctaacaaac aaacaaacag tgaccttctc catgggtcaa
+     5821 ggacttcctt acaatttctc ctgagttaac ttttgtgaaa ataataccta aggttttctg
+     5881 gcttattgag gaaatttcct aacaaacaaa caaacaaaca aacagaagag aagatcatta
+     5941 accactgtat actttgtgta tataataggt cagtgtaaag aaatatgatt tgaggtggtg
+     6001 catgcaagta actagggttt attctatata atgaatattt atagatctgt aacatttgtt
+     6061 tcaaaatgct gtttcatttt tataaagtac cagtgtttag ctgcttttta tacattaaat
+     6121 tagcaatttg aaaaactc
+//
+

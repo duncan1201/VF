@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20060131//EN" "http://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060131/esummary-v1.dtd">
+<eSummaryResult>
+
+<DocSum>
+	<Id>6115</Id>
+	<Item Name="Organism_Name" Type="String">Abaca bunchy top virus</Item>
+	<Item Name="Organism_Kingdom" Type="String">Viruses</Item>
+	<Item Name="DefLine" Type="String">Abaca bunchy top virus</Item>
+	<Item Name="ProjectID" Type="String">28697</Item>
+	<Item Name="Number_of_Chromosomes" Type="String">6</Item>
+	<Item Name="Number_of_Plasmids" Type="String">0</Item>
+	<Item Name="Number_of_Organelles" Type="String">0</Item>
+	<Item Name="Assembly_Name" Type="String"></Item>
+	<Item Name="Assembly_Accession" Type="String"></Item>
+	<Item Name="AssemblyID" Type="String">0</Item>
+	<Item Name="Create_Date" Type="Date">2008/02/04 00:00</Item>
+	<Item Name="Options" Type="String"></Item>
+</DocSum>
+</eSummaryResult>

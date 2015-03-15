@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>proteinclusters</DbName>
+	<MenuName>Protein Clusters</MenuName>
+	<Description>Protein Cluster record</Description>
+	<Count>627757</Count>
+	<LastUpdate>2011/10/06 18:31</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>15537540</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>28</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Accession</Description>
+			<TermCount>627757</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>PubMed ID</FullName>
+			<Description>PubMed ID</Description>
+			<TermCount>89262</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Title</Description>
+			<TermCount>174152</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene Name</Description>
+			<TermCount>1233</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GSYN</Name>
+			<FullName>Gene Synonym</FullName>
+			<Description>Gene Synonym</Description>
+			<TermCount>149</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COG</Name>
+			<FullName>COG</FullName>
+			<Description>Clusters of Orthologous Groups of proteins</Description>
+			<TermCount>9162</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC number for enzyme or CAS registry number</Description>
+			<TermCount>1041</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HMAP</Name>
+			<FullName>HAMAP</FullName>
+			<Description>HAMAP</Description>
+			<TermCount>1734</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KO</Name>
+			<FullName>KO</FullName>
+			<Description>KO</Description>
+			<TermCount>8406</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROT</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Name of protein</Description>
+			<TermCount>360029</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PACC</Name>
+			<FullName>Protein Accession</FullName>
+			<Description>Protein Accession</Description>
+			<TermCount>3721607</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LTAG</Name>
+			<FullName>Locus Tag</FullName>
+			<Description>Locus Tag</Description>
+			<TermCount>3798321</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SLEN</Name>
+			<FullName>Sequence Length</FullName>
+			<Description>Length of sequence</Description>
+			<TermCount>4696</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Scientific and common names of organism, and all higher levels of taxonomy</Description>
+			<TermCount>38954</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXID</Name>
+			<FullName>Taxonomy ID</FullName>
+			<Description>Taxonomy ID</Description>
+			<TermCount>4656</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDAT</Name>
+			<FullName>Creation Date</FullName>
+			<Description>Creation Date</Description>
+			<TermCount>937</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Modification Date</Description>
+			<TermCount>98</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SIZE</Name>
+			<FullName>Size</FullName>
+			<Description>Size</Description>
+			<TermCount>673</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOM</Name>
+			<FullName>Domain Name</FullName>
+			<Description>Domain Name</Description>
+			<TermCount>39544</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOMS</Name>
+			<FullName>Domains</FullName>
+			<Description>Domains</Description>
+			<TermCount>64985</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PUID</Name>
+			<FullName>Protein GI</FullName>
+			<Description>Protein GI</Description>
+			<TermCount>3721607</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PARA</Name>
+			<FullName>Paralogs</FullName>
+			<Description>Paralogs</Description>
+			<TermCount>154</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COGG</Name>
+			<FullName>COG group</FullName>
+			<Description>COG group</Description>
+			<TermCount>77</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AVGL</Name>
+			<FullName>Average Length</FullName>
+			<Description>Average Length</Description>
+			<TermCount>3539</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Properties</Description>
+			<TermCount>13</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TPUB</Name>
+			<FullName>Total Publications</FullName>
+			<Description>Total Publications</Description>
+			<TermCount>777</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SPCN</Name>
+			<FullName>SwissProt Accession</FullName>
+			<Description>SwissProt Accession</Description>
+			<TermCount>3082319</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CONS</Name>
+			<FullName>Conserved In</FullName>
+			<Description>Conserved In</Description>
+			<TermCount>17004</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>proteinclusters_biosystems</Name>
+				<Menu>BioSystems</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Genes</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_genome</Name>
+				<Menu>Genome Links</Menu>
+				<Description>Related Genomes</Description>
+				<DbTo>genome</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Related Nucleotides</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Related Proteins</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Related Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_cdd</Name>
+				<Menu>PubMed (CDD) Links</Menu>
+				<Description>Related CDD Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_curated</Name>
+				<Menu>PubMed (Curated) Links</Menu>
+				<Description>Related Curated Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_generif</Name>
+				<Menu>PubMed (GeneRIF) Links</Menu>
+				<Description>Related GeneRIF Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_homology</Name>
+				<Menu>PubMed (By Homology) Links</Menu>
+				<Description>Related Homology Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_refseq</Name>
+				<Menu>PubMed (RefSeq) Links</Menu>
+				<Description>Related RefSeq Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_structure</Name>
+				<Menu>PubMed (Structure) Links</Menu>
+				<Description>Related Structure Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_pubmed_swissprot</Name>
+				<Menu>PubMed (SwissProt) Links</Menu>
+				<Description>Related SwissProt Publications</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>proteinclusters_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Related Organisms</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

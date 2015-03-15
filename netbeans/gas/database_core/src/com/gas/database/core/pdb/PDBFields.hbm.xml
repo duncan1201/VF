@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright 
+	(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the 
+	@author tags or express copyright attribution ~ statements applied by the 
+	authors. All third-party contributions are ~ distributed under license by 
+	Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing 
+	to use, modify, ~ copy, or redistribute it subject to the terms and conditions 
+	of the GNU ~ Lesser General Public License, as published by the Free Software 
+	Foundation. ~ ~ This program is distributed in the hope that it will be useful, 
+	~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+	~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public 
+	License ~ for more details. ~ ~ You should have received a copy of the GNU 
+	Lesser General Public License ~ along with this distribution; if not, write 
+	to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~ 
+	Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.pdb">
+
+    <class name="ATOM">
+        <id name="hibernateId" column="atomId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false" >
+            <key column="atomId" />
+            <many-to-many column="elementId" unique="true" class="ATOM$Element" />
+        </set>
+        
+    </class>
+
+    <class name="ATOM$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="name" />
+        <property name="altLoc" />
+        <property name="resName" />
+        <property name="chainId" />
+        <property name="resSeq" />
+        <property name="iCode" />
+        <property name="x" />
+        <property name="y" />
+        <property name="z" />
+        <property name="occupancy" />
+        <property name="tempFactor" />
+        <property name="element" />
+        <property name="charge" />               
+    </class>
+    
+    
+    <class name="COMPND">
+        <id name="hibernateId" column="compndId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false" >
+            <key column="compndId" />
+            <many-to-many column="elementId" unique="true" class="COMPND$Element" />
+        </set>
+        
+    </class>
+    
+    <class name="COMPND$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="compound"/>        
+    </class>    
+    
+    
+    <class name="CONECT">
+        <id name="hibernateId" column="conectId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false" >
+            <key column="conectId" />
+            <many-to-many column="elementId" unique="true" class="CONECT$Element" />
+        </set>
+        
+    </class>
+    
+    <class name="CONECT$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="bondedSerials" />
+        
+    </class>  
+    
+ 
+    <class name="CRYST1">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="a" />
+        <property name="b" />
+        <property name="c" />
+        <property name="alpha" />
+        <property name="beta" />
+        <property name="gamma" />
+        <property name="sGroup" />
+        <property name="z" />           
+        
+    </class>  
+    
+    <class name="DBREF">
+        <id name="hibernateId" column="dbrefId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="dbrefId" />
+            <many-to-many column="elementId" unique="true" class="DBREF$Element" />
+        </set>
+        
+    </class>
+    
+    <class name="DBREF$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="idCode" />
+        <property name="chainId" />
+        <property name="seqBegin" />
+        <property name="insertBegin" />
+        <property name="seqEnd" />
+        <property name="insertEnd" />
+        <property name="database" />
+        <property name="dbAccession" />
+        <property name="dbIdCode" />
+        <property name="dbseqBegin" />
+        <property name="idbnsBeg" />
+        <property name="dbseqEnd" />
+        <property name="dbinsEnd" />       
+    </class>      
+    
+    <class name="EXPDTA">
+        <id name="hibernateId" column="expdtaId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="expdtaId" />
+            <many-to-many column="elementId" unique="true" class="EXPDTA$Element" />
+        </set>
+        
+    </class>
+    
+    <class name="EXPDTA$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="technique" />                     
+    </class>     
+    
+    <class name="FORMUL">
+        <id name="hibernateId" column="formulId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false" >
+            <key column="formulId" />
+            <many-to-many column="elementId" unique="true" class="FORMUL$Element" />
+        </set>
+        
+    </class>
+    
+    <class name="FORMUL$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="compNum" />
+        <property name="hetId" />
+        <property name="continuation" />
+        <property name="asterisk" />
+        <property name="text" />        
+    </class>  
+    
+    
+    <class name="HEADER">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="classification" />
+        <property name="depDate" />
+        <property name="idCode" />
+    </class>  
+    
+    
+    <class name="HELIX">
+        <id name="hibernateId" column="helixId">
+            <generator class="increment" />
+        </id>
+
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="helixId" />
+            <many-to-many column="elementId" unique="true" class="HELIX$Element" />
+        </set>
+        
+    </class>
+    
+    <class name="HELIX$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serNum" />
+        <property name="helixId" />
+        <property name="initResName" />
+        <property name="initChainId" />
+        <property name="initSeqNum" />
+        <property name="initICode" />
+        <property name="endResName" />
+        <property name="endChainId" />
+        <property name="endSeqNum" />
+        <property name="endICode" />
+        <property name="helixClass" />
+        <property name="comment" />
+        <property name="length" />
+    </class>  
+    
+    
+    <class name="HET">
+        <id name="hibernateId" column="hetId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="hetId" />
+            <many-to-many column="elementId" unique="true" class="HET$Element" />
+        </set>        
+    </class>
+    
+    <class name="HET$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="hetId" />
+        <property name="chainId" />
+        <property name="seqNum" />
+        <property name="iCode" />
+        <property name="numHetAtoms" />
+        <property name="text" />
+    </class>    
+    
+    <class name="HETATM">
+        <id name="hibernateId" column="hetatmId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="hetatmId" />
+            <many-to-many column="elementId" unique="true" class="HETATM$Element" />
+        </set>        
+    </class>
+    
+    <class name="HETATM$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="name" />
+        <property name="altLoc" />
+        <property name="resName" />
+        <property name="chainId" />
+        <property name="resSeq" />
+        <property name="iCode" />
+        <property name="x" />
+        <property name="y" />
+        <property name="z" />
+        <property name="occupancy" />
+        <property name="tempFactor" />
+        <property name="element" />
+        <property name="charge" />
+    </class>      
+    
+    
+    <class name="HETNAM">
+        <id name="hibernateId" column="hetnamId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="hetnamId" />
+            <many-to-many column="elementId" unique="true" class="HETNAM$Element" />
+        </set>        
+    </class>
+    
+    <class name="HETNAM$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="hetId" />
+        <property name="text" />
+    </class>      
+    
+    <class name="JRNL">
+        <id name="hibernateId" column="jrnlId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="jrnlId" />
+            <many-to-many column="elementId" unique="true" class="JRNL$Element" />
+        </set>        
+    </class>
+    
+    <class name="JRNL$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="text" />
+    </class>        
+    
+    <class name="KEYWDS">
+        <id name="hibernateId" column="keywdsId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="keywdsId" />
+            <many-to-many column="elementId" unique="true" class="KEYWDS$Element" />
+        </set>        
+    </class>
+    
+    <class name="KEYWDS$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="keywds" />
+    </class>   
+    
+    
+    <class name="MODEL">
+        <id name="hibernateId" column="modelId">
+            <generator class="increment" />
+        </id>                
+        <property name="serial" />
+        <many-to-one name="atom" cascade="all,delete-orphan" 
+        column="atomId" 
+        unique="true"
+        not-null="true"/> 
+        
+        <many-to-one name="ter" cascade="all,delete-orphan" 
+        column="terId" 
+        unique="true"
+        not-null="false"/>   
+        
+        <many-to-one name="hetatm" cascade="all,delete-orphan" 
+        column="hetatmId" 
+        unique="true"
+        not-null="false"/>   
+    </class>    
+  
+    <class name="MODRES">
+        <id name="hibernateId" column="modresId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="modresId" />
+            <many-to-many column="elementId" unique="true" class="MODRES$Element" />
+        </set>        
+    </class>
+    
+    <class name="MODRES$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="idCode" />
+        <property name="resName" />
+        <property name="chainId" />
+        <property name="seqNum" />
+        <property name="iCode" />
+        <property name="stdRes" />
+        <property name="comment" />   
+    </class>  
+        
+    <class name="MTRIX1">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="m1" />
+        <property name="m2" />
+        <property name="m3" />
+        <property name="v" />
+        <property name="iGiven" />
+    </class>     
+    
+    <class name="MTRIX2">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="m1" />
+        <property name="m2" />
+        <property name="m3" />
+        <property name="v" />
+        <property name="iGiven" />
+    </class> 
+    
+    <class name="MTRIX3">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="m1" />
+        <property name="m2" />
+        <property name="m3" />
+        <property name="v" />
+        <property name="iGiven" />
+    </class>      
+    
+    <class name="NUMMDL">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="modelNumber" />
+    </class>  
+
+    
+    <class name="OBSLTE">
+        <id name="hibernateId" column="obslteId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="obslteId" />
+            <many-to-many column="elementId" unique="true" class="OBSLTE$Element" />
+        </set>        
+    </class>
+    
+    <class name="OBSLTE$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="repDate" />
+        <property name="idCode" />
+        <property name="rIdCodes" />        
+    </class>     
+    
+    
+    <class name="ORIGX1">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="o1" />
+        <property name="o2" />
+        <property name="o3" />
+        <property name="t" />
+    </class>  
+    <class name="ORIGX2">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="o1" />
+        <property name="o2" />
+        <property name="o3" />
+        <property name="t" />
+    </class>  
+    <class name="ORIGX3">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="o1" />
+        <property name="o2" />
+        <property name="o3" />
+        <property name="t" />
+    </class>    
+   
+    <class name="SCALE1">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="s1" />
+        <property name="s2" />
+        <property name="s3" />
+        <property name="u" />
+    </class>    
+    <class name="SCALE2">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="s1" />
+        <property name="s2" />
+        <property name="s3" />
+        <property name="u" />
+    </class>   
+    <class name="SCALE3">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>
+        <property name="s1" />
+        <property name="s2" />
+        <property name="s3" />
+        <property name="u" />
+    </class>   
+    
+    <class name="SEQRES">
+        <id name="hibernateId" column="seqresId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="seqresId" />
+            <many-to-many column="elementId" unique="true" class="SEQRES$Element" />
+        </set>        
+    </class>
+    
+    <class name="SEQRES$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serNum" />
+        <property name="chainId" />
+        <property name="numRes" />
+        <property name="resNames" />     
+    </class> 
+    
+    <class name="SHEET">
+        <id name="hibernateId" column="sheetId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="sheetId" />
+            <many-to-many column="elementId" unique="true" class="SHEET$Element" />
+        </set>        
+    </class>
+    
+    <class name="SHEET$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="strand" />
+        <property name="sheetId" />
+        <property name="numStrands" />
+        <property name="initResName" />
+        <property name="initChainId" />
+        <property name="initSeqNum" />
+        <property name="initICode" />
+        <property name="endResName" />
+        <property name="endChainId" />    
+        <property name="endSeqNum" />  
+        <property name="endICode" />  
+        <property name="sense" />  
+        <property name="curAtom" />  
+        <property name="curResName" />  
+        <property name="curChainId" />  
+        <property name="curResSeq" />  
+        <property name="curICode" />  
+        <property name="prevAtom" />  
+        <property name="prevResName" />  
+        <property name="prevChainId" />  
+        <property name="prevResSeq" />  
+        <property name="prevICode" />  
+    </class> 
+    
+    
+    <class name="SITE">
+        <id name="hibernateId" column="siteId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="siteId" />
+            <many-to-many column="elementId" unique="true" class="SITE$Element" />
+        </set>        
+    </class>
+    
+    <class name="SITE$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="seqNum" />
+        <property name="siteId" />
+        <property name="numRes" />
+        <property name="resName1" />
+        <property name="chainId1" />
+        <property name="seq1" />
+        <property name="iCode1" />
+        <property name="resName2" />
+        <property name="chainId2" />
+        <property name="seq2" />
+        <property name="iCode2" />
+        <property name="resName3" />
+        <property name="chainId3" />
+        <property name="seq3" />
+        <property name="iCode3" />    
+        <property name="resName4" />
+        <property name="chainId4" />
+        <property name="seq4" />
+        <property name="iCode4" />               
+    </class> 
+    
+    
+    <class name="SOURCE">
+        <id name="hibernateId" column="sourceId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="sourceId" />
+            <many-to-many column="elementId" unique="true" class="SOURCE$Element" />
+        </set>        
+    </class>
+    
+    <class name="SOURCE$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="srcName" />    
+    </class> 
+    
+    <class name="SSBOND">
+        <id name="hibernateId" column="ssbondId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="ssbondId" />
+            <many-to-many column="elementId" unique="true" class="SSBOND$Element" />
+        </set>        
+    </class>
+    
+    <class name="SSBOND$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serNum" />
+        <property name="resName1" />
+        <property name="chainId1" />
+        <property name="seqNum1" />
+        <property name="icode1" />
+        <property name="resName2" />
+        <property name="chainId2" />
+        <property name="seqNum2" />
+        <property name="icode2" />
+        <property name="sym1" />
+        <property name="sym2" />
+        <property name="length" />
+    </class>  
+
+    <class name="TER">
+        <id name="hibernateId" column="terId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="terId" />
+            <many-to-many column="elementId" unique="true" class="TER$Element" />
+        </set>        
+    </class>
+    
+    <class name="TER$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="serial" />
+        <property name="resName" />  
+        <property name="chainId" />
+        <property name="resSeq" />
+        <property name="iCode" />
+    </class>   
+    
+    <class name="TITLE">
+        <id name="hibernateId" column="titleId">
+            <generator class="increment" />
+        </id>
+        <set name="elements" cascade="all,delete-orphan" lazy="false">
+            <key column="titleId" />
+            <many-to-many column="elementId" unique="true" class="TITLE$Element" />
+        </set>        
+    </class>
+    
+    <class name="TITLE$Element">
+        <id name="hibernateId" column="elementId">
+            <generator class="increment" />
+        </id>
+        <property name="continuation" />
+        <property name="title" />
+    </class>        
+
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+LOCUS       pUC19                     70 bp    DNA     circular     18-OCT-2007
+DEFINITION  Cloning vector pUC19, complete sequence.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Cloning vector pUC19
+  ORGANISM  Cloning vector pUC19
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 2686)
+  AUTHORS   New England Biolabs.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-OCT-2007) Research Department, New England Biolabs,
+            240 County Road, Ipswich, MA 01938, USA
+COMMENT     See also GenBank accession L09137.
+FEATURES             Location/Qualifiers
+     misc_feature    3..5
+ORIGIN
+        1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
+       61 cagcttgtct    
+//

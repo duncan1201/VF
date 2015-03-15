@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD eSummaryResult, 29 October 2004//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eSummary_041029.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>20593</Id>
+	<Item Name="PdbAcc" Type="String">1IYJ</Item>
+	<Item Name="PdbDescr" Type="String">Structure Of A Brca2-Dss1 Complex</Item>
+	<Item Name="EC" Type="String"></Item>
+	<Item Name="Resolution" Type="String">3.4</Item>
+	<Item Name="ExpMethod" Type="String">X-Ray Diffraction</Item>
+	<Item Name="PdbClass" Type="String">Gene RegulationANTITUMOR PROTEIN</Item>
+	<Item Name="PdbDepositDate" Type="String">2002/8/28</Item>
+	<Item Name="MMDBEntryDate" Type="String">2002/10/21</Item>
+	<Item Name="OrganismList" Type="List">
+		<Item Name="string" Type="String">Homo sapiens</Item>
+		<Item Name="string" Type="String">Rattus norvegicus</Item>
+		<Item Name="string" Type="String">Homo sapiens</Item>
+		<Item Name="string" Type="String">Rattus norvegicus</Item>
+	</Item>
+	<Item Name="LigCode" Type="String"></Item>
+	<Item Name="LigCount" Type="String">0</Item>
+	<Item Name="ModProteinResCount" Type="String"></Item>
+	<Item Name="ModDNAResCount" Type="String"></Item>
+	<Item Name="ModRNAResCount" Type="String"></Item>
+	<Item Name="ProteinChainCount" Type="String"></Item>
+	<Item Name="DNAChainCount" Type="String"></Item>
+	<Item Name="RNAChainCount" Type="String"></Item>
+</DocSum>
+
+<DocSum>
+	<Id>74297</Id>
+	<Item Name="PdbAcc" Type="String">1T39</Item>
+	<Item Name="PdbDescr" Type="String">Human O6-Alkylguanine-Dna Alkyltransferase Covalently Crosslinked To Dna</Item>
+	<Item Name="EC" Type="String">2.1.1.63</Item>
+	<Item Name="Resolution" Type="String">3.3</Item>
+	<Item Name="ExpMethod" Type="String">X-Ray Diffraction</Item>
+	<Item Name="PdbClass" Type="String">TransferaseDNA</Item>
+	<Item Name="PdbDepositDate" Type="String">2004/4/25</Item>
+	<Item Name="MMDBEntryDate" Type="String">2009/07/17</Item>
+	<Item Name="OrganismList" Type="List">
+		<Item Name="string" Type="String">Homo sapiens</Item>
+		<Item Name="string" Type="String">Homo sapiens</Item>
+		<Item Name="string" Type="String">synthetic construct</Item>
+		<Item Name="string" Type="String">synthetic construct</Item>
+		<Item Name="string" Type="String">synthetic construct</Item>
+		<Item Name="string" Type="String">synthetic construct</Item>
+	</Item>
+	<Item Name="LigCode" Type="String"></Item>
+	<Item Name="LigCount" Type="String">0</Item>
+	<Item Name="ModProteinResCount" Type="String"></Item>
+	<Item Name="ModDNAResCount" Type="String"></Item>
+	<Item Name="ModRNAResCount" Type="String"></Item>
+	<Item Name="ProteinChainCount" Type="String"></Item>
+	<Item Name="DNAChainCount" Type="String"></Item>
+	<Item Name="RNAChainCount" Type="String"></Item>
+</DocSum>
+
+</eSummaryResult>

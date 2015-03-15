@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>nucest</DbName>
+	<MenuName>EST</MenuName>
+	<Description>EST db</Description>
+	<Count>71879085</Count>
+	<LastUpdate>2012/01/27 23:12</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>281708906</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to each sequence</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>129</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>162853816</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Words in definition line</Description>
+			<TermCount>110799778</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KYWD</Name>
+			<FullName>Keyword</FullName>
+			<Description>Nonstandardized terms provided by submitter</Description>
+			<TermCount>1</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Author(s) of publication</Description>
+			<TermCount>68216</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JOUR</Name>
+			<FullName>Journal</FullName>
+			<Description>Journal abbreviation of publication</Description>
+			<TermCount>1120</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VOL</Name>
+			<FullName>Volume</FullName>
+			<Description>Volume number of publication</Description>
+			<TermCount>383</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ISS</Name>
+			<FullName>Issue</FullName>
+			<Description>Issue number of publication</Description>
+			<TermCount>120</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PAGE</Name>
+			<FullName>Page Number</FullName>
+			<Description>Page number(s) of publication</Description>
+			<TermCount>3504</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Scientific and common names of organism, and all higher levels of taxonomy</Description>
+			<TermCount>20876</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Accession number of sequence</Description>
+			<TermCount>71880220</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PACC</Name>
+			<FullName>Primary Accession</FullName>
+			<Description>Does not include retired secondary accessions</Description>
+			<TermCount>71879085</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Name of gene associated with sequence</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROT</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Name of protein associated with sequence</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC number for enzyme or CAS registry number</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>Date sequence added to GenBank</Description>
+			<TermCount>4194</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Date of last update</Description>
+			<TermCount>3906</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBS</Name>
+			<FullName>Substance Name</FullName>
+			<Description>CAS chemical name or MEDLINE Substance Name</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Classification by source qualifiers and molecule type</Description>
+			<TermCount>35</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SQID</Name>
+			<FullName>SeqID String</FullName>
+			<Description>String identifier for sequence</Description>
+			<TermCount>1</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GPRJ</Name>
+			<FullName>BioProject</FullName>
+			<Description>BioProject</Description>
+			<TermCount>1</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SLEN</Name>
+			<FullName>Sequence Length</FullName>
+			<Description>Length of sequence</Description>
+			<TermCount>3345</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FKEY</Name>
+			<FullName>Feature key</FullName>
+			<Description>Feature annotated on sequence</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ID</Name>
+			<FullName>EST id</FullName>
+			<Description>EST id in est table</Description>
+			<TermCount>71879085</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NAME</Name>
+			<FullName>EST Name</FullName>
+			<Description>EST uid in est table</Description>
+			<TermCount>70970646</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CLON</Name>
+			<FullName>Clone ID</FullName>
+			<Description>clone id</Description>
+			<TermCount>39749764</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LIB</Name>
+			<FullName>Library Name</FullName>
+			<Description>Library Name</Description>
+			<TermCount>39465</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBM</Name>
+			<FullName>Submitter Name</FullName>
+			<Description>Submitter Name</Description>
+			<TermCount>5772</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CIT</Name>
+			<FullName>Citation Title</FullName>
+			<Description>Citation Title Publication</Description>
+			<TermCount>10850</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>nucest_assembly</Name>
+				<Menu></Menu>
+				<Description>(No records.)</Description>
+				<DbTo>assembly</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_bioproject</Name>
+				<Menu>Bio Project Links</Menu>
+				<Description>Related Bio Project entry</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_biosample</Name>
+				<Menu>BioSample Links</Menu>
+				<Description>BioSample links</Description>
+				<DbTo>biosample</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_comp_nuccore</Name>
+				<Menu>Assembly</Menu>
+				<Description>Nucleotide records that are assembled from Expressed Sequence Tag (EST) records in the current set.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Gene records that refer to the current EST sequence records. EST sequences included in Gene records come from the corresponding UniGene cluster.</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_gene_clust</Name>
+				<Menu></Menu>
+				<Description>long_descr: (Not displayed.)</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_gensat</Name>
+				<Menu>GENSAT Links</Menu>
+				<Description>Gensat records that use the mRNAs or genes corresponding to the current records as probes or reporter constructs in mouse brain histology imaging.</Description>
+				<DbTo>gensat</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_geoprofiles</Name>
+				<Menu>GEO Profiles Links</Menu>
+				<Description>GEO Profile records associated with EST record</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_mapview</Name>
+				<Menu></Menu>
+				<Description>Graphical Map Viewer display of the current EST records aligned to assembled genomes.</Description>
+				<DbTo>mapview</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Online Mendelian Inheritance in Man articles that refer to EST records in the current set.</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full-text articles in PubMed central that cite EST records in the current set.</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_probe</Name>
+				<Menu>Probe Links</Menu>
+				<Description>Probe database records for genotyping, gene expression, SNP discovery, genome mapping, and gene silencing that target the genes and gene products associated with the current EST records.</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed articles that report EST records in the current set.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Genotype reports for single nucleotide polymorphisms (SNPs) associated with the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_snp_geneview</Name>
+				<Menu></Menu>
+				<Description>Geneview in dbSNP showing nucleotide polymorphisms (SNPs) mapped to the genes associated with the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>NCBI Taxonomy entries and classification information for the source organisms of the current set of records.</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_trace</Name>
+				<Menu></Menu>
+				<Description>Trace archive capillary sequencing data supporting the current sequence records.</Description>
+				<DbTo>trace</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>UniGene clusters of expressed sequences that contain records in the current set.</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>nucest_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Genetic, physical, and sequence mapping reagents in the UniSTS database mapped on the current EST records.</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

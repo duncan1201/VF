@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>genome</DbName>
+	<MenuName>Genome</MenuName>
+	<Description>Genomic sequences, contigs, and maps</Description>
+	<Count>9592</Count>
+	<LastUpdate>2012/01/29 04:23</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>54233357</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to genome</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>15</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism</Description>
+			<TermCount>92168</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PID</Name>
+			<FullName>ProjectID</FullName>
+			<Description>Project ID</Description>
+			<TermCount>25361</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRJA</Name>
+			<FullName>Project Accession</FullName>
+			<Description>Project Accession</Description>
+			<TermCount>25360</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DFLN</Name>
+			<FullName>Title</FullName>
+			<Description>Genome short description</Description>
+			<TermCount>20731</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DSCR</Name>
+			<FullName>Genome description</FullName>
+			<Description>Genome full description</Description>
+			<TermCount>15603</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STAT</Name>
+			<FullName>Status</FullName>
+			<Description>Bioproject status</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AID</Name>
+			<FullName>AssemblyID</FullName>
+			<Description>Release ID of full assembly</Description>
+			<TermCount>5368</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AACC</Name>
+			<FullName>Assembly Accession</FullName>
+			<Description>Accession of full assembly</Description>
+			<TermCount>5368</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANAM</Name>
+			<FullName>Assembly Name</FullName>
+			<Description>Name of full assembly</Description>
+			<TermCount>8700</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GI</Name>
+			<FullName>Replicon GI</FullName>
+			<Description>Replicon GI</Description>
+			<TermCount>31761</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Replicon accession</FullName>
+			<Description>Replicon Accession</Description>
+			<TermCount>63522</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RNAM</Name>
+			<FullName>Replicon name</FullName>
+			<Description>Replicon Name</Description>
+			<TermCount>3111</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PACC</Name>
+			<FullName>Protein Accession</FullName>
+			<Description>Protein Accession</Description>
+			<TermCount>14182254</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROT</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Protein Name</Description>
+			<TermCount>5256166</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PGI</Name>
+			<FullName>Protein GI</FullName>
+			<Description>protein GI</Description>
+			<TermCount>14182254</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GNID</Name>
+			<FullName>GeneID</FullName>
+			<Description>GeneID</Description>
+			<TermCount>6202181</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene Name</Description>
+			<TermCount>309960</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LTAG</Name>
+			<FullName>Locus Tag</FullName>
+			<Description>Locus Tag</Description>
+			<TermCount>13931892</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WGSP</Name>
+			<FullName>WGS prefix</FullName>
+			<Description>WGS Prefix</Description>
+			<TermCount>6940</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>PubMed ID</FullName>
+			<Description>Unique identifier from PubMed</Description>
+			<TermCount>8193</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BIOP</Name>
+			<FullName>biological properties</FullName>
+			<Description>Biological Properties</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCID</Name>
+			<FullName>ProtClust ID</FullName>
+			<Description>Protein Clusters ID</Description>
+			<TermCount>573587</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Project/Organism Properties</Description>
+			<TermCount>8</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDT</Name>
+			<FullName>Create Date</FullName>
+			<Description>Create Date</Description>
+			<TermCount>33</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>genome_bioproject</Name>
+				<Menu>BioProject Links</Menu>
+				<Description>Related BioProjects</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Links from a genome record to related genes</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_nuccore</Name>
+				<Menu>Assembly</Menu>
+				<Description>Constituent nucleotide sequence</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_nuccore_samespecies</Name>
+				<Menu>Other genomes for species</Menu>
+				<Description>Other (nearly) complete genomes or particular genomic segments for the species from DDBJ/EMBL/GenBank</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Constituent protein sequence</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_proteinclusters</Name>
+				<Menu>Protein Cluster Links</Menu>
+				<Description>Related Protein Clusters</Description>
+				<DbTo>proteinclusters</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed articles cited by genome record</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>genome_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Taxonomy sequences associated with genome record</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

@@ -1,0 +1,255 @@
+LOCUS       NM_007033               3118 bp    mRNA    linear   PRI 03-MAR-2013
+DEFINITION  Homo sapiens RER1 retention in endoplasmic reticulum 1 homolog (S.
+            cerevisiae) (RER1), mRNA.
+ACCESSION   NM_007033
+VERSION     NM_007033.4  GI:262231832
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3118)
+  AUTHORS   Park,H.J., Shabashvili,D., Nekorchuk,M.D., Shyqyriu,E., Jung,J.I.,
+            Ladd,T.B., Moore,B.D., Felsenstein,K.M., Golde,T.E. and Kim,S.H.
+  TITLE     Retention in endoplasmic reticulum 1 (RER1) modulates amyloid-beta
+            (Abeta) production by altering trafficking of gamma-secretase and
+            amyloid precursor protein (APP)
+  JOURNAL   J. Biol. Chem. 287 (48), 40629-40640 (2012)
+   PUBMED   23043097
+  REMARK    GeneRIF: RER1 modulates amyloid-beta production by altering
+            trafficking of gamma-secretase and amyloid precursor protein.
+REFERENCE   2  (bases 1 to 3118)
+  AUTHORS   Kaether,C., Scheuermann,J., Fassler,M., Zilow,S., Shirotani,K.,
+            Valkova,C., Novak,B., Kacmar,S., Steiner,H. and Haass,C.
+  TITLE     Endoplasmic reticulum retention of the gamma-secretase complex
+            component Pen2 by Rer1
+  JOURNAL   EMBO Rep. 8 (8), 743-748 (2007)
+   PUBMED   17668005
+  REMARK    GeneRIF: Downregulation of Rer1 leads to increased surface
+            localization of Pen2, whereas overexpression of Rer1 stabilizes
+            unassembled Pen2. Rer1 is the first identified interaction partner
+            of mammalian transmembrane-based retention/retrieval signals.
+REFERENCE   3  (bases 1 to 3118)
+  AUTHORS   Fullekrug,J., Boehm,J., Rottger,S., Nilsson,T., Mieskes,G. and
+            Schmitt,H.D.
+  TITLE     Human Rer1 is localized to the Golgi apparatus and complements the
+            deletion of the homologous Rer1 protein of Saccharomyces cerevisiae
+  JOURNAL   Eur. J. Cell Biol. 74 (1), 31-40 (1997)
+   PUBMED   9309388
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA409924.1, BC004965.1,
+            AL513477.21 and BM682824.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Oct 30, 2009 this sequence version replaced gi:116812590.
+            
+            Summary: The protein encoded by this gene is a multi-pass membrane
+            protein that is localized to the golgi apparatus. It is involved in
+            the retention of endoplasmic reticulum (ER) membrane proteins in
+            the ER and retrieval of ER membrane proteins from the early Golgi
+            compartment to facilitate gamma-secretase complex assembly.
+            [provided by RefSeq, Oct 2009].
+            
+            Sequence Note: This RefSeq record was created from transcript and
+            genomic sequence data to make the sequence consistent with the
+            reference genome assembly. The genomic coordinates used for the
+            transcript record were based on transcript alignments.
+            
+            ##RefSeq-Attributes-START##
+            Transcript_exon_combination_evidence :: AF157324.1, BC004965.1
+                                                    [ECO:0000332]
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-184               DA409924.1         1-184
+            185-1409            BC004965.1         120-1344
+            1410-2586           AL513477.21        41887-43063         c
+            2587-3118           BM682824.1         1-532               c
+FEATURES             Location/Qualifiers
+     source          1..3118
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /map="1p36"
+     gene            1..3118
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /note="RER1 retention in endoplasmic reticulum 1 homolog
+                     (S. cerevisiae)"
+                     /db_xref="GeneID:11079"
+                     /db_xref="HGNC:30309"
+     exon            1..184
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=1
+     misc_feature    147..149
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /note="upstream in-frame stop codon"
+     exon            185..272
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=2
+     CDS             192..782
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /codon_start=1
+                     /product="protein RER1"
+                     /protein_id="NP_008964.3"
+                     /db_xref="GI:116812591"
+                     /db_xref="CCDS:CCDS41232.1"
+                     /db_xref="GeneID:11079"
+                     /db_xref="HGNC:30309"
+                     /translation="MSEGDSVGESVHGKPSVVYRFFTRLGQIYQSWLDKSTPYTAVRW
+                     VVTLGLSFVYMIRVYLLQGWYIVTYALGIYHLNLFIAFLSPKVDPSLMEDSDDGPSLP
+                     TKQNEEFRPFIRRLPEFKFWHAATKGILVAMVCTFFDAFNVPVFWPILVMYFIMLFCI
+                     TMKRQIKHMIKYRYIPFTHGKRRYRGKEDAGKAFAS"
+     misc_feature    207..209
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; propagated from UniProtKB/Swiss-Prot
+                     (O15258.1); phosphorylation site"
+     misc_feature    312..374
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (O15258.1);
+                     transmembrane region"
+     misc_feature    378..440
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (O15258.1);
+                     transmembrane region"
+     misc_feature    474..476
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; propagated from UniProtKB/Swiss-Prot
+                     (O15258.1); phosphorylation site"
+     misc_feature    609..671
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="non-experimental evidence, no additional
+                     details recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (O15258.1);
+                     transmembrane region"
+     exon            273..377
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=3
+     exon            378..477
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=4
+     exon            478..556
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=5
+     exon            557..692
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=6
+     STS             577..726
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /standard_name="RH11651"
+                     /db_xref="UniSTS:58669"
+     exon            693..3102
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /inference="alignment:Splign"
+                     /number=7
+     STS             1465..1649
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /standard_name="STS-AA029578"
+                     /db_xref="UniSTS:80967"
+     STS             1655..1918
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /standard_name="SHGC-74082"
+                     /db_xref="UniSTS:5063"
+     STS             2422..3029
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /standard_name="G43268"
+                     /db_xref="UniSTS:94912"
+     STS             2520..2619
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+                     /standard_name="SHGC-30638"
+                     /db_xref="UniSTS:38847"
+     polyA_signal    3074..3079
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+     polyA_site      3102
+                     /gene="RER1"
+                     /gene_synonym="RP4-740C4.2"
+ORIGIN      
+        1 agcccttggc cccgccctcg cgccatcttg ggggccctgg aggcggcgcc gcggaggacg
+       61 gagcggaagt gctcgctgca gcttcccgga gccggagcgc agcgcctgcg gccgcccgtg
+      121 ccccgccgtc ctccttcccg cggccgtgag ggagaccgcg gctcggccgt agcggagctg
+      181 cgagttacag aatgtctgaa ggggacagtg tgggagaatc cgtccatggg aaaccttcgg
+      241 tggtgtacag atttttcaca agacttggac agatttatca gtcctggcta gacaagtcca
+      301 caccctacac ggctgtgcga tgggtcgtga cactgggcct gagctttgtc tacatgattc
+      361 gagtttacct gctgcagggt tggtacattg tgacctatgc cttggggatc taccatctaa
+      421 atcttttcat agcttttctt tctcccaaag tggatccttc cttaatggaa gactcagatg
+      481 acggtccttc gctacccacc aaacagaacg aggaattccg ccccttcatt cgaaggctcc
+      541 cagagtttaa attttggcat gcggctacca agggcatcct tgtggctatg gtctgtactt
+      601 tcttcgacgc tttcaacgtc ccggtgttct ggccgattct ggtgatgtac ttcatcatgc
+      661 tcttctgtat cacgatgaag aggcaaatca agcacatgat taagtaccgg tacatcccgt
+      721 tcacacatgg gaagagaagg tacagaggca aggaggatgc cggcaaggcc ttcgccagct
+      781 agaagcggga ctgaggctgc ctcacgtgtt gcaagaacag ttttgagcca ttgttaacaa
+      841 tgcctttttt cttcacataa agtagttgat tacgagggag tcaaattttc tttttaaaaa
+      901 ggagcttcaa tgatttgtaa ctgaaatatc aggttctaga agaaactggc gcttaaacca
+      961 aatcgcatgg atttcttttt cagtgacgtt caagtgtttc tcacggatgg aattctagtc
+     1021 agctgcaggc gggaagccag gcgggtggag cccatgggag caagggcgag tggccggtcc
+     1081 ccgctgtgcc aggtgggcag gcaggagcaa ggcctgcgag ggaggaacgg gccgctcccc
+     1141 gccagccgcc ttccccagca gccgcaggtg gtgccagcca ctccacagag cccgagggat
+     1201 gatctagcct gattcctgcg tgtccgaaag aacttaacgt tttaaaggtg attgtcaagt
+     1261 aactgtgtgg ggttctaatg ccagtttcct aattccatct cactggagat gtttaaagtt
+     1321 ggcctctatc ctaatgactc aaaacttggt tcttaactac catgattgct tttgagggcc
+     1381 cggaattata aatatatatt atattttaat tgtttgagat tattttgaca catttctttg
+     1441 atacgtagag tgttttgttt ttaatttaaa tctgtcctca tgcaaccctc catgaggggc
+     1501 agcgaagctg gcagggagca gactggcttt gtaggttcag cactcggccc cccactgcgg
+     1561 gagaggcgga acccacttgc atgtcagcgt ttttgattcg agaaaagaaa tactctcaac
+     1621 gttttaccaa gtgattttac ctccaccttt actaaagtct ttacctaaaa catggcagtc
+     1681 gctggacaca ggaaagccca ccttttgttt ggccttttcg aaaggtgacc catattgcac
+     1741 agcagaacat cacagctgtg gtcccagatg agacactgac atgcgagtga aggcctctcc
+     1801 tcctgggccc cgggctgcgc aggctcctca ctctgggcgg tgtttcctgt ctcagaattg
+     1861 acacggtgaa tgcttagtgt ctggattttc ttgtaccagt gtttacatat ctgacatcga
+     1921 gctcctctaa gaggccacgt tcaagcttgt gtgtccctga cccaagatag ccagtgctgc
+     1981 tcccaggtgg tacttctggt accgtgttga gacacttggg attctcagac tgtggacagg
+     2041 agtgtttgtc atttttcata ctgttttctt aataagcgct caggcctaag gtgtgacagg
+     2101 aagtcgcacg cgcttggcca gagcacagtg aagcaaagga ctgggtgctg atggatggag
+     2161 ccacggcggc atctgcccac ccggccgcag cccccagtgc ctctcctggt ggtcctccca
+     2221 gtctagaggg tcacggcccc cccgccctcc tccgtctctg gcaagctgac cttgactaac
+     2281 ccaggaatac agggtcatcc tcattcctaa gtaagtcaaa cagcaagaca tggtttgcgc
+     2341 gggtctttgc cggaagccgg tcctgctggc caggtgtttt acgtcagcag ggaaatgtgg
+     2401 cacacgccct cgaggcattt taacactgcg cttcaggaaa tctcaagttc catcttgtgt
+     2461 tagtaacgta cccacatttt gctggagtta gtttattaaa gatgcctacg gtgaactctc
+     2521 tggcgcaggt taaatgcagt tttgaaaacc tggaaacatc aaatggaggc gggaaatagg
+     2581 ctggggccga gctgaggggc tgaacacagc agtgaccgtg ggtcagcagg tcgcctgccc
+     2641 agcaggcccc ccaggagagg gctcgggcgc ccctggcagc ccccataccc ccaggacctg
+     2701 gctcgtgagt gcgtctgggt caggaagaga cctctctgtg cgtctcaggc tgagatgcag
+     2761 atttctgttt tctaaaactg gaagcgacct tgacgtgtat tgaaggtgtg tgtgccaaat
+     2821 gcttccgacg gaggtgctgg ccttggttgg tttctctctg ccccgtgtgg tcatcaagtc
+     2881 ctgggggatg tgctctgccc agccgccctc ggggagagca gcgccgcctc ccatggggcc
+     2941 gtggggctgc tgttctcact gcactggctg aagcaacccg ccagcctccg tgccccaccc
+     3001 cacccagcac gcactcattc agtccattgc cttaacacaa gcctgatggg gctgttttct
+     3061 cacaatataa acgaataaag tgtcttctgg cctacttctg aaaaaaaaaa aaaaaaaa
+//
+

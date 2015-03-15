@@ -1,0 +1,64 @@
+PRIMER PICKING RESULTS FOR example
+
+No mispriming library specified
+No internal oligo mishyb library specified
+Using 0-based sequence positions
+OLIGO            start  len      tm     gc%   any    3' seq
+LEFT PRIMER         15   19   57.62   50.00  4.00  0.00 TGACNACTGACGATGCAGA
+RIGHT PRIMER        94   18   60.10   50.00  6.00  2.00 ATCGATTTGGGTCGGGAT
+INTERNAL OLIGO      58   19   57.90   52.63  5.00  2.00 GGTATTAGTGGGCCATTCG
+SEQUENCE SIZE: 108
+INCLUDED REGION SIZE: 108
+
+PRODUCT SIZE: 80, PAIR ANY COMPL: 4.00, PAIR 3' COMPL: 3.00
+TARGETS (start, len)*: 37,21
+INTERNAL OLIGO EXCLUDED REGIONS (start, len)*: 37,21
+
+    0 GTAGTCAGTAGACNATGACNACTGACGATGCAGACNACACACACACACACAGCACACAGG
+                     >>>>>>>>>>>>>>>>>>>   xxxxxxxxxxxxxxxxxxxxx^^
+
+   60 TATTAGTGGGCCATTCGATCCCGACCCAAATCGATAGCTACGATGACG
+      ^^^^^^^^^^^^^^^^^<<<<<<<<<<<<<<<<<<             
+
+KEYS (in order of precedence):
+xxxxxx excluded region for internal oligo
+****** target
+>>>>>> left primer
+<<<<<< right primer
+^^^^^^ internal oligo
+
+ADDITIONAL OLIGOS
+                    start  len      tm     gc%   any    3' seq
+
+ 1 LEFT PRIMER         15   20   58.68   52.63  4.00  1.00 TGACNACTGACGATGCAGAC
+   RIGHT PRIMER        95   18   59.81   50.00  6.00  2.00 TATCGATTTGGGTCGGGA
+   INTERNAL OLIGO      58   20   59.78   50.00  5.00  4.00 GGTATTAGTGGGCCATTCGA
+   PRODUCT SIZE: 81, PAIR ANY COMPL: 4.00, PAIR 3' COMPL: 3.00
+
+ 2 LEFT PRIMER         15   19   57.62   50.00  4.00  0.00 TGACNACTGACGATGCAGA
+   RIGHT PRIMER        95   18   59.81   50.00  6.00  2.00 TATCGATTTGGGTCGGGA
+   INTERNAL OLIGO      58   20   59.78   50.00  5.00  4.00 GGTATTAGTGGGCCATTCGA
+   PRODUCT SIZE: 81, PAIR ANY COMPL: 4.00, PAIR 3' COMPL: 2.00
+
+ 3 LEFT PRIMER         14   20   58.08   47.37  4.00  0.00 ATGACNACTGACGATGCAGA
+   RIGHT PRIMER        94   18   60.10   50.00  6.00  2.00 ATCGATTTGGGTCGGGAT
+   INTERNAL OLIGO      58   19   57.90   52.63  5.00  2.00 GGTATTAGTGGGCCATTCG
+   PRODUCT SIZE: 81, PAIR ANY COMPL: 4.00, PAIR 3' COMPL: 3.00
+
+ 4 LEFT PRIMER         14   20   58.08   47.37  4.00  0.00 ATGACNACTGACGATGCAGA
+   RIGHT PRIMER        95   18   59.81   50.00  6.00  2.00 TATCGATTTGGGTCGGGA
+   INTERNAL OLIGO      58   20   59.78   50.00  5.00  4.00 GGTATTAGTGGGCCATTCGA
+   PRODUCT SIZE: 82, PAIR ANY COMPL: 4.00, PAIR 3' COMPL: 2.00
+
+Statistics
+         con   too    in    in   not          no    tm    tm  high  high        high      
+         sid  many   tar  excl    ok   bad    GC   too   too   any    3'  poly   end      
+        ered    Ns   get   reg   reg   GC% clamp   low  high compl compl     X  stab    ok
+Left      65    17     0     0     0     0     0    44     0     0     0     0     0     4
+Right    228     0     0     0     0     0     0    96    57     4    18     0     0    53
+Intl     352    36     0    31     0     0     0    33   201     0     0     0     0    51
+Pair Stats:
+considered 9, unacceptable product size 2, high end compl 2, ok 5
+libprimer3 release 2.2.3
+
+

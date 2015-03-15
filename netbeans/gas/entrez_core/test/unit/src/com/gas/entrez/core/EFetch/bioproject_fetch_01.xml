@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<RecordSet><DocumentSummary uid="28697">
+    <Project>
+        <ProjectID>
+            <ArchiveID accession="PRJNA28697" archive="NCBI" id="28697"/>
+        </ProjectID>
+        <ProjectDescr>
+            <Name>Abaca bunchy top virus</Name>
+            <Title>Abaca bunchy top virus</Title>
+            <Publication date="2007-11-06T00:00:00Z" id="17978886" status="ePublished">
+                <Reference/>
+                <DbType>ePubmed</DbType>
+            </Publication>
+            <RefSeq representation="eReference">
+                <AnnotationSource>
+                    <Name>NCBI annotation pipeline</Name>
+                </AnnotationSource>
+            </RefSeq>
+        </ProjectDescr>
+        <ProjectType>
+            <ProjectTypeSubmission>
+                <Target capture="eWhole" material="eGenome" sample_scope="eMonoisolate">
+                    <Organism species="438782" taxID="438782">
+                        <OrganismName>Abaca bunchy top virus</OrganismName>
+                        <Supergroup>eViruses</Supergroup>
+                        <RepliconSet>
+                            <Replicon order="1">
+                                <Type location="eVirionPhage">eSegment</Type>
+                                <Name>2</Name>
+                                <Size units="Mb">0.001057</Size>
+                            </Replicon>
+                            <Replicon order="2">
+                                <Type location="eVirionPhage">eSegment</Type>
+                                <Name>5</Name>
+                                <Size units="Mb">0.001015</Size>
+                            </Replicon>
+                            <Replicon order="3">
+                                <Type location="eVirionPhage">eSegment</Type>
+                                <Name>DNA-M</Name>
+                                <Size units="Mb">0.001074</Size>
+                            </Replicon>
+                            <Replicon order="4">
+                                <Type location="eVirionPhage">eSegment</Type>
+                                <Name>DNA-N</Name>
+                                <Size units="Mb">0.001090</Size>
+                            </Replicon>
+                            <Replicon order="5">
+                                <Type location="eVirionPhage">eSegment</Type>
+                                <Name>DNA-R</Name>
+                                <Size units="Mb">0.001099</Size>
+                            </Replicon>
+                            <Replicon order="6">
+                                <Type location="eVirionPhage">eSegment</Type>
+                                <Name>DNA-S</Name>
+                                <Size units="Mb">0.001087</Size>
+                            </Replicon>
+                            <Count repliconType="eOther">6</Count>
+                        </RepliconSet>
+                        <GenomeSize units="Kb">6.422000</GenomeSize>
+                    </Organism>
+                </Target>
+                <Method method_type="eOther"/>
+                <Objectives>
+                    <Data data_type="eAnnotation"/>
+                </Objectives>
+                <ProjectDataTypeSet>
+                    <DataType>RefSeq Genome</DataType>
+                </ProjectDataTypeSet>
+            </ProjectTypeSubmission>
+        </ProjectType>
+    </Project>
+    <Submission submitted="2008-02-06">
+        <Description>
+            <!-- Submitter information has been removed -->
+            <Organization role="owner" type="center">
+                <Name abbr="NCBI">NCBI</Name>
+            </Organization>
+            <Access>public</Access>
+        </Description>
+    </Submission>
+</DocumentSummary>
+
+</RecordSet>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright
+(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the
+@author tags or express copyright attribution ~ statements applied by the
+authors. All third-party contributions are ~ distributed under license by
+Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing
+to use, modify, ~ copy, or redistribute it subject to the terms and conditions
+of the GNU ~ Lesser General Public License, as published by the Free Software
+Foundation. ~ ~ This program is distributed in the hope that it will be useful,
+~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+License ~ for more details. ~ ~ You should have received a copy of the GNU
+Lesser General Public License ~ along with this distribution; if not, write
+to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~
+Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.primer3">
+
+    <class name="GbOutput">
+        <id name="hibernateId" column="gbOutputId">
+            <generator class="increment" />
+        </id>      
+        
+        <set name="overlapPrimers" cascade="all,delete-orphan" lazy="true">
+            <key column="gbOutputId" />
+            <one-to-many class="OverlapPrimer" />
+        </set>        
+        
+    </class>
+
+    <class name="OverlapPrimer">
+        <id name="hibernateId" column="overlapPrimerId">
+            <generator class="increment" />
+        </id>
+        <property name="overlapLength" />
+        <property name="name" />      
+        
+        <set name="oligoElements" cascade="all,delete-orphan" lazy="true">
+            <key column="overlapPrimerId" />
+            <one-to-many class="com.gas.domain.core.primer3.OligoElement" />
+        </set>
+        
+        <set name="flappyEnds" cascade="all,delete-orphan" lazy="true">
+            <key column="overlapPrimerId" />
+            <one-to-many class="com.gas.domain.core.primer3.OverlapPrimer$FlappyEnd" />
+        </set>      
+    </class>
+        
+    <class name="OverlapPrimer$FlappyEnd">
+        <id name="hibernateId" column="flappyEndId">
+            <generator class="increment" />
+        </id>        
+        <property name="length" />
+    </class>
+</hibernate-mapping>

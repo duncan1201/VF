@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="org-netbeans-modules-print-action-PageSetupAction.instance_hidden"/>
+        </folder>        
+        <folder name="Tools">
+            <file name="com-gas-main-ui-actions-NewEmptyAction.instance_hidden"/>
+            <file name="com-gas-main-ui-actions-NewSeqEmptyAction.instance"/>
+        </folder>       
+    </folder>
+    <folder name="Menu">
+        <file name="Edit_hidden"/>
+        <file name="File_hidden"/>
+        <file name="GoTo_hidden"/>
+        <file name="Help_hidden"/>
+        <file name="Refactoring_hidden"/>
+        <file name="Source_hidden"/>
+        <file name="Tools_hidden"/>
+        <folder name="View">
+            <file name="org-netbeans-core-actions-HTMLViewAction.shadow_hidden"/>
+            <file name="org-netbeans-core-actions-LogAction.shadow_hidden"/>
+        </folder>
+        <folder name="Help">
+            <attr name="position" intvalue="155"/>
+        </folder>
+        <file name="View_hidden"/>
+        <file name="Window_hidden"/>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Modes">
+            <file name="banner.wsmode" url="modes/banner.wsmode"/>  
+            <file name="slimExplorer.wsmode" url="modes/slimExplorer.wsmode"/> 
+        </folder>
+    </folder>
+
+    <folder name="Toolbars">
+        <file name="Standard.xml_hidden"/>
+        <folder name="File_hidden"/>
+        <folder name="Clipboard_hidden"/>
+        <folder name="UndoRedo_hidden"/>
+        <folder name="Memory_hidden"/>
+        
+        <folder name="CUSTOME">
+            <attr name="position" intvalue="100"/>  
+            <file name="org-openide-actions-SaveAllAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAllAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+        </folder>     
+    </folder>
+   
+
+</filesystem>

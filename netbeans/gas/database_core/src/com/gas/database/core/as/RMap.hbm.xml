@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright 
+(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the 
+@author tags or express copyright attribution ~ statements applied by the 
+authors. All third-party contributions are ~ distributed under license by 
+Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing 
+to use, modify, ~ copy, or redistribute it subject to the terms and conditions 
+of the GNU ~ Lesser General Public License, as published by the Free Software 
+Foundation. ~ ~ This program is distributed in the hope that it will be useful, 
+~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public 
+License ~ for more details. ~ ~ You should have received a copy of the GNU 
+Lesser General Public License ~ along with this distribution; if not, write 
+to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~ 
+Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.ren">
+   
+    <class name="RMap">
+        <id name="hibernateId" column="rmapId">
+            <generator class="increment" />
+        </id>  
+        <set name="entries" cascade="all,delete-orphan" lazy="false" >
+            <key column="rmapId" />
+            <many-to-many column="entryId" unique="true" class="RMap$Entry" />
+        </set> 
+        
+        <many-to-one name="inputParams" 
+             column="inputParamsId" 
+             unique="true"
+             not-null="false" cascade="all" lazy="false"/>                        
+    </class>
+    
+    <class name="RMap$Entry">
+        <id name="hibernateId" column="entryId">
+            <generator class="increment" />
+        </id>        
+        <property name="name" /> 
+        <property name="seq" />
+        <property name="visual" />
+        <property name="start" /> 
+        <property name="end" />         
+        <property name="overhang"/>
+        <property name="downstreamCutType"/>
+        <primitive-array name="downstreamCutPos"> 
+            <key column="renId"/> 
+            <index column="IDX"/> 
+            <element type="int"/> 
+        </primitive-array>
+
+        <primitive-array name="upstreamCutPos" > 
+            <key column="renId"/> 
+            <index column="IDX"/> 
+            <element type="int"/> 
+        </primitive-array> 
+        
+    </class>
+    
+    <class name="RMap$InputParams">
+        
+        <id name="hibernateId" column="inputParamsId">
+            <generator class="increment" />
+        </id>        
+        <property name="renListName" type="text"/>
+        <property name="minOccurence" />
+        <property name="maxOccurence" />
+        <property name="allow" />
+        <property name="startPos" />
+        <property name="endPos" />
+  
+        <set name="renNames" cascade="all,delete-orphan" lazy="true">
+            <key column="inputParamsId"/>
+            <element column="renName" type="string"/>
+        </set>
+        
+    </class>
+
+</hibernate-mapping>

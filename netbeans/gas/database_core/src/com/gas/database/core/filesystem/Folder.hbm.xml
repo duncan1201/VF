@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright
+	(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the
+	@author tags or express copyright attribution ~ statements applied by the
+	authors. All third-party contributions are ~ distributed under license by
+	Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing
+	to use, modify, ~ copy, or redistribute it subject to the terms and conditions
+	of the GNU ~ Lesser General Public License, as published by the Free Software
+	Foundation. ~ ~ This program is distributed in the hope that it will be useful,
+	~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+	~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+	License ~ for more details. ~ ~ You should have received a copy of the GNU
+	Lesser General Public License ~ along with this distribution; if not, write
+	to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~
+	Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.filesystem">
+
+    <class name="Folder">
+        <id name="hibernateId" column="folderId">
+            <generator class="increment" />
+        </id>
+        <property name="name" />
+        <property name="root" />
+        <property name="deletable" />
+        <property name="NCBIFolder" />
+        <property name="recycleBin" />
+                
+        <many-to-one name="parent" class="Folder"
+                   column="parentId"  not-null="false" update="false" insert="false"/>
+
+        <set name="children" table="Folder" inverse="false" lazy="false">
+            <key column="parentId" />
+            <one-to-many class="Folder" />
+        </set>
+
+        <set name="annotatedSeqs" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" />
+            <one-to-many class="com.gas.domain.core.as.AnnotatedSeq" />
+        </set>
+
+        <set name="renLists" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" />
+            <one-to-many class="com.gas.domain.core.ren.RENList" />
+        </set>
+      
+        <set name="pubmedArticles" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" not-null="true"/>
+            <one-to-many  class="com.gas.domain.core.pubmed.PubmedArticle" />
+        </set>              
+
+        <set name="pdbDocs" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" not-null="true"/>
+            <one-to-many class="com.gas.domain.core.pdb.PDBDoc" />
+        </set>
+        
+        <set name="msas" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" not-null="true"/>
+            <one-to-many  class="com.gas.domain.core.msa.MSA" />
+        </set>          
+
+        <set name="tigrProjects" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" not-null="true"/>
+            <one-to-many class="com.gas.domain.core.tigr.TigrProject" />
+        </set> 
+        
+        <set name="kromatograms" inverse="true" cascade="all,delete-orphan" lazy="true">
+            <key column="folderId" not-null="true"/>
+            <one-to-many entity-name="Kromatogram" />
+        </set>            
+    </class>
+
+
+</hibernate-mapping>

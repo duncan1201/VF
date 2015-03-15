@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.gas.al2co
+OpenIDE-Module-Localizing-Bundle: com/gas/al2co/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

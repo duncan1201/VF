@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>gene</DbName>
+	<MenuName>Gene</MenuName>
+	<Description>Gene database</Description>
+	<Count>9344836</Count>
+	<LastUpdate>2012/01/29 21:14</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>144731149</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to a gene record</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>197</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Gene/Protein Name</FullName>
+			<Description>gene or protein name</Description>
+			<TermCount>4188327</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>87818548</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>scientific and common names of organism</Description>
+			<TermCount>58922</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>The last date on which the record was updated</Description>
+			<TermCount>114</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHR</Name>
+			<FullName>Chromosome</FullName>
+			<Description>Chromosome number or numbers; also &apos;mitochondrial&apos;, &apos;unknown&apos; properties</Description>
+			<TermCount>247</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MV</Name>
+			<FullName>Default Map Location</FullName>
+			<Description>Chromosomal map location as displayed in MapViewer</Description>
+			<TermCount>28117</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Symbol or symbols of the gene</Description>
+			<TermCount>12522931</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC number for enzyme or CAS registry number</Description>
+			<TermCount>3233</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MIM</Name>
+			<FullName>MIM</FullName>
+			<Description>MIM number from OMIM</Description>
+			<TermCount>18621</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DIS</Name>
+			<FullName>Disease/Phenotype</FullName>
+			<Description>Name(s) of diseases associated with this gene. When available, OMIM name will be used</Description>
+			<TermCount>34778</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Nucleotide/Protein Accession</FullName>
+			<Description>Nucleotide or protein accession(s) associated with this gene</Description>
+			<TermCount>52665327</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UGEN</Name>
+			<FullName>UniGene Cluster Number</FullName>
+			<Description>UniGene cluster number for this gene</Description>
+			<TermCount>529460</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Properties of Gene record</Description>
+			<TermCount>59</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDAT</Name>
+			<FullName>Creation Date</FullName>
+			<Description>The date on which this record first appeared</Description>
+			<TermCount>314</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NCAC</Name>
+			<FullName>Nucleotide Accession</FullName>
+			<Description>nucleotide accessions of seqeunces</Description>
+			<TermCount>11473937</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NUID</Name>
+			<FullName>Nucleotide UID</FullName>
+			<Description>nucleotide uids of sequences</Description>
+			<TermCount>7055206</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PACC</Name>
+			<FullName>Protein Accession</FullName>
+			<Description>protein accessions</Description>
+			<TermCount>41191733</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PUID</Name>
+			<FullName>Protein UID</FullName>
+			<Description>protein uids</Description>
+			<TermCount>20647707</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMID</Name>
+			<FullName>PubMed ID</FullName>
+			<Description>PubMed ids of accessions linked to the record</Description>
+			<TermCount>712044</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TID</Name>
+			<FullName>Taxonomy ID</FullName>
+			<Description>taxonomy id</Description>
+			<TermCount>9325</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GO</Name>
+			<FullName>Gene Ontology</FullName>
+			<Description>Gene Ontology</Description>
+			<TermCount>62464</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOM</Name>
+			<FullName>Domain Name</FullName>
+			<Description>Domain Name</Description>
+			<TermCount>190942</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DDAT</Name>
+			<FullName>Date Discontinued</FullName>
+			<Description>The date on which the record was discontinued</Description>
+			<TermCount>114</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CPOS</Name>
+			<FullName>Base Position</FullName>
+			<Description>Chromosome base position</Description>
+			<TermCount>5910640</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GFN</Name>
+			<FullName>Gene Full Name</FullName>
+			<Description>Gene full name</Description>
+			<TermCount>689448</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PFN</Name>
+			<FullName>Protein Full Name</FullName>
+			<Description>Protein full name</Description>
+			<TermCount>386137</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GL</Name>
+			<FullName>Gene Length</FullName>
+			<Description>Gene length</Description>
+			<TermCount>139179</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XC</Name>
+			<FullName>Exon Count</FullName>
+			<Description>Exon count</Description>
+			<TermCount>183</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GRP</Name>
+			<FullName>Group</FullName>
+			<Description>Relationships for this gene</Description>
+			<TermCount>6602</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PREF</Name>
+			<FullName>Preferred Symbol</FullName>
+			<Description>Preferred symbol of the gene</Description>
+			<TermCount>9839387</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>gene_bioproject</Name>
+				<Menu>BioProjects</Menu>
+				<Description>BioProjects related to a gene</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_biosystems</Name>
+				<Menu>BioSystem Links</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_books</Name>
+				<Menu>Books Links</Menu>
+				<Description>Links between Entrez Gene and &apos;Books&apos; are established if a GeneID is explicitly referenced in a book.</Description>
+				<DbTo>books</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_ccds</Name>
+				<Menu></Menu>
+				<Description>Links from Gene to CCDS are established if a gene encodes a protein sequence that is a member of a Consensus CDS (CCDS).</Description>
+				<DbTo>ccds</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_cdd</Name>
+				<Menu>Conserved Domain Links</Menu>
+				<Description>Conserved Domain Database Links between Entrez Gene and Conserved Domain Database (CDD) are calculated from the domains annotated by the CDD group on Reference Sequence proteins.</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Link from Gene to dbVar</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_gap</Name>
+				<Menu>GAP Links</Menu>
+				<Description>GAP Links</Description>
+				<DbTo>gap</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_genome</Name>
+				<Menu>Genome Links</Menu>
+				<Description>Genome records having the gene annotated on corresponding genomic reference sequence.</Description>
+				<DbTo>genome</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_gensat</Name>
+				<Menu>GENSAT Links</Menu>
+				<Description>Links between GENSAT and Gene are established if the accession.version (gi) of a probe used for an expression study is associated with a record in Gene.</Description>
+				<DbTo>gensat</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_geoprofiles</Name>
+				<Menu>GEO Profile Links</Menu>
+				<Description>Related GEO</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>Links between HomoloGene and Gene are provided by the HomoloGene group when a gene is included in a HomoloGene record.</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_mapview</Name>
+				<Menu></Menu>
+				<Description>These links are maintained by the Map Viewer group and are provided when a GeneID is annotated on a map for the same species.</Description>
+				<DbTo>mapview</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Link to related Nucleotide entry</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nuccore_mgc</Name>
+				<Menu>Nucleotide NIH cDNA clone links</Menu>
+				<Description>Nucleotide NIH cDNA clone</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nuccore_refseqgene</Name>
+				<Menu>RefSeqGene Links</Menu>
+				<Description>Link to Nucleotide RefSeqGenes</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nuccore_refseqrna</Name>
+				<Menu>RefSeq RNA Links</Menu>
+				<Description>Link to Nucleotide RefSeq RNAs</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>Link to related EST entry</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nucest_clust</Name>
+				<Menu></Menu>
+				<Description>gene_nucest_clust</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Link to related GSS entry</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_nucleotide_mgc_url</Name>
+				<Menu></Menu>
+				<Description>Order cDNA clone</Description>
+				<DbTo>nucleotide</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_omia</Name>
+				<Menu>OMIA Links</Menu>
+				<Description>Related OMIA articles</Description>
+				<DbTo>omia</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Links between OMIM and Gene are calculated by Gene based on MIM numbers included in the summary and phenotype sections of the Gene record.</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pcassay</Name>
+				<Menu>BioAssay Links</Menu>
+				<Description>Related PubChem BioAssays</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pcassay_target</Name>
+				<Menu>BioAssay, by Gene target</Menu>
+				<Description>PubChem BioAssays done on the Gene target</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pcassay_target_active</Name>
+				<Menu>BioAssay by Gene target,  Active</Menu>
+				<Description>BioAssays, Gene target, Active</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>PubChem Compounds</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>PubChem Substances</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PMC links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_probe</Name>
+				<Menu>Probe Links</Menu>
+				<Description>Related Probe entry</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Link to related protein entry</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_protein_refseq</Name>
+				<Menu>RefSeq Protein Links</Menu>
+				<Description>Link to Protein RefSeqs</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_proteinclusters</Name>
+				<Menu>Protein Cluster Links</Menu>
+				<Description>Related Protein Clusters</Description>
+				<DbTo>proteinclusters</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Links between Gene and PubMed are the result of the following: 1. Manual curation within NCBI. Part of the process of generating a REVIEWED RefSeq is an analysis of the current literature. Papers that are seminal in defining the gene, its sequence, and its function are added to the record at that time. Alert users point out gaps or errors in papers associated with a Gene record. These messages are reviewed and implemented as required. 2. Integration of information from other public databases. Gene integrates gene-citation from resources external to NCBI such as model organism-specific databases, Gene Ontology (GO), groups curating interactions, and sequence databases. The assumption in using these source is that they report citations specific to a gene in a known species. Gene does not process citations from OMIM automatically, because many of citations in OMIM refer to studies of genes in species other than human.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pubmed_citedinomim</Name>
+				<Menu>PubMed (OMIM) Links</Menu>
+				<Description>Links are provided when Gene has a link to a record in OMIM, and OMIM explicitly cites these publications in PubMed.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_pubmed_rif</Name>
+				<Menu>PubMed (GeneRIF) Links</Menu>
+				<Description>GeneRIF -- Gene Reference Into Function Staff of the Index Section in the National Library of Medicine review the current literature. When they find articles focused on the structure and function of a gene, they write a brief summary of the impact of the paper and make the connection between the citation (PubMed) and Gene. An interface exists for interested users to submit such data as well. http://www.ncbi.nlm.nih.gov/projects/GeneRIF/GeneRIFhelp.html</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNP records</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_snp_clin</Name>
+				<Menu>SNP Clinical</Menu>
+				<Description>Related Clinical SNP</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Gene Genotype Report</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_snp_geneview</Name>
+				<Menu></Menu>
+				<Description>SNPs linked from GeneView</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_sra</Name>
+				<Menu>SRA Links</Menu>
+				<Description>Links to Short Read Archive Experiments</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Link to related taxonomy entry</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Links are provided between Gene and UniGene when both databases calculate links to the same mRNA record (gi).</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>gene_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Related UniSTS records</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

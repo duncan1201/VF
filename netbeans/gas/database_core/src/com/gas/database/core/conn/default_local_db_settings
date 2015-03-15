@@ -1,0 +1,9 @@
+hibernate.connection.driver_class=org.h2.Driver
+hibernate.connection.username=sa
+hibernate.connection.password=
+hibernate.connection.pool_size=0
+hibernate.dialect=org.hibernate.dialect.H2Dialect
+hibernate.cache.use_second_level_cache=false
+hibernate.cache.use_query_cache=false
+hibernate.show_sql=false
+hibernate.current_session_context_class=org.hibernate.context.ThreadLocalSessionContext

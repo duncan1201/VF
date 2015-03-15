@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright
+(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the
+@author tags or express copyright attribution ~ statements applied by the
+authors. All third-party contributions are ~ distributed under license by
+Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing
+to use, modify, ~ copy, or redistribute it subject to the terms and conditions
+of the GNU ~ Lesser General Public License, as published by the Free Software
+Foundation. ~ ~ This program is distributed in the hope that it will be useful,
+~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public
+License ~ for more details. ~ ~ You should have received a copy of the GNU
+Lesser General Public License ~ along with this distribution; if not, write
+to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~
+Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.primer3">
+
+    <class name="P3Output">
+        <id name="hibernateId" column="p3outputId">
+            <generator class="increment" />
+        </id>
+      
+        <property name="primerTask" />
+        <property name="targetStart" />
+        <property name="targetLength" />
+        <property name="internalExcludedStart" />
+        <property name="internalExcludedLength" />
+        <property name="primerPairExplain" type="text"/>
+        <property name="primerLeftExplain" type="text"/>
+        <property name="primerRightExplain" type="text"/>
+        
+        <set name="oligos" cascade="all,delete-orphan" lazy="true">
+            <key column="p3outputId" />
+            <one-to-many class="Oligo" />
+        </set>
+        
+        <set name="userInputs" cascade="all,delete-orphan" lazy="true">
+            <key column="p3outputId"/>
+            <one-to-many entity-name="UserInputInUsed" />
+        </set>
+        
+    </class>
+
+    <class name="Oligo">
+        <id name="hibernateId" column="oligoId">
+            <generator class="increment" />
+        </id>
+        <property name="no" />
+        <property name="productSize" />
+        <property name="complAny" />
+        <property name="complEnd" />
+        
+        <set name="oligoElements" cascade="all,delete-orphan" lazy="true">
+            <key column="oligoId" />
+            <one-to-many class="com.gas.domain.core.primer3.OligoElement" />
+        </set>      
+    </class>
+    
+    <class name="OligoElement">
+        <id name="hibernateId">
+            <generator class="increment" />
+        </id>        
+        <property name="name" />
+        <property name="no" />
+        <property name="forward" />
+        <property name="start" />
+        <property name="length" />
+        <property name="tm" />
+        <property name="gc" />
+        <property name="selfAny" />
+        <property name="selfEnd" />
+        <property name="hairpin" />
+        <property name="seq"/>
+        <property name="seqTemplate"/>
+        <property name="tail"/>
+        <property name="dntpConc"/>
+        <property name="monovalentCationsConc"/>
+        <property name="divalentCationsConc"/>        
+        <property name="annealingOligoConc"/>
+        <property name="problems" type="text"/>
+    </class>
+</hibernate-mapping>

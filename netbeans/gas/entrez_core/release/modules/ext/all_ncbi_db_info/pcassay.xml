@@ -1,0 +1,1191 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>pcassay</DbName>
+	<MenuName>PubChem BioAssay</MenuName>
+	<Description>PubChem BioAssay Database</Description>
+	<Count>586337</Count>
+	<LastUpdate>2012/01/29 11:09</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>18650652</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>Assay ID</FullName>
+			<Description>Assay ID</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>82</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANAM</Name>
+			<FullName>Assay Name</FullName>
+			<Description>AssayName</Description>
+			<TermCount>783115</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ADES</Name>
+			<FullName>Assay Description</FullName>
+			<Description>AssayDescription</Description>
+			<TermCount>761517</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>APRL</Name>
+			<FullName>Assay Protocol</FullName>
+			<Description>AssayProtocol</Description>
+			<TermCount>72365</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CCMT</Name>
+			<FullName>Categorized Comment</FullName>
+			<Description>CategorizedComment</Description>
+			<TermCount>737</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACMT</Name>
+			<FullName>Assay Comment</FullName>
+			<Description>AssayComment</Description>
+			<TermCount>92327</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TNAM</Name>
+			<FullName>Tid Name</FullName>
+			<Description>TidName</Description>
+			<TermCount>65134</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TDES</Name>
+			<FullName>Tid Description</FullName>
+			<Description>TidDescription</Description>
+			<TermCount>51346</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RC</Name>
+			<FullName>Readout Count</FullName>
+			<Description>ReadoutCount</Description>
+			<TermCount>145</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRID</Name>
+			<FullName>Substance Source ID</FullName>
+			<Description>External substance source identifier</Description>
+			<TermCount>2190931</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ASRD</Name>
+			<FullName>Assay Source ID</FullName>
+			<Description>External assay source identifier</Description>
+			<TermCount>585646</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACMD</Name>
+			<FullName>Activity Outcome Method</FullName>
+			<Description>ActivityOutcomeMethod</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SNME</Name>
+			<FullName>Source Name</FullName>
+			<Description>SourceName</Description>
+			<TermCount>232</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CSNM</Name>
+			<FullName>Current Source Name</FullName>
+			<Description>CurrentSourceName</Description>
+			<TermCount>230</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DDAT</Name>
+			<FullName>Deposit Date</FullName>
+			<Description>DepositDate</Description>
+			<TermCount>1120</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modify Date</FullName>
+			<Description>ModifyDate</Description>
+			<TermCount>923</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JDAT</Name>
+			<FullName>Journal Publication Date</FullName>
+			<Description>JournalPublicationDate</Description>
+			<TermCount>404</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JNAM</Name>
+			<FullName>Journal Name</FullName>
+			<Description>JournalName</Description>
+			<TermCount>603</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HDAT</Name>
+			<FullName>Hold Until Date</FullName>
+			<Description>HoldUntilDate</Description>
+			<TermCount>391</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AC</Name>
+			<FullName>Active Sid Count</FullName>
+			<Description>ActiveSidCount</Description>
+			<TermCount>990</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>IAC</Name>
+			<FullName>Inactive Sid Count</FullName>
+			<Description>InactiveSidCount</Description>
+			<TermCount>1719</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>IC</Name>
+			<FullName>Inconclusive Sid Count</FullName>
+			<Description>InconclusiveSidCount</Description>
+			<TermCount>517</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TSC</Name>
+			<FullName>Total Sid Count</FullName>
+			<Description>TotalSidCount</Description>
+			<TermCount>1282</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TCNT</Name>
+			<FullName>Target Count</FullName>
+			<Description>TargetCount</Description>
+			<TermCount>30</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACC</Name>
+			<FullName>Active Cid Count</FullName>
+			<Description>ActiveCidCount</Description>
+			<TermCount>1006</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCC</Name>
+			<FullName>Probe Cid Count</FullName>
+			<Description>ProbeCidCount</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PSC</Name>
+			<FullName>Probe Sid Count</FullName>
+			<Description>ProbeSidCount</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>IACC</Name>
+			<FullName>Inactive Cid Count</FullName>
+			<Description>InactiveCidCount</Description>
+			<TermCount>1695</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ICC</Name>
+			<FullName>Inconclusive Cid Count</FullName>
+			<Description>InconclusiveCidCount</Description>
+			<TermCount>509</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UCC</Name>
+			<FullName>Unspecified Cid Count</FullName>
+			<Description>UnspecifiedCidCount</Description>
+			<TermCount>279</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>USC</Name>
+			<FullName>Unspecified Sid Count</FullName>
+			<Description>UnspecifiedSidCount</Description>
+			<TermCount>286</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TCC</Name>
+			<FullName>Total Cid Count</FullName>
+			<Description>TotalCidCount</Description>
+			<TermCount>1246</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NARD</Name>
+			<FullName>Nucleic Acid Reagent ID</FullName>
+			<Description>NucleicAcidReagentID</Description>
+			<TermCount>34795</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRCT</Name>
+			<FullName>XRef Comment</FullName>
+			<Description>XRefComment</Description>
+			<TermCount>13732</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRPD</Name>
+			<FullName>XRef Pmid</FullName>
+			<Description>XRefPmid</Description>
+			<TermCount>40912</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRGI</Name>
+			<FullName>XRef Gi</FullName>
+			<Description>XRefGi</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRMB</Name>
+			<FullName>XRef Mmdb</FullName>
+			<Description>XRefMmdb</Description>
+			<TermCount>62</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRGN</Name>
+			<FullName>XRef Gene</FullName>
+			<Description>XRefGeneID</Description>
+			<TermCount>605</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRDL</Name>
+			<FullName>XRef Dburl</FullName>
+			<Description>XRefDburl</Description>
+			<TermCount>66</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRSL</Name>
+			<FullName>XRef Sburl</FullName>
+			<Description>XRefSburl</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRAL</Name>
+			<FullName>XRef Asurl</FullName>
+			<Description>XRefAsurl</Description>
+			<TermCount>581524</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRPI</Name>
+			<FullName>XRef Proteingi</FullName>
+			<Description>XRefProteingi</Description>
+			<TermCount>3976</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRNI</Name>
+			<FullName>XRef Nucleotidegi</FullName>
+			<Description>XRefNucleotidegi</Description>
+			<TermCount>41</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRTY</Name>
+			<FullName>XRef Taxonomy</FullName>
+			<Description>XRefTaxonomy</Description>
+			<TermCount>1476</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRAD</Name>
+			<FullName>XRef Aid</FullName>
+			<Description>XRefAid</Description>
+			<TermCount>581626</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>XRMM</Name>
+			<FullName>XRef Omim</FullName>
+			<Description>XRefOmim</Description>
+			<TermCount>285</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SIDA</Name>
+			<FullName>Substance ID Active</FullName>
+			<Description>SubstanceIDActive</Description>
+			<TermCount>430981</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SIDT</Name>
+			<FullName>Substance ID Tested</FullName>
+			<Description>SubstanceIDTested</Description>
+			<TermCount>2208839</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CIDA</Name>
+			<FullName>Compound ID Active</FullName>
+			<Description>CompoundIDActive</Description>
+			<TermCount>398668</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CIDT</Name>
+			<FullName>Compound ID Tested</FullName>
+			<Description>CompoundIDTested</Description>
+			<TermCount>1701972</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MHDA</Name>
+			<FullName>MeSH Description Active</FullName>
+			<Description>MeSHDescriptionActive</Description>
+			<TermCount>22379</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MHDT</Name>
+			<FullName>MeSH Description Tested</FullName>
+			<Description>MeSHDescriptionTested</Description>
+			<TermCount>39525</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MHTA</Name>
+			<FullName>MeSH Term Active</FullName>
+			<Description>MeSHTermActive</Description>
+			<TermCount>39419</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MHTT</Name>
+			<FullName>MeSH Term Tested</FullName>
+			<Description>MeSHTermTested</Description>
+			<TermCount>73676</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PTN</Name>
+			<FullName>Protein Target Name</FullName>
+			<Description>ProteinTargetName</Description>
+			<TermCount>34196</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PSFM</Name>
+			<FullName>Protein SubFamily</FullName>
+			<Description>Protein SubFamily</Description>
+			<TermCount>5861</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GSYM</Name>
+			<FullName>Gene Symbol</FullName>
+			<Description>GeneSymbol</Description>
+			<TermCount>12242</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PTC</Name>
+			<FullName>Protein Target Comment</FullName>
+			<Description>ProteinTargetComment</Description>
+			<TermCount>35786</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PTD</Name>
+			<FullName>Protein Target Description</FullName>
+			<Description>ProteinTargetDescription</Description>
+			<TermCount>10941</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BST</Name>
+			<FullName>Bio Systems Title</FullName>
+			<Description>The name of the BioSystems, via Protein target</Description>
+			<TermCount>30840</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CCT</Name>
+			<FullName>Categorized Comment Title</FullName>
+			<Description>The name of the categorized comment</Description>
+			<TermCount>320</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PTGI</Name>
+			<FullName>Protein Target GI</FullName>
+			<Description>ProteinTargetGI</Description>
+			<TermCount>8103</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BSID</Name>
+			<FullName>BioSystems ID</FullName>
+			<Description>ID of the BioSystems, via Protein Target</Description>
+			<TermCount>18337</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PIGI</Name>
+			<FullName>Pig GI</FullName>
+			<Description>PigGI</Description>
+			<TermCount>71207</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RTGI</Name>
+			<FullName>RNA Target GI</FullName>
+			<Description>RNATargetGI</Description>
+			<TermCount>24779</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SYNA</Name>
+			<FullName>Synonym Active</FullName>
+			<Description>SynonymActive</Description>
+			<TermCount>3981116</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SYNT</Name>
+			<FullName>Synonym Tested</FullName>
+			<Description>SynonymTested</Description>
+			<TermCount>11701252</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PHAA</Name>
+			<FullName>Pharm Action Active</FullName>
+			<Description>PharmActionActive</Description>
+			<TermCount>359</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PHAT</Name>
+			<FullName>Pharm Action Tested</FullName>
+			<Description>PharmActionTested</Description>
+			<TermCount>394</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRCC</Name>
+			<FullName>Source Category</FullName>
+			<Description>SourceCategory</Description>
+			<TermCount>18</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXNM</Name>
+			<FullName>Taxonomy Name</FullName>
+			<Description>TaxonomyName</Description>
+			<TermCount>1477</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TC</Name>
+			<FullName>Tested Concentration</FullName>
+			<Description>TestedConcentration</Description>
+			<TermCount>4960</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GRN</Name>
+			<FullName>Grant Number</FullName>
+			<Description>GrantNumber</Description>
+			<TermCount>436</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NSAM</Name>
+			<FullName>Number of Sids With Activity Concentration micromolar</FullName>
+			<Description>NumberofSidsWithActivityConcmicromolar</Description>
+			<TermCount>281</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NCAM</Name>
+			<FullName>Number of Cids With Activity Concentration micromolar</FullName>
+			<Description>NumberofCidsWithActivityConcmicromolar</Description>
+			<TermCount>275</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NSAN</Name>
+			<FullName>Number of Sids With Activity Concentration nanomolar</FullName>
+			<Description>NumberofSidsWithActivityConcnanomolar</Description>
+			<TermCount>66</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NCAN</Name>
+			<FullName>Number of Cids With Activity Concentration nanomolar</FullName>
+			<Description>NumberofCidsWithActivityConcnanomolar</Description>
+			<TermCount>67</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>pcassay_biosystems_active</Name>
+				<Menu>BioSystems via Actives</Menu>
+				<Description>BioSystems via Actives</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_biosystems_target</Name>
+				<Menu>BioSystems via Protein and Gene Target</Menu>
+				<Description>BioSystems via Protein and Gene Target</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_cdd_protein_target</Name>
+				<Menu>Conserved Domains (Full) via Protein Target</Menu>
+				<Description>Conserved Domains (Full) via Protein Target</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_gene</Name>
+				<Menu>Genes</Menu>
+				<Description>Related Genes</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_gene_target</Name>
+				<Menu>Gene Target</Menu>
+				<Description>Gene Targets of PubChem BioAssays</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_gene_target_active</Name>
+				<Menu>Gene target, Active</Menu>
+				<Description>Gene target, Active</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_nuccore</Name>
+				<Menu>Nucleotide</Menu>
+				<Description>Related Nucleotide sequence</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_nuccore_rna_target</Name>
+				<Menu>Nucleotide RNA Target</Menu>
+				<Description>Nucleotide Target RNA of a particular PubChem BioAssay</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_omim</Name>
+				<Menu>OMIM</Menu>
+				<Description>Related OMIM</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_activityneighbor_list</Name>
+				<Menu>Related BioAssays, by Activity Overlap (List)</Menu>
+				<Description>Related BioAssays, by Activity Overlap (List)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_activityneighbor_summary</Name>
+				<Menu></Menu>
+				<Description>Related PubChem BioAssays based on activity (Summary)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_biosystemsneighbor_list</Name>
+				<Menu>Related BioAssays, by BioSystems via Protein and Gene Target (List)</Menu>
+				<Description>Related BioAssays, by BioSystems via Protein and Gene Target (List)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_biosystemsneighbor_summary</Name>
+				<Menu></Menu>
+				<Description>Related BioAssays, by BioSystems via Protein and Gene Target (Summary)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_neighbor_list</Name>
+				<Menu>Related BioAssays, by Depositor (List)</Menu>
+				<Description>PubChem BioAssay Neighbors (List)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_neighbor_summary</Name>
+				<Menu></Menu>
+				<Description>Related BioAssays, by Depositor (Summary)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_same_publication_list</Name>
+				<Menu>Related BioAssays, by Same Publication (List)</Menu>
+				<Description>Related BioAssays, by Same Publication (List)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_same_publication_summary</Name>
+				<Menu></Menu>
+				<Description>Related BioAssays, by Same Publication (Summary)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_targetneighbor_list</Name>
+				<Menu>Related BioAssays, by Target Similarity (List)</Menu>
+				<Description>Related BioAssays, by Target Similarity (List)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcassay_targetneighbor_summary</Name>
+				<Menu></Menu>
+				<Description>Related PubChem BioAssays based on target protein (Summary)</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound</Name>
+				<Menu>Compounds</Menu>
+				<Description>Related Compounds</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_active</Name>
+				<Menu>Compounds, Active</Menu>
+				<Description>Related Compounds, Active</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_active_five</Name>
+				<Menu></Menu>
+				<Description>Related PubChem Compound (top five)</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_activityconcmicromolar</Name>
+				<Menu>Compounds, activity concentration at/below 1 uM</Menu>
+				<Description>Compounds, activity concentration at/below 1 uM</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_activityconcnanomolar</Name>
+				<Menu>Compounds, activity concentration at/below 1 nM</Menu>
+				<Description>Compounds, activity concentration at/below 1 nM</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_five</Name>
+				<Menu></Menu>
+				<Description>Related PubChem Compound (top five)</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_inactive</Name>
+				<Menu>Compounds, Inactive</Menu>
+				<Description>Related Compounds, Inactive</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_inactive_five</Name>
+				<Menu></Menu>
+				<Description>Related PubChem Compound (top five)</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_inconclusive</Name>
+				<Menu>Compounds, Inconclusive</Menu>
+				<Description>Related Compounds, Inconclusive</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_panel_active</Name>
+				<Menu>Compounds, Active (any panel component)</Menu>
+				<Description>Compounds, Active (any panel component)</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_panel_inactive</Name>
+				<Menu>Compounds, Inactive (any panel component)</Menu>
+				<Description>Compounds, Inactive (any panel component)</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pccompound_probe</Name>
+				<Menu>Compounds, Probe</Menu>
+				<Description>Related Compounds, Probe</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance</Name>
+				<Menu>Substances</Menu>
+				<Description>Related Substances</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_active</Name>
+				<Menu>Substances, Active</Menu>
+				<Description>Related Substances, Active</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_active_five</Name>
+				<Menu></Menu>
+				<Description>Related PubChem Substance (top five)</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_activityconcmicromolar</Name>
+				<Menu>Substances, activity concentration at/below 1 uM</Menu>
+				<Description>Substances, activity concentration at/below 1 uM</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_activityconcnanomolar</Name>
+				<Menu>Substances, activity concentration at/below 1 nM</Menu>
+				<Description>Substances, activity concentration at/below 1 nM</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_five</Name>
+				<Menu></Menu>
+				<Description>Related PubChem Substance (top five)</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_inactive</Name>
+				<Menu>Substances, Inactive</Menu>
+				<Description>Related Substances, Inactive</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_inactive_five</Name>
+				<Menu></Menu>
+				<Description>Related PubChem Substance (top five)</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_inconclusive</Name>
+				<Menu>Substances, Inconclusive</Menu>
+				<Description>Related Substances, Inconclusive</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_panel_active</Name>
+				<Menu>Substances, Active (any panel component)</Menu>
+				<Description>Substances, Active (any panel component)</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_panel_inactive</Name>
+				<Menu>Substances, Inactive (any panel component)</Menu>
+				<Description>Substances, Inactive (any panel component)</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pcsubstance_probe</Name>
+				<Menu>Substances, Probe</Menu>
+				<Description>Related substances, Probe</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pmc</Name>
+				<Menu>PMC Articles</Menu>
+				<Description>PubMed Central Links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_probe</Name>
+				<Menu>Nucleic acid reagent</Menu>
+				<Description>Nucleic Acid Reagents used in a particular PubChem BioAssay</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_protein</Name>
+				<Menu>Protein Sequences</Menu>
+				<Description>Related Protein sequence</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_protein_target</Name>
+				<Menu>Protein Target</Menu>
+				<Description>Target Proteins of a particular PubChem BioAssay</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_protein_target_pig</Name>
+				<Menu>Protein Target, Identical Sequence</Menu>
+				<Description>PubChem BioAssays done on the protein target PIG</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_pubmed</Name>
+				<Menu>PubMed Citations</Menu>
+				<Description>Related PubMed Citation</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_structure</Name>
+				<Menu>Protein Structures</Menu>
+				<Description>Related Protein Structure</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>pcassay_taxonomy</Name>
+				<Menu>Taxonomy</Menu>
+				<Description>Related Taxonomy</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

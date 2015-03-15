@@ -1,0 +1,104 @@
+LOCUS       lambda_gt11             1989 bp    DNA     linear       19-OCT-2007
+DEFINITION  Cloning vector lambda_gt11, partial sequence.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Cloning vector lambda_gt11
+  ORGANISM  Cloning vector lambda_gt11
+            other sequences; artificial sequences; vectors.
+REFERENCE   1  (bases 1 to 1989)
+  AUTHORS   Moran,L.S., Maina,C.V., Poole,C.B. and Slatko,B.E.
+  TITLE     Nucleotide sequence of the phage lambda gt11 SacI-KpnI lacZ region
+  JOURNAL   Gene 93 (1), 163-164 (1990)
+   PUBMED   2146187
+REFERENCE   2  (bases 1 to 1989)
+  AUTHORS   Slatko,B.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-OCT-2007) Research Department, New England Biolabs,
+            240 County Road, Ipswich, MA 01938, USA
+COMMENT     Sequence of the SacI-KpnI fragment surrounding the EcoRI cloning
+            site.  The remainder of lambda_gt11 has not been sequenced to date.
+            See also GenBank accession X16973.
+FEATURES             Location/Qualifiers
+     source          1..1989
+                     /organism="Cloning vector lambda_gt11"
+                     /mol_type="genomic DNA"
+     gene            <1..1125
+                     /gene="lacZ"
+     CDS             <1..1125
+                     /gene="lacZ"
+                     /codon_start=1
+                     /product="beta-galactosidase"
+                     /translation="ELLHWMVALDGKPLASGEVPLDVAPQGKQLIELPELPQPESAGQ
+                     LWLTVRVVQPNATAWSEAGHISAWQQWRLAENLSVTLPAASHAIPHLTTSEMDFCIEL
+                     GNKRWQFNRQSGFLSQMWIGDKKQLLTPLRDQFTRAPLDNDIGVSEATRIDPNAWVER
+                     WKAAGHYQAEAALLQCTADTLADAVLITTAHAWQHQGKTLFISRKTYRIDGSGQMAIT
+                     VDVEVASDTPHPARIGLNCQLAQVAERVNWLGLGPQENYPDRLTAACFDRWDLPLSDM
+                     YTPYVFPSENGLRCGTRELNYGPHQWRGDFQFNISRYSQQQLMETSHRHLLHAEEGTW
+                     LNIDGFHMGIGGDDSWSPSVSAEFQLSAGRYHYQLVWCQK"
+     primer_bind     1033..1056
+                     /gene="lacZ"
+                     /note="lambda gt11 forward primer (NEB #S1218S;
+                     discontinued)"
+     misc_feature    1069..1074
+                     /gene="lacZ"
+                     /note="EcoRI cloning site"
+     primer_bind     complement(1096..1119)
+                     /gene="lacZ"
+                     /note="lambda gt11 reverse primer (NEB #S1222S;
+                     discontinued)"
+     gene            complement(1116..1580)
+                     /gene="lom"
+     CDS             complement(1116..1580)
+                     /gene="lom"
+                     /codon_start=1
+                     /product="outer membrane protein"
+                     /translation="MRNVCIAVAVFAALAVTVTPARAEGGHGTFTVGYFQVKPGTLPS
+                     LSGGDTGVSHLKGINVKYRYELTDSVGVMASLGFAASKKSSTVMTGEDTFHYESLRGR
+                     YVSVMAGPVLQISKQVSAYAMAGVAHSRWSGSTMDFLTRNTGRHGLPGYYYF"
+     gene            complement(1642..>1989)
+                     /gene="J"
+     CDS             complement(1642..>1989)
+                     /gene="J"
+                     /codon_start=1
+                     /product="tail:host specificity protein"
+                     /translation="GTRTVTVTDDHPFDRQIVVLPLTFRGSKRTVSGRTTYSMCYLKV
+                     LMNGAVIYDGAANEAVQVFSRIVDMPAGRGNVILTFTLTSTRHSADIPPYTFASDVQV
+                     MVIKKQALGISVV"
+BASE COUNT      471 a    597 c    518 g    403 t
+ORIGIN
+        1 gagctcctgc actggatggt ggcgctggat ggtaagccgc tggcaagcgg tgaagtgcct
+       61 ctggatgtcg ctccacaagg taaacagttg attgaactgc ctgaactacc gcagccggag
+      121 agcgccgggc aactctggct cacagtacgc gtagtgcaac cgaacgcgac cgcatggtca
+      181 gaagccgggc acatcagcgc ctggcagcag tggcgtctgg cggaaaacct cagtgtgacg
+      241 ctccccgccg cgtcccacgc catcccgcat ctgaccacca gcgaaatgga tttttgcatc
+      301 gagctgggta ataagcgttg gcaatttaac cgccagtcag gctttctttc acagatgtgg
+      361 attggcgata aaaaacaact gctgacgccg ctgcgcgatc agttcacccg tgcaccgctg
+      421 gataacgaca ttggcgtaag tgaagcgacc cgcattgacc ctaacgcctg ggtcgaacgc
+      481 tggaaggcgg cgggccatta ccaggccgaa gcagcgttgt tgcagtgcac ggcagataca
+      541 cttgctgatg cggtgctgat tacgaccgct cacgcgtggc agcatcaggg gaaaacctta
+      601 tttatcagcc ggaaaaccta ccggattgat ggtagtggtc aaatggcgat taccgttgat
+      661 gttgaagtgg cgagcgatac accgcatccg gcgcggattg gcctgaactg ccagctggcg
+      721 caggtagcag agcgggtaaa ctggctcgga ttagggccgc aagaaaacta tcccgaccgc
+      781 cttactgccg cctgttttga ccgctgggat ctgccattgt cagacatgta taccccgtac
+      841 gtcttcccga gcgaaaacgg tctgcgctgc gggacgcgcg aattgaatta tggcccacac
+      901 cagtggcgcg gcgacttcca gttcaacatc agccgctaca gtcaacagca actgatggaa
+      961 accagccatc gccatctgct gcacgcggaa gaaggcacat ggctgaatat cgacggtttc
+     1021 catatgggga ttggtggcga cgactcctgg agcccgtcag tatcggcgga attccagctg
+     1081 agcgccggtc gctaccatta ccagttggtc tggtgtcaaa aataataata accgggcagg
+     1141 ccatgtctgc ccgtatttcg cgtaaggaaa tccattgtac tgccggacca ccgactgtga
+     1201 gccactccgg ccatggcgta cgcactgacc tgcttactga tttgtaaaac cggtccggcc
+     1261 atcacgctca cataacgtcc acgcaggctc tcatagtgaa acgtatcctc cccggtcatc
+     1321 actgtgctgc tctttttcga cgcggcgaac cccagggaag ccatcacccc cacactgtcc
+     1381 gtcagctcat aacggtactt cacgttaatc cctttcagat gactcacacc ggtatccccg
+     1441 cccgacaacg acggcaatgt acccggtttc acttgaaaat agcccaccgt aaacgtacca
+     1501 tgtccacctt ccgcacgggc cggagtgact gtcaccgcaa gtgcggcaaa gacagcaacg
+     1561 gcaatacaca cattacgcat cgttcacctc tcactgtttt ataataaaac gcccgttccc
+     1621 ggacgaacct ctgtaacaca ctcagaccac gctgatgccc agcgcctgtt tcttaatcac
+     1681 cataacctgc acatcgctgg caaacgtata cggcggaata tctgccgaat gccgtgtgga
+     1741 cgtaagcgtg aacgtcagga tcacgtttcc ccgacccgct ggcatgtcaa caatacggga
+     1801 gaacacctgt accgcctcgt tcgccgcgcc atcataaatc accgcaccgt tcatcagtac
+     1861 tttcagataa cacatcgaat acgttgtcct gccgctgaca gtacgcttac ttccgcgaaa
+     1921 cgtcagcgga agcaccacta tctggcgatc aaaaggatgg tcatcggtca cggtgacagt
+     1981 acgggtacc
+//

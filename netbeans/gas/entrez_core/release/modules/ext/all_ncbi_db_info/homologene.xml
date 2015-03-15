@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>homologene</DbName>
+	<MenuName>HomoloGene</MenuName>
+	<Description>HomoloGene Entrez Database</Description>
+	<Count>128030</Count>
+	<LastUpdate>2011/02/22 23:00</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>2529767</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>22</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Words in title of publication</Description>
+			<TermCount>554574</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>780250</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Properties (formerly Keyword)</Description>
+			<TermCount>9</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>scientific and common names of organism</Description>
+			<TermCount>666</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GNID</Name>
+			<FullName>Gene ID</FullName>
+			<Description>Gene ID</Description>
+			<TermCount>241946</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene Name</Description>
+			<TermCount>150488</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GDSC</Name>
+			<FullName>Gene Description</FullName>
+			<Description>Description of gene</Description>
+			<TermCount>112720</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PUID</Name>
+			<FullName>Protein UID</FullName>
+			<Description>protein uids</Description>
+			<TermCount>241946</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRAC</Name>
+			<FullName>Protein Accession</FullName>
+			<Description>protein accessions</Description>
+			<TermCount>483892</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NUID</Name>
+			<FullName>Nucleotide UID</FullName>
+			<Description>nucleotide uids of sequences</Description>
+			<TermCount>236777</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NCAC</Name>
+			<FullName>Nucleotide Accession</FullName>
+			<Description>nucleotide accessions of seqeunces</Description>
+			<TermCount>473554</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UGID</Name>
+			<FullName>UniGene ID</FullName>
+			<Description>UniGene ID</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ANCS</Name>
+			<FullName>Ancestor</FullName>
+			<Description>scientific and common names of ancestor organism</Description>
+			<TermCount>666</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DOM</Name>
+			<FullName>Domain Name</FullName>
+			<Description>Domain Name</Description>
+			<TermCount>14187</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>homologene_biosystems</Name>
+				<Menu>BioSystems</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_cdd</Name>
+				<Menu>Conserved Domain Links</Menu>
+				<Description>Related CDDs</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Genes</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_geoprofiles</Name>
+				<Menu>GEO Profile Links</Menu>
+				<Description>Related GEO</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_homologene</Name>
+				<Menu>Related HomoloGene Links</Menu>
+				<Description>Related HomoloGene</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Related Nucleotide</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>Related EST</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Related GSS</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_omia</Name>
+				<Menu>OMIA Links</Menu>
+				<Description>Related OMIA records</Description>
+				<DbTo>omia</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Related OMIM</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PMC links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Related Protein</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Related PubMed Articles</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNPs</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Gene Genotype Report</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Related Taxonomy</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>homologene_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

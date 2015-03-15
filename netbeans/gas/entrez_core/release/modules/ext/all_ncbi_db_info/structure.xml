@@ -1,0 +1,585 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>structure</DbName>
+	<MenuName>Structure</MenuName>
+	<Description>Three-dimensional molecular model</Description>
+	<Count>78304</Count>
+	<LastUpdate>2012/01/11 10:46</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>1469965</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>mmdbId</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>34</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>PdbAcc</FullName>
+			<Description>PdbAcc</Description>
+			<TermCount>78304</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC</Description>
+			<TermCount>2170</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RESO</Name>
+			<FullName>Resolution</FullName>
+			<Description>Resolution</Description>
+			<TermCount>486</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>EXPM</Name>
+			<FullName>ExpMethod</FullName>
+			<Description>ExpMethod</Description>
+			<TermCount>193</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Title</Description>
+			<TermCount>204144</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ABS</Name>
+			<FullName>Abstract</FullName>
+			<Description>Primary Citation Abstract</Description>
+			<TermCount>610573</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Author</Description>
+			<TermCount>197297</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCLA</Name>
+			<FullName>PdbClass</FullName>
+			<Description>PdbClass</Description>
+			<TermCount>5431</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PSRC</Name>
+			<FullName>PdbSource</FullName>
+			<Description>PdbSource</Description>
+			<TermCount>115248</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDSC</Name>
+			<FullName>PdbDescr</FullName>
+			<Description>PdbDescr</Description>
+			<TermCount>222030</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCOM</Name>
+			<FullName>PdbComment</FullName>
+			<Description>PdbComment</Description>
+			<TermCount>385901</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDD</Name>
+			<FullName>PDB Deposit Date</FullName>
+			<Description>PDB Deposit Date</Description>
+			<TermCount>7359</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DDAT</Name>
+			<FullName>MMDBEntryDate</FullName>
+			<Description>MMDB Deposit Date</Description>
+			<TermCount>551</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>MMDBModifyDate</FullName>
+			<Description>MMDB Modify Date</Description>
+			<TermCount>196</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LCOD</Name>
+			<FullName>LigCode</FullName>
+			<Description>LigCode</Description>
+			<TermCount>12016</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LNAM</Name>
+			<FullName>LigName</FullName>
+			<Description>LigName</Description>
+			<TermCount>7384</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LDES</Name>
+			<FullName>LigDescr</FullName>
+			<Description>LigDescr</Description>
+			<TermCount>10078</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism</Description>
+			<TermCount>27579</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXID</Name>
+			<FullName>TaxonomyID</FullName>
+			<Description>TaxonomyID</Description>
+			<TermCount>3407</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MPRC</Name>
+			<FullName>ModProteinResCount</FullName>
+			<Description>ModProteinResCount</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDRC</Name>
+			<FullName>ModDNAResCount</FullName>
+			<Description>ModDNAResCount</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MRRC</Name>
+			<FullName>ModRNAResCount</FullName>
+			<Description>ModRNAResCount</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCC</Name>
+			<FullName>ProteinChainCount</FullName>
+			<Description>ProteinChainCount</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PMC</Name>
+			<FullName>ProteinMoleculeCount</FullName>
+			<Description>ProteinMoleculeCount</Description>
+			<TermCount>49</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DMC</Name>
+			<FullName>DNAMoleculeCount</FullName>
+			<Description>DNAMoleculeCount</Description>
+			<TermCount>14</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DCC</Name>
+			<FullName>DNAChainCount</FullName>
+			<Description>DNAChainCount</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RMC</Name>
+			<FullName>RNAMoleculeCount</FullName>
+			<Description>RNAMoleculeCount</Description>
+			<TermCount>19</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RCC</Name>
+			<FullName>RNAChainCount</FullName>
+			<Description>RNAChainCount</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BPC</Name>
+			<FullName>BiopolymerCount</FullName>
+			<Description>BiopolymerCount</Description>
+			<TermCount>51</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LCOU</Name>
+			<FullName>LigCount</FullName>
+			<Description>LigCount</Description>
+			<TermCount>36</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JOUR</Name>
+			<FullName>Journal</FullName>
+			<Description>Source journal of structure</Description>
+			<TermCount>788</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHN</Name>
+			<FullName>PdbChainCode</FullName>
+			<Description>PdbChainCode</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDID</Name>
+			<FullName>CDSBID</FullName>
+			<Description>identifier for a conserved domain cluster</Description>
+			<TermCount>3722</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDSN</Name>
+			<FullName>Conserved Domain Name</FullName>
+			<Description>Name of the domain of a conserved domain cluster</Description>
+			<TermCount>7001</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDDT</Name>
+			<FullName>Conserved Domain Title</FullName>
+			<Description>Title of the domain of a conserved domain cluster</Description>
+			<TermCount>10735</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CDDF</Name>
+			<FullName>Conserved Domain Description</FullName>
+			<Description>Defline of the domain of a conserved domain cluster</Description>
+			<TermCount>84044</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SFID</Name>
+			<FullName>CDSUPID</FullName>
+			<Description>identifier for a superfamily domain cluster</Description>
+			<TermCount>4503</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SPFN</Name>
+			<FullName>Conserved Domain Superfamily Name</FullName>
+			<Description>Name of a superfamily of conserved domain clusters</Description>
+			<TermCount>7192</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SPTL</Name>
+			<FullName>Conserved Domain Superfamily Title</FullName>
+			<Description>Title of a superfamily of conserved domain clusters</Description>
+			<TermCount>15126</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SPDF</Name>
+			<FullName>Conserved Domain Database Description</FullName>
+			<Description>Definition line of a superfamily of conserved domain clusters</Description>
+			<TermCount>65965</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>structure_biosystems</Name>
+				<Menu>BioSystem Links</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_cdd</Name>
+				<Menu>Conserved Domain Links</Menu>
+				<Description>Conserved domain annotations</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_cdd_family_2</Name>
+				<Menu>Conserved Domain Family Links</Menu>
+				<Description>Conserved domain family</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_cdd_superfamily_2</Name>
+				<Menu>Conserved Domain Superfamily Links</Menu>
+				<Description>Link to a conserved domain superfamily</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_mmdb</Name>
+				<Menu></Menu>
+				<Description>VAST links</Description>
+				<DbTo>mmdb</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Nucleotide sequence of 3D structure</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>OMIM records associated with 3D structure</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_pcassay</Name>
+				<Menu>BioAssay Links</Menu>
+				<Description>Related PubChem BioAssay</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>Related PubChem Compound</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>Related PubChem Substance</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full text articles in PMC</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Protein sequence of 3D structure</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_protein_related_list</Name>
+				<Menu>Related Proteins</Menu>
+				<Description>List of related proteins</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed citation referenced in MMDB record, Molecular Modeling Database (NCBI’s 3D Structure database), retrieved via the Structure database.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNPs</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>structure_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Taxonomy sequences associated with structure record</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

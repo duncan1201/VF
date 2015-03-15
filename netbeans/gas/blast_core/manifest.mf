@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: blast.core
+OpenIDE-Module-Localizing-Bundle: blast/core/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

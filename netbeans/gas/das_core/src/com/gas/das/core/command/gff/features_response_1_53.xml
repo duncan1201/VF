@@ -1,0 +1,235 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE DASGFF SYSTEM "http://www.biodas.org/dtd/dasgff.dtd">
+<DASGFF>
+<GFF version="1.0" href="http://genome.cse.ucsc.edu/cgi-bin/das/hg19/features">
+<SEGMENT id="X" start="1" stop="1000" version="1.00" label="X">
+<FEATURE id="p22.33.chrX.0" label="p22.33">
+ <TYPE id="cytoBand" category="other" reference="no">Chromosome Band</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>4300000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="p22.33.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-4300000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="p22.33.chrX.0" label="p22.33">
+ <TYPE id="cytoBandIdeo" category="other" reference="no">cytoBandIdeo</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>4300000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="p22.33.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-4300000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300406.chrX.0" label="300406">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>9500000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300406.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-9500000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="301220.chrX.0" label="301220">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>37600000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="301220.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-37600000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300209.chrX.0" label="300209">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>24900000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300209.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-24900000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300424.chrX.0" label="300424">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>24900000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300424.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-24900000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300273.chrX.0" label="300273">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>24900000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300273.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-24900000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300066.chrX.0" label="300066">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>24900000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300066.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-24900000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="304050.chrX.0" label="304050">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>24900000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="304050.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-24900000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300310.chrX.0" label="300310">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>24900000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300310.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-24900000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300077.chrX.0" label="300077">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>29300000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300077.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-29300000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300650.chrX.0" label="300650">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>9500000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300650.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-9500000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300114.chrX.0" label="300114">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>9500000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300114.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-9500000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300428.chrX.0" label="300428">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>9500000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300428.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-9500000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300778.chrX.0" label="300778">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>9500000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300778.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-9500000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300211.chrX.0" label="300211">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>9500000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300211.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-9500000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="313000.chrX.0" label="313000">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>4300000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="313000.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-4300000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="300221.chrX.0" label="300221">
+ <TYPE id="omimLocation" category="other" reference="no">omimLocation</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>6000000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="300221.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-6000000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+<FEATURE id="recombRate.chrX.0" label="recombRate">
+ <TYPE id="recombRate" category="other" reference="no">recombRate</TYPE>
+ <METHOD></METHOD>
+ <START>1</START>
+ <END>1000000</END>
+ <SCORE>-</SCORE>
+ <ORIENTATION>0</ORIENTATION>
+ <PHASE>-</PHASE>
+ <GROUP id="recombRate.chrX.0">
+  <LINK href="http://genome.ucsc.edu/cgi-bin/hgTracks?position=chrX:0-1000000&amp;db=hg19">Link to UCSC Browser</LINK>
+ </GROUP>
+</FEATURE>
+</SEGMENT>
+</GFF></DASGFF>

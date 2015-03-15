@@ -1,0 +1,341 @@
+LOCUS       NM_032622               2930 bp    mRNA    linear   PRI 03-MAR-2013
+DEFINITION  Homo sapiens ligand of numb-protein X 1, E3 ubiquitin protein
+            ligase (LNX1), transcript variant 2, mRNA.
+ACCESSION   NM_032622
+VERSION     NM_032622.2  GI:187607070
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2930)
+  AUTHORS   Guo,Z., Song,E., Ma,S., Wang,X., Gao,S., Shao,C., Hu,S., Jia,L.,
+            Tian,R., Xu,T. and Gao,Y.
+  TITLE     Proteomics strategy to identify substrates of LNX, a PDZ
+            domain-containing E3 ubiquitin ligase
+  JOURNAL   J. Proteome Res. 11 (10), 4847-4862 (2012)
+   PUBMED   22889411
+  REMARK    GeneRIF: LNX1-mediated ubiquitination and degradation of PBK
+            inhibited cell proliferation and enhanced sensitivity to
+            doxorubicin-induced apoptosis.
+REFERENCE   2  (bases 1 to 2930)
+  AUTHORS   Mehraj,V., Boucherit,N., Ben Amara,A., Capo,C., Bonatti,S.,
+            Mege,J.L., Mottola,G. and Ghigo,E.
+  TITLE     The ligands of Numb proteins X1 and X2 are specific markers for
+            chronic Q fever
+  JOURNAL   FEMS Immunol. Med. Microbiol. 64 (1), 98-100 (2012)
+   PUBMED   22066909
+  REMARK    GeneRIF: The authors found a high level of LNX1 and LNX2 mRNAs in
+            endocarditis, the principal manifestation of chronic Q fever, but
+            not in acute Q fever.
+REFERENCE   3  (bases 1 to 2930)
+  AUTHORS   D'Agostino,M., Tornillo,G., Caporaso,M.G., Barone,M.V., Ghigo,E.,
+            Bonatti,S. and Mottola,G.
+  TITLE     Ligand of Numb proteins LNX1p80 and LNX2 interact with the human
+            glycoprotein CD8alpha and promote its ubiquitylation and
+            endocytosis
+  JOURNAL   J. Cell. Sci. 124 (PT 21), 3545-3556 (2011)
+   PUBMED   22045731
+  REMARK    GeneRIF: LNX1 and LNX2 interact with CD8alpha and promote its
+            ubiquitylation and endocytosis
+REFERENCE   4  (bases 1 to 2930)
+  AUTHORS   Zheng,D., Gu,S., Li,Y., Ji,C., Xie,Y. and Mao,Y.
+  TITLE     A global genomic view on LNX siRNA-mediated cell cycle arrest
+  JOURNAL   Mol. Biol. Rep. 38 (4), 2771-2783 (2011)
+   PUBMED   21104141
+  REMARK    GeneRIF: Down-regulation of LNX could result in cell cycle arrest
+            in G0/G1 phase through inhibition of beta-catenin, MAPK, NFkappaB,
+            c-Myc-dependent pathway and activation of p53, TGF-beta-dependent
+            pathway.
+REFERENCE   5  (bases 1 to 2930)
+  AUTHORS   Wolting,C.D., Griffiths,E.K., Sarao,R., Prevost,B.C.,
+            Wybenga-Groot,L.E. and McGlade,C.J.
+  TITLE     Biochemical and computational analysis of LNX1 interacting proteins
+  JOURNAL   PLoS ONE 6 (11), E26248 (2011)
+   PUBMED   22087225
+  REMARK    GeneRIF: identify and confirm six novel LNX1 binding partners:
+            KCNA4, PAK6, PLEKHG5, PKC-alpha1, TYK2 and PBK, and suggest that
+            LNX1 functions as a signalling scaffold.
+REFERENCE   6  (bases 1 to 2930)
+  AUTHORS   Armbruester,V., Sauter,M., Roemer,K., Best,B., Hahn,S., Nty,A.,
+            Schmid,A., Philipp,S., Mueller,A. and Mueller-Lantzsch,N.
+  TITLE     Np9 protein of human endogenous retrovirus K interacts with ligand
+            of numb protein X
+  JOURNAL   J. Virol. 78 (19), 10310-10319 (2004)
+   PUBMED   15367597
+  REMARK    GeneRIF: identifed ligand of Numb protein X as an Np9-interacting
+            partner; findings point to the possibility that Np9 affects
+            tumorigenesis through the LNX/Numb/Notch pathway
+REFERENCE   7  (bases 1 to 2930)
+  AUTHORS   Katoh,M. and Katoh,M.
+  TITLE     Identification and characterization of PDZRN3 and PDZRN4 genes in
+            silico
+  JOURNAL   Int. J. Mol. Med. 13 (4), 607-613 (2004)
+   PUBMED   15010864
+REFERENCE   8  (bases 1 to 2930)
+  AUTHORS   Nie,J., McGill,M.A., Dermer,M., Dho,S.E., Wolting,C.D. and
+            McGlade,C.J.
+  TITLE     LNX functions as a RING type E3 ubiquitin ligase that targets the
+            cell fate determinant Numb for ubiquitin-dependent degradation
+  JOURNAL   EMBO J. 21 (1-2), 93-102 (2002)
+   PUBMED   11782429
+REFERENCE   9  (bases 1 to 2930)
+  AUTHORS   Xie,Y., Zhao,W., Wang,W., Zhao,S., Tang,R., Ying,K., Zhou,Z. and
+            Mao,Y.
+  TITLE     Identification of a human LNX protein containing multiple PDZ
+            domains
+  JOURNAL   Biochem. Genet. 39 (3-4), 117-126 (2001)
+   PUBMED   11521506
+REFERENCE   10 (bases 1 to 2930)
+  AUTHORS   Dho,S.E., Jacob,S., Wolting,C.D., French,M.B., Rohrschneider,L.R.
+            and McGlade,C.J.
+  TITLE     The mammalian numb phosphotyrosine-binding domain. Characterization
+            of binding specificity and identification of a novel PDZ
+            domain-containing numb binding protein, LNX
+  JOURNAL   J. Biol. Chem. 273 (15), 9179-9187 (1998)
+   PUBMED   9535908
+  REMARK    GeneRIF: The tyrosine phosphorylation of the LDNPAY sequence motif
+            in mouse LNX could generate a binding site for the
+            phosphorylation-dependent binding of other PTB domain-containing
+            proteins.
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA154083.1 and BC034737.1.
+            On May 7, 2008 this sequence version replaced gi:14249127.
+            
+            Summary: This gene encodes a membrane-bound protein that is
+            involved in signal transduction and protein interactions. The
+            encoded product is an E3 ubiquitin-protein ligase, which mediates
+            ubiquitination and subsequent proteasomal degradation of proteins
+            containing phosphotyrosine binding (PTB) domains. This protein may
+            play an important role in tumorogenesis. Alternatively spliced
+            transcript variants encoding distinct isoforms have been described.
+            A pseudogene, which is located on chromosome 17, has been
+            identified for this gene. [provided by RefSeq, Jul 2008].
+            
+            Transcript Variant: This variant (2) differs in the 5' UTR and 5'
+            coding region, compared to variant 1. The resulting isoform (b,
+            also known as LNXp70) contains a distinct N-terminus and is shorter
+            than isoform a.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##RefSeq-Attributes-START##
+            Transcript_exon_combination_evidence :: BC034737.1, AF237782.1
+                                                    [ECO:0000332]
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-80                DA154083.1         1-80
+            81-2930             BC034737.1         1-2850
+FEATURES             Location/Qualifiers
+     source          1..2930
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="4"
+                     /map="4q12"
+     gene            1..2930
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /note="ligand of numb-protein X 1, E3 ubiquitin protein
+                     ligase"
+                     /db_xref="GeneID:84708"
+                     /db_xref="HGNC:6657"
+                     /db_xref="MIM:609732"
+     exon            1..396
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3
+     misc_feature    110..112
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /note="upstream in-frame stop codon"
+     STS             116..354
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="SHGC-59803"
+                     /db_xref="UniSTS:64864"
+     CDS             305..2203
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /EC_number="6.3.2.19"
+                     /note="isoform b precursor is encoded by transcript
+                     variant 2; PDZ domain-containing ring finger protein 2;
+                     multi-PDZ-domain-containing protein, E3 ubiquitin-protein
+                     ligase LNX; numb-binding protein 1"
+                     /codon_start=1
+                     /product="E3 ubiquitin-protein ligase LNX isoform b
+                     precursor"
+                     /protein_id="NP_116011.2"
+                     /db_xref="GI:187607071"
+                     /db_xref="CCDS:CCDS3492.1"
+                     /db_xref="GeneID:84708"
+                     /db_xref="HGNC:6657"
+                     /db_xref="MIM:609732"
+                     /translation="MKALLLLVLPWLSPANYIDNVGNLHFLYSELCKGASHYGLTKDR
+                     KRRSQDGCPDGCASLTATAPSPEVSAAATISLMTDEPGLDNPAYVSSAEDGQPAISPV
+                     DSGRSNRTRARPFERSTIRSRSFKKINRALSVLRRTKSGSAVANHADQGRENSENTTA
+                     PEVFPRLYHLIPDGEITSIKINRVDPSESLSIRLVGGSETPLVHIIIQHIYRDGVIAR
+                     DGRLLPGDIILKVNGMDISNVPHNYAVRLLRQPCQVLWLTVMREQKFRSRNNGQAPDA
+                     YRPRDDSFHVILNKSSPEEQLGIKLVRKVDEPGVFIFNVLDGGVAYRHGQLEENDRVL
+                     AINGHDLRYGSPESAAHLIQASERRVHLVVSRQVRQRSPDIFQEAGWNSNGSWSPGPG
+                     ERSNTPKPLHPTITCHEKVVNIQKDPGESLGMTVAGGASHREWDLPIYVISVEPGGVI
+                     SRDGRIKTGDILLNVDGVELTEVSRSEAVALLKRTSSSIVLKALEVKEYEPQEDCSSP
+                     AALDSNHNMAPPSDWSPSWVMWLELPRCLYNCKDIVLRRNTAGSLGFCIVGGYEEYNG
+                     NKPFFIKSIVEGTPAYNDGRIRCGDILLAVNGRSTSGMIHACLARLLKELKGRITLTI
+                     VSWPGTFL"
+     sig_peptide     305..349
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     exon            397..638
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            639..791
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            792..994
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=6
+     exon            995..1366
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=7
+     STS             1157..1285
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="SHGC-67779"
+                     /db_xref="UniSTS:28467"
+     exon            1367..1501
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=8
+     exon            1502..1679
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=9
+     exon            1680..1908
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=10
+     exon            1909..2067
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=11
+     exon            2068..2840
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=12
+     STS             2129..2228
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="D4S2583E"
+                     /db_xref="UniSTS:150985"
+     polyA_signal    2455..2460
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+     polyA_site      2475
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+     STS             2523..2786
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="A001V35"
+                     /db_xref="UniSTS:17220"
+     STS             2523..2786
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="G19694"
+                     /db_xref="UniSTS:17219"
+     STS             2594..2820
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="D4S2783"
+                     /db_xref="UniSTS:77119"
+     STS             2594..2783
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="SHGC-67415"
+                     /db_xref="UniSTS:13418"
+     STS             2599..2768
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+                     /standard_name="D4S2897"
+                     /db_xref="UniSTS:154168"
+     polyA_signal    2633..2638
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+     polyA_site      2654
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+     polyA_site      2840
+                     /gene="LNX1"
+                     /gene_synonym="LNX; MPDZ; PDZRN2"
+ORIGIN      
+        1 gcatcctgca ggaggggctg gttcctttcc tgggcatcag cttgcctgct ctcagcctaa
+       61 gctctctcgc caaccgtggt ggctccttgc gttcctacat cctctcatct gagaatcaga
+      121 gagcataatc ttcttacggg cccgtgattt attaacgtgg cttaatctga aggttctcag
+      181 tcaaattctt tgtgatctac tgattgtggg ggcatggcaa ggtttgctta aaggagcttg
+      241 gctggtttgg gcccttgtag ctgacagaag gtggccaggg agaaggcagc acactgctcg
+      301 gagaatgaag gcgcttctgt tgctggtctt gccttggctc agtcctgcta actacattga
+      361 caatgtgggc aacctgcact tcctgtattc agaactctgt aaaggtgcct cccactacgg
+      421 cctgaccaaa gataggaaga ggcgctcaca agatggctgt ccagacggct gtgcgagcct
+      481 cacagccacg gctccctccc cagaggtttc tgcagctgcc accatctcct taatgacaga
+      541 cgagcctggc ctagacaacc ctgcctacgt gtcctcggca gaggacgggc agccagcaat
+      601 cagcccagtg gactctggcc ggagcaaccg aactagggca cggccctttg agagatccac
+      661 tattagaagc agatcattta aaaaaataaa tcgagctttg agtgttcttc gaaggacaaa
+      721 gagcgggagt gcagttgcca accatgccga ccagggcagg gaaaattctg aaaacaccac
+      781 tgcccctgaa gtctttccaa ggttgtacca cctgattcca gatggtgaaa ttaccagcat
+      841 caagatcaat cgagtagatc ccagtgaaag cctctctatt aggctggtgg gaggtagcga
+      901 aaccccactg gtccatatca ttatccaaca catttatcgt gatggggtga tcgccagaga
+      961 cggccggcta ctgccaggag acatcattct aaaggtcaac gggatggaca tcagcaatgt
+     1021 ccctcacaac tacgctgtgc gtctcctgcg gcagccctgc caggtgctgt ggctgactgt
+     1081 gatgcgtgaa cagaagttcc gcagcaggaa caatggacag gccccggatg cctacagacc
+     1141 ccgagatgac agctttcatg tgattctcaa caaaagtagc cccgaggagc agcttggaat
+     1201 aaaactggtg cgcaaggtgg atgagcctgg ggttttcatc ttcaatgtgc tggatggcgg
+     1261 tgtggcatat cgacatggtc agcttgagga gaatgaccgt gtgttagcca tcaatggaca
+     1321 tgatcttcga tatggcagcc cagaaagtgc ggctcatctg attcaggcca gtgaaagacg
+     1381 tgttcacctc gtcgtgtccc gccaggttcg gcagcggagc cctgacatct ttcaggaagc
+     1441 cggctggaac agcaatggca gctggtcccc agggccaggg gagaggagca acactcccaa
+     1501 gcccctccat cctacaatta cttgtcatga gaaggtggta aatatccaaa aagaccccgg
+     1561 tgaatctctc ggcatgaccg tcgcaggggg agcatcacat agagaatggg atttgcctat
+     1621 ctatgtcatc agtgttgagc ccggaggagt cataagcaga gatggaagaa taaaaacagg
+     1681 tgacattttg ttgaatgtgg atggggtcga actgacagag gtcagccgga gtgaggcagt
+     1741 ggcattattg aaaagaacat catcctcgat agtactcaaa gctttggaag tcaaagagta
+     1801 tgagccccag gaagactgca gcagcccagc agccctggac tccaaccaca acatggcccc
+     1861 acccagtgac tggtccccat cctgggtcat gtggctggaa ttaccacggt gcttgtataa
+     1921 ctgtaaagat attgtattac gaagaaacac agctggaagt ctgggcttct gcattgtagg
+     1981 aggttatgaa gaatacaatg gaaacaaacc ttttttcatc aaatccattg ttgaaggaac
+     2041 accagcatac aatgatggaa gaattagatg tggtgatatt cttcttgctg tcaatggtag
+     2101 aagtacatca ggaatgatac atgcttgctt ggcaagactg ctgaaagaac ttaaaggaag
+     2161 aattactcta actattgttt cttggcctgg cactttttta tagaatcaat gatgggtcag
+     2221 aggaaaacag aaaaatcaca aataggctaa gaagttgaaa cactatattt atcttgtcag
+     2281 tttttatatt taaagaaaga atacattgta aaaatgtcag gaaaagtatg atcatctaat
+     2341 gaaagccagt tacacctcag aaaatatgat tccaaaaaaa ttaaaactac tagttttttt
+     2401 tcagtgtgga ggatttctca ttactctaca acattgttta tattttttct attcaataaa
+     2461 aagccctaaa acaactaaaa tgatttgtat accccactga attcaagctg atttaaattt
+     2521 aaaatttggt atatgctgaa gtctgccaag ggtacattat ggccattttt aatttacagc
+     2581 taaaatattt tttaaaatgc attgctgaga aacgttgctt tcatcaaaca agaataaata
+     2641 tttttcagaa gttatagttg tcttttagta tgtgatacta attaagatta cttttgtatt
+     2701 atcactattt aaaagatcct agtaatttat tctttcaaat accatgttat ttgttaccat
+     2761 caccgatgaa tacctcctag gcttatccct aaaaatgctc gctcagagaa ttaattataa
+     2821 acttgttttg tttttagtaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+     2881 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa
+//
+

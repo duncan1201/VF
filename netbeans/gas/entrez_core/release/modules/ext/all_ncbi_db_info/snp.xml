@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>snp</DbName>
+	<MenuName>SNP</MenuName>
+	<Description>Single Nucleotide Polymorphisms</Description>
+	<Count>161770629</Count>
+	<LastUpdate>2012/01/25 19:34</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>931139440</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>468</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RS</Name>
+			<FullName>Reference SNP ID</FullName>
+			<Description>Clustered SNP ID (rs)</Description>
+			<TermCount>161733012</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHR</Name>
+			<FullName>Chromosome</FullName>
+			<Description>chromosomes</Description>
+			<TermCount>76</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>locus link symbol</Description>
+			<TermCount>203276</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HAN</Name>
+			<FullName>Submitter Handle</FullName>
+			<Description>Submitter Handle</Description>
+			<TermCount>1296</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>nucleotide accessions</Description>
+			<TermCount>2318872</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LLID</Name>
+			<FullName>LocusLink ID</FullName>
+			<Description>locus link UID</Description>
+			<TermCount>313565</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Organism</Description>
+			<TermCount>2336</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FXN</Name>
+			<FullName>Function Class</FullName>
+			<Description>Function class</Description>
+			<TermCount>25</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GTYP</Name>
+			<FullName>Genotype</FullName>
+			<Description>Genotype info</Description>
+			<TermCount>1</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NREF</Name>
+			<FullName>Not reference assembly</FullName>
+			<Description>SNP not mapped to reference assembly</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HETZ</Name>
+			<FullName>Heterozygosity</FullName>
+			<Description>Heterozygosity</Description>
+			<TermCount>92</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MPWT</Name>
+			<FullName>Map Weight</FullName>
+			<Description>Map weight</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VALI</Name>
+			<FullName>Validation Status</FullName>
+			<Description>Validation status</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SRAT</Name>
+			<FullName>Success Rate</FullName>
+			<Description>Success rate</Description>
+			<TermCount>20</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CBID</Name>
+			<FullName>Create Build ID</FullName>
+			<Description>Original Build ID</Description>
+			<TermCount>59</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UBID</Name>
+			<FullName>Update Build ID</FullName>
+			<Description>Update Build ID</Description>
+			<TermCount>60</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>SNP Publication date</Description>
+			<TermCount>415</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>SNP modification date</Description>
+			<TermCount>161</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PCLS</Name>
+			<FullName>Population Class</FullName>
+			<Description>Population classification based on geographic location</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MCLS</Name>
+			<FullName>Method Class</FullName>
+			<Description>Assay Method</Description>
+			<TermCount>8</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SS</Name>
+			<FullName>Submitter SNP ID</FullName>
+			<Description>Submitter ID</Description>
+			<TermCount>284979206</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SID</Name>
+			<FullName>Local SNP ID</FullName>
+			<Description>Local SNP ID</Description>
+			<TermCount>385449564</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VARI</Name>
+			<FullName>Allele</FullName>
+			<Description>Allele</Description>
+			<TermCount>11</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SCLS</Name>
+			<FullName>SNP Class</FullName>
+			<Description>SNP class</Description>
+			<TermCount>8</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GDSC</Name>
+			<FullName>Gene Description</FullName>
+			<Description>description of gene</Description>
+			<TermCount>638140</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CPOS</Name>
+			<FullName>Base Position</FullName>
+			<Description>Chromosome base position</Description>
+			<TermCount>78816412</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GPOS</Name>
+			<FullName>Contig Position</FullName>
+			<Description>Contig base position</Description>
+			<TermCount>44364250</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>122084</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WTAA</Name>
+			<FullName>Reference Amino Acid</FullName>
+			<Description>Reference Amino Acid</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MTAA</Name>
+			<FullName>Variant Amino Acid</FullName>
+			<Description>Variant or Mutant Amino Acid</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RSNP</Name>
+			<FullName>Reference SNP</FullName>
+			<Description>Reference SNP</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SIDX</Name>
+			<FullName>SNP Index</FullName>
+			<Description>SNP Index</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ALOR</Name>
+			<FullName>SNP Allele Origin</FullName>
+			<Description>Allele originated from somatic or germline</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUSP</Name>
+			<FullName>Suspected false variation</FullName>
+			<Description>Variation suspected to be false based on evidence</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CLIN</Name>
+			<FullName>Clinical Significance</FullName>
+			<Description>Variations with clinical effects or significances</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GMAF</Name>
+			<FullName>Global Minor Allele Frequency</FullName>
+			<Description>Minor Allele Frequency derived from global population (ie. 1000G)</Description>
+			<TermCount>1093</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>snp_bioproject</Name>
+				<Menu>BioProject Links</Menu>
+				<Description>Related BioProject record</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_biosample</Name>
+				<Menu>BioSample Links</Menu>
+				<Description>Related BioSample record</Description>
+				<DbTo>biosample</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Link from dbSNP to dbVar</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_gap</Name>
+				<Menu>GAP Links</Menu>
+				<Description>GAP Links</Description>
+				<DbTo>gap</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Genes records</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_gene_clin</Name>
+				<Menu>Gene (Clinical)</Menu>
+				<Description>Related Clinical Gene</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_hapvarset</Name>
+				<Menu></Menu>
+				<Description>Related Haplotype Variation Set</Description>
+				<DbTo>hapvarset</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>Related HomoloGene records</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Related Nucleotide records</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Related GSS records</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Related OMIM records</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full text articles in PMC</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_probe</Name>
+				<Menu>Probe Links</Menu>
+				<Description>Related Probe records</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Related Proteins</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>SNP to PubMed links</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_pubmed_cited</Name>
+				<Menu>Pubmed (SNP Cited)</Menu>
+				<Description>Related Pubmed (SNP Cited) records</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Gene Genotype Report</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_structure</Name>
+				<Menu>Structure Links</Menu>
+				<Description>Related Structures</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Related Taxonomy records</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_trace</Name>
+				<Menu>Trace Links</Menu>
+				<Description>Related Trace records</Description>
+				<DbTo>trace</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene records</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>snp_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Related UniSTS records</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+
+<!-- ~ Hibernate, Relational Persistence for Idiomatic Java ~ ~ Copyright 
+	(c) 2010, Red Hat Inc. or third-party contributors as ~ indicated by the 
+	@author tags or express copyright attribution ~ statements applied by the 
+	authors. All third-party contributions are ~ distributed under license by 
+	Red Hat Inc. ~ ~ This copyrighted material is made available to anyone wishing 
+	to use, modify, ~ copy, or redistribute it subject to the terms and conditions 
+	of the GNU ~ Lesser General Public License, as published by the Free Software 
+	Foundation. ~ ~ This program is distributed in the hope that it will be useful, 
+	~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+	~ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public 
+	License ~ for more details. ~ ~ You should have received a copy of the GNU 
+	Lesser General Public License ~ along with this distribution; if not, write 
+	to: ~ Free Software Foundation, Inc. ~ 51 Franklin Street, Fifth Floor ~ 
+	Boston, MA 02110-1301 USA -->
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.gas.domain.core.pdb">
+
+    <class name="PDBDoc">
+        <id name="hibernateId">
+            <generator class="uuid" />
+        </id>
+        
+        <property name="modified" />
+        <property name="read" />
+        <property name="prevFolderPath" type="text" />
+        <property name="lastModifiedDate" />        
+        
+        <many-to-one name="folder" 
+                             column="folderId"
+                             not-null="true"/>
+        
+        <many-to-one name="compnd" cascade="all,delete-orphan" 
+                     column="compndId" 
+                     unique="true"
+                     not-null="false"/>
+    
+        <many-to-one name="conect" cascade="all,delete-orphan" 
+                     column="conectId" 
+                     unique="true"
+                     not-null="false"/>   
+    
+        <many-to-one name="cryst1" cascade="all,delete-orphan" 
+                     column="cryst1Id" 
+                     unique="true"
+                     not-null="false"/>  
+        
+        <many-to-one name="dbref" cascade="all,delete-orphan" lazy="false"
+                     column="dbrefId" 
+                     unique="true"
+                     not-null="false"/>            
+        
+        <many-to-one name="expdta" cascade="all,delete-orphan" 
+                     column="expdtaId" 
+                     unique="true"
+                     not-null="false"/>    
+        
+        <many-to-one name="formul" cascade="all,delete-orphan" 
+                     column="formulId" 
+                     unique="true"
+                     not-null="false"/>           
+
+        <many-to-one name="header" cascade="all,delete-orphan" lazy="false"
+                     column="headerId" 
+                     unique="true"
+                     not-null="false"/>   
+        
+        <many-to-one name="helix" cascade="all,delete-orphan" 
+                     column="helixId" 
+                     unique="true"
+                     not-null="false"/>   
+
+        <many-to-one name="het" cascade="all,delete-orphan" 
+                     column="hetId" 
+                     unique="true"
+                     not-null="false"/>   
+        
+        <many-to-one name="jrnl" cascade="all,delete-orphan" lazy="false"
+                     column="jrnlId" 
+                     unique="true"
+                     not-null="false"/>                   
+        
+        <many-to-one name="keywds" cascade="all,delete-orphan" 
+                     column="keywdsId" 
+                     unique="true"
+                     not-null="false"/>       
+      
+        <set name="models" cascade="all,delete-orphan" >
+            <key column="hibernateId"/>
+            <many-to-many column="modelId"
+                          unique="true"
+                          class="MODEL"/>
+        </set>      
+      
+        <many-to-one name="modres" cascade="all,delete-orphan" 
+                     column="modresId" 
+                     unique="true"
+                     not-null="false"/>      
+        
+        <many-to-one name="mtrix1" cascade="all,delete-orphan" 
+                     column="mtrix1Id" 
+                     unique="true"
+                     not-null="false"/>        
+        
+        <many-to-one name="mtrix2" cascade="all,delete-orphan" 
+                     column="mtrix2Id" 
+                     unique="true"
+                     not-null="false"/>            
+        
+        <many-to-one name="mtrix3" cascade="all,delete-orphan" 
+                     column="mtrix3Id" 
+                     unique="true"
+                     not-null="false"/>  
+        
+        <many-to-one name="nummdl" cascade="all,delete-orphan" 
+                     column="nummdlId" 
+                     unique="true"
+                     not-null="false"/>      
+        
+        <many-to-one name="obslte" cascade="all,delete-orphan" 
+                     column="obslteId" 
+                     unique="true"
+                     not-null="false"/>              
+
+        <many-to-one name="origx1" cascade="all,delete-orphan" 
+                     column="origx1Id" 
+                     unique="true"
+                     not-null="false"/>
+
+        <many-to-one name="origx2" cascade="all,delete-orphan" 
+                     column="origx2Id" 
+                     unique="true"
+                     not-null="false"/>        
+
+        <many-to-one name="origx3" cascade="all,delete-orphan" 
+                     column="origx3Id" 
+                     unique="true"
+                     not-null="false"/>
+        
+        <many-to-one name="scale1" cascade="all,delete-orphan" 
+                     column="scale1Id" 
+                     unique="true"
+                     not-null="false"/>
+        
+        <many-to-one name="scale2" cascade="all,delete-orphan" 
+                     column="scale2Id" 
+                     unique="true"
+                     not-null="false"/>
+        
+        <many-to-one name="scale3" cascade="all,delete-orphan" 
+                     column="scale3Id" 
+                     unique="true"
+                     not-null="false"/>       
+
+        <many-to-one name="seqRes" cascade="all,delete-orphan" 
+                     column="seqresId" 
+                     unique="true"
+                     not-null="false"/>           
+        
+        <many-to-one name="sheet" cascade="all,delete-orphan" 
+                     column="sheetId" 
+                     unique="true"
+                     not-null="false"/>                   
+        
+        <many-to-one name="site" cascade="all,delete-orphan" 
+                     column="siteId" 
+                     unique="true"
+                     not-null="false"/>               
+        
+        <many-to-one name="source" cascade="all,delete-orphan" 
+                     column="sourceId" 
+                     unique="true"
+                     not-null="false"/>              
+        
+        <many-to-one name="ssbond" cascade="all,delete-orphan" 
+                     column="ssbondId" 
+                     unique="true"
+                     not-null="false"/>                                            
+
+        <many-to-one name="title" cascade="all,delete-orphan" lazy="false"
+                     column="titleId" 
+                     unique="true"
+                     not-null="false"/>                            
+    </class>
+
+</hibernate-mapping>

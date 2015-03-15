@@ -1,0 +1,25 @@
+LOCUS       PURExpress_Universal_Primer 85bp   DNA     linear       23-MAY-2008
+DEFINITION  PURExpress_Universal_Primer, complete sequence.
+ACCESSION
+VERSION
+KEYWORDS    .
+SOURCE      Cloning vector
+  ORGANISM  Cloning vector
+            other sequences; artificial sequences; primers.
+REFERENCE   1  (bases 1 to 85)
+  AUTHORS   Cantor,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2008) Research Department, New England Biolabs,
+            240 County Road, Ipswich, MA 01938, USA
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Cloning vector"
+                     /mol_type="genomic DNA"
+     promoter        6..23
+                     /note="T7 promoter (transcript start 23)"
+     RBS             72..77
+BASE COUNT       32 a     15 c     14 g     24 t
+ORIGIN
+        1 gaaattaata cgactcacta tagggagacc acaacggttt ccctctagaa ataattttgt
+       61 ttaactttaa gaaggagata tacca
+//

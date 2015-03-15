@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>unists</DbName>
+	<MenuName>UniSTS</MenuName>
+	<Description>Unique Sequence Tagged Sites database</Description>
+	<Count>544249</Count>
+	<LastUpdate>2012/01/10 15:04</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>14681092</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>20</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>USID</Name>
+			<FullName>UniSTS ID</FullName>
+			<Description>UniSTS ID</Description>
+			<TermCount>544249</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MRKN</Name>
+			<FullName>Marker Name</FullName>
+			<Description>marker name</Description>
+			<TermCount>521836</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>scientific name of organism</Description>
+			<TermCount>18586</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXID</Name>
+			<FullName>Taxonomy ID</FullName>
+			<Description>taxonomy id</Description>
+			<TermCount>2063</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CHR</Name>
+			<FullName>Chromosome</FullName>
+			<Description>chromosomes</Description>
+			<TermCount>1703</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MNAM</Name>
+			<FullName>Map Name</FullName>
+			<Description>map name</Description>
+			<TermCount>273</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ALIA</Name>
+			<FullName>Alias</FullName>
+			<Description>UniSTS Alias</Description>
+			<TermCount>445469</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KYWD</Name>
+			<FullName>Keyword</FullName>
+			<Description>various flags</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>LLID</Name>
+			<FullName>Gene ID</FullName>
+			<Description>Gene ID</Description>
+			<TermCount>207988</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>locus link symbol</Description>
+			<TermCount>121584</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GDSC</Name>
+			<FullName>Gene Description</FullName>
+			<Description>description of gene</Description>
+			<TermCount>50436</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UGID</Name>
+			<FullName>UniGene ID</FullName>
+			<Description>unigenegene identifier</Description>
+			<TermCount>182798</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UGDS</Name>
+			<FullName>UniGene Description</FullName>
+			<Description>description of unigene</Description>
+			<TermCount>80080</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NCAC</Name>
+			<FullName>Nucleotide Accession</FullName>
+			<Description>nucleotide accessions</Description>
+			<TermCount>5880997</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NUID</Name>
+			<FullName>Nucleotide UID</FullName>
+			<Description>nucleotide uids of sequences</Description>
+			<TermCount>5742403</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NUDL</Name>
+			<FullName>Nucleotide Defline</FullName>
+			<Description>nucleotide defline</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PRIM</Name>
+			<FullName>Primer</FullName>
+			<Description>primer</Description>
+			<TermCount>1077383</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with publication</Description>
+			<TermCount>3627946</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>unists_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>UniSTS generates gene links identified through three sources: 1. gene-marker data submitted to entrz Gene or UniSTS by source outside of NCBI2. marker is located in gene up to 2 Kb upstream and 0.5 kb downstream in the genome3. gene-marker data calculated by electronic PCR process where PCR primers in UniSTS are predicted to amplify against mRNA sequences in GenBank that are known to belong to a gene</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Links are identified through electronic PCR process where PCR primer pair in UniSTS are predicted to amplify against sequences in nuccore.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>Links are identified through electronic PCR process where PCR primer pair in UniSTS are predicted to amplify against sequences in dbEST.</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Links are identified through electronic PCR process where PCR primer pair in UniSTS are predicted to amplify against sequences in GenBank GSS division.</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_omia</Name>
+				<Menu>OMIA Links</Menu>
+				<Description>UniSTS to OMIA links are indirectly calculated based on combining UniSTS to OMIM links and by OMIM to OMIA links.</Description>
+				<DbTo>omia</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>OMIM links are identified through two sources: 1. OMIM to UniSTS links are submitted or curated by entrez Gene staff2. UniSTS identifies OMIM links based pattern matching using Dseg markers in UniSTS.</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PubMed Central links are identified by submitted marker to PubMed data that are present in PubMed Central, and by identifying Dseg markers in UniSTS present in full-text articles in PubMed Central.</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed links are identified by submitted PubMed data associated with markers in UniSTS, and by identifying Dseg markers in UniSTS present in PubMed abstracts.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Related SNPs</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Links identified through two mechanisms: 1. submitted data such as marker name, mapping data, amplicon size for UniSTS record for given organism2. taxonomy links are also identified based on organisms of Gene, UniGene, and OMIM links.</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>unists_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>UniSTS generates UniGene links identified through electronic PCR process where PCR primer pair in UniSTS are predicted to amplify against mRNA sequences in GenBank that belong to UniGene clusters</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

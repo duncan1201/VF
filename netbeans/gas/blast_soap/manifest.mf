@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: gov.nih.nlm.ncbi
+OpenIDE-Module-Localizing-Bundle: gov/nih/nlm/ncbi/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<SOURCES>
+  <SOURCE uri="DS_112" title="structure" description="A reference server  for protein  structure  annotations. Serves  3D coordinates of  protein structures.">
+    <MAINTAINER email="andreas.prlic@gmail.com" />
+    <VERSION uri="DS_112" created="2005-03-21T16:33:59+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS7" source="Protein Structure" authority="PDBresnum" test_range="5pti">PDBresnum,Protein Structure</COORDINATES>
+      <CAPABILITY type="das1:structure" query_uri="http://das.sanger.ac.uk/das/structure/structure" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.google.com" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=86" />
+      <PROP name="projectDesc" value="windows test of image upload" />
+      <PROP name="projectName" value="test for windows" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="entry_points" value="probably_valid" />
+      <PROP name="structure" value="valid" />
+      <PROP name="error-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:02:27+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_126" title="Compara Phenotypes" doc_href="http://www.ebi.ac.uk/das-srv/genedas/das/phenotypes" description="Phenotypes linked through homologues and protein families">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_126" created="2005-05-23T13:14:33+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS15" source="Gene_ID" authority="Ensembl" test_range="ENSG00000141510">Ensembl,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/phenotypes/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:16:24+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_146" title="ensp_pdb_mapping" doc_href="http://www.dasregistry.org/spice/ensembl.shtml" description="If you click on a feature of  this DAS track, SPICE can be launched  from ENSEMBL. - Mapping of ENSP  protein sequences to  protein structures.  Based on the Compara  ENSP - UniProt and  the MSD - UniProt to  PDB mapping.    ">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_146" created="2005-06-03T20:43:39+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS16" source="Protein Sequence" authority="Ensembl" test_range="ENSMUSP00000000001">Ensembl,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/ensppdbmapping/features" />
+      <PROP name="label" value="ENSEMBL" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:16:52+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_191" title="hsa35pep" description="A reference and  annotation server  for Ensembl  peptides. Provides exon structure and  SNPs as features">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_191" created="2005-11-16T10:48:53+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS16" source="Protein Sequence" authority="Ensembl" test_range="ENSP00000329399">Ensembl,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/hsa35pep/features" />
+      <CAPABILITY type="das1:sequence" query_uri="http://das.sanger.ac.uk/das/hsa35pep/sequence" />
+      <PROP name="label" value="ENSEMBL" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="probably_valid" />
+      <PROP name="sequence" value="invalid" />
+      <PROP name="entry_points" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:18:03+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_192" title="alig_uniprot_ensp" description="an alignment server that provides alignments between Ensembl peptides (ENSP) and UniProt">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_192" created="2005-11-16T10:58:20+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS16" source="Protein Sequence" authority="Ensembl" test_range="ENSP00000329399">Ensembl,Protein Sequence</COORDINATES>
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="ENSP00000329399">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:alignment" query_uri="http://das.sanger.ac.uk/das/aliguniprotensp/alignment" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="label" value="ENSEMBL" />
+      <PROP name="projectHome" value="http://www.efamily.org.uk/software/dasclients/spice/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=73" />
+      <PROP name="projectDesc" value="The eFamily project is designed to integrate the information contained in five of the major protein databases. The member databases are: CATH, SCOP, MSD, InterPro, and Pfam." />
+      <PROP name="projectName" value="eFamily" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="alignment" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:18:04+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_199" title="CSA - literature" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/csalit" description="Catalytic Site Atlas (http://www.ebi.ac.uk/thornton-srv/databases/CSA/) literature annotations mapped onto Uniprot.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_199" created="2005-11-28T13:39:42+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P07987">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/csalit/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/csalit/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:18:12+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_200" title="CSA - extended" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/csaextended" description="Catalytic Site Atlas (http://www.ebi.ac.uk/thornton-srv/databases/CSA/) literature annotations extended to putative sites by homology.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_200" created="2005-11-28T13:42:28+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P07987">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/csaextended/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/csaextended/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:18:13+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_216" title="SAS protein binding" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/sasprot" description="Putative protein-protein binding sites by homology with those observed in crystallized protein structures.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_216" created="2006-03-10T14:06:22+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P00374">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/sasprot/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:06+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_217" title="SAS ligand binding" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/saslig" description="Putative ligand binding sites by homology with those observed in crystallized protein structures.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_217" created="2006-03-10T14:10:41+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P00374">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/saslig/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:06+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_218" title="SAS DNA binding" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/sasdna" description="Putative protein-DNA binding sites by homology with those observed in crystallized protein structures.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_218" created="2006-03-10T14:12:24+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P07270">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/sasdna/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:07+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_226" title="GENCODE sequences" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/gencode" description="ENCODE peptide reference server.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_226" created="2006-03-22T11:27:01+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS39" taxid="9606" source="Protein Sequence" authority="GENCODE" test_range="AP000295.6-002" version="2.2">GENCODE_2.2,Protein Sequence,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:sequence" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/gencode/sequence" />
+      <CAPABILITY type="das1:entry_points" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/gencode/entry_points" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="sequence" value="valid" />
+      <PROP name="entry_points" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:12+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_227" title="GENCODE alignments" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodealign" description="Local and global gapped alignments with UniProt and UniParc using Exonerate 1.0.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_227" created="2006-03-22T11:31:05+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="INAR2_HUMAN">UniProt,Protein Sequence</COORDINATES>
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS39" taxid="9606" source="Protein Sequence" authority="GENCODE" test_range="AP000295.6-002" version="2.2">GENCODE_2.2,Protein Sequence,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:alignment" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodealign/alignment" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="alignment" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:12+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_228" title="GENCODE Pfam" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodepfam" description="Putative domains predicted using Pfam HMMs on ENCODE peptides.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_228" created="2006-03-22T15:57:34+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS39" taxid="9606" source="Protein Sequence" authority="GENCODE" test_range="AC000123.1-001" version="2.2">GENCODE_2.2,Protein Sequence,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodepfam/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:13+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_229" title="GENCODE PDBsum" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodepdbsum" description="Structurally derived information from PDBsum mapped by homology to ENCODE peptides (http://www.ebi.ac.uk/thornton-srv/ENCODE/pdbsum.html).">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_229" created="2006-03-22T16:01:05+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS39" taxid="9606" source="Protein Sequence" authority="GENCODE" test_range="Z68193.1-001" version="2.2">GENCODE_2.2,Protein Sequence,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodepdbsum/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/gencodepdbsum/types" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:13+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_237" title="3D-EM" doc_href="http://biocomp.cnb.csic.es/das/" description="Reference server for  3D-EM volume maps  data from EMDB.">
+    <MAINTAINER email="jrmacias@cnb.csic.es" />
+    <VERSION uri="DS_237" created="2006-05-09T19:37:27+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS45" source="Volume Map" authority="EMDB" test_range="EMD1017">EMDB,Volume Map</COORDINATES>
+      <CAPABILITY type="das1:entry_points" query_uri="http://biocomp.cnb.csic.es:9000/das/3DEM/entry_points" />
+      <PROP name="projectHome" value="http://www.embracegrid.info/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=77" />
+      <PROP name="projectDesc" value="EMBRACE Network of Excellence. The network will work to integrate the major databases and software tools in bioinformatics, using existing methods and emerging Grid service technologies." />
+      <PROP name="projectName" value="EMBRACE" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="entry_points" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:14+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_238" title="3D-EM_EMDB" doc_href="http://biocomp.cnb.csic.es/das/" description="Annotation server  for 3D-EM volume  data. Most textual  data parsed from  EMDB.">
+    <MAINTAINER email="jrmacias@cnb.csic.es" />
+    <VERSION uri="DS_238" created="2006-05-09T19:43:30+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS45" source="Volume Map" authority="EMDB" test_range="EMD1017">EMDB,Volume Map</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://biocomp.cnb.csic.es:9000/das/3DEM_EMDB/features" />
+      <CAPABILITY type="das1:types" query_uri="http://biocomp.cnb.csic.es:9000/das/3DEM_EMDB/types" />
+      <CAPABILITY type="das1:unknown-segment" query_uri="http://biocomp.cnb.csic.es:9000/das/3DEM_EMDB/unknown-segment" />
+      <PROP name="projectHome" value="http://www.embracegrid.info/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=77" />
+      <PROP name="projectDesc" value="EMBRACE Network of Excellence. The network will work to integrate the major databases and software tools in bioinformatics, using existing methods and emerging Grid service technologies." />
+      <PROP name="projectName" value="EMBRACE" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="unknown-segment" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:15+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_239" title="3D-EM_Fitting" doc_href="http://biocomp.cnb.csic.es/das/" description="Alignment server for  fitting experiments  (PDB structures into  3D-EM volumes).">
+    <MAINTAINER email="jrmacias@cnb.csic.es" />
+    <VERSION uri="DS_239" created="2006-05-09T19:51:53+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS45" source="Volume Map" authority="EMDB" test_range="FFT0020">EMDB,Volume Map</COORDINATES>
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS7" source="Protein Structure" authority="PDBresnum" test_range="FFT0020">PDBresnum,Protein Structure</COORDINATES>
+      <CAPABILITY type="das1:types" query_uri="http://biocomp.cnb.csic.es:9000/das/3DEM_Fitting/types" />
+      <CAPABILITY type="das1:entry_points" query_uri="http://biocomp.cnb.csic.es:9000/das/3DEM_Fitting/entry_points" />
+      <PROP name="projectHome" value="http://www.embracegrid.info/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=77" />
+      <PROP name="projectDesc" value="EMBRACE Network of Excellence. The network will work to integrate the major databases and software tools in bioinformatics, using existing methods and emerging Grid service technologies." />
+      <PROP name="projectName" value="EMBRACE" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="entry_points" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:16+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_251" title="Ensembl Human Genes" doc_href="http://www.ebi.ac.uk/das-srv/genedas/das/Homo_sapiens.Gene_ID.reference" description="The Ensembl human Gene_ID reference source, serving sequences and non-location features.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_251" created="2006-10-18T12:02:10+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS94" taxid="9606" source="Gene_ID" authority="Ensembl" test_range="ENSG00000139618">Ensembl,Gene_ID,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/Homo_sapiens.Gene_ID.reference/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/Homo_sapiens.Gene_ID.reference/types" />
+      <CAPABILITY type="das1:sequence" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/Homo_sapiens.Gene_ID.reference/sequence" />
+      <CAPABILITY type="das1:entry_points" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/Homo_sapiens.Gene_ID.reference/entry_points" />
+      <PROP name="projectHome" value="http://www.ensembl.org/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=89" />
+      <PROP name="projectDesc" value="Project containing old ensembl mapmasters" />
+      <PROP name="projectName" value="Ensembl mapmasters" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="sequence" value="invalid" />
+      <PROP name="entry_points" value="valid" />
+      <PROP name="error-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:23+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_327" title="InterPro" doc_href="http://www.ebi.ac.uk/interpro/" description="InterPro  (http://www.ebi.ac.uk/interpro/), a  database of protein families, domains  and functional sites in which  identifiable features found in known  proteins can be applied to unknown  protein sequences.  This data source   contains all InterPro member database   signature matches to UniProtKB protein   sequences.">
+    <MAINTAINER email="pjones@ebi.ac.uk" />
+    <VERSION uri="DS_327" created="2006-11-28T10:35:53+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P12345">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro/types" />
+      <CAPABILITY type="das1:unknown-segment" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro/unknown-segment" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="label" value="Computationally inferred" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:19:42+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_409" title="uniprot" doc_href="http://www.ebi.ac.uk/uniprot-das/" description="DAS 1 reference server for sequence and  features from UniProt. UniProt  (Universal Protein Resource) is the  worlds most comprehensive catalog of  information on proteins. It is a   central repository of protein sequence  and function created by joining the  information contained in Swiss-Prot,  TrEMBL, and PIR. Alternative to the  'aristotle' dsn on the same DAS server.  Note: New version launched on  05/09/2008. Support for keywords(KW) and  comments(CC). Ontologies have also been  introduced into the annotations.">
+    <MAINTAINER email="rantunes@ebi.ac.uk" />
+    <VERSION uri="DS_409" created="2007-08-15T15:43:55+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P00280">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/types" />
+      <CAPABILITY type="das1:sequence" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/sequence" />
+      <CAPABILITY type="das1:entry_points" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot/entry_points" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="label" value="eProtein" />
+      <PROP name="label" value="Manually curated" />
+      <PROP name="label" value="Predicted" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="sequence" value="valid" />
+      <PROP name="entry_points" value="valid" />
+      <PROP name="error-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:26:04+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_410" title="IPI" doc_href="http://www.ebi.ac.uk/uniprot-das/" description="DAS 1 reference server for sequence and  features from IPI.  IPI provides a top  level guide to the main databases that  describe the proteomes of higher  eukaryotic organisms. IPI: 1.  effectively maintains a database of  cross references between the primary  data sources 2. provides minimally  redundant yet maximally complete sets of  proteins for featured species (one  sequence per transcript) 3. maintains  stable identifiers (with incremental  versioning) to allow the tracking of  sequences in IPI between IPI releases.  IPI is updated monthly in accordance  with the latest data released by the  primary data sources.  Alternative to  the aristotle dsn on the same DAS  server (DS_109)">
+    <MAINTAINER email="rantunes@ebi.ac.uk" />
+    <VERSION uri="DS_410" created="2007-08-15T16:28:53+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS35" source="Protein Sequence" authority="IPI" test_range="IPI00015171">IPI,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi/types" />
+      <CAPABILITY type="das1:sequence" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi/sequence" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="sequence" value="valid" />
+      <PROP name="entry_points" value="invalid" />
+      <PROP name="error-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:26:05+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_411" title="IPI Tryptic Peptides" doc_href="http://www.ebi.ac.uk/uniprot-das/" description="Theoretical tryptic peptides based upon  a complete and successful digest of the  requested proteins with trypsin.">
+    <MAINTAINER email="rantunes@ebi.ac.uk" />
+    <VERSION uri="DS_411" created="2007-08-15T16:47:48+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS35" source="Protein Sequence" authority="IPI" test_range="IPI00015171">IPI,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi-tryptic/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi-tryptic/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/ipi-tryptic/types" />
+      <PROP name="label" value="Computationally inferred" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:26:06+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_412" title="UniProt GO Annotation" doc_href="http://www.ebi.ac.uk/uniprot-das/" description="The GOA project aims to provide  high-quality Gene Ontology (GO)  annotations to proteins in the UniProt  Knowledgebase (UniProtKB) and  International Protein Index (IPI) and is  a central dataset for other major  multi-species databases; such as Ensembl  and NCBI.">
+    <MAINTAINER email="rantunes@ebi.ac.uk" />
+    <VERSION uri="DS_412" created="2007-08-15T16:57:34+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P99999">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot-goa/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot-goa/features" />
+      <PROP name="label" value="Manually curated" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="probably_valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:28:36+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_413" title="UniProt Tryptic Peptides" doc_href="http://www.ebi.ac.uk/uniprot-das/" description="Theoretical tryptic peptides based upon  a complete and successful digest of the  requested proteins with trypsin.">
+    <MAINTAINER email="rantunes@ebi.ac.uk" />
+    <VERSION uri="DS_413" created="2007-08-15T17:00:01+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P00280">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot-tryptic/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniprot-tryptic/features" />
+      <PROP name="label" value="Computationally inferred" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="probably_valid" />
+      <PROP name="entry_points" value="probably_valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:28:41+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_414" title="uniparc" doc_href="http://www.ebi.ac.uk/uniprot-das/" description="UniProt Archive (UniParc) is part of  UniProt project. It is a non-redundant  archive of protein sequences extracted  from public databases  UniProtKB/Swiss-Prot, UniProtKB/TrEMBL,  PIR-PSD, EMBL, EMBL WGS, Ensembl, IPI,  PDB, PIR-PSD, RefSeq, FlyBase, WormBase,  H-Invitational Database, TROME database,  European Patent Office proteins, United  States Patent and Trademark Office  proteins (USPTO) and Japan Patent Office  proteins.">
+    <MAINTAINER email="rantunes@ebi.ac.uk" />
+    <VERSION uri="DS_414" created="2007-08-17T17:37:38+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS93" source="Protein Sequence" authority="UniParc" test_range="UPI000000000A">UniParc,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniparc/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniparc/features" />
+      <CAPABILITY type="das1:sequence" query_uri="http://www.ebi.ac.uk/das-srv/uniprot/das/uniparc/sequence" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="probably_valid" />
+      <PROP name="sequence" value="valid" />
+      <PROP name="entry_points" value="probably_valid" />
+      <PROP name="error-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:28:45+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_490" title="HUGO text mining" doc_href="http://www.ebi.ac.uk/das-srv/genedas/das/textmining" description="PubMed text-mining via HUGO symbol">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_490" created="2007-11-07T13:43:52+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS12" source="Gene_ID" authority="HUGO_ID" test_range="TP53">HUGO_ID,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/textmining/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/textmining/types" />
+      <PROP name="projectHome" value="http://www.ebi.ac.uk/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=83" />
+      <PROP name="projectDesc" value="The European Bioinformatics Institute (EBI) is an outstation of the European Molecular Biology Laboratory. The EBI operates and coordinates many bioinformatics services across several areas of research." />
+      <PROP name="projectName" value="EBI" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:29:37+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_548" title="novelloci" description="327 novel gene fragments provided by Mark Diekhans">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_548" created="2008-03-06T11:01:31+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS40" taxid="9606" source="Chromosome" authority="NCBI" test_range="1:1351419,1352868" version="36">NCBI_36,Chromosome,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/novelloci/features" />
+      <PROP name="projectHome" value="http://www.sanger.ac.uk/PostGenomics/encode/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=80" />
+      <PROP name="projectDesc" value="DAS sources provided by the GENCODE sub-project of ENCODE." />
+      <PROP name="projectName" value="GENCODE" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="probably_valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:35:39+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_549" title="Gene Expression Atlas" doc_href="http://www.ebi.ac.uk/gxa" description="European Bioinformatics Institute  (EMBL-EBI) Gene   Expression Atlas. The Gene Expression  Atlas is a   semantically enriched database of  meta-analysis   based summary statistics over a curated  subset of   ArrayExpress Archive, servicing queries for   condition-specific gene expression  patterns as well   as broader exploratory searches for  biologically   interesting genes/samples.">
+    <MAINTAINER email="ostolop@gmail.com" />
+    <VERSION uri="DS_549" created="2008-03-10T13:31:46+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS15" source="Gene_ID" authority="Ensembl" test_range="ENSG00000162552">Ensembl,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://www.ebi.ac.uk/gxa/das/s4" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/gxa/das/s4/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/gxa/das/s4/types" />
+      <CAPABILITY type="das1:unknown-segment" query_uri="http://www.ebi.ac.uk/gxa/das/s4/unknown-segment" />
+      <PROP name="label" value="Experimentally verified" />
+      <PROP name="label" value="Manually curated" />
+      <PROP name="projectHome" value="http://www.ebi.ac.uk/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=83" />
+      <PROP name="projectDesc" value="The European Bioinformatics Institute (EBI) is an outstation of the European Molecular Biology Laboratory. The EBI operates and coordinates many bioinformatics services across several areas of research." />
+      <PROP name="projectName" value="EBI" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:35:40+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_583" title="GAD" doc_href="http://www.ebi.ac.uk/das-srv/genedas/das/gad" description="Genetic Association Database (diseases)">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_583" created="2008-10-02T11:46:37+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS47" source="Gene_ID" authority="Entrez" test_range="BRCA1">Entrez,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/gad/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/gad/types" />
+      <PROP name="projectHome" value="http://www.ebi.ac.uk/" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=83" />
+      <PROP name="projectDesc" value="The European Bioinformatics Institute (EBI) is an outstation of the European Molecular Biology Laboratory. The EBI operates and coordinates many bioinformatics services across several areas of research." />
+      <PROP name="projectName" value="EBI" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:38:25+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_876" title="Test 1.6 sources" doc_href="http://www.myhomepage.org" description="Test for DAS 1.6 sources">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_876" created="2010-02-16T12:18:02+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS311" taxid="9606" source="Chromosome" authority="GRCh" test_range="1:113387,6757161" version="37">GRCh_37,Chromosome,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://das.sanger.ac.uk/das/test16genes/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/test16genes/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.sanger.ac.uk/das/test16genes/types" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="entry_points" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:47:46+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1028" title="InterPro-Matches-Overview" doc_href="http://www.ebi.ac.uk/interpro/" description="Shows the maximum extent of the matches   from all signatures that are integrated   into a single InterPro entry against   UniProtKB protein sequences (i.e. if an   InterPro entry contains 2 signatures, A   and B, and both of these match a   protein, A between residue 3 and 125 and   B between residue 5 and 127, the   overview supermatch of these   signatures is between 3 and 127).">
+    <MAINTAINER email="pjones@ebi.ac.uk" />
+    <VERSION uri="DS_1028" created="2010-03-11T16:33:03+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P99999">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-matches-overview/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-matches-overview/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-matches-overview/types" />
+      <CAPABILITY type="das1:unknown-segment" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-matches-overview/unknown-segment" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="label" value="Computationally inferred" />
+      <PROP name="projectHome" value="http://www.biosapiens.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=74" />
+      <PROP name="projectDesc" value="BioSapiens is a Network of Excellence, funded by the European Union's 6th Framework Programme, and made up of bioinformatics researchers from 25 institutions based in 14 countries throughout Europe.
+
+The objective of the BioSapiens is to provide a large" />
+      <PROP name="projectName" value="BioSapiens" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:58:28+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1029" title="InterPro-UniParc-matches" doc_href="http://www.ebi.ac.uk/interpro/" description="Contains all InterPro member database   signature matches to all UniParc protein   sequences.">
+    <MAINTAINER email="pjones@ebi.ac.uk" />
+    <VERSION uri="DS_1029" created="2010-03-12T10:35:41+0000">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS93" source="Protein Sequence" authority="UniParc" test_range="UPI0000000004">UniParc,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-UniParc-matches/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-UniParc-matches/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-UniParc-matches/types" />
+      <CAPABILITY type="das1:unknown-segment" query_uri="http://www.ebi.ac.uk/das-srv/interpro/das/InterPro-UniParc-matches/unknown-segment" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="label" value="Computationally inferred" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T16:58:30+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1420" title="uniprot2probes" description="Annotation source with microarray probes  mapping uniprot sequences.">
+    <MAINTAINER email="rajido@gmail.com" />
+    <VERSION uri="DS_1420" created="2010-08-04T12:31:30+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P01243">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://www.ebi.ac.uk/enfin-srv/das-srv/das/uniprot2probes" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/enfin-srv/das-srv/das/uniprot2probes/features" />
+      <PROP name="label" value="BioSapiens" />
+      <PROP name="label" value="ENSEMBL" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="probably_valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="unknown-feature" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="feature-by-id" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:40+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1436" title="Pride DAS 1.6" description="Pride DAS source updated to 1.6 version  of DAS ">
+    <MAINTAINER email="pride-report@ebi.ac.uk" />
+    <VERSION uri="DS_1436" created="2010-08-11T11:52:55+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P05067">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://www.ebi.ac.uk/pride-das/das/PrideDataSource" />
+      <CAPABILITY type="das1:stylesheet" query_uri="http://www.ebi.ac.uk/pride-das/das/PrideDataSource/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/pride-das/das/PrideDataSource/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/pride-das/das/PrideDataSource/types" />
+      <CAPABILITY type="das1:unknown-segment" query_uri="http://www.ebi.ac.uk/pride-das/das/PrideDataSource/unknown-segment" />
+      <PROP name="label" value="eProtein" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="unknown-segment" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:48+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1526" title="uniprot_exon_snp" description="Ensembl exon boundary and SNP data  projected on UniProt sequence. Based on  the COMPARA ENSP-UniProt mapping.">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_1526" created="2010-08-31T11:06:19+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P50225">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/uniprotensemblpepfeatures/features" />
+      <PROP name="label" value="ENSEMBL" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:55+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1527" title="demo_histo" description="shows score from signal peptide prediction">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_1527" created="2010-08-31T11:06:20+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="Q9Y5Y6">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/demo_histo/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:56+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1528" title="demo_gradient" description="shows score from signal peptide prediction">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_1528" created="2010-08-31T11:06:20+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="Q9Y5Y6">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/demo_gradient/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:57+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1529" title="demo_lineplot" description="shows score from signal peptide prediction">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_1529" created="2010-08-31T11:06:20+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="Q9Y5Y6">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/demo_lineplot/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="stylesheet" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:58+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1530" title="demo_nostyle" description="shows score from signal peptide prediction">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_1530" created="2010-08-31T11:06:20+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="Q9Y5Y6">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/demo_nostyle/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:59+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1531" title="yale_pseudogenes" description="pseudogenes coming from Philip at Yale.">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_1531" created="2010-08-31T11:06:21+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS40" taxid="9606" source="Chromosome" authority="NCBI" test_range="1:6546342,655000" version="36">NCBI_36,Chromosome,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://das.sanger.ac.uk/das/yale_pseudogene/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T17:17:59+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1634" title="asd_gene" doc_href="http://www.ebi.ac.uk/das-srv/genedas/das/asd_gene" description="[GeneView] AltSplice features on human and mouse genes.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_1634" created="2010-10-17T01:02:00+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS15" source="Gene_ID" authority="Ensembl" test_range="ENSG00000050426">Ensembl,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/asd_gene/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:04:36+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1635" title="atd_gene" doc_href="http://www.ebi.ac.uk/das-srv/genedas/das/atd_gene" description="[GeneView] AltTrans features on human and mouse genes.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_1635" created="2010-10-17T01:02:01+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS15" source="Gene_ID" authority="Ensembl" test_range="ENSG00000166056">Ensembl,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/genedas/das/atd_gene/features" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:04:36+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_1668" title="PDBe Summary" doc_href="http://www.ebi.ac.uk/das-srv/proteindas/das/pdbe_summary" description="Basic summary data for PDB structures.">
+    <MAINTAINER email="andy.jenkinson@ebi.ac.uk" />
+    <VERSION uri="DS_1668" created="2010-10-17T01:02:13+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS7" source="Protein Structure" authority="PDBresnum" test_range="1mbd">PDBresnum,Protein Structure</COORDINATES>
+      <CAPABILITY type="das1:features" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/pdbe_summary/features" />
+      <CAPABILITY type="das1:types" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/pdbe_summary/types" />
+      <CAPABILITY type="das1:entry_points" query_uri="http://www.ebi.ac.uk/das-srv/proteindas/das/pdbe_summary/entry_points" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="probably_valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="entry_points" value="valid" />
+      <PROP name="unknown-segment" value="probably_valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:06:52+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2627" title="Selectome" doc_href="http://selectome.unil.ch/" description="Selectome is a database of positive  selection on gene trees.">
+    <MAINTAINER email="selectome@unil.ch" />
+    <VERSION uri="DS_2627" created="2011-04-08T13:49:25+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS15" source="Gene_ID" authority="Ensembl" test_range="ENSMUSG00000039809:0,1000">Ensembl,Gene_ID</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://selectome.unil.ch/das/selectome" />
+      <CAPABILITY type="das1:stylesheet" query_uri="http://selectome.unil.ch/das/selectome/stylesheet" />
+      <CAPABILITY type="das1:features" query_uri="http://selectome.unil.ch/das/selectome/features" />
+      <CAPABILITY type="das1:types" query_uri="http://selectome.unil.ch/das/selectome/types" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="stylesheet" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:49:57+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2739" title="testbam" doc_href="http://www.ebi.ac.uk/ena/data/view/ERR005109" description="test bam registration">
+    <MAINTAINER email="jw12@sanger.ac.uk" />
+    <VERSION uri="DS_2739" created="2011-05-26T12:09:24+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS108" taxid="10090" source="Chromosome" authority="NCBIM" test_range="1:10000,200000" version="37">NCBIM_37,Chromosome,Mus musculus</COORDINATES>
+      <CAPABILITY type="das1:bigfile-bam" query_uri="http://ftp.sra.ebi.ac.uk/analysis/ERZ000/ERZ000001/ERZ000001.bam/bigfile-bam" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="bigfile-bam" value="valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:50:30+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2753" title="Cafe Variome Diagnostic Variants (human GRCh 37)" doc_href="http://www.cafevariome.org" description="Cafe Variome - diagnostic variants  (Human GRCh 37)">
+    <MAINTAINER email="ol8@leicester.ac.uk" />
+    <VERSION uri="DS_2753" created="2011-06-14T13:38:28+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS311" taxid="9606" source="Chromosome" authority="GRCh" test_range="X:1,103300000" version="37">GRCh_37,Chromosome,Homo sapiens</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cafevariome.org/das/das/diagnostic_variants" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cafevariome.org/das/das/diagnostic_variants/features" />
+      <CAPABILITY type="das1:cors" query_uri="http://das.cafevariome.org/das/das/diagnostic_variants/cors" />
+      <PROP name="label" value="Experimentally verified" />
+      <PROP name="projectHome" value="http://www.cafevariome.org" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=99" />
+      <PROP name="projectDesc" value="Cafe Variome is designed to function as a clearinghouse and exchange portal for gene variant (mutation) data produced by diagnostics laboratories." />
+      <PROP name="projectName" value="Cafe Variome" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="invalid" />
+      <PROP name="cors" value="valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:50:51+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2754" title="ctcf_ptr" description="blady blah">
+    <MAINTAINER email="avilella@gmail.com" />
+    <VERSION uri="DS_2754" created="2011-06-27T12:33:59+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS78" taxid="9598" source="Chromosome" authority="CHIMP" test_range="" version="1">CHIMP_1,Chromosome,Pan troglodytes</COORDINATES>
+      <CAPABILITY type="das1:bigfile-bam" query_uri="ftp://ftp.ebi.ac.uk/pub/databases/ensembl/avilella/delete_soon/do1101_CTCF_LCL_07729upstate_ptrEB176JC_CRI01.fq.sam.bam/bigfile-bam" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="bigfile-bam" value="valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:50:52+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2755" title="Sample BAM file from Loraine Lab" doc_href="http://igbquickload.org/quickload/A_thaliana_Jun_2009/nextgen_samples" description="75 base single end Illumina reads aligned onto the A_thaliana_Jun_2009 (TAIR9) genome assembly using TopHat. The library was prepared from three week old seedlings undergoing simulated drought stress.">
+    <MAINTAINER email="aloraine@uncc.edu" />
+    <VERSION uri="DS_2755" created="2011-06-28T12:43:00+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS348" taxid="3702" source="Chromosome" authority="TAIR" test_range="1:100" version="9">TAIR_9,Chromosome,Arabidopsis thaliana</COORDINATES>
+      <CAPABILITY type="das1:bigfile-bam" query_uri="http://igbquickload.org/quickload/A_thaliana_Jun_2009/nextgen_samples/sample.bam/bigfile-bam" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="invalid" />
+      <PROP name="bigfile-bam" value="valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:50:55+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2763" title="CATH Domains" doc_href="http://das.cathdb.info/das/cath_pdb" description="Manually curated structural domain boundaries for PDB structures">
+    <MAINTAINER email="cathteam@biochem.ucl.ac.uk" />
+    <VERSION uri="DS_2763" created="2011-07-04T17:45:49+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS7" source="Protein Structure" authority="PDBresnum" test_range="1cukA01">PDBresnum,Protein Structure</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cathdb.info/das/cath_pdb" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cathdb.info/das/cath_pdb/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.cathdb.info/das/cath_pdb/types" />
+      <CAPABILITY type="das1:sequence" query_uri="http://das.cathdb.info/das/cath_pdb/sequence" />
+      <CAPABILITY type="das1:entry_points" query_uri="http://das.cathdb.info/das/cath_pdb/entry_points" />
+      <CAPABILITY type="das1:structure" query_uri="http://das.cathdb.info/das/cath_pdb/structure" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.cathdb.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=100" />
+      <PROP name="projectDesc" value="CATH is a manually curated database that clusters structural domains into evolutionary superfamilies. HMMs are used to scan against the genomic sequence databases and provide high quality structural and functional annotations." />
+      <PROP name="projectName" value="CATH" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="sequence" value="valid" />
+      <PROP name="entry_points" value="invalid" />
+      <PROP name="structure" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:51:20+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2764" title="CATH Domain Homologues in Ensembl." doc_href="http://gene3d.biochem.ucl.ac.uk/Gene3D/Das/" description="CATH Superfamily domain homologues, identified by sequence similarity, and mapped to Ensembl.">
+    <MAINTAINER email="gene3d@biochem.ucl.ac.uk" />
+    <VERSION uri="DS_2764" created="2011-07-04T17:45:49+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS16" source="Protein Sequence" authority="Ensembl" test_range="ENSGACP00000019937">Ensembl,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cathdb.info/das/gene3d_ensembl" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cathdb.info/das/gene3d_ensembl/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.cathdb.info/das/gene3d_ensembl/types" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.cathdb.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=100" />
+      <PROP name="projectDesc" value="CATH is a manually curated database that clusters structural domains into evolutionary superfamilies. HMMs are used to scan against the genomic sequence databases and provide high quality structural and functional annotations." />
+      <PROP name="projectName" value="CATH" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:51:21+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2765" title="CATH Domains in UniProt" doc_href="http://gene3d.biochem.ucl.ac.uk/Gene3D/Das/" description="CATH Structural domains directly mapped to UniProt. A clone of the cath_uniprot server for backwards compatibility.">
+    <MAINTAINER email="gene3d@biochem.ucl.ac.uk" />
+    <VERSION uri="DS_2765" created="2011-07-04T17:45:50+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P20279">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cathdb.info/das/cath_sptr" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cathdb.info/das/cath_sptr/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.cathdb.info/das/cath_sptr/types" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.cathdb.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=100" />
+      <PROP name="projectDesc" value="CATH is a manually curated database that clusters structural domains into evolutionary superfamilies. HMMs are used to scan against the genomic sequence databases and provide high quality structural and functional annotations." />
+      <PROP name="projectName" value="CATH" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:51:22+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2766" title="CATH Structural Domain Alignments" doc_href="http://das.cathdb.info/das/cath_ssg" description="3D Alignments of highly structurally similar protein domains">
+    <MAINTAINER email="cathteam@biochem.ucl.ac.uk" />
+    <VERSION uri="DS_2766" created="2011-07-04T17:45:50+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS7" source="Protein Structure" authority="PDBresnum" test_range="1.10.8.10-SSG5-1">PDBresnum,Protein Structure</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cathdb.info/das/cath_ssg" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cathdb.info/das/cath_ssg/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.cathdb.info/das/cath_ssg/types" />
+      <CAPABILITY type="das1:alignment" query_uri="http://das.cathdb.info/das/cath_ssg/alignment" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.cathdb.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=100" />
+      <PROP name="projectDesc" value="CATH is a manually curated database that clusters structural domains into evolutionary superfamilies. HMMs are used to scan against the genomic sequence databases and provide high quality structural and functional annotations." />
+      <PROP name="projectName" value="CATH" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="invalid" />
+      <PROP name="types" value="valid" />
+      <PROP name="alignment" value="invalid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:51:27+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2767" title="CATH Domains in UniProt" doc_href="http://gene3d.biochem.ucl.ac.uk/Gene3D/Das/" description="CATH Structural domains directly mapped to UniProt.">
+    <MAINTAINER email="gene3d@biochem.ucl.ac.uk" />
+    <VERSION uri="DS_2767" created="2011-07-04T17:45:50+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P20279">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cathdb.info/das/cath_uniprot" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cathdb.info/das/cath_uniprot/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.cathdb.info/das/cath_uniprot/types" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.cathdb.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=100" />
+      <PROP name="projectDesc" value="CATH is a manually curated database that clusters structural domains into evolutionary superfamilies. HMMs are used to scan against the genomic sequence databases and provide high quality structural and functional annotations." />
+      <PROP name="projectName" value="CATH" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:51:28+0100" />
+    </VERSION>
+  </SOURCE>
+  <SOURCE uri="DS_2768" title="CATH Domain Homologues in UniProt." doc_href="http://gene3d.biochem.ucl.ac.uk/Gene3D/Das/" description="CATH Superfamily domain homologues, identified using DomainFinder.">
+    <MAINTAINER email="gene3d@biochem.ucl.ac.uk" />
+    <VERSION uri="DS_2768" created="2011-07-04T17:45:50+0100">
+      <COORDINATES uri="http://www.dasregistry.org/dasregistry/coordsys/CS_DS6" source="Protein Sequence" authority="UniProt" test_range="P15498">UniProt,Protein Sequence</COORDINATES>
+      <CAPABILITY type="das1:sources" query_uri="http://das.cathdb.info/das/gene3d_cath" />
+      <CAPABILITY type="das1:features" query_uri="http://das.cathdb.info/das/gene3d_cath/features" />
+      <CAPABILITY type="das1:types" query_uri="http://das.cathdb.info/das/gene3d_cath/types" />
+      <PROP name="label" value="eFamily" />
+      <PROP name="projectHome" value="http://www.cathdb.info" />
+      <PROP name="projectIcon" value="http://www.dasregistry.org/ProjectIcon?id=100" />
+      <PROP name="projectDesc" value="CATH is a manually curated database that clusters structural domains into evolutionary superfamilies. HMMs are used to scan against the genomic sequence databases and provide high quality structural and functional annotations." />
+      <PROP name="projectName" value="CATH" />
+      <PROP name="spec" value="DAS/1.6E" />
+      <PROP name="sources" value="valid" />
+      <PROP name="features" value="valid" />
+      <PROP name="types" value="valid" />
+      <PROP name="cors" value="probably_valid" />
+      <PROP name="leaseTime" value="2011-07-21T18:51:29+0100" />
+    </VERSION>
+  </SOURCE>
+</SOURCES>

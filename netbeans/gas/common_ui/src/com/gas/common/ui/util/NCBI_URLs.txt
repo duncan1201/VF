@@ -1,0 +1,7 @@
+CCDS=http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=%s
+GENEID=http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&cmd=Retrieve&dopt=full_report&list_uids=%s
+HGNC=http://www.genenames.org/data/hgnc_data.php?hgnc_id=%s
+MIM=http://omim.org/entry/%s
+UNISTS=http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=%s
+TAXON=http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=%s
+CDD=http://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=%s

@@ -1,0 +1,35 @@
+LOCUS       NM_001114                 60 bp    mRNA    linear   PRI 10-SEP-2012
+DEFINITION  Homo sapiens adenylate cyclase 7 (ADCY7), mRNA.
+ACCESSION   NM_001114
+VERSION     NM_001114.3  GI:115298680
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 6138)
+  AUTHORS   Joeyen-Waldorf,J., Nikolova,Y.S., Edgar,N., Walsh,C., Kota,R.,
+            Lewis,D.A., Ferrell,R., Manuck,S.B., Hariri,A.R. and Sibille,E.
+  TITLE     Adenylate cyclase 7 is implicated in the biology of depression and
+            modulation of affective neural circuitry
+  JOURNAL   Biol. Psychiatry 71 (7), 627-632 (2012)
+   PUBMED   22264442
+  REMARK    GeneRIF: evidence implicates ADCY7 in the modulation of mood
+            regulatory neural mechanisms and, possibly, risk for and
+            pathophysiology of depression.
+            Erratum:[Biol Psychiatry. 2012 Jul 15;72(2):164]
+FEATURES             Location/Qualifiers
+     source          1..28
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="16"
+                     /map="16q12.1"
+     polyA_signal    4..19
+                     /gene="ADCY7"
+                     /gene_synonym="AC7"
+ORIGIN      
+        1 agctgaggaa ctgcgtgtgg agtcagccca gtctggatgc acaggaggat gctggcggca      
+//
+

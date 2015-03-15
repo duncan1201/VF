@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>cancerchromosomes</DbName>
+	<MenuName>CancerChromosomes</MenuName>
+	<Description>SKYCGH Database</Description>
+	<Count>142056</Count>
+	<LastUpdate>2011/10/06 18:31</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>269799</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>30</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TXID</Name>
+			<FullName>Organism</FullName>
+			<Description>Taxonomy ID</Description>
+			<TermCount>132</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GEND</Name>
+			<FullName>Gender</FullName>
+			<Description>Gender</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DSST</Name>
+			<FullName>Disease-Status</FullName>
+			<Description>Disease Status</Description>
+			<TermCount>14</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TISS</Name>
+			<FullName>Tissue</FullName>
+			<Description>Tissue</Description>
+			<TermCount>19</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TREA</Name>
+			<FullName>Treatment</FullName>
+			<Description>Treatment performed</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>HERD</Name>
+			<FullName>Hered&apos;ySyndrm</FullName>
+			<Description>Hereditary Syndrome</Description>
+			<TermCount>16</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Reference</FullName>
+			<Description>Citation</Description>
+			<TermCount>66433</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBM</Name>
+			<FullName>Submitter</FullName>
+			<Description>Submitter&apos;s Name</Description>
+			<TermCount>170</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CASE</Name>
+			<FullName>CaseName</FullName>
+			<Description>Case Name</Description>
+			<TermCount>15040</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SFKY</Name>
+			<FullName>Karyotype</FullName>
+			<Description>Short Form Karyotype</Description>
+			<TermCount>59328</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BKPT</Name>
+			<FullName>Breakpoints</FullName>
+			<Description>Breakpoints from SKY, Deduced for CGH Analysis</Description>
+			<TermCount>1600</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JUNC</Name>
+			<FullName>Junctions</FullName>
+			<Description>Junctions</Description>
+			<TermCount>59500</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NCHR</Name>
+			<FullName>NumericAbnorm</FullName>
+			<Description>Normal Chromosomes Increased/Decreased</Description>
+			<TermCount>50</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACHR</Name>
+			<FullName>StructAbnorm</FullName>
+			<Description>Abnormal Chromosomes</Description>
+			<TermCount>146</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BAND</Name>
+			<FullName>Bands-Amp/Del</FullName>
+			<Description>Bands involved in an amplification/deletion</Description>
+			<TermCount>2098</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DIAG</Name>
+			<FullName>Diagnosis</FullName>
+			<Description>Diagnosis/Morphology</Description>
+			<TermCount>1075</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SITE</Name>
+			<FullName>Site</FullName>
+			<Description>Site/Topography</Description>
+			<TermCount>185</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STGE</Name>
+			<FullName>Disease-Stage</FullName>
+			<Description>Disease Stage</Description>
+			<TermCount>150</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>RODT</Name>
+			<FullName>RodentInfo</FullName>
+			<Description>Strain/Genotype/Addn Information found in Rodent(s)</Description>
+			<TermCount>225</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CLNM</Name>
+			<FullName>CellLine</FullName>
+			<Description>Name of any Cell Line</Description>
+			<TermCount>86</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ICDO</Name>
+			<FullName>ICD03-Code</FullName>
+			<Description>ICD-0-3 code for Diagnosis/Site</Description>
+			<TermCount>128</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COMM</Name>
+			<FullName>AddnInfo</FullName>
+			<Description>Any other information</Description>
+			<TermCount>7298</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TECH</Name>
+			<FullName>CytoTech</FullName>
+			<Description>Which Cytogenetic Technique used</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DB</Name>
+			<FullName>Database</FullName>
+			<Description>Which database -Mitelman or Skycgh</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CSID</Name>
+			<FullName>CaseId</FullName>
+			<Description>case identifiers from source database</Description>
+			<TermCount>61264</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>PSEU</Name>
+			<FullName>PseudoDoc</FullName>
+			<Description>PseudDoc Cytogenetic/Clinical</Description>
+			<TermCount>137698</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>VIEW</Name>
+			<FullName>DocType</FullName>
+			<Description>Either case docsum view/cell view</Description>
+			<TermCount>2</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_casecell</Name>
+				<Menu>View Clones/Cells for Case(s)</Menu>
+				<Description>View Clone(s)/Cell for Case(s)</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cellcase</Name>
+				<Menu>View Cases for Clone(s)/Cell(s)</Menu>
+				<Description>View Cases for Clone(s)/Cell</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cytocgh</Name>
+				<Menu>Related by CGH</Menu>
+				<Description>Related by CGH</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cytoclincgh</Name>
+				<Menu>Related by CGH and Text</Menu>
+				<Description>Related by CGH and Text</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cytoclinsky</Name>
+				<Menu>Related Karyotypically and Text</Menu>
+				<Description>Related Karyotypically and Text</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cytodiagcgh</Name>
+				<Menu>Related by CGH and Diag/Site</Menu>
+				<Description>Related by CGH and Diag/Site</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cytodiagsky</Name>
+				<Menu>Related Karyotypically and Diag/Site</Menu>
+				<Description>Related Karyotypically and Diag/Site</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_cytosky</Name>
+				<Menu>Related by Karyotypes</Menu>
+				<Description>Related by Karyotypes</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_diag</Name>
+				<Menu>Related by Diagnosis/Site</Menu>
+				<Description>Related by Diagnosis/Site</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_cancerchromosomes_textual</Name>
+				<Menu>Related by All Text</Menu>
+				<Description>Related by All Text</Description>
+				<DbTo>cancerchromosomes</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PMC links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>cancerchromosomes_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Referenced PubMed Article</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD eSearchResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eSearch_020511.dtd">
+<eSearchResult>
+    <Count>35735</Count>
+    <RetMax>20</RetMax>
+    <RetStart>0</RetStart>
+    <IdList>
+        <Id>2693088</Id>
+        <Id>2692479</Id>
+        <Id>2902988</Id>
+        <Id>2996082</Id>
+        <Id>2954191</Id>
+        <Id>2745366</Id>
+        <Id>2730033</Id>
+        <Id>2628721</Id>
+        <Id>2575525</Id>
+        <Id>2517145</Id>
+        <Id>2749253</Id>
+        <Id>2814589</Id>
+        <Id>2408375</Id>
+        <Id>2637443</Id>
+        <Id>2430762</Id>
+        <Id>2905395</Id>
+        <Id>2374994</Id>
+        <Id>2885609</Id>
+        <Id>2929242</Id>
+        <Id>2625959</Id>
+    </IdList>
+    <TranslationSet>
+        <Translation>
+            <From>stem cells</From>
+            <To>"stem cells"[MeSH Terms] OR stem cells[Acknowledgments] OR stem
+				cells[Figure/Table Caption] OR stem cells[Section Title] OR stem
+				cells[Body - All Words] OR stem cells[Title] OR stem cells[Abstract]
+				OR stem cells[Journal]
+            </To>
+        </Translation>
+    </TranslationSet>
+    <TranslationStack>
+        <TermSet>
+            <Term>"stem cells"[MeSH Terms]</Term>
+            <Field>MeSH Terms</Field>
+            <Count>10692</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <TermSet>
+            <Term>stem cells[Acknowledgments]</Term>
+            <Field>Acknowledgments</Field>
+            <Count>222</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <TermSet>
+            <Term>stem cells[Figure/Table Caption]</Term>
+            <Field>Figure/Table Caption</Field>
+            <Count>3403</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <TermSet>
+            <Term>stem cells[Section Title]</Term>
+            <Field>Section Title</Field>
+            <Count>2227</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <TermSet>
+            <Term>stem cells[Body - All Words]</Term>
+            <Field>Body - All Words</Field>
+            <Count>34865</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <TermSet>
+            <Term>stem cells[Title]</Term>
+            <Field>Title</Field>
+            <Count>3338</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <TermSet>
+            <Term>stem cells[Abstract]</Term>
+            <Field>Abstract</Field>
+            <Count>7498</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <TermSet>
+            <Term>stem cells[Journal]</Term>
+            <Field>Journal</Field>
+            <Count>210</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>OR</OP>
+        <OP>GROUP</OP>
+        <TermSet>
+            <Term>free fulltext[filter]</Term>
+            <Field>filter</Field>
+            <Count>2126786</Count>
+            <Explode>Y</Explode>
+        </TermSet>
+        <OP>AND</OP>
+    </TranslationStack>
+    <QueryTranslation>("stem cells"[MeSH Terms] OR stem
+		cells[Acknowledgments] OR stem cells[Figure/Table Caption] OR stem
+		cells[Section Title] OR stem cells[Body - All Words] OR stem
+		cells[Title] OR stem cells[Abstract] OR stem cells[Journal]) AND free
+		fulltext[filter]
+    </QueryTranslation>
+</eSearchResult>

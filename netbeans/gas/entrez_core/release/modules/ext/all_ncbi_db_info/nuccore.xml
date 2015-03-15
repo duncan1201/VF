@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>nuccore</DbName>
+	<MenuName>Nucleotide</MenuName>
+	<Description>Core Nucleotide db</Description>
+	<Count>57878144</Count>
+	<LastUpdate>2012/01/04 23:19</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>413021463</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to each sequence</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>377</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>Free text associated with record</Description>
+			<TermCount>134719722</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>Words in definition line</Description>
+			<TermCount>29465745</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>KYWD</Name>
+			<FullName>Keyword</FullName>
+			<Description>Nonstandardized terms provided by submitter</Description>
+			<TermCount>8338477</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AUTH</Name>
+			<FullName>Author</FullName>
+			<Description>Author(s) of publication</Description>
+			<TermCount>1620574</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>JOUR</Name>
+			<FullName>Journal</FullName>
+			<Description>Journal abbreviation of publication</Description>
+			<TermCount>25170</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>VOL</Name>
+			<FullName>Volume</FullName>
+			<Description>Volume number of publication</Description>
+			<TermCount>2380</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ISS</Name>
+			<FullName>Issue</FullName>
+			<Description>Issue number of publication</Description>
+			<TermCount>3459</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PAGE</Name>
+			<FullName>Page Number</FullName>
+			<Description>Page number(s) of publication</Description>
+			<TermCount>131380</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Scientific and common names of organism, and all higher levels of taxonomy</Description>
+			<TermCount>2029398</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Accession number of sequence</Description>
+			<TermCount>117831267</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PACC</Name>
+			<FullName>Primary Accession</FullName>
+			<Description>Does not include retired secondary accessions</Description>
+			<TermCount>115755903</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Name of gene associated with sequence</Description>
+			<TermCount>51692789</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROT</Name>
+			<FullName>Protein Name</FullName>
+			<Description>Name of protein associated with sequence</Description>
+			<TermCount>2462268</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ECNO</Name>
+			<FullName>EC/RN Number</FullName>
+			<Description>EC number for enzyme or CAS registry number</Description>
+			<TermCount>3574</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>Date sequence added to GenBank</Description>
+			<TermCount>5259</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>Date of last update</Description>
+			<TermCount>5017</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SUBS</Name>
+			<FullName>Substance Name</FullName>
+			<Description>CAS chemical name or MEDLINE Substance Name</Description>
+			<TermCount>19907</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PROP</Name>
+			<FullName>Properties</FullName>
+			<Description>Classification by source qualifiers and molecule type</Description>
+			<TermCount>2701</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SQID</Name>
+			<FullName>SeqID String</FullName>
+			<Description>String identifier for sequence</Description>
+			<TermCount>19769724</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GPRJ</Name>
+			<FullName>BioProject</FullName>
+			<Description>BioProject</Description>
+			<TermCount>16151</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SLEN</Name>
+			<FullName>Sequence Length</FullName>
+			<Description>Length of sequence</Description>
+			<TermCount>99464</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>FKEY</Name>
+			<FullName>Feature key</FullName>
+			<Description>Feature annotated on sequence</Description>
+			<TermCount>84</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PORG</Name>
+			<FullName>Primary Organism</FullName>
+			<Description>Scientific and common names of primary organism, and all higher levels of taxonomy</Description>
+			<TermCount>2029074</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>COMP</Name>
+			<FullName>Component Accession</FullName>
+			<Description>Component accessions for an assembly</Description>
+			<TermCount>84398241</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>nuccore_assembly</Name>
+				<Menu></Menu>
+				<Description>Corresponding assembly of the individual sequence traces from the Trace Assembly Archive for the current sequence records. The assembly is available as a graphical display of the trace components.</Description>
+				<DbTo>assembly</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_bioproject</Name>
+				<Menu>BioProject Links</Menu>
+				<Description>Related BioProject entry</Description>
+				<DbTo>bioproject</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_biosample</Name>
+				<Menu>BioSample links</Menu>
+				<Description>BioSample links</Description>
+				<DbTo>biosample</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_biosystems</Name>
+				<Menu>BioSystem Links</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_comp_nuccore</Name>
+				<Menu>Component Of</Menu>
+				<Description>Assembled nucleotide records constructed from the current component sequences (whole genome shotgun, genomic scaffolds, and BAC clone sequences).</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_dbvar</Name>
+				<Menu>dbVar</Menu>
+				<Description>Genomic structural variation (dbVar) records that refer to the current nucleotide sequence records.</Description>
+				<DbTo>dbvar</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Gene records referencing the current sequence records. Sequences included in Gene are added manually by NCBI.</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_genome</Name>
+				<Menu>Genome</Menu>
+				<Description>Genome records related to the current sequence records. Genome records may be linked to the components of assembled genome and from single record submissions representing complete genomic molecules such as chromosomes, organelle genomes, and plasmids.</Description>
+				<DbTo>genome</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_genome_samespecies</Name>
+				<Menu>RefSeq genome for species</Menu>
+				<Description>Reference genome records for the same species as the current nucleotide genomic records. These genomes represent a single version for multiple variable sequences of the same genomic molecule, most commonly viral and organelle genomes.</Description>
+				<DbTo>genome</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_gensat</Name>
+				<Menu>GENSAT Links</Menu>
+				<Description>Gensat records that use the mRNAs or genes corresponding to the current records as probes or reporter constructs in mouse brain histology imaging.</Description>
+				<DbTo>gensat</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_geoprofiles</Name>
+				<Menu>GEO Profiles Links</Menu>
+				<Description>GEO Profile records associated with Nucleotide record</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_homologene</Name>
+				<Menu>HomoloGene Links</Menu>
+				<Description>Homologene clusters that contain the current RefSeq transcript sequences.</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_mapview</Name>
+				<Menu></Menu>
+				<Description>Graphical Map Viewer display of the current nucleotide records in assembled genomes. Records may be part of the assembly or mapped as alignment-based annotation.</Description>
+				<DbTo>mapview</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_mrna_nuccore</Name>
+				<Menu></Menu>
+				<Description>Genomic sequence records that have the current mRNA records as annotated features marking the exons of genes.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore</Name>
+				<Menu>Related Sequences</Menu>
+				<Description>Nucleotide sequences related by sequence similarity (BLAST) score to the current records.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_comp</Name>
+				<Menu>Component(Core) Links</Menu>
+				<Description>Nucleotide records that are the components of the assembled sequence records in the current set.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_gbrs</Name>
+				<Menu>Identical RefSeq</Menu>
+				<Description>NCBI Reference Sequence genomic records that are identical in sequence to records in the current set.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_mgc_refseq</Name>
+				<Menu></Menu>
+				<Description>Order cDNA clone corresponding to Mammalian Gene Collection Reference Sequence records in the current set.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_mrna</Name>
+				<Menu>mRNA Links</Menu>
+				<Description>mRNA sequence records that are annotated on the current genomic nucleotide sequences. The mRNA records represent aligned or predicted transcripts of the current records.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_rsgb</Name>
+				<Menu>Identical GenBank</Menu>
+				<Description>Identical source nucleotide records to Reference Sequence assembled genomes in the current set.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_samespecies_gbrs</Name>
+				<Menu>RefSeq nucleotide for species</Menu>
+				<Description>NCBI Reference Sequence (RefSeq) genome record for the same species as the current International Nucleotide Database Collaboration (DDBJ, EMBL, GenBank) genomic records. These RefSeq genomes represent a single version for multiple variable sequences of the same genomic molecule, most commonly viral and organelle genomes.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nuccore_samespecies_rsgb</Name>
+				<Menu>Other nucleotides for species</Menu>
+				<Description>Other nucleotide records for the same molecule in the same species for genome records in the current set. These are linked from the GenBank source record for the genome Reference Sequence. These linked records are available when there are multiple other records for the same genomic sequence in the database. Most commonly these are microbial, organelle, or viral genomes.</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nucest_comp</Name>
+				<Menu>Component(EST) Links</Menu>
+				<Description>Expressed Sequence Tag (EST) records that are components of assembled nucleotide records in the current set.</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_nucgss_comp</Name>
+				<Menu>Component(GSS) Links</Menu>
+				<Description>Genome Survey Sequence (GSS) records that are components of the assembled nucleotide records in the current set.</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_omim</Name>
+				<Menu>OMIM Links</Menu>
+				<Description>Online Mendelian Inheritance in Man articles that refer to nucleotide records in the current set.</Description>
+				<DbTo>omim</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pcassay</Name>
+				<Menu>BioAssay Links</Menu>
+				<Description>BioAssay records that refer to nucleotide records in the current set.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pcassay_rna_target</Name>
+				<Menu>BioAssay by RNA Target</Menu>
+				<Description>BioAssays that refer to records in the current set as mRNA targets.</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pccompound</Name>
+				<Menu>PubChem Compound Links</Menu>
+				<Description>PubChem compound records that cite the nucleotide records in the current set. These compound records are typically associated with nucleotide sequence through a molecular structure containing the both the nucleic acid and the PubChem small molecule.</Description>
+				<DbTo>pccompound</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pcsubstance</Name>
+				<Menu>PubChem Substance Links</Menu>
+				<Description>PubChem substance records that cite the nucleotide records in the current set. These substance records may be associated with a nucleotide sequence through a molecular structure containing the both the nucleic acid and the PubChem small molecule or may be the target of the substance entry for an inhibitory RNA Bioassay.</Description>
+				<DbTo>pcsubstance</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full-text articles in PubMed central that cite nucleotide records in the current set.</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_popset</Name>
+				<Menu>PopSet Links</Menu>
+				<Description>Population, ecosystem, or phylogenetic sets in the PopSet database that include records in the current set.</Description>
+				<DbTo>popset</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_probe</Name>
+				<Menu>Probe Links</Menu>
+				<Description>Probe database records for genotyping, gene expression, SNP discovery, genome mapping, and gene silencing reagents that target the genes and gene products associated with the current nucleotide sequence records.</Description>
+				<DbTo>probe</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Protein translations of coding regions from sequence records in the current set.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_protein_mat_peptide</Name>
+				<Menu>Mature Peptides</Menu>
+				<Description>Protein records for mature (processed) peptides annotated on nucleotide records in the current set.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_protein_mgc_url</Name>
+				<Menu></Menu>
+				<Description>Order cDNA clones corresponding to Mammalian Gene Collection records in the current set that include the complete protein coding region.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_protein_wgs</Name>
+				<Menu></Menu>
+				<Description>Protein translations of coding regions from whole genome shotgun derived nucleotide sequences in the current set.</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_proteinclusters</Name>
+				<Menu>Protein Cluster Links</Menu>
+				<Description>Protein cluster records containing proteins derived from coding regions on Reference Sequence genomic records in the current set.</Description>
+				<DbTo>proteinclusters</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed articles that cite nucleotide records in the current set. These are articles that report the International Nucleotide Database Collaboration (DDBJ, EMBL, GenBank) data. These articles are also linked to Reference Sequences derived from these records.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pubmed_refseq</Name>
+				<Menu>PubMed (RefSeq) Links</Menu>
+				<Description>PubMed articles that are cited in NCBI Reference Sequences in the present set.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_pubmed_weighted</Name>
+				<Menu>PubMed (Weighted) Links</Menu>
+				<Description>PubMed articles associated with the current nucleotide records through the Gene database. These articles include Reference into Function, citations in related OMIM, and those associated with sequences in the Gene record.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_snp</Name>
+				<Menu>SNP Links</Menu>
+				<Description>Single nucleotide polymorphisms (SNPs) mapped to the current records. Links may be provided through SNP data submission or through annotations on the nucleotide record.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_snp_genegenotype</Name>
+				<Menu>Gene Genotype Links</Menu>
+				<Description>Genotype reports for single nucleotide polymorphisms (SNPs) associated with the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_snp_geneview</Name>
+				<Menu></Menu>
+				<Description>Geneview in dbSNP showing nucleotide polymorphisms (SNPs) mapped to the genes associated with the current records.</Description>
+				<DbTo>snp</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_sra</Name>
+				<Menu>SRA Links</Menu>
+				<Description>Sequence Read Archive (SRA) next generation sequencing data associated with the current records.</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_sra_wgs</Name>
+				<Menu>SRA WGS</Menu>
+				<Description>Sequence Read Archive (SRA) next generation sequencing data associated with the whole genome shotgun sequence records.</Description>
+				<DbTo>sra</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_structure</Name>
+				<Menu>Structure Links</Menu>
+				<Description>Three dimensional structure records that are the sources of the current nucleotide sequence records.</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>NCBI Taxonomy entries and classification information for the source organisms of the current set of records.</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_trace</Name>
+				<Menu></Menu>
+				<Description>Trace archive capillary sequencing data supporting the current nucleotide records.</Description>
+				<DbTo>trace</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>UniGene clusters of expressed sequences that contain mRNA records in the current set.</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+			<Link>
+				<Name>nuccore_unists</Name>
+				<Menu>UniSTS Links</Menu>
+				<Description>Genetic, physical, and sequence mapping reagents in the UniSTS database mapped on the current nucleotide records.</Description>
+				<DbTo>unists</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

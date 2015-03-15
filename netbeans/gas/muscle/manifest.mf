@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.gas.muscle
+OpenIDE-Module-Localizing-Bundle: com/gas/muscle/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

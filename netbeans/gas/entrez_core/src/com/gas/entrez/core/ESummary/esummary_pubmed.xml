@@ -1,0 +1,1056 @@
+<?xml version="1.0"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD eSummaryResult, 29 October 2004//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eSummary_041029.dtd">
+<eSummaryResult>
+    <DocSum>
+        <Id>21853533</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="Source" Type="String">Wiley Interdiscip Rev RNA</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Peterlin BM</Item>
+            <Item Name="Author" Type="String">Brogie JE</Item>
+            <Item Name="Author" Type="String">Price DH</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Price DH</Item>
+        <Item Name="Title" Type="String">7SK snRNA: a noncoding RNA that plays a
+			major role in regulating eukaryotic transcription.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101536955</Item>
+        <Item Name="ISSN" Type="String">1757-7004</Item>
+        <Item Name="ESSN" Type="String">1757-7012</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1002/wrna.106</Item>
+            <Item Name="pubmed" Type="String">21853533</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1002/wrna.106</Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Wiley interdisciplinary
+			reviews. RNA
+        </Item>
+        <Item Name="ELocationID" Type="String">doi: 10.1002/wrna.106</Item>
+        <Item Name="SO" Type="String">2011 Aug 18;</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853345</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 19</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 19</Item>
+        <Item Name="Source" Type="String">Med Oncol</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Hirashima T</Item>
+            <Item Name="Author" Type="String">Suzuki H</Item>
+            <Item Name="Author" Type="String">Kobayashi M</Item>
+            <Item Name="Author" Type="String">Kondoh Y</Item>
+            <Item Name="Author" Type="String">Tokuoka Y</Item>
+            <Item Name="Author" Type="String">Matsuura Y</Item>
+            <Item Name="Author" Type="String">Tamiya M</Item>
+            <Item Name="Author" Type="String">Morishita N</Item>
+            <Item Name="Author" Type="String">Sasada S</Item>
+            <Item Name="Author" Type="String">Okamoto N</Item>
+            <Item Name="Author" Type="String">Akazawa K</Item>
+            <Item Name="Author" Type="String">Kawase I</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Kawase I</Item>
+        <Item Name="Title" Type="String">Long-term chemotherapy may prolong
+			survival in advanced non-small-cell lung cancer among responders to
+			first-line chemotherapy.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">9435512</Item>
+        <Item Name="ISSN" Type="String">1357-0560</Item>
+        <Item Name="ESSN" Type="String">1559-131X</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1007/s12032-011-0034-6</Item>
+            <Item Name="pubmed" Type="String">21853345</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1007/s12032-011-0034-6</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/05/19 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/22 00:00</Item>
+            <Item Name="aheadofprint" Type="Date">2011/08/19 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Medical oncology (Northwood,
+			London, England)
+        </Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug 19;</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853254</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 19</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 19</Item>
+        <Item Name="Source" Type="String">Planta</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Bryan AC</Item>
+            <Item Name="Author" Type="String">Obaidi A</Item>
+            <Item Name="Author" Type="String">Wierzba M</Item>
+            <Item Name="Author" Type="String">Tax FE</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Tax FE</Item>
+        <Item Name="Title" Type="String">XYLEM INTERMIXED WITH PHLOEM1, a
+			leucine-rich repeat receptor-like kinase required for stem growth and
+			vascular development in Arabidopsis thaliana.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">1250576</Item>
+        <Item Name="ISSN" Type="String">0032-0935</Item>
+        <Item Name="ESSN" Type="String">1432-2048</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1007/s00425-011-1489-6</Item>
+            <Item Name="pubmed" Type="String">21853254</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1007/s00425-011-1489-6</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/05/20 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/26 00:00</Item>
+            <Item Name="aheadofprint" Type="Date">2011/08/19 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Planta</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug 19;</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853174</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 19</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 19</Item>
+        <Item Name="Source" Type="String">Chem Commun (Camb)</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Hofmann FT</Item>
+            <Item Name="Author" Type="String">Lindemann C</Item>
+            <Item Name="Author" Type="String">Salia H</Item>
+            <Item Name="Author" Type="String">Adamitzki P</Item>
+            <Item Name="Author" Type="String">Karanicolas J</Item>
+            <Item Name="Author" Type="String">Seebeck FP</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Seebeck FP</Item>
+        <Item Name="Title" Type="String">A phosphoarginine containing peptide as
+			an artificial SH2 ligand.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">9610838</Item>
+        <Item Name="ISSN" Type="String">1359-7345</Item>
+        <Item Name="ESSN" Type="String">1364-548X</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1039/c1cc13341a</Item>
+            <Item Name="pubmed" Type="String">21853174</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1039/c1cc13341a</Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Chemical communications
+			(Cambridge, England)
+        </Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug 19;</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853163</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="Source" Type="String">Mol Biosyst</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Khan SH</Item>
+            <Item Name="Author" Type="String">Kumar R</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Kumar R</Item>
+        <Item Name="Title" Type="String">Role of an intrinsically disordered
+			conformation in AMPK-mediated phosphorylation of ULK1 and regulation
+			of autophagy.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101251620</Item>
+        <Item Name="ISSN" Type="String">1742-206X</Item>
+        <Item Name="ESSN" Type="String">1742-2051</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1039/c1mb05265a</Item>
+            <Item Name="pubmed" Type="String">21853163</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1039/c1mb05265a</Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Molecular bioSystems</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug 18;</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853123</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 11</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Leushacke M</Item>
+            <Item Name="Author" Type="String">Spörle R</Item>
+            <Item Name="Author" Type="String">Bernemann C</Item>
+            <Item Name="Author" Type="String">Brouwer-Lehmitz A</Item>
+            <Item Name="Author" Type="String">Fritzmann J</Item>
+            <Item Name="Author" Type="String">Theis M</Item>
+            <Item Name="Author" Type="String">Buchholz F</Item>
+            <Item Name="Author" Type="String">Herrmann BG</Item>
+            <Item Name="Author" Type="String">Morkel M</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Morkel M</Item>
+        <Item Name="Title" Type="String">An RNA Interference Phenotypic Screen
+			Identifies a Role for FGF Signals in Colon Cancer Progression.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e23381</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0023381</Item>
+            <Item Name="pii" Type="String">PONE-D-11-03935</Item>
+            <Item Name="pubmed" Type="String">21853123</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0023381</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/02/25 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/15 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/11 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e23381</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853092</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 10</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Filosto S</Item>
+            <Item Name="Author" Type="String">Khan EM</Item>
+            <Item Name="Author" Type="String">Tognon E</Item>
+            <Item Name="Author" Type="String">Becker C</Item>
+            <Item Name="Author" Type="String">Ashfaq M</Item>
+            <Item Name="Author" Type="String">Ravid T</Item>
+            <Item Name="Author" Type="String">Goldkorn T</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Goldkorn T</Item>
+        <Item Name="Title" Type="String">EGF receptor exposed to oxidative stress
+			acquires abnormal phosphorylation and aberrant activated conformation
+			that impairs canonical dimerization.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e23240</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0023240</Item>
+            <Item Name="pii" Type="String">PONE-D-11-07015</Item>
+            <Item Name="pubmed" Type="String">21853092</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0023240</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/04/20 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/08 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/10 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e23240</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853090</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 10</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Cho Y</Item>
+            <Item Name="Author" Type="String">McQuade T</Item>
+            <Item Name="Author" Type="String">Zhang H</Item>
+            <Item Name="Author" Type="String">Zhang J</Item>
+            <Item Name="Author" Type="String">Chan FK</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Chan FK</Item>
+        <Item Name="Title" Type="String">RIP1-Dependent and Independent Effects of
+			Necrostatin-1 in Necrosis and T Cell Activation.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e23209</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0023209</Item>
+            <Item Name="pii" Type="String">PONE-D-11-05280</Item>
+            <Item Name="pubmed" Type="String">21853090</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0023209</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/03/23 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/12 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/10 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e23209</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853082</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 11</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Wu ZL</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Wu ZL</Item>
+        <Item Name="Title" Type="String">Phosphatase-coupled universal kinase
+			assay and kinetics for first-order-rate coupling reaction.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e23172</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0023172</Item>
+            <Item Name="pii" Type="String">PONE-D-11-08305</Item>
+            <Item Name="pubmed" Type="String">21853082</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0023172</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/03/24 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/11 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/11 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e23172</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853073</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 10</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Cai X</Item>
+            <Item Name="Author" Type="String">Zhang J</Item>
+            <Item Name="Author" Type="String">Chen M</Item>
+            <Item Name="Author" Type="String">Wu Y</Item>
+            <Item Name="Author" Type="String">Wang X</Item>
+            <Item Name="Author" Type="String">Chen J</Item>
+            <Item Name="Author" Type="String">Zhang J</Item>
+            <Item Name="Author" Type="String">Shen X</Item>
+            <Item Name="Author" Type="String">Qu D</Item>
+            <Item Name="Author" Type="String">Jiang H</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Jiang H</Item>
+        <Item Name="Title" Type="String">The Effect of the Potential PhoQ
+			Histidine Kinase Inhibitors on Shigella flexneri Virulence.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e23100</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0023100</Item>
+            <Item Name="pii" Type="String">PONE-D-11-04662</Item>
+            <Item Name="pubmed" Type="String">21853073</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0023100</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/03/10 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/11 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/10 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e23100</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853067</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 10</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Menon MB</Item>
+            <Item Name="Author" Type="String">Kotlyarov A</Item>
+            <Item Name="Author" Type="String">Gaestel M</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Gaestel M</Item>
+        <Item Name="Title" Type="String">SB202190-Induced Cell Type-Specific
+			Vacuole Formation and Defective Autophagy Do Not Depend on p38 MAP
+			Kinase Inhibition.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e23054</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0023054</Item>
+            <Item Name="pii" Type="String">PONE-D-11-08115</Item>
+            <Item Name="pubmed" Type="String">21853067</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0023054</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/05/09 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/07/05 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/10 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e23054</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21853033</Id>
+        <Item Name="PubDate" Type="Date">2011</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 11</Item>
+        <Item Name="Source" Type="String">PLoS One</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Drozdov I</Item>
+            <Item Name="Author" Type="String">Svejda B</Item>
+            <Item Name="Author" Type="String">Gustafsson BI</Item>
+            <Item Name="Author" Type="String">Mane S</Item>
+            <Item Name="Author" Type="String">Pfragner R</Item>
+            <Item Name="Author" Type="String">Kidd M</Item>
+            <Item Name="Author" Type="String">Modlin IM</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Modlin IM</Item>
+        <Item Name="Title" Type="String">Gene Network Inference and Biochemical
+			Assessment Delineates GPCR Pathways and CREB Targets in Small
+			Intestinal Neuroendocrine Neoplasia.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e22457</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101285081</Item>
+        <Item Name="ISSN" Type="String"></Item>
+        <Item Name="ESSN" Type="String">1932-6203</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pone.0022457</Item>
+            <Item Name="pii" Type="String">PONE-D-11-04370</Item>
+            <Item Name="pubmed" Type="String">21853033</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pone.0022457</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/02/28 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/06/24 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/11 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PloS one</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011;6(8):e22457</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852994</Id>
+        <Item Name="PubDate" Type="Date">2011 Jun</Item>
+        <Item Name="EPubDate" Type="Date">2011 Jan 25</Item>
+        <Item Name="Source" Type="String">Psychiatry Investig</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Choi MR</Item>
+            <Item Name="Author" Type="String">Oh DH</Item>
+            <Item Name="Author" Type="String">Kim SH</Item>
+            <Item Name="Author" Type="String">Yang BH</Item>
+            <Item Name="Author" Type="String">Lee JS</Item>
+            <Item Name="Author" Type="String">Choi J</Item>
+            <Item Name="Author" Type="String">Jeon HS</Item>
+            <Item Name="Author" Type="String">Chai YG</Item>
+            <Item Name="Author" Type="String">Park YC</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Park YC</Item>
+        <Item Name="Title" Type="String">Fluoxetine Up-Regulates Bcl-xL Expression
+			in Rat C6 Glioma Cells.
+        </Item>
+        <Item Name="Volume" Type="String">8</Item>
+        <Item Name="Issue" Type="String">2</Item>
+        <Item Name="Pages" Type="String">161-8</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101242994</Item>
+        <Item Name="ISSN" Type="String">1738-3684</Item>
+        <Item Name="ESSN" Type="String">1976-3026</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.4306/pi.2011.8.2.161</Item>
+            <Item Name="pubmed" Type="String">21852994</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.4306/pi.2011.8.2.161</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2010/09/17 00:00</Item>
+            <Item Name="revised" Type="Date">2010/12/03 00:00</Item>
+            <Item Name="accepted" Type="Date">2010/12/27 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/01/25 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Psychiatry investigation</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Jun;8(2):161-8</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852958</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 11</Item>
+        <Item Name="Source" Type="String">PLoS Genet</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Wang P</Item>
+            <Item Name="Author" Type="String">Pinson X</Item>
+            <Item Name="Author" Type="String">Archambault V</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Archambault V</Item>
+        <Item Name="Title" Type="String">PP2A-Twins Is Antagonized by Greatwall
+			and Collaborates with Polo for Cell Cycle Progression and Centrosome
+			Attachment to Nuclei in Drosophila Embryos.
+        </Item>
+        <Item Name="Volume" Type="String">7</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e1002227</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101239074</Item>
+        <Item Name="ISSN" Type="String">1553-7390</Item>
+        <Item Name="ESSN" Type="String">1553-7404</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pgen.1002227</Item>
+            <Item Name="pii" Type="String">PGENETICS-D-11-00485</Item>
+            <Item Name="pubmed" Type="String">21852958</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pgen.1002227</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/03/08 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/05/10 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/11 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PLoS genetics</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug;7(8):e1002227</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852956</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 11</Item>
+        <Item Name="Source" Type="String">PLoS Genet</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Rangone H</Item>
+            <Item Name="Author" Type="String">Wegel E</Item>
+            <Item Name="Author" Type="String">Gatt MK</Item>
+            <Item Name="Author" Type="String">Yeung E</Item>
+            <Item Name="Author" Type="String">Flowers A</Item>
+            <Item Name="Author" Type="String">Debski J</Item>
+            <Item Name="Author" Type="String">Dadlez M</Item>
+            <Item Name="Author" Type="String">Janssens V</Item>
+            <Item Name="Author" Type="String">Carpenter AT</Item>
+            <Item Name="Author" Type="String">Glover DM</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Glover DM</Item>
+        <Item Name="Title" Type="String">Suppression of Scant Identifies Endos as
+			a Substrate of Greatwall Kinase and a Negative Regulator of Protein
+			Phosphatase 2A in Mitosis.
+        </Item>
+        <Item Name="Volume" Type="String">7</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e1002225</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101239074</Item>
+        <Item Name="ISSN" Type="String">1553-7390</Item>
+        <Item Name="ESSN" Type="String">1553-7404</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.pgen.1002225</Item>
+            <Item Name="pii" Type="String">PGENETICS-D-10-00579</Item>
+            <Item Name="pubmed" Type="String">21852956</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.pgen.1002225</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2010/12/20 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/05/18 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/11 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PLoS genetics</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug;7(8):e1002225</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852949</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 11</Item>
+        <Item Name="Source" Type="String">PLoS Pathog</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Cheon SA</Item>
+            <Item Name="Author" Type="String">Jung KW</Item>
+            <Item Name="Author" Type="String">Chen YL</Item>
+            <Item Name="Author" Type="String">Heitman J</Item>
+            <Item Name="Author" Type="String">Bahn YS</Item>
+            <Item Name="Author" Type="String">Kang HA</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Kang HA</Item>
+        <Item Name="Title" Type="String">Unique Evolution of the UPR Pathway with
+			a Novel bZIP Transcription Factor, Hxl1, for Controlling
+			Pathogenicity of Cryptococcus neoformans.
+        </Item>
+        <Item Name="Volume" Type="String">7</Item>
+        <Item Name="Issue" Type="String">8</Item>
+        <Item Name="Pages" Type="String">e1002177</Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101238921</Item>
+        <Item Name="ISSN" Type="String">1553-7366</Item>
+        <Item Name="ESSN" Type="String">1553-7374</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+        <Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="doi" Type="String">10.1371/journal.ppat.1002177</Item>
+            <Item Name="pii" Type="String">PPATHOGENS-D-11-00144</Item>
+            <Item Name="pubmed" Type="String">21852949</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1371/journal.ppat.1002177</Item>
+        <Item Name="History" Type="List">
+            <Item Name="received" Type="Date">2011/01/20 00:00</Item>
+            <Item Name="accepted" Type="Date">2011/06/07 00:00</Item>
+            <Item Name="epublish" Type="Date">2011/08/11 00:00</Item>
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">PLoS pathogens</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug;7(8):e1002177</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852758</Id>
+        <Item Name="PubDate" Type="Date">2011 Sep 1</Item>
+        <Item Name="EPubDate" Type="Date">2011 Sep 1</Item>
+        <Item Name="Source" Type="String">Plant Signal Behav</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Yang DH</Item>
+            <Item Name="Author" Type="String">Hettenhausen C</Item>
+            <Item Name="Author" Type="String">Baldwin IT</Item>
+            <Item Name="Author" Type="String">Wu J</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Wu J</Item>
+        <Item Name="Title" Type="String">The multifaceted function of BAK1/SERK3:
+			Plant immunity to pathogens and responses 1 to insect herbivores.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">9</Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101291431</Item>
+        <Item Name="ISSN" Type="String">1559-2316</Item>
+        <Item Name="ESSN" Type="String">1559-2324</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="pii" Type="String">16438</Item>
+            <Item Name="pubmed" Type="String">21852758</Item>
+        </Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Plant signaling &amp; behavior
+        </Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Sep 1;6(9)</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852755</Id>
+        <Item Name="PubDate" Type="Date">2011 Sep 1</Item>
+        <Item Name="EPubDate" Type="Date">2011 Sep 1</Item>
+        <Item Name="Source" Type="String">Plant Signal Behav</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Dhonukshe P</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Dhonukshe P</Item>
+        <Item Name="Title" Type="String">PIN polarity regulation by AGC-3 kinases
+			and ARF-GEF: a recurrent theme with context dependent modifications
+			for plant development and response.
+        </Item>
+        <Item Name="Volume" Type="String">6</Item>
+        <Item Name="Issue" Type="String">9</Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">101291431</Item>
+        <Item Name="ISSN" Type="String">1559-2316</Item>
+        <Item Name="ESSN" Type="String">1559-2324</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="pii" Type="String">16611</Item>
+            <Item Name="pubmed" Type="String">21852755</Item>
+        </Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Plant signaling &amp; behavior
+        </Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Sep 1;6(9)</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852675</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="Source" Type="String">Diabetes</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Gauster M</Item>
+            <Item Name="Author" Type="String">Hiden U</Item>
+            <Item Name="Author" Type="String">Vanpoppel M</Item>
+            <Item Name="Author" Type="String">Frank S</Item>
+            <Item Name="Author" Type="String">Wadsack C</Item>
+            <Item Name="Author" Type="String">Hauguel-de Mouzon S</Item>
+            <Item Name="Author" Type="String">Desoye G</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Desoye G</Item>
+        <Item Name="Title" Type="String">Dysregulation of Placental Endothelial
+			Lipase in Obese Women With Gestational Diabetes Mellitus.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">0372763</Item>
+        <Item Name="ISSN" Type="String">0012-1797</Item>
+        <Item Name="ESSN" Type="String">1939-327X</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="pii" Type="String">db10-1434</Item>
+            <Item Name="doi" Type="String">10.2337/db10-1434</Item>
+            <Item Name="pubmed" Type="String">21852675</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.2337/db10-1434</Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Diabetes</Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug 18;</Item>
+    </DocSum>
+
+    <DocSum>
+        <Id>21852606</Id>
+        <Item Name="PubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="EPubDate" Type="Date">2011 Aug 18</Item>
+        <Item Name="Source" Type="String">Stroke</Item>
+        <Item Name="AuthorList" Type="List">
+            <Item Name="Author" Type="String">Cipolla MJ</Item>
+            <Item Name="Author" Type="String">Huang Q</Item>
+            <Item Name="Author" Type="String">Sweet JG</Item>
+        </Item>
+        <Item Name="LastAuthor" Type="String">Sweet JG</Item>
+        <Item Name="Title" Type="String">Inhibition of Protein Kinase C{beta}
+			Reverses Increased Blood-Brain Barrier Permeability During
+			Hyperglycemic Stroke and Prevents Edema Formation In Vivo.
+        </Item>
+        <Item Name="Volume" Type="String"></Item>
+        <Item Name="Issue" Type="String"></Item>
+        <Item Name="Pages" Type="String"></Item>
+        <Item Name="LangList" Type="List">
+            <Item Name="Lang" Type="String">English</Item>
+        </Item>
+        <Item Name="NlmUniqueID" Type="String">0235266</Item>
+        <Item Name="ISSN" Type="String">0039-2499</Item>
+        <Item Name="ESSN" Type="String">1524-4628</Item>
+        <Item Name="PubTypeList" Type="List">
+            <Item Name="PubType" Type="String">Journal Article</Item>
+        </Item>
+        <Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher
+        </Item>
+        <Item Name="PubStatus" Type="String">aheadofprint</Item>
+        <Item Name="ArticleIds" Type="List">
+            <Item Name="pii" Type="String">STROKEAHA.111.623991</Item>
+            <Item Name="doi" Type="String">10.1161/STROKEAHA.111.623991</Item>
+            <Item Name="pubmed" Type="String">21852606</Item>
+        </Item>
+        <Item Name="DOI" Type="String">10.1161/STROKEAHA.111.623991</Item>
+        <Item Name="History" Type="List">
+            <Item Name="entrez" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="pubmed" Type="Date">2011/08/20 06:00</Item>
+            <Item Name="medline" Type="Date">2011/08/20 06:00</Item>
+        </Item>
+        <Item Name="References" Type="List"></Item>
+        <Item Name="HasAbstract" Type="Integer">1</Item>
+        <Item Name="PmcRefCount" Type="Integer">0</Item>
+        <Item Name="FullJournalName" Type="String">Stroke; a journal of cerebral
+			circulation
+        </Item>
+        <Item Name="ELocationID" Type="String"></Item>
+        <Item Name="SO" Type="String">2011 Aug 18;</Item>
+    </DocSum>
+
+</eSummaryResult>

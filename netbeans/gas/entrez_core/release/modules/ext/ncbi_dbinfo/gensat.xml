@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>gensat</DbName>
+	<MenuName>GENSAT</MenuName>
+	<Description>GENSAT Database</Description>
+	<Count>108091</Count>
+	<LastUpdate>2012/01/23 06:20</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>141351</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>15</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>IMID</Name>
+			<FullName>Image ID</FullName>
+			<Description>Image ID</Description>
+			<TermCount>108091</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GENE</Name>
+			<FullName>Gene Name</FullName>
+			<Description>Gene Name</Description>
+			<TermCount>6127</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GSYM</Name>
+			<FullName>Gene Symbol</FullName>
+			<Description>Gene Symbol</Description>
+			<TermCount>3674</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GALI</Name>
+			<FullName>Gene Alias</FullName>
+			<Description>Gene Alias or Synonym</Description>
+			<TermCount>14576</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>GI</Name>
+			<FullName>GenBank ID</FullName>
+			<Description>Gi</Description>
+			<TermCount>3856</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>GenBank Accession</FullName>
+			<Description>GenBank Accession</Description>
+			<TermCount>3856</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>Exploded organism names</Description>
+			<TermCount>176</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BAC</Name>
+			<FullName>BAC Address</FullName>
+			<Description>BAC Address</Description>
+			<TermCount>1318</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>BCMK</Name>
+			<FullName>BAC Marker</FullName>
+			<Description>BAC Marker</Description>
+			<TermCount>6</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MGID</Name>
+			<FullName>MGI ID</FullName>
+			<Description>MGI ID</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TECH</Name>
+			<FullName>Technique</FullName>
+			<Description>Technique</Description>
+			<TermCount>8</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STAN</Name>
+			<FullName>Stain</FullName>
+			<Description>Stain</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AGE</Name>
+			<FullName>Age</FullName>
+			<Description>Age</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SEX</Name>
+			<FullName>Sex</FullName>
+			<Description>Sex</Description>
+			<TermCount>3</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SECP</Name>
+			<FullName>Section Plane</FullName>
+			<Description>Section plane</Description>
+			<TermCount>4</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SECL</Name>
+			<FullName>Section Level</FullName>
+			<Description>Section level</Description>
+			<TermCount>310</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>REGN</Name>
+			<FullName>Region</FullName>
+			<Description>Region</Description>
+			<TermCount>139</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>CTYP</Name>
+			<FullName>Cell Type</FullName>
+			<Description>Cell type</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STYP</Name>
+			<FullName>Cell Subtype</FullName>
+			<Description>Cell Subtype</Description>
+			<TermCount>36</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>EXPT</Name>
+			<FullName>Expression Pattern</FullName>
+			<Description>Expression pattern</Description>
+			<TermCount>5</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>EXPL</Name>
+			<FullName>Expression Level</FullName>
+			<Description>Expression level</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>gensat_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Gene</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_gensat</Name>
+				<Menu>GENSAT Links</Menu>
+				<Description>Links to gensat</Description>
+				<DbTo>gensat</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_geoprofiles</Name>
+				<Menu>GEO Profiles</Menu>
+				<Description>Related GEO records</Description>
+				<DbTo>geoprofiles</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_nuccore</Name>
+				<Menu>Nucleotide Links</Menu>
+				<Description>Links to Nucleotide</Description>
+				<DbTo>nuccore</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_nucest</Name>
+				<Menu>EST Links</Menu>
+				<Description>Links to EST</Description>
+				<DbTo>nucest</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_nucgss</Name>
+				<Menu>GSS Links</Menu>
+				<Description>Links to GSS</Description>
+				<DbTo>nucgss</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>PMC links</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>Related PubMed Article</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Related Nucleotide</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>gensat_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene records</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>

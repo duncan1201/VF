@@ -1,0 +1,128 @@
+LOCUS       urn.local...1341802462494        4242 bp    DNA     circular
+            
+ACCESSION   urn.local...1341802462494
+VERSION     urn.local...1341802462494.1
+KEYWORDS    .
+FEATURES             Location/Qualifiers
+     attL4           593..688
+                     /label=attL4
+     terminator      268..295
+                     /label=rrnB T2 transcription terminator
+     CDS             2636..3445
+                     /label=Kan(R)
+     exon            1836..1982
+                     /number=4
+     source          691..2286
+                     /mol_type="genomic DNA"
+                     /strain="129SvJ"
+                     /db_xref="taxon:10090"
+     attR1           2288..2444
+                     /label=attR1
+     exon            1215..1361
+                     /number=3
+     terminator      427..470
+                     /label=rrnB T1 transcription terminator
+     CDS             1215..1982
+                     /Foreign_Intervals="AF093857.1: 245 -> 373"
+                     /codon_start=1
+                     /note="CP-3"
+                     /product="1-Cys peroxiredoxin protein"
+                     /protein_id="AAD03716.1"
+                     /transl_table=1
+                     /translation="MPGGLLLGDEAPNFEANTTIGRIRFHDFLGDSWGILFSHPRDFT
+                     PVCTTELGRAAKLAPEFAKRNVKLIALSIDSVEDHLAWSKDINAYNGETPTEKLPFPI
+                     IDDKGRDLAILLGMLDPVEKDDNNMPVTARVVFIFGPDKKLKLSILYPATTGRNFDEI
+                     LRVVDSLQLTGTKPVATPVDRKKGESVMVVPTLSEEEAKQCFPKGVFTKELPSGKKYL
+                     RYTPQP"
+                     /db_xref="GI:4139186"
+     misc_feature    complement(2483..2502)
+                     /label=T7 primer
+                     /note="Geneious type: primer"
+     misc_feature    517..533
+                     /label=M13 (-40) forward primer
+                     /note="Geneious type: primer"
+     misc_feature    complement(2486..2502)
+                     /label=T7 promoter
+                     /note="Geneious type: promoter prokaryotic"
+     misc_feature    537..552
+                     /label=M13 (-20) forward primer
+                     /note="Geneious type: primer"
+     mRNA            1215..1361
+                     /Foreign_Intervals="AF093854.1: 617 -> 760"
+                     /product="1-Cys peroxiredoxin protein"
+     misc_feature    complement(2507..2523)
+                     /label=M13 reverse primer
+                     /note="Geneious type: primer"
+ORIGIN
+        1 ctttcctgcg ttatcccctg attctgtgga taaccgtatt accgcctttg agtgagctga
+       61 taccgctcgc cgcagccgaa cgaccgagcg cagcgagtca gtgagcgagg aagcggaaga
+      121 gcgcccaata cgcaaaccgc ctctccccgc gcgttggccg attcattaat gcagctggca
+      181 cgacaggttt cccgactgga aagcgggcag tgagcgcaac gcaattaata cgcgtaccgc
+      241 tagccaggaa gagtttgtag aaacgcaaaa aggccatccg tcaggatggc cttctgctta
+      301 gtttgatgcc tggcagttta tggcgggcgt cctgcccgcc accctccggg ccgttgcttc
+      361 acaacgttca aatccgctcc cggcggattt gtcctactca ggagagcgtt caccgacaaa
+      421 caacagataa aacgaaaggc ccagtcttcc gactgagcct ttcgttttat ttgatgcctg
+      481 gcagttccct actctcgcgt taacgctagc atggatgttt tcccagtcac gacgttgtaa
+      541 aacgacggcc agtcttaagc tcgggcccgc gttaacgcta ccatggagct ccaaataatg
+      601 attttatttt gactgatagt gacctgttcg ttgcaacaaa ttgataagca atgctttttt
+      661 ataatgccaa ctttgtatag aaaagttgta gttaaccctt taagggtgct ggctcttttg
+      721 ctttaaaatt caacatgtgt tcttttgaag gatattaatt ccaaagcagg ccgtttgttc
+      781 tatacgttcc cggaactcag gttcttcaag gaaatagggt tttaattggg tgggttaatt
+      841 atcatgagcc tgcccccaca aagggggttt gggcagttaa taaatagtag ccatttcaaa
+      901 aggttaaatt ccctctcatt tcagaggagg cacaactccc acagtttgat ctgatgttgt
+      961 cttgtcagtc gtatccattg gttcatgtga caataaatcc ttctttattt gaacccattc
+     1021 taaatctcta gttatttgta atattccttg agtgagtaat ggcttaggta ggagtaccgt
+     1081 tcagctttat taagatccct tgagggcttg tgatggtggt tccttggctt gcagagtggt
+     1141 attctcagct tggtgagatg cagagacaga cccgtgtcag ctttaagagt ccatcccctt
+     1201 ttctcttgtt taaggacatc aatgcttaca atggtgaaac acccacggaa aagttgccat
+     1261 ttcccatcat tgatgataag ggcagggacc ttgccatcct tttgggcatg ttggatccag
+     1321 tcgagaagga cgataacaac atgcctgtga cggcccgtgt ggtgagtcgg aaggctgtgt
+     1381 gaatgcttga gccaatacaa gaggaatatg tacagttgtg catgttagag cagtggttct
+     1441 cagcctttgg ggtcatgacc cctttggggg gggtcaaaca accttttcac aggggtcaca
+     1501 cacagaatat tcttcctatc agtatttaca tcatgattca taacagtagc aaaattacag
+     1561 ttatgaagta gcaataaaat aacttggggg aatcacatga gggtcgcagc attgggaagg
+     1621 ttgaggaccc ctctgtgtta gaggaagggt ggacagacta ggaggagtct ttccctccct
+     1681 cctttggcta cctagtaata aactccattt tcctctgcca gttctgtttt cttccctgga
+     1741 ctaaggggaa aagaggtgta tagagctcat gatgctgagt gtcagaagca gctttaccgt
+     1801 catgtactaa cgaaggcctc ctgtgtgctt tacaggtgtt catttttggc cctgacaaga
+     1861 aactgaagct gtctatcctc taccctgcca ccacgggcag gaactttgat gagattctca
+     1921 gagtggttga ctctctccag ctgacaggca caaagccggt tgccacccca gttgacagga
+     1981 aggtaaaact gctcttaaga actggatgcc cagcttgcca gaaagatcca aaggacagtc
+     2041 tctcatggcc actttcagga tgtgggtttc ttgggccttt atctattgtc ccagtagagt
+     2101 gtcccaggag gatttgttta agagttcatt cacactgatt tgtataaaac acaaactgtg
+     2161 gtttttgcta accctacata attccaacag atataggtca cagtgatccc agaagttaaa
+     2221 cattcgtaac cccaaaatcc cagctccaaa gcgctccaaa atccaagact tcttggtttt
+     2281 tctttagcaa gtttgtacaa aaaagttgaa cgagaaacgt aaaatgatat aaatatcaat
+     2341 atattaaatt agattttgca taaaaaacag actacataat actgtaaaac acaacatatg
+     2401 cagtcactat gaatcaacta cttagatggt attagtgacc tgtagaattc gagctctaga
+     2461 gctgcagggc ggccgcgata tcccctatag tgagtcgtat tacatggtca tagctgtttc
+     2521 ctggcagctc tggcccgtgt ctcaaaatct ctgatgttac attgcacaag ataaaaatat
+     2581 atcatcatga acaataaaac tgtctgctta cataaacagt aatacaaggg gtgttatgag
+     2641 ccatattcaa cgggaaacgt cgaggccgcg attaaattcc aacatggatg ctgatttata
+     2701 tgggtataaa tgggctcgcg ataatgtcgg gcaatcaggt gcgacaatct atcgcttgta
+     2761 tgggaagccc gatgcgccag agttgtttct gaaacatggc aaaggtagcg ttgccaatga
+     2821 tgttacagat gagatggtca gactaaactg gctgacggaa tttatgcctc ttccgaccat
+     2881 caagcatttt atccgtactc ctgatgatgc atggttactc accactgcga tccccggaaa
+     2941 aacagcattc caggtattag aagaatatcc tgattcaggt gaaaatattg ttgatgcgct
+     3001 ggcagtgttc ctgcgccggt tgcattcgat tcctgtttgt aattgtcctt ttaacagcga
+     3061 tcgcgtattt cgtctcgctc aggcgcaatc acgaatgaat aacggtttgg ttgatgcgag
+     3121 tgattttgat gacgagcgta atggctggcc tgttgaacaa gtctggaaag aaatgcataa
+     3181 acttttgcca ttctcaccgg attcagtcgt cactcatggt gatttctcac ttgataacct
+     3241 tatttttgac gaggggaaat taataggttg tattgatgtt ggacgagtcg gaatcgcaga
+     3301 ccgataccag gatcttgcca tcctatggaa ctgcctcggt gagttttctc cttcattaca
+     3361 gaaacggctt tttcaaaaat atggtattga taatcctgat atgaataaat tgcagtttca
+     3421 tttgatgctc gatgagtttt tctaatcaga attggttaat tggttgtaac actggcagag
+     3481 cattacgctg acttgacggg acggcgcaag ctcatgacca aaatccctta acgtgagtta
+     3541 cgcgtcgttc cactgagcgt cagaccccgt agaaaagatc aaaggatctt cttgagatcc
+     3601 tttttttctg cgcgtaatct gctgcttgca aacaaaaaaa ccaccgctac cagcggtggt
+     3661 ttgtttgccg gatcaagagc taccaactct ttttccgaag gtaactggct tcagcagagc
+     3721 gcagatacca aatactgtcc ttctagtgta gccgtagtta ggccaccact tcaagaactc
+     3781 tgtagcaccg cctacatacc tcgctctgct aatcctgtta ccagtggctg ctgccagtgg
+     3841 cgataagtcg tgtcttaccg ggttggactc aagacgatag ttaccggata aggcgcagcg
+     3901 gtcgggctga acggggggtt cgtgcacaca gcccagcttg gagcgaacga cctacaccga
+     3961 actgagatac ctacagcgtg agcattgaga aagcgccacg cttcccgaag ggagaaaggc
+     4021 ggacaggtat ccggtaagcg gcagggtcgg aacaggagag cgcacgaggg agcttccagg
+     4081 gggaaacgcc tggtatcttt atagtcctgt cgggtttcgc cacctctgac ttgagcgtcg
+     4141 atttttgtga tgctcgtcag gggggcggag cctatggaaa aacgccagca acgcggcctt
+     4201 tttacggttc ctggcctttt gctggccttt tgctcacatg tt
+//

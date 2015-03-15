@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2012//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_120101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">22293751</PMID>
+        <DateCreated>
+            <Year>2012</Year>
+            <Month>2</Month>
+            <Day>1</Day>
+        </DateCreated>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1460-2075</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2012</Year>
+                        <Month>Jan</Month>
+                        <Day>31</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The EMBO journal</Title>
+            </Journal>
+            <ArticleTitle>APRIN is a cell cycle specific BRCA2-interacting protein required for genome integrity and a predictor of outcome after chemotherapy in breast cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="doi">10.1038/emboj.2011.490</ELocationID>
+            <Abstract>
+                <AbstractText>Mutations in BRCA2 confer an increased risk of cancer development, at least in part because the BRCA2 protein is required for the maintenance of genomic integrity. Here, we use proteomic profiling to identify APRIN (PDS5B), a cohesion-associated protein, as a BRCA2-associated protein. After exposure of cells to hydroxyurea or aphidicolin, APRIN and other cohesin components associate with BRCA2 in early S-phase. We demonstrate that APRIN expression is required for the normal response to DNA-damaging agents, the nuclear localisation of RAD51 and BRCA2 and efficient homologous recombination. The clinical significance of these findings is indicated by the observation that the BRCA2/APRIN interaction is compromised by BRCA2 missense variants of previously unknown significance and that APRIN expression levels are associated with histological grade in breast cancer and the outcome of breast cancer patients treated with DNA-damaging chemotherapy.</AbstractText>
+            </Abstract>
+            <Affiliation>1] [2].</Affiliation>
+            <AuthorList>
+                <Author>
+                    <LastName>Brough</LastName>
+                    <ForeName>Rachel</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Bajrami</LastName>
+                    <ForeName>Ilirjana</ForeName>
+                    <Initials>I</Initials>
+                </Author>
+                <Author>
+                    <LastName>Vatcheva</LastName>
+                    <ForeName>Radost</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Natrajan</LastName>
+                    <ForeName>Rachael</ForeName>
+                    <Initials>R</Initials>
+                </Author>
+                <Author>
+                    <LastName>Reis-Filho</LastName>
+                    <ForeName>Jorge S</ForeName>
+                    <Initials>JS</Initials>
+                </Author>
+                <Author>
+                    <LastName>Lord</LastName>
+                    <ForeName>Christopher J</ForeName>
+                    <Initials>CJ</Initials>
+                </Author>
+                <Author>
+                    <LastName>Ashworth</LastName>
+                    <ForeName>Alan</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType>JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>EMBO J</MedlineTA>
+            <NlmUniqueID>8208664</NlmUniqueID>
+            <ISSNLinking>0261-4189</ISSNLinking>
+        </MedlineJournalInfo>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2011</Year>
+                <Month>4</Month>
+                <Day>12</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2011</Year>
+                <Month>12</Month>
+                <Day>15</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="aheadofprint">
+                <Year>2012</Year>
+                <Month>1</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2012</Year>
+                <Month>2</Month>
+                <Day>2</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">emboj2011490</ArticleId>
+            <ArticleId IdType="doi">10.1038/emboj.2011.490</ArticleId>
+            <ArticleId IdType="pubmed">22293751</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>

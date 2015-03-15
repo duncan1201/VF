@@ -1,0 +1,176 @@
+@17@
+194
+198|60
+199|Ac-35K/p35|Ac-38K|Ac-39K/pp31|Ac-49K|Ac-94K|Ac-alk-exo|Ac-bro|Ac-cg30|Ac-chitinase|Ac-ctx|Ac-DNA-pol|Ac-egt|Ac-env-prot|Ac-fgf|Ac-FP|Ac-gp16|Ac-gp37|Ac-gp41|Ac-gp64|Ac-GTA|Ac-HE65|Ac-helicase|Ac-HisP|Ac-IAP1|Ac-IAP2|Ac-IE-0|Ac-IE-01|Ac-IE-1|Ac-IE-2|Ac-lef1|Ac-lef10|Ac-lef11|Ac-lef3|Ac-lef4|Ac-lef5|Ac-lef6|Ac-lef7|Ac-lef8|Ac-lef9|Ac-ME53|Ac-odv-e18|Ac-odv-e25|Ac-odv-e56|Ac-odv-e66|Ac-odv-ec27|Ac-p10|Ac-p15|Ac-p24|Ac-p26|Ac-p40|Ac-p43|Ac-p47|Ac-p48|Ac-p6.9|Ac-p74|Ac-p95|Ac-pcna|Ac-PE/pp34|Ac-PE38|Ac-pk-1|Ac-pk-2|Ac-pkip|Ac-PNK/PNL|Ac-ptp|Ac-sod|Ac-TLP|Ac-v-cath|Ac-v-ubi|Ac-vlf-1|Ac-vp39|Ac-vp80|ACO1|AcOrf-102|AcOrf-106|AcOrf-107|AcOrf-108|AcOrf-109|AcOrf-11|AcOrf-110|AcOrf-111|AcOrf-112|AcOrf-113|AcOrf-114|AcOrf-115|AcOrf-116|AcOrf-117|AcOrf-118|AcOrf-119|AcOrf-12|AcOrf-120|AcOrf-121|AcOrf-122|AcOrf-124|AcOrf-13|AcOrf-132|AcOrf-140|AcOrf-145|AcOrf-146|AcOrf-149|AcOrf-150|AcOrf-152|AcOrf-154|AcOrf-16|AcOrf-17|AcOrf-18|AcOrf-19|AcOrf-20|AcOrf-21|AcOrf-22|AcOrf-25|AcOrf-26|AcOrf-29|AcOrf-30|AcOrf-34|AcOrf-38|AcOrf-41|AcOrf-43|AcOrf-44|AcOrf-45|AcOrf-47|AcOrf-48|AcOrf-51|AcOrf-52|AcOrf-53|AcOrf-54|AcOrf-55|AcOrf-56|AcOrf-57|AcOrf-58|AcOrf-59|AcOrf-60|AcOrf-63|AcOrf-66|AcOrf-68|AcOrf-69|AcOrf-70
+199|AcOrf-72|AcOrf-73|AcOrf-74|AcOrf-75|AcOrf-76|AcOrf-78|AcOrf-79|AcOrf-81|AcOrf-84|AcOrf-85|AcOrf-91|AcOrf-92|AcOrf-93|AcOrf-96|AcOrf-97|ACS1|ADCY7|ADRA1A|ADY2|BRAF|CDC19|CDK2|CIT1|CREB1|ENO1|ENO2|EPAC|FBA1|FBP1|FUM1|FYN|GLK1|GNAI1|GNAQ|GNB2|GNG5|GPM1|GPM2|GPM3|GPRK2L|GPRK5|GRB2|HXK1|HXK2|ICL1|IDH1|IDH2|IDP2|KGD1|KGD2|LPD1|MAP2K1|MAPK1|MDH1|MLS1|NAB1A|PCK1|PDE1A|PDE5A|PFK1|PFK2|PGI1|PGK1|PHKA1|PSMD1|PYGL|PYK2|RAF1|RAP1|RGS1|RGS3|RPL15A|RPL15B|RPL18B|RPL30B|RPL35B|RPL4A|RPS5|SDH1|SDH2|SDH3|SDH4|SKP1A|SMT3H1|TDH1|TDH2|TDH3|TPI1|YDR417C|YST2
+50
+194
+198|4
+199|10.2_ORF|100K|13.6KD|13.8_ORF|14.5_ORF|3 stops|3 Stops|33K|52/55KD|6.0_ORF|6.4_ORF|6.7_ORF|6.9_ORF|6HisGly|6xHis|6xHis tag|7.6_ORF|8.8_ORF|A|A*|ACO1|ACS1|ADCY7|ADRA1A|ADY2|AGNOPROTEIN|ALPHA|alpha-factor signal peptide|Amp|Amp resistance|Amp(R)|Ampicillin|Ampicillin resistance gene|ampicillin resistance ORF|ampR|AmpR|AP(R)|AP(S)|AraC|araC|ArpC2|ATG|B|BELLET|BET|BioEase|BioEase・tag|bla(M)|blasticidin|Blasticidin|Blasticidin resistance ORF|Blue Flourescent Protein|bR|BRAF|Bsd resistance|Bsd(R)|BsdR|C|c-myc epitope|CALML3|CamR|CAT|ccdA|ccdA_3|ccdB|ccdb|ccdB (no ATG)|ccdB ORF|CDC19|CDK2|CFP|Chloramphenicol resistance gene|ChlR|CI|CII|CIII|CIT1|CM(R)|Cm(R)|CM(S)|CmR|CREB1|CRO|Cycle 3 GFP|cycle 3 GFP (no stop)|CYH2|D|DHFR|DNA_BIND_PROT|DNA_POL|E|E1|E1_IMM|E1A_26KD|E1A_32KD|E1A_6KD|E1B_1.26KB|E1B_1.31KB|E1B_13S|E1B_22S|E2|E3|E3_11.6KD|E3_19KD|E4|E5|E6|E7|E8|EA10|EA22|EA31|EA47|EA59|EA8.5|EBNA-1|EK recognition site|ELP|Em GFP|Emerald GFP|Emerald GFP (Clontech)|EmGFP|ENDONUCL|ENDOPEPTIDASE|ENO1|ENO2|ENV|EPAC|ERY(R)|EXC1|EXC2|EXO|EXONUCL|F|FBA1|FBP1|FI|FIBER_PROT|FII|FUM1|FXA|FYN|G|GAG|Gal4 AD|GAL4 AD|Gal4 DBD|GAM|GFP|GFP (no stop)|GLK1|Gm(R)|GM(R)|GNAI1|GNAQ|GNB2|GNG5|GPM1|GPM2|GPM3|GPRK2L
+199|GPRK5|GPT|GRB2|GST|GST tag (no ATG)|GST tag (no stop)|H|HBB|HCO_R4Int|HEXON|His-Patch Thioredoxin (no stop)|HIS3|HisG epitope|HXK1|HXK2|Hyg(R)|HYG(R)|Hygro(R)|Hygro(R) (no ATG)|Hygromycin|I|ICL1|IDH1|IDH2|IDP2|II|III|IIIA|initiation ATG|INT|IV|IVA2|IX|J|K|Kan(R)|KGD1|KGD2|KIL|KINASE|Km(R)|KmR|Kmr|KN(R)|L|L1|L2|lac I|lac operator|LACI|lacI|lacZ|LACZ|LacZ alpha fragment|lacZ alpha fragment|lacZ ORF|LacZ ORF|LACZ'|lacZalpha fragment|LacZalpha fragment|lacZalpha-ccdB|LARGE_T|LEADER_PEPT|LEU1|LEU2|LIGASE|LOM|LPD1|Lumio|Lumio tag|Lumio-tag|LYSOZYME|M|MAP2K1|MAPK1|MDH1|MLS1|MOB1|MOB2|MOB3|MOB4|MOB6|MOB7|MOB8|MOB9|N|NAB1A|NEF|Neo(R)|NEO(R)|neomycin resistance ORF|NeoR|NIN_146|NIN_204|NIN_221|NIN_290|NIN_56|NIN_57|NIN_60|NIN_68|NU1|NU3|O|ORF_194|ORF_314|ORF_401|ORF_64|P|p64|PCK1|PDE1A|PDE5A|PENTON|PFK1|PFK2|PGI1|PGK1|PHKA1|POL|polyhistidine tag|PROC_B|PROT_0.3|PROT_0.4|PROT_0.5|PROT_0.6A|PROT_0.6B|PROT_1.1|PROT_1.2|PROT_1.4|PROT_1.5|PROT_1.6|PROT_1.7|PROT_1.8|PROT_10A|PROT_10B|PROT_11|PROT_12|PROT_13|PROT_14|PROT_15|PROT_16|PROT_17|PROT_17.5|PROT_18|PROT_18.5|PROT_18.7|PROT_19|PROT_19.2|PROT_19.3|PROT_19.5|PROT_2|PROT_2.8|PROT_3.8|PROT_4.1|PROT_4.2|PROT_4.3|PROT_4.5|PROT_4.7|PROT_4A|PROT_4B
+199|PROT_5.3|PROT_5.5|PROT_5.7|PROT_6.3|PROT_6.5|PROT_6.7|PROT_7|PROT_7.3|PROT_7.7|PROT_8|PROT_9|PSMD1|PV|PVI|PVIII|PYGL|PYK2|Q|R|Rac Kinase|RAF1|RAL|RAP1|REN|REP|REP_PROTEIN|REV|REXA|REXB|RGS1|RGS3|RNA_I_INHIB|RNA_POL|ROP|RPL15A|RPL15B|RPL18B|RPL30B|RPL35B|RPL4A|RPS5|RZ|S|S12|SACB|SDH1|SDH2|SDH3|SDH4|SKP1A|SMALL_T|SMT3H1|SPC(R)|Spect(R)|spectinomycin resistance ORF|SpnR|STR(R)|STRB|SUL(R)|SUMO|T|TAT|TC(R)|TC(S)|TDH1|TDH2|TDH3|Tet (R)|Tet R|TEV recognition site|TK gene|tk gene|TPI1|TRAJ|TRP1|TRPE|U|URA3|URA4|V|V5|V5 epitope|V5 Epitope|VI|VIF|VII|VIII|VP1|VP2|VP22|VP3|VPR|VPU|W|X|XIS|Xpress epitope|Xpress(tm) epitope|XpressT epitope|Xpress・epitope|YDR417C|YFP|YST2|Z|Zeo(R)|zeo(R)|Zeocin resistance gene
+50
+194
+198|21
+199|(3 stops)|(L64F mutation)|(pas')|(pas)|(V5)|3 stops|3' LTR|3' miR-155 flank|3' splice acceptor|5' LTR|5' miR-155 flank|5' overhang|5' overhang (promoter)|5' overhang (terminator)|5' splice donor|6HisGly|6XHis tag|6xHis tag|ADCY7|ADRA1A|Amp resistance|Ampicillin|Amplicillin|ARPC-2 no stop|ARS1|ARSH4|ATT|att B1|att B2|att R2|attB1|attB2|attB4|attL2|attL4|attL5|attR 2|attR1|attR2|BglII separates two fragments|BioEase|Biotin binding site for BioEase Tag|bla (Amp) promoter|bla (amp) promoter|bla promoter|Blasticidin|Blasticidin resistance|boundary between His tag and native baculovirus|BRAF|Bsd resistance|c-myc epitope|CAT|ccdA|ccdB|ccdb|CDK2|CEN15|CEN4|CEN6|Chloramphenicol R|Chloramphenicol resistance gene|Cm|CMV Promoter|COS|CPPT|cPPT|cppt|CREB1|delta U3|Delta U3/3' LTR|deltaU3|deltaU3/3'LTR|DHFR|Directional TOPO site|E_P|EK cleavage|EK Cleavage|EK recognition site|EM7|EM7 Promoter|EMCV IRES|EmGFP|EmGFP (L64F)|EPAC|F|F1 ori|FYN|G from A Ser to Gly|GNAI1|GNAQ|GNB2|GNG5|GPRK2L|GPRK5|GRB2|GW 3 rev primer|GW1 primer|GW1 Primer site|GW3 (R2) primer site|GW3 priming site|H_Y_EFF|HIS|HIV psi packaging signal|HIV-1 3' LTR (truncated)|HIV-1 5' LTR|HIV-1 5・LTR|HIV-1 delta U3|HIV-1 psi packaging signal
+199|HIV-1 Rev response element (RRE)|HIV-1 RRE|HYBRID_SITE_I|HYBRID_SITE_II|HYBRID_SITE_III|HYBRID_SITE_IV|HYBRID_SITE_V|ICE|JNCTN_NY5/LAV|KGD2|KILB_P|KmR|KORA_P|KORB_P|KS_MCS|L_Y_EFF|LAC|LAC_OPERON|LACI/LACZ|LACIQ|lacO|lacZ|lacZ ORF|M13_FORW_PRIM_BIND_SITE|M13_REV_PRIM_BIND_SITE|M13Frwd (-20)|M13Frwd(-40)|M13Rev|MAP2K1|MAPK1|MCS|miR-neg precursor|mPGK promoter|NIC|NLS|OP_L1|OP_L2|OP_L3|OP_R1|OP_R2|OP_R3|Overhang|PCMV|Pcmv|pCMV promoter|PDE1A|PDE5A|PFK2|PGK reverse primer binding site|PHAGE_F1|POLY|POLYLINKER|pRSET reverse primer binding site|pRSET reversre primer|pRSV/5' LTR|PRSV/5'LTR|pRSV/5'LTR|psi|psi packaging signal|PSMD1|PSV40|pSV40|pUC ori|pUC origin|PYGL|R|RAF1|RAP1|RGS1|RGS3|ROP|RRE|RSV enhancer/promoter|RSV promoter|RSVp|RUTA|RUTB|SCK-ORF|SKP1A|SMT3H1|SP6_T/C_INIT|SV40|SV40 pA|SV40 poly A|SV40 promoter|SV40_SM_T|T/A cloning site|T3_T/C_INIT|T7 gene 10 leader|T7 primer|T7 reverse primer|T7_GENE_10_ATG|T7_T/C_INIT|T7_T/C_SITE|TAG|TEL|TEV|TEV cleavage|TEV cleavage site|TEV Cleavage site|TEV recognition sequence|TEV recognition site|TGA|ti|TOPO Cloning site|TOPO recognition site|TOPO site|TOPO Site|TOPO Site 1|TOPO Site 2|TOPO site2|TPI1|TRA_P|transcriptional start site|U5|UbC Promoter
+199|UNIQUE_SEQUENCE|V5|V5 epitope|WPRE|Xpress epitope
+50
+194
+198|96
+199|ADCY7|ADRA1A|BRAF|CDK2|CREB1|GNAI1|GNAQ|GNB2|GNG5|GPRK2L|GPRK5|GRB2|MAP2K1|MAPK1|PDE1A|PHKA1|PSMD1|PYGL|RAF1|RAP1|RGS1|RGS3|SMT3H1
+50
+194
+198|34
+199|hr1|hr1a|hr2|hr2a|hr3|hr4a|hr4b|hr4c|hr5|ITR|R|RPT_ENH_A|RPT_ENH_B|RPT_I|RPT_II|RPT_III
+50
+194
+198|15
+199|33KD|E1A_12S|E1A_13S|E1A_9S|E1B_I|E1B_II|E1B_III|E1B_IV|E2A_I|E2A_II|E2A_III|E4_A|E4_A'|E4_B|E4_B'|E4_B''|E4_C|E4_C'|E4_D|E4_D1|E4_D2|E4_D3|E4_D4|E4_D5|E4_D6|E4_D7|E_18S|E_19S|IVA2|L1_PRE_52/55|L2_PRE_PENTON|L2_PRE_PV|L3_PRE_23K|L3_PRE_HEXON|L3_PRE_PVI|L4_PRE_100K|L_16S|L_19S|MAJ_L_PRE_2ND|MAJ_L_PRE_3RD|MAJ_L_PRE_I|MAJ_L_X|MAJ_L_Y|MAJ_L_Z|Rabbit beta-globin Intron II|REV_II|TAT/REV/NEF_I|TAT/REV/NEF_II|TAT_II
+50
+194
+198|25
+199|BGH pA|BRAF|CDK2|CREB1|E1A_POLY_A|E1B_POLY_A|E2A_POLY_A|E3-1_POLY_A|E3-2_POLY_A|E4_POLY_A|E_POLY_A|Eukaryotic pA|IVA2_POLY_A|IX_POLY_A|L1_POLY_A|L2_POLY_A|L3_POLY_A|L4_POLY_A|L5_POLY_A|L_POLY_A|MAP2K1|MAPK1|POLY_A|PSMD1|RAF1|RGS3|SV40 early pA|SV40 early polyA|SV40 pA|SV40 pA 2|SV40 PolyA|sv40 PolyA|synthetic pA|TK pA|TK polyA|tk polyA|TK polyA signal|Tk polyA signal
+50
+194
+198|54
+199|E2B|E3-1_I|E3-1_II|E3-1_III|E3-1_IV|E3-2|INT|IX|MAJOR_ALT|MINOR_ALT|MRNA_0.3|MRNA_0.7|MRNA_1|MRNA_1.1|MRNA_1.1A|MRNA_1.1B|MRNA_1.3I|MRNA_1.3II|MRNA_1.3P|MRNA_1.5|MRNA_1.5P|MRNA_1.6|MRNA_1.6P|MRNA_10|MRNA_10R|MRNA_10RP|MRNA_13|MRNA_17|MRNA_18.5|MRNA_2.5|MRNA_2.5P|MRNA_3.8|MRNA_4.3|MRNA_4.7|MRNA_4C|MRNA_6.5|MRNA_6.5R|MRNA_6.5RP|MRNA_9|MRNA_9R|MRNA_9RP|MRNA_A1|MRNA_A2|MRNA_A3|MRNA_OL|MRNA_OR|MRNA_R1.1|MRNA_R1.3|MRNA_R13|MRNA_R3.8|MRNA_R4.7|MRNA_R6.5|MRNA_R6.5R|MRNA_R6.5RP|OOP|PL_J1|PL_J2|PL_J3|PL_J4|PL_TI|PL_TL1|PL_TL2A|PL_TL2B|PL_TL2C|PL_TL2D|PL_TL3|PLIT|PR'|PR_TR0|PR_TR1A|PR_TR1B|PR_TR1C|PR_TR2|PRE|PRM
+50
+194
+198|53
+199|5' miR-155 flank|I_RNA|lamin A/C shRNA|lamin shRNA|laminA/C shRNA|RNA I antisense|RNA II ori primer|SAS_RNA|VA_1_B|VA_I_A|VA_II
+50
+194
+198|98
+199|Invitrogen vector 142|Invitrogen vector 143|Invitrogen vector 144|Invitrogen vector 164|Invitrogen vector 165|Invitrogen vector 166|Invitrogen vector 240|Invitrogen vector 25|Invitrogen vector 26|Invitrogen vector 27|Invitrogen vector 428|Invitrogen vector 429|Invitrogen vector 430|Invitrogen vector 465|Invitrogen vector 556|Invitrogen vector 576|Invitrogen vector 578|Invitrogen vector 581|Invitrogen vector 582|Invitrogen vector 584|Invitrogen vector 629|Invitrogen vector 630|Invitrogen vector 662|Invitrogen vector 663|Invitrogen vector 665|Invitrogen vector 666|Invitrogen vector 673|Invitrogen vector 679|Invitrogen vector 684|Invitrogen vector 722|Invitrogen vector 726|Invitrogen vector 728|Invitrogen vector 730|Invitrogen vector 731|Invitrogen vector 732|Invitrogen vector 745|Invitrogen vector 756|Invitrogen vector 757|Invitrogen vector 763|Invitrogen vector 765|Invitrogen vector 772|Invitrogen vector 918|Invitrogen vector 919|Invitrogen vector 920|Invitrogen vector 921|Invitrogen vector 922|Invitrogen vector 923|Invitrogen vector 925|Invitrogen vector 926|Invitrogen vector 927|Invitrogen vector 928|Invitrogen vector 929|Invitrogen vector 930
+50
+194
+198|86
+199|att R4|attB1|attB2|attL1|attL2|attL3|attL4|attL5|attP1|attP1R|attP2|attP2R|attP3|attP3r|attP4|attP4r|attP5|attP5r|attR1|attR2|attR3|attR4|attR5|FRT|R4 attB|Tn7L|Tn7R
+50
+194
+198|29
+199|ADH1 promoter|AOX1 promoter|ATAAG|bla promoter|CMV|CMV  promoter|CMV Promoter|CMV promoter|CMV promoter (with TetOs)|CMV promoter full length|CYH2 promoter|EF-1a promoter|EF-1alpha promoter|EF1a|GAL1 promoter|H1/TO promoter|ie-0 promoter|mPGK|mPGK promoter|p10 pr.|p10 promoter|Pc promoter|PH promoter|Polyhedrin promoter|RSV en/po|RSV enhancer/promoter|RSV promoter|RSV/5' LTR hybrid promoter|SV40 early promoter|SV40 early promoter (2581-2889)|SV40 early promoter and origin|SV40 promoter|SV40 promoter (2581-2889)|SV40 promoter and origin|T7 promoter|TEF1 promoter|U6 promoter|UbC promoter (1803 - 3012)|URA3 promoter
+50
+194
+198|9
+199|ENH1|ENH2|gene 10 leader sequence|hr3|QBI SP163 enhancer|T7 gene 10 translational enhancer|translational enhancer
+50
+194
+198|27
+199|3' AOX1 primer|39K For Beacon|39K Rev Beacon|5' AOX1 primer|alpha-factor primer|BGH reverse primer|BioEase forward primer|BioEase・forward primer|CMV forward primer|EF-1alpha forward primer|FWD Primer Sites|GAL1 forward primer|GFP forward primer|GFP foward primer|GFP reverse primer|gp64 beacon|gp64 for. beacon|gp64 rev beacon|GW1 primer|GW2 primer|GW3 primer|H1 forward primer|ie-1 for beacon|ie-1 rev beacon|ie-1beacon|lacZ (C-term) forward primer|Lef-1 For Beacon|Lef-1 Rev Beacon|Lef-3 For Beacon|Lef-3 Rev Beacon|Lef-5 For Beacon|Lef-5 Rev Beacon|M13 (-20) forward primer|M13 (-20) Forward primer|M13 (-40) forward primer|M13 forward (-20) primer|M13 reverse primer|p35 For Beacon|p35 Rev Beacon|p6.9 for beacon|p6.9 Rev Beacon|pAd forward|pAD forward primer|pAd forward primer|pAd reverse|pAD reverse primer|pAd reverse primer|pBAD forward primer|pBAD reverse primer|pDONR・01 forward primer|pDONR・01 reverse primer|pDONR・07 forward primer|pDONR・07 reverse primer|Polyhedrin forward primer|primer 529|REV Primer Sites|SP6 primer|SUMO forward primer|T3 primer|T7 forward primer|T7 primer|T7 promoter|T7 reverse primer|T7 term reverse primer|TK pA reverse primer|TK pA Reverse primer|TrxFus forward primer
+199|v-ubi For Beacon|v-ubi Rev Beacon|V5 reverse primer|VP22 forward primer|VP22 reverse primer|vp39 For Beacon|vp39 Rev Beacon|Xpress forward primer|Xpress(tm) forward primer|XpressT forward primer|Xpress・forward primer
+50
+194
+198|41
+199|put. orf 25 TATA|TATA|TATA box|TATA signal|U6-TATA
+50
+194
+198|28
+199|#3 M13 Reverse primer site|#375 pcDNA4535F primer site|BGH reverse primer|CMV forward primer|CMV forward primer binding site|EMCV Reverse Primer Binding Site|EmGFP Forward primer site|FP 1 Forward|FP 2 Reverse|lacO|M13 Forward (-20)|M13 Forward (-20) primer binding site|M13 Reverse|M13 Reverse Primer Binding Site|M13 Reverse primer binding site|M13 reverse primer binding site|miRNA Forward primer site|miRNA Reverse primer site|Polyhedrin Forward priming site|primer 1|primer 2|pRSET reverse primer binding site|RNA polymerase binding site|T7 primer|T7 promoter|T7 promoter/priming site|T7 reverse primer|T7 reverse primer binding site|T7 reverse priming site|TK pA Reverse primer|TK pA reverse primer binding site|TLP primer extension oligo|V5 reverse primer|V5 Reverse priming site|V5 reverse priming site
+50
+194
+198|30
+199|A0_P|A1_P|A2_P|A3_P|araBAD minimal promoter|araBAD promoter|araBAD promoter and regulatory elements|B_P|Bla|bla|bla promoter|BPV1_P|C_P|E_P|EM-7 promoter|EM7|EM7 Promoter|EM7 promoter|HSV|Kan promoter|kan promoter|lac promoter|LAMBDA|LAMBDA_P(R)|P(2)|P(3)|P(4)|P(BLA)|P(LAC)|P(lac)|P(LACI)|P1_P|P2_P|P3 promoter|P3_P|pLac|SP6 promoter|SP6_P|Spn promoter|T3_P|T7 gene 10 leader|T7 primer/promoter|T7 promoter|T7_P|TK promoter
+50
+194
+198|33
+199|2 micron origin|2_MICRON|ARS4/CEN6 origin|AUX_ORI|COLE1_ORI|F1 origin|f1 origin|F1 Origin|F1_ORI|ORI|Ori|OriP|ORIT|ORIV|P15A_ORI|pBR322 origin|PIP404|PMB1|pUC|pUC ori|pUC origin|SV40_ORI
+50
+194
+198|55
+199|miR-lacZ precursor|miR-LMNA precursor|miR-luc precursor
+50
+194
+198|26
+199|BGH pA|CDK2|CREB1|GNB2|MAP2K1|MAPK1|POLY_A_SITE|RAF1|RGS3|TK polyA
+50
+194
+198|20
+199|6X His|6X His Tag|6X His tag|6xHis|HIV-1 psi packaging signal|LEXA_BIND_SITE|Polyhistidine (6xHis) region|Xpress epitope
+50
+194
+198|35
+199|TN3_INV_RPT|TN3_REPR_FRAG|TN903_INV_RPT
+50
+194
+198|97
+199|Human Ad5
+50
+194
+198|19
+199|3' LTR|3' LTR delta U3|3' LTR deltaU3|3'_LTR|5' LTR|5'_LTR|Adeno5 (1-458)|Adeno5 (3513-35935)|Delta U3/3' LTR|delta U3/HIV-1 3' LTR|deltaU3|deltaU3/3' LTR|HIV-1 3' LTR|HIV-1 5' LTR|HIV-1 5・LTR|Hybrid delta U3/HIV-1 3' LTR|Hybrid RSV promoter/HIV-1 5' LTR|pRSV/5' LTR|RSV promoter
+50
+194
+198|43
+199|ADH1 transcription terminator|AOX1 transcription terminator|CYC1 transcription terminator|Pol III terminator|rrnB T1|rrnB T1 and T2 transcription terminator|rrnB T1 terminator|rrnB T1 transcription terminator|rrnB T2|rrnB T2 terminator|rrnB T2 transcription terminator|rrnB T2 transription terminator|Stop codons|T7 terminator|T7 Terminator|T7 transcription terminator|T7_TERM
+50
+194
+198|32
+199|RBS|REP_RIBO_BIND_SITE|SD_SEQ
+50
+194
+198|31
+199|6X His tag|Arabinose I1 and I2 region|araC binding site|CAP binding site|directional TOPO overhang|directional TOPOｮ overhang|HIV-1 Rev response element|lac operator|lac repressor binding site|lacO|M13 Forward (-40)|M13 Forward (-40) primer binding site|RRE|tetO2|TetR binding sites|TOPO binding site|TOPO Cloning site|TOPOｮ binding site
+50
+194
+198|274
+199|3'-overhang|3'-T overhang|5'-GGTG overhang|dTOPO Overhang|dTOPO overhang
+50
+194
+198|48
+199|REP_MINUS_35_SIGNAL
+50
+194
+198|47
+199|REP_MINUS_10_SIGNAL
+50
+194
+198|87
+199|3 stops|EM7 Promoter|SV40 polyA|SV40 promoter|tk polyA|WPRE
+50
+194
+198|88
+199|Conserved att CA (complmnt)|cPPT|Putative transcriptional start|Txn start|Xpress epitope
+50
+194
+198|0
+199|attR1|attR2|TRPA
+50
+194
+198|5
+199|ARS4/Cen6
+50
+194
+198|50
+199|CYH2 3' UTR|Delta U3/3' LTR
+50
+194
+198|62
+199|A from G mutation no aa change
+50
+194
+198|38
+199|3' Splice Acceptor|3' splice acceptor|5' Splice Donor|splice acceptor|splice donor
+50
+194
+198|22
+199|ccdb|CmR
+50
+194
+198|14
+199|Topo D1&D2 @ EcoRI Site (5' end)|Topo D6 & Topo 4NRB @ Xho site (3' end)
+50
+194
+198|13
+199
+50
+194
+198|83
+199|PYGL
+50
+194
+198|61
+199|NAB1A|RPL18B|RPL35B
+50
+189

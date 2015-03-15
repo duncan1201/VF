@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<!DOCTYPE eInfoResult PUBLIC "-//NLM//DTD eInfoResult, 11 May 2002//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd">
+<eInfoResult>
+	<DbInfo>
+	<DbName>cdd</DbName>
+	<MenuName>Conserved Domains</MenuName>
+	<Description>Conserved Domain Database</Description>
+	<Count>45568</Count>
+	<LastUpdate>2012/01/19 23:43</LastUpdate>
+	<FieldList>
+		<Field>
+			<Name>ALL</Name>
+			<FullName>All Fields</FullName>
+			<Description>All terms from all searchable fields</Description>
+			<TermCount>292864</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>N</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>UID</Name>
+			<FullName>UID</FullName>
+			<Description>Unique number assigned to publication</Description>
+			<TermCount>0</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>Y</IsHidden>
+		</Field>
+		<Field>
+			<Name>FILT</Name>
+			<FullName>Filter</FullName>
+			<Description>Limits the records</Description>
+			<TermCount>38</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ACCN</Name>
+			<FullName>Accession</FullName>
+			<Description>Unique text identifier for a CD</Description>
+			<TermCount>45568</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>DB</Name>
+			<FullName>Database</FullName>
+			<Description>Which database CD is from (pfam, smart ...)</Description>
+			<TermCount>7</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>TITL</Name>
+			<FullName>Title</FullName>
+			<Description>The short descriptive name of a CD, e.g. Rho</Description>
+			<TermCount>41629</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STTL</Name>
+			<FullName>Subtitle</FullName>
+			<Description>A short description of the CD</Description>
+			<TermCount>47051</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>WORD</Name>
+			<FullName>Text Word</FullName>
+			<Description>The long description of the CD</Description>
+			<TermCount>194997</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>ORGN</Name>
+			<FullName>Organism</FullName>
+			<Description>The root taxonomy node of a CD</Description>
+			<TermCount>6292</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>Y</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PDAT</Name>
+			<FullName>Publication Date</FullName>
+			<Description>The date a CD was published</Description>
+			<TermCount>1568</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>MDAT</Name>
+			<FullName>Modification Date</FullName>
+			<Description>The date a CD was last modified</Description>
+			<TermCount>3</TermCount>
+			<IsDate>Y</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>PLEN</Name>
+			<FullName>PssmLength</FullName>
+			<Description>Length of the PSSM or domain search model</Description>
+			<TermCount>1228</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>AACN</Name>
+			<FullName>Alternative Accession</FullName>
+			<Description>Alternative unique text identifier for a CD, from source database</Description>
+			<TermCount>14685</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>STRP</Name>
+			<FullName>Structure Representative</FullName>
+			<Description>The number of structures in a CD</Description>
+			<TermCount>57</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>SD</Name>
+			<FullName>The description of sites</FullName>
+			<Description>The desription of functional sites in a domain</Description>
+			<TermCount>3398</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>N</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+		<Field>
+			<Name>NS</Name>
+			<FullName>Number of Sites</FullName>
+			<Description>The number of functional sites in a domain</Description>
+			<TermCount>19</TermCount>
+			<IsDate>N</IsDate>
+			<IsNumerical>Y</IsNumerical>
+			<SingleToken>Y</SingleToken>
+			<Hierarchy>N</Hierarchy>
+			<IsHidden>N</IsHidden>
+		</Field>
+	</FieldList>
+		<LinkList>
+			<Link>
+				<Name>cdd_biosystems_specific</Name>
+				<Menu>BioSystems</Menu>
+				<Description>BioSystems</Description>
+				<DbTo>biosystems</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_cdd_related</Name>
+				<Menu>Superfamily Member Links</Menu>
+				<Description>Link to related conserved domains</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_cdd_superfamily_2</Name>
+				<Menu>Superfamily Links</Menu>
+				<Description>Link to superfamily domains</Description>
+				<DbTo>cdd</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_gene</Name>
+				<Menu>Gene Links</Menu>
+				<Description>Related Gene</Description>
+				<DbTo>gene</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_homologene</Name>
+				<Menu>HomoloGene  Links</Menu>
+				<Description>Related Homologene</Description>
+				<DbTo>homologene</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_pcassay_protein_target</Name>
+				<Menu>BioAssay via Protein Target</Menu>
+				<Description>BioAssay via Protein Target</Description>
+				<DbTo>pcassay</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_pmc</Name>
+				<Menu>PMC Links</Menu>
+				<Description>Free full text articles in PMC</Description>
+				<DbTo>pmc</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_protein</Name>
+				<Menu>Protein Links</Menu>
+				<Description>Link to proteins containing a conserved domain</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_protein_specific_2</Name>
+				<Menu>Specific Protein Links</Menu>
+				<Description>Link to proteins within a conserved domain family</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_protein_summary</Name>
+				<Menu></Menu>
+				<Description>Display architectures of proteins containing a conserved domain</Description>
+				<DbTo>protein</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_pubmed</Name>
+				<Menu>PubMed Links</Menu>
+				<Description>PubMed reference from CDD entry, collected by the CDD source databases.</Description>
+				<DbTo>pubmed</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_structure</Name>
+				<Menu>Structure Links</Menu>
+				<Description>Structures annotated with conserved domains</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_structure_family_2</Name>
+				<Menu>Family Structure Links</Menu>
+				<Description>Structures within a conserved domain family</Description>
+				<DbTo>structure</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_taxonomy</Name>
+				<Menu>Taxonomy Links</Menu>
+				<Description>Link to related taxonomy entry</Description>
+				<DbTo>taxonomy</DbTo>
+			</Link>
+			<Link>
+				<Name>cdd_unigene</Name>
+				<Menu>UniGene Links</Menu>
+				<Description>Related UniGene</Description>
+				<DbTo>unigene</DbTo>
+			</Link>
+		</LinkList>
+	</DbInfo>
+
+</eInfoResult>
