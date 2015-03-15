@@ -96,8 +96,8 @@ public class Installer extends ModuleInstall {
             // upgrade database schema if necessary
             // update initial data if necessary
 
-            IFolderService folderService = Lookup.getDefault().lookup(IFolderService.class);
-            folderService.createNCBIChildFolderIfNeeded(FolderNames.NCBI_GENOME);
+            //IFolderService folderService = Lookup.getDefault().lookup(IFolderService.class);
+            //folderService.createNCBIChildFolderIfNeeded(FolderNames.NCBI_GENOME);
             //Folder root = folderService.getFolderTree();
             //Folder ncbiRoot = root.getChild(FolderNames.NCBI_ROOT);
             //Folder genomeFolder = new Folder(FolderNames.NCBI_GENOME);
