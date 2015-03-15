@@ -38,7 +38,7 @@ public class FolderNames {
         NCBI_LEAVES.add(NCBI_PUBMED);
         NCBI_LEAVES.add(NCBI_PROTEIN);
         NCBI_LEAVES.add(NCBI_STRUCTURE);
-        NCBI_LEAVES.add(NCBI_GENOME);
+        //NCBI_LEAVES.add(NCBI_GENOME);
     }
     public static final String DEFAULT_PDB = "PDB";
 }
