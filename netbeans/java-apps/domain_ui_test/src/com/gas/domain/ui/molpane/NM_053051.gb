@@ -1,0 +1,358 @@
+LOCUS       NM_053051               4071 bp    mRNA    linear   PRI 09-SEP-2011
+DEFINITION  Homo sapiens centrobin, centrosomal BRCA2 interacting protein
+            (CNTROB), transcript variant 1, mRNA.
+ACCESSION   NM_053051
+VERSION     NM_053051.3  GI:343403856
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4071)
+  AUTHORS   Gudi,R., Zou,C., Li,J. and Gao,Q.
+  TITLE     Centrobin-tubulin interaction is required for centriole elongation
+            and stability
+  JOURNAL   J. Cell Biol. 193 (4), 711-725 (2011)
+   PUBMED   21576394
+  REMARK    GeneRIF: Centrobin facilitates the elongation and stability of
+            centrioles via its interaction with tubulins.
+REFERENCE   2  (bases 1 to 4071)
+  AUTHORS   Olson,J.E., Wang,X., Pankratz,V.S., Fredericksen,Z.S., Vachon,C.M.,
+            Vierkant,R.A., Cerhan,J.R. and Couch,F.J.
+  TITLE     Centrosome-related genes, genetic variation, and risk of breast
+            cancer
+  JOURNAL   Breast Cancer Res. Treat. 125 (1), 221-228 (2011)
+   PUBMED   20508983
+  REMARK    GeneRIF: Observational study of gene-disease association. (HuGE
+            Navigator)
+REFERENCE   3  (bases 1 to 4071)
+  AUTHORS   Lee,J., Jeong,Y., Jeong,S. and Rhee,K.
+  TITLE     Centrobin/NIP2 is a microtubule stabilizer whose activity is
+            enhanced by PLK1 phosphorylation during mitosis
+  JOURNAL   J. Biol. Chem. 285 (33), 25476-25484 (2010)
+   PUBMED   20511645
+  REMARK    GeneRIF: Data propose that centrobin functions as a microtubule
+            stabilizing factor and PLK1 enhances centrobin activity for proper
+            spindle formation during mitosis.
+REFERENCE   4  (bases 1 to 4071)
+  AUTHORS   Jeffery,J.M., Urquhart,A.J., Subramaniam,V.N., Parton,R.G. and
+            Khanna,K.K.
+  TITLE     Centrobin regulates the assembly of functional mitotic spindles
+  JOURNAL   Oncogene 29 (18), 2649-2658 (2010)
+   PUBMED   20190801
+  REMARK    GeneRIF: a requirement of Centrobin in maintaining centrosome
+            integrity, which in turn promotes anchoring of mitotic spindle to
+            the centrosomes.
+REFERENCE   5  (bases 1 to 4071)
+  AUTHORS   Song,L., Dai,T., Xiong,H., Lin,C., Lin,H., Shi,T. and Li,J.
+  TITLE     Inhibition of centriole duplication by centrobin depletion leads to
+            p38-p53 mediated cell-cycle arrest
+  JOURNAL   Cell. Signal. 22 (5), 857-864 (2010)
+   PUBMED   20085806
+  REMARK    GeneRIF: Inhibition of p38 activity or downregulation of p38
+            expression could overcome the cell-cycle arrest caused by centrobin
+            depletion.
+REFERENCE   6  (bases 1 to 4071)
+  AUTHORS   Jeong,Y., Lee,J., Kim,K., Yoo,J.C. and Rhee,K.
+  TITLE     Characterization of NIP2/centrobin, a novel substrate of Nek2, and
+            its potential role in microtubule stabilization
+  JOURNAL   J. Cell. Sci. 120 (PT 12), 2106-2116 (2007)
+   PUBMED   17535851
+  REMARK    GeneRIF: Results report that NIP2, previously identified as
+            centrobin, is a novel substrate of Nek2, and that NIP2 has a role
+            in stabilizing the microtubule structure.
+REFERENCE   7  (bases 1 to 4071)
+  AUTHORS   Lim,J., Hao,T., Shaw,C., Patel,A.J., Szabo,G., Rual,J.F.,
+            Fisk,C.J., Li,N., Smolyar,A., Hill,D.E., Barabasi,A.L., Vidal,M.
+            and Zoghbi,H.Y.
+  TITLE     A protein-protein interaction network for human inherited ataxias
+            and disorders of Purkinje cell degeneration
+  JOURNAL   Cell 125 (4), 801-814 (2006)
+   PUBMED   16713569
+REFERENCE   8  (bases 1 to 4071)
+  AUTHORS   Zou,C., Li,J., Bai,Y., Gunning,W.T., Wazer,D.E., Band,V. and Gao,Q.
+  TITLE     Centrobin: a novel daughter centriole-associated protein that is
+            required for centriole duplication
+  JOURNAL   J. Cell Biol. 171 (3), 437-445 (2005)
+   PUBMED   16275750
+  REMARK    GeneRIF: Centrobin is a centriole-associated protein that
+            asymmetrically localizes to the daughter centriole.
+REFERENCE   9  (bases 1 to 4071)
+  AUTHORS   Wan,D., Gong,Y., Qin,W., Zhang,P., Li,J., Wei,L., Zhou,X., Li,H.,
+            Qiu,X., Zhong,F., He,L., Yu,J., Yao,G., Jiang,H., Qian,L., Yu,Y.,
+            Shu,H., Chen,X., Xu,H., Guo,M., Pan,Z., Chen,Y., Ge,C., Yang,S. and
+            Gu,J.
+  TITLE     Large-scale cDNA transfection screening for genes related to cancer
+            development and progression
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (44), 15724-15729 (2004)
+   PUBMED   15498874
+  REMARK    Erratum:[Proc Natl Acad Sci U S A. 2004 Dec 14:101(50):17565]
+REFERENCE   10 (bases 1 to 4071)
+  AUTHORS   Tchernev,V.T., Mansfield,T.A., Giot,L., Kumar,A.M., Nandabalan,K.,
+            Li,Y., Mishra,V.S., Detter,J.C., Rothberg,J.M., Wallace,M.R.,
+            Southwick,F.S. and Kingsmore,S.F.
+  TITLE     The Chediak-Higashi protein interacts with SNARE complex and signal
+            transduction proteins
+  JOURNAL   Mol. Med. 8 (1), 56-64 (2002)
+   PUBMED   11984006
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from CN390730.1, AY160226.1,
+            AI494457.1 and AC104581.22.
+            This sequence is a reference standard in the RefSeqGene project.
+            On Aug 11, 2011 this sequence version replaced gi:191252784.
+            
+            Summary: This gene encodes a centrosomal protein that interacts
+            with BRCA2, and is required for centriole duplication and
+            cytokinesis. Alternatively spliced transcript variants encoding
+            different isoforms have been described for this gene. [provided by
+            RefSeq, Aug 2011].
+            
+            Transcript Variant: This variant (1) represents the predominant
+            transcript, and encodes isoform alpha.
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-31                CN390730.1         1-31
+            32-3728             AY160226.1         1-3697
+            3729-4056           AI494457.1         16-343              c
+            4057-4071           AC104581.22        113142-113156
+FEATURES             Location/Qualifiers
+     source          1..4071
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17p13.1"
+     gene            1..4071
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /note="centrobin, centrosomal BRCA2 interacting protein"
+                     /db_xref="GeneID:116840"
+                     /db_xref="HGNC:29616"
+                     /db_xref="HPRD:13991"
+                     /db_xref="MIM:611425"
+     exon            1..1220
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=1
+     misc_feature    897..899
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /note="upstream in-frame stop codon"
+     CDS             951..3662
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /note="isoform alpha is encoded by transcript variant 1;
+                     LYST-interacting protein LIP8; LYST-interacting protein 8;
+                     centrosomal BRCA2-interacting protein"
+                     /codon_start=1
+                     /product="centrobin isoform alpha"
+                     /protein_id="NP_444279.2"
+                     /db_xref="GI:191252785"
+                     /db_xref="GeneID:116840"
+                     /db_xref="HGNC:29616"
+                     /db_xref="HPRD:13991"
+                     /db_xref="MIM:611425"
+                     /translation="MATSADSPSSPLGAEDLLSDSSEPPGLNQVSSEVTSQLYASLRL
+                     SRQAEATARAQLYLPSTSPPHEGLDGFAQELSRSLSVGLEKNLKKKDGSKHIFEMESV
+                     RGQLQTMLQTSRDTAYRDPLIPGAGSERREEDSFDSDSTATLLNTRPLQDLSPSSSAQ
+                     ALEELFPRYTSLRPGPPLNPPDFQGLRDALDSEHTRRKHCERHIQSLQTRVLELQQQL
+                     AVAVAADRKKDTMIEQLDKTLARVVEGWNRHEAERTEVLRGLQEEHQAAELTRSKQQE
+                     TVTRLEQSLSEAMEALNREQESARLQQRERETLEEERQALTLRLEAEQQRCCVLQEER
+                     DAARAGQLSEHRELETLRAALEEERQTWAQQEHQLKEHYQALQEESQAQLEREKEKSQ
+                     REAQAAWETQHQLALVQSEVRRLEGELDTARRERDALQLEMSLVQARYESQRIQLESE
+                     LAVQLEQRVTERLAQAQESSLRQAASLREHHRKQLQDLSGQHQQELASQLAQFKVEMA
+                     EREERQQQVAEDYELRLAREQARVCELQSGNQQLEEQRVELVERLQAMLQAHWDEANQ
+                     LLSTTLPPPNPPAPPAGPSSPGPQEPEKEERRVWTMPPMAVALKPVLQQSREARDELP
+                     GAPPVLCSSSSDLSLLLGPSFQSQHSFQPLEPKPDLTSSTAGAFSALGAFHPDHRAER
+                     PFPEEDPGPDGEGLLKQGLPPAQLEGLKNFLHQLLETVPQNNENPSVDLLPPKSGPLT
+                     VPSWEEAPQVPRIPPPVHKTKVPLAMASSLFRVPEPPSSHSQGSGPSSGSPERGGDGL
+                     TFPRQLMEVSQLLRLYQARGWGALPAEDLLLYLKRLEHSGTDGRGDNVPRRNTDSRLG
+                     EIPRKEIPSQAVPRRLATAPKTEKPPARKKSGHPAPSSMRSRGGVWR"
+     misc_feature    2043..3659
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8N137.1);
+                     Region: Required for centrosome localization"
+     misc_feature    3291..3293
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; propagated from UniProtKB/Swiss-Prot
+                     (Q8N137.1); phosphorylation site"
+     exon            1221..1305
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=2
+     exon            1306..1387
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3
+     exon            1388..1544
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            1545..1661
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            1662..1778
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=6
+     exon            1779..1877
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=7
+     exon            1878..2114
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=8
+     exon            2115..2261
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=9
+     exon            2262..2395
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=10
+     exon            2396..2521
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=11
+     exon            2522..2684
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=12
+     exon            2685..2943
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=13
+     exon            2944..3095
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=14
+     exon            3096..3159
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=15
+     exon            3160..3330
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=16
+     exon            3331..3463
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=17a
+     exon            3464..3536
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=18
+     exon            3537..4071
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=19
+     STS             3537..3667
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+                     /standard_name="RH78633"
+                     /db_xref="UniSTS:54390"
+     polyA_signal    3709..3714
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+     polyA_site      3730
+                     /gene="CNTROB"
+                     /gene_synonym="LIP8; PP1221"
+ORIGIN      
+        1 ggatacagaa gtgatgtgag tgtctgcgag cgtggtctcg cgggcgggtg acgtcatcga
+       61 ggcgagagag gcggagccgt ggacagtggg cgggaggctg ccaacggttt tgagcgtagg
+      121 gggaggcgtg agagggggat ctcaggggag gaggtcaatc gcttgccccc cactttggca
+      181 aattggggac tgaggactgg aagggtggag agtaggcgga accaggtggt cgtcggggca
+      241 gaggatctcg ggctaggctt gagggcggcg tgcttcttag ggacgactta gggcgtgact
+      301 gagggttcac aaggtttctt ttggggtggt cgggagggag agattctagg gaacaaggaa
+      361 gctcgctatg gctttcttgc caggaggggt cgaagggaaa gtacaaggga gctgaccctg
+      421 ggtagaacgg gtgaagggat gggggagcgt gaggttccgc cctctcttga gactggaacc
+      481 aattgaggga ctagtagggc agggggacag aaattgggct cctagtggat ttgggtccgt
+      541 ttccgttggg acgttttggg tgtgagaact taagagctca gttgaccggg gatagcctgt
+      601 gccggagttg atctgcagct tccagcactc gtagtcggga agaggagctt cagcagcgct
+      661 gttgtcccac agtaggtctt ctgtccgcac ccgctctgcg ctgcaccctc ttaacgctgt
+      721 tcccaggagc tggggaaagg gatgcttttg cccactccca tggcccctgg aactggtgga
+      781 aacctttcct ctaaccagaa agcctcgata tccttaattc accaaggatc cttggcgtgg
+      841 agtcttcctc ccttctccca agtctttctc cgtgaacttt tcctcctgga ctttgctaaa
+      901 gcagaacctc ccagctcttt gctgtctccg gttgtctctt ccctgtattc atggcaacat
+      961 cagctgacag ccccagttca cccctcgggg cggaggatct cctgagtgat tcatcagaac
+     1021 cccctgggct caaccaagtg tcgtctgaag tgacctccca gctctatgct tctttgcgcc
+     1081 tcagccggca ggcggaggcc acggcccgag cccagctgta tttaccctcc acctccccgc
+     1141 ctcatgaagg gttagacggc ttcgcccaag aattgagtcg aagcttgtca gtcggattgg
+     1201 aaaagaactt gaagaaaaag gatggttcta agcatatctt tgagatggaa agtgttcggg
+     1261 gtcagctcca gaccatgctc caaacctcac gtgatacagc ctatcgggat cctctcattc
+     1321 ctggcgctgg ctcagagaga cgggaagagg actcctttga cagtgatagc acagccacct
+     1381 tgctcaacac ccggcccctg caagacttgt ctccatctag ctcagcccaa gccctggagg
+     1441 agctgtttcc ccgctacacc agccttcggc cagggcctcc actcaatccc ccagattttc
+     1501 aggggctgag agatgcattg gattcagagc atacccgccg caagcattgt gagcgccata
+     1561 ttcagagcct gcagacccga gtgttagagc tacagcaaca attagccgtg gctgtggctg
+     1621 ccgaccgcaa gaaagatacc atgattgaac aactggacaa gaccctggcc cgtgtggtgg
+     1681 agggctggaa ccggcatgag gctgagcgga cagaggttct caggggactt caagaggaac
+     1741 accaggcagc agagctcacc agaagcaagc agcaggagac agtaacccgc ctggaacaaa
+     1801 gcctttctga ggccatggag gccctgaatc gtgagcagga aagtgccaga ctgcagcaac
+     1861 gggaaagaga gacactggag gaggaaaggc aagctctgac tctgaggttg gaggcagaac
+     1921 agcagcggtg ctgtgtcctg caggaagagc gggatgcagc tcgggctggg caactgagtg
+     1981 agcatcgaga gttggagact cttcgggctg ccctagaaga agaacggcag acctgggccc
+     2041 agcaagagca ccagcttaag gaacactacc aggcgctgca ggaggagagc caggctcagc
+     2101 tggaaaggga gaaggagaag agccagaggg aagcccaggc cgcctgggag acccagcacc
+     2161 agttggcatt ggtgcagtct gaggtgcggc ggctggaagg agagctggat acagctcgga
+     2221 gagagagaga tgccctgcag ctggaaatga gcttggtgca ggcccggtat gaaagccagc
+     2281 ggatccagct ggagtcggag ctggctgtgc agctggagca gcgggtgaca gagcggctgg
+     2341 cgcaggctca ggagagcagc ctacggcaag cagcctccct cagggaacat cacaggaagc
+     2401 agctgcagga cctgagtgga cagcaccagc aggagctggc cagtcagcta gctcagttca
+     2461 aggtggaaat ggcagaacga gaggaacggc aacagcaggt ggctgaggac tacgagctca
+     2521 gactggcccg ggagcaagcg cgagtgtgcg aactgcagag tgggaaccag cagctggagg
+     2581 agcagcgggt ggagctggtg gaaagactgc aggccatgct gcaggcccac tgggatgagg
+     2641 ccaaccagct gctcagcacc actctcccgc cgcccaaccc tccagctcct cctgctggac
+     2701 cctccagccc cgggcctcag gagcccgaga aggaggagag gagggtctgg actatgcctc
+     2761 ccatggccgt ggccctgaag cctgtattgc agcagagccg ggaagcaagg gacgagctac
+     2821 ctggagcgcc tcctgttctt tgcagttcct cctcagatct tagcctcctg ttgggcccct
+     2881 cttttcagag ccagcattct ttccagcccc tggagcccaa accagacctc acttcatcca
+     2941 cagctggggc cttctctgca cttggggcct tccatcccga tcatagggca gaaaggccat
+     3001 tccctgagga agatcctgga cctgacgggg agggcctcct aaagcaaggg ctgccgcctg
+     3061 ctcagctgga gggcctcaag aattttttgc accagttgct ggagacagtg ccccagaaca
+     3121 atgagaaccc ttctgtcgac ctgttgcccc ctaagtctgg tcctctgact gtcccatctt
+     3181 gggaggaagc ccctcaagtg ccacgtattc caccgcctgt ccacaaaacc aaagttccct
+     3241 tagccatggc atccagtctt ttccgggtcc ctgagcctcc ctcctcccat tcacaaggca
+     3301 gtggtcccag cagtggttcc ccagagagag gtggagatgg gcttacattc ccaaggcagc
+     3361 tgatggaggt gtctcaactg ttgcgactct accaggctcg gggctggggg gctctgcctg
+     3421 ctgaggatct cctgctctac ctgaagaggc tggaacacag cgggactgat ggccgagggg
+     3481 ataatgtccc cagaaggaac acagactccc gcttgggtga gatcccccgg aaagagattc
+     3541 cctcccaggc tgtccctcgc cgccttgcta cagcccccaa gactgaaaaa cctcccgcac
+     3601 ggaagaaaag tgggcaccct gccccgagta gcatgaggag ccggggggga gtctggagat
+     3661 gagcccccct accctctctc ctctttgttc tctcattgtt gttattttaa taaatgctca
+     3721 ttagtctgta tcagagtctc tggctcatag gaatttggaa aatagaggtt ttgtagggaa
+     3781 tcacttcgta aagaaaccac atttggttga gtactttttt tatatgttac atgtttatat
+     3841 gtcatttcct gtgggaaaag acatgaatgc tttggaagac ggtctatgac aagatttgga
+     3901 aagttggggc ggctaagatt cagtggacaa agctaaaacc tgcagagcaa tgaactctgg
+     3961 gtggtagtgg aattatgggt gattcttagt tttttaatac gtttctgtat tttccaaatt
+     4021 ttctaaaaca agtatatgtt actttaataa tcagaacaga cccaaacttt a
+//
+

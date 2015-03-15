@@ -1,0 +1,547 @@
+LOCUS       NM_001618               4001 bp    mRNA    linear   PRI 30-OCT-2011
+DEFINITION  Homo sapiens poly (ADP-ribose) polymerase 1 (PARP1), mRNA.
+ACCESSION   NM_001618
+VERSION     NM_001618.3  GI:156523967
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 4001)
+  AUTHORS   Mizuguchi,H., Terao,T., Kitai,M., Ikeda,M., Yoshimura,Y., Das,A.K.,
+            Kitamura,Y., Takeda,N. and Fukui,H.
+  TITLE     Involvement of protein kinase Cdelta/extracellular signal-regulated
+            kinase/poly(ADP-ribose) polymerase-1 (PARP-1) signaling pathway in
+            histamine-induced up-regulation of histamine H1 receptor gene
+            expression in HeLa cells
+  JOURNAL   J. Biol. Chem. 286 (35), 30542-30551 (2011)
+   PUBMED   21730054
+  REMARK    GeneRIF: the PKCdelta/ERK/poly(ADP-ribose) polymerase-1 signaling
+            pathway is involved in histamine- or PMA-induced up-regulation of
+            H1R gene expression in HeLa cells
+REFERENCE   2  (bases 1 to 4001)
+  AUTHORS   Mao,Z., Hine,C., Tian,X., Van Meter,M., Au,M., Vaidya,A.,
+            Seluanov,A. and Gorbunova,V.
+  TITLE     SIRT6 promotes DNA repair under stress by activating PARP1
+  JOURNAL   Science 332 (6036), 1443-1446 (2011)
+   PUBMED   21680843
+  REMARK    GeneRIF: results indicate that SIRT6 physically associates with
+            PARP1 and mono-ADP-ribosylates PARP1 on lysine residue 521,
+            stimulating PARP1 poly-ADP-ribosylase activity and enhancing DSB
+            repair under oxidative stress
+REFERENCE   3  (bases 1 to 4001)
+  AUTHORS   Ohanna,M., Giuliano,S., Bonet,C., Imbert,V., Hofman,V., Zangari,J.,
+            Bille,K., Robert,C., Bressac-de Paillerets,B., Hofman,P.,
+            Rocchi,S., Peyron,J.F., Lacour,J.P., Ballotti,R. and Bertolotto,C.
+  TITLE     Senescent cells develop a PARP-1 and nuclear
+            factor-{kappa}B-associated secretome (PNAS)
+  JOURNAL   Genes Dev. 25 (12), 1245-1261 (2011)
+   PUBMED   21646373
+  REMARK    GeneRIF: the poly(ADP-ribose) polymerase-1 (PARP-1)/nuclear
+            factor-kappaB (NF-kappaB) signaling cascade, activated during
+            senescence, drives the formation of a secretome endowed with
+            protumoral and prometastatic properties.
+REFERENCE   4  (bases 1 to 4001)
+  AUTHORS   Brenner,J.C., Ateeq,B., Li,Y., Yocum,A.K., Cao,Q., Asangani,I.A.,
+            Patel,S., Wang,X., Liang,H., Yu,J., Palanisamy,N., Siddiqui,J.,
+            Yan,W., Cao,X., Mehra,R., Sabolch,A., Basrur,V., Lonigro,R.J.,
+            Yang,J., Tomlins,S.A., Maher,C.A., Elenitoba-Johnson,K.S.,
+            Hussain,M., Navone,N.M., Pienta,K.J., Varambally,S., Feng,F.Y. and
+            Chinnaiyan,A.M.
+  TITLE     Mechanistic rationale for inhibition of poly(ADP-ribose) polymerase
+            in ETS gene fusion-positive prostate cancer
+  JOURNAL   Cancer Cell 19 (5), 664-678 (2011)
+   PUBMED   21575865
+  REMARK    GeneRIF: Pharmacological inhibition of PARP1 inhibits ETS-positive,
+            but not ETS-negative, prostate cancer xenograft growth.
+REFERENCE   5  (bases 1 to 4001)
+  AUTHORS   Kutuzov,M.M., Ilina,E.S., Sukhanova,M.V., Pyshnaya,I.A.,
+            Pyshnyi,D.V., Lavrik,O.I. and Khodyreva,S.N.
+  TITLE     Interaction of poly(ADP-ribose) polymerase 1 with
+            apurinic/apyrimidinic sites within clustered DNA damage
+  JOURNAL   Biochemistry Mosc. 76 (1), 147-156 (2011)
+   PUBMED   21568846
+  REMARK    GeneRIF: APE1 is shown to decrease the amount of
+            apurinic/apyrimidinic containing DNA-bound PARP1 dimer.
+REFERENCE   6  (bases 1 to 4001)
+  AUTHORS   Schreiber,V., Molinete,M., Boeuf,H., de Murcia,G. and Menissier-de
+            Murcia,J.
+  TITLE     The human poly(ADP-ribose) polymerase nuclear localization signal
+            is a bipartite element functionally separate from DNA binding and
+            catalytic activity
+  JOURNAL   EMBO J. 11 (9), 3263-3269 (1992)
+   PUBMED   1505517
+REFERENCE   7  (bases 1 to 4001)
+  AUTHORS   Baumgartner,M., Schneider,R., Auer,B., Herzog,H., Schweiger,M. and
+            Hirsch-Kauffmann,M.
+  TITLE     Fluorescence in situ mapping of the human nuclear NAD+
+            ADP-ribosyltransferase gene (ADPRT) and two secondary sites to
+            human chromosomal bands 1q42, 13q34, and 14q24
+  JOURNAL   Cytogenet. Cell Genet. 61 (3), 172-174 (1992)
+   PUBMED   1424803
+REFERENCE   8  (bases 1 to 4001)
+  AUTHORS   Simonin,F., Menissier-de Murcia,J., Poch,O., Muller,S.,
+            Gradwohl,G., Molinete,M., Penning,C., Keith,G. and de Murcia,G.
+  TITLE     Expression and site-directed mutagenesis of the catalytic domain of
+            human poly(ADP-ribose)polymerase in Escherichia coli. Lysine 893 is
+            critical for activity
+  JOURNAL   J. Biol. Chem. 265 (31), 19249-19256 (1990)
+   PUBMED   2121735
+REFERENCE   9  (bases 1 to 4001)
+  AUTHORS   Gradwohl,G., Menissier de Murcia,J.M., Molinete,M., Simonin,F.,
+            Koken,M., Hoeijmakers,J.H. and de Murcia,G.
+  TITLE     The second zinc-finger domain of poly(ADP-ribose) polymerase
+            determines specificity for single-stranded breaks in DNA
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 87 (8), 2990-2994 (1990)
+   PUBMED   2109322
+REFERENCE   10 (bases 1 to 4001)
+  AUTHORS   Ogura,T., Nyunoya,H., Takahashi-Masutani,M., Miwa,M., Sugimura,T.
+            and Esumi,H.
+  TITLE     Characterization of a putative promoter region of the human
+            poly(ADP-ribose) polymerase gene: structural similarity to that of
+            the DNA polymerase beta gene
+  JOURNAL   Biochem. Biophys. Res. Commun. 167 (2), 701-710 (1990)
+   PUBMED   2108670
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DB097441.1, BC037545.1,
+            J03473.1 and AK225654.1.
+            On Aug 28, 2007 this sequence version replaced gi:11496989.
+            
+            Summary: This gene encodes a chromatin-associated enzyme,
+            poly(ADP-ribosyl)transferase, which modifies various nuclear
+            proteins by poly(ADP-ribosyl)ation. The modification is dependent
+            on DNA and is involved in the regulation of various important
+            cellular processes such as differentiation, proliferation, and
+            tumor transformation and also in the regulation of the molecular
+            events involved in the recovery of cell from DNA damage. In
+            addition, this enzyme may be the site of mutation in Fanconi
+            anemia, and may participate in the pathophysiology of type I
+            diabetes. [provided by RefSeq, Jul 2008].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-574               DB097441.1         1-574
+            575-1022            BC037545.1         548-995
+            1023-1226           J03473.1           947-1150
+            1227-2455           BC037545.1         1200-2428
+            2456-3871           J03473.1           2380-3795
+            3872-4001           AK225654.1         3837-3966
+FEATURES             Location/Qualifiers
+     source          1..4001
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /map="1q41-q42"
+     gene            1..4001
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /note="poly (ADP-ribose) polymerase 1"
+                     /db_xref="GeneID:142"
+                     /db_xref="HGNC:270"
+                     /db_xref="HPRD:01435"
+                     /db_xref="MIM:173870"
+     exon            1..291
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=1
+     misc_feature    163..165
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /note="upstream in-frame stop codon"
+     CDS             172..3216
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /EC_number="2.4.2.30"
+                     /note="poly(ADP-ribose) synthetase; ADP-ribosyltransferase
+                     NAD(+); poly (ADP-ribose) polymerase family, member 1;
+                     ADP-ribosyltransferase (NAD+; poly (ADP-ribose)
+                     polymerase); poly(ADP-ribosyl)transferase;
+                     poly(ADP-ribose) polymerase; poly[ADP-ribose] synthase 1;
+                     NAD(+) ADP-ribosyltransferase 1"
+                     /codon_start=1
+                     /product="poly [ADP-ribose] polymerase 1"
+                     /protein_id="NP_001609.2"
+                     /db_xref="GI:156523968"
+                     /db_xref="CCDS:CCDS1554.1"
+                     /db_xref="GeneID:142"
+                     /db_xref="HGNC:270"
+                     /db_xref="HPRD:01435"
+                     /db_xref="MIM:173870"
+                     /translation="MAESSDKLYRVEYAKSGRASCKKCSESIPKDSLRMAIMVQSPMF
+                     DGKVPHWYHFSCFWKVGHSIRHPDVEVDGFSELRWDDQQKVKKTAEAGGVTGKGQDGI
+                     GSKAEKTLGDFAAEYAKSNRSTCKGCMEKIEKGQVRLSKKMVDPEKPQLGMIDRWYHP
+                     GCFVKNREELGFRPEYSASQLKGFSLLATEDKEALKKQLPGVKSEGKRKGDEVDGVDE
+                     VAKKKSKKEKDKDSKLEKALKAQNDLIWNIKDELKKVCSTNDLKELLIFNKQQVPSGE
+                     SAILDRVADGMVFGALLPCEECSGQLVFKSDAYYCTGDVTAWTKCMVKTQTPNRKEWV
+                     TPKEFREISYLKKLKVKKQDRIFPPETSASVAATPPPSTASAPAAVNSSASADKPLSN
+                     MKILTLGKLSRNKDEVKAMIEKLGGKLTGTANKASLCISTKKEVEKMNKKMEEVKEAN
+                     IRVVSEDFLQDVSASTKSLQELFLAHILSPWGAEVKAEPVEVVAPRGKSGAALSKKSK
+                     GQVKEEGINKSEKRMKLTLKGGAAVDPDSGLEHSAHVLEKGGKVFSATLGLVDIVKGT
+                     NSYYKLQLLEDDKENRYWIFRSWGRVGTVIGSNKLEQMPSKEDAIEHFMKLYEEKTGN
+                     AWHSKNFTKYPKKFYPLEIDYGQDEEAVKKLTVNPGTKSKLPKPVQDLIKMIFDVESM
+                     KKAMVEYEIDLQKMPLGKLSKRQIQAAYSILSEVQQAVSQGSSDSQILDLSNRFYTLI
+                     PHDFGMKKPPLLNNADSVQAKVEMLDNLLDIEVAYSLLRGGSDDSSKDPIDVNYEKLK
+                     TDIKVVDRDSEEAEIIRKYVKNTHATTHNAYDLEVIDIFKIEREGECQRYKPFKQLHN
+                     RRLLWHGSRTTNFAGILSQGLRIAPPEAPVTGYMFGKGIYFADMVSKSANYCHTSQGD
+                     PIGLILLGEVALGNMYELKHASHISKLPKGKHSVKGLGKTTPDPSANISLDGVDVPLG
+                     TGISSGVNDTSLLYNEYIVYDIAQVNLKYLLKLKFNFKTSLW"
+     misc_feature    175..177
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-acetylalanine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); acetylation site"
+     misc_feature    292..294
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; propagated from UniProtKB/Swiss-Prot
+                     (P09874.4); phosphorylation site"
+     misc_feature    460..462
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); acetylation site"
+     misc_feature    484..486
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); acetylation site"
+     misc_feature    562..564
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); acetylation site"
+     misc_feature    706..708
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; propagated from UniProtKB/Swiss-Prot
+                     (P09874.4); phosphorylation site"
+     misc_feature    790..798
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P09874.4);
+                     Region: Nuclear localization signal"
+     misc_feature    832..849
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P09874.4);
+                     Region: Nuclear localization signal"
+     misc_feature    1273..1275
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphothreonine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); phosphorylation site"
+     misc_feature    1288..1743
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P09874.4);
+                     Region: Automodification domain"
+     misc_feature    1969..1971
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); acetylation site"
+     misc_feature    2032..2034
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N6-acetyllysine; propagated from
+                     UniProtKB/Swiss-Prot (P09874.4); acetylation site"
+     misc_feature    2515..2517
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine; propagated from UniProtKB/Swiss-Prot
+                     (P09874.4); phosphorylation site"
+     exon            292..457
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=2
+     exon            458..573
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=3
+     exon            574..788
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=4
+     exon            789..888
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=5
+     exon            889..1005
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=6
+     exon            1006..1182
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=7
+     exon            1183..1330
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=8
+     exon            1331..1471
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=9
+     STS             1454..1592
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /standard_name="RH70493"
+                     /db_xref="UniSTS:3628"
+     exon            1472..1714
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=10
+     exon            1715..1783
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=11
+     exon            1784..1916
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=12
+     exon            1917..2112
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=13
+     exon            2113..2241
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=14
+     exon            2242..2325
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=15
+     exon            2326..2448
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=16
+     STS             2408..2525
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /standard_name="D1S2048E"
+                     /db_xref="UniSTS:151523"
+     exon            2449..2577
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=17
+     exon            2578..2676
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=18
+     exon            2677..2829
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=19
+     exon            2830..2957
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=20
+     exon            2958..3019
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=21
+     exon            3020..3134
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=22
+     exon            3135..3985
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /inference="alignment:Splign"
+                     /number=23
+     STS             3159..3809
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /standard_name="ADPRT_3241"
+                     /db_xref="UniSTS:462018"
+     STS             3192..3436
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /standard_name="SHGC-76015"
+                     /db_xref="UniSTS:23752"
+     STS             3727..3840
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /standard_name="G07110"
+                     /db_xref="UniSTS:82324"
+     STS             3828..3960
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+                     /standard_name="SHGC-30345"
+                     /db_xref="UniSTS:34448"
+     polyA_signal    3961..3966
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+     polyA_site      3985
+                     /gene="PARP1"
+                     /gene_synonym="ADPRT; ADPRT 1; ADPRT1; pADPRT-1; PARP;
+                     PARP-1; PPOL"
+ORIGIN      
+        1 aggcatcagc aatctatcag ggaacggcgg tggccggtgc ggcgtgttcg gtggcggctc
+       61 tggccgctca ggcgcctgcg gctgggtgag cgcacgcgag gcggcgaggc ggcagcgtgt
+      121 ttctaggtcg tggcgtcggg cttccggagc tttggcggca gctaggggag gatggcggag
+      181 tcttcggata agctctatcg agtcgagtac gccaagagcg ggcgcgcctc ttgcaagaaa
+      241 tgcagcgaga gcatccccaa ggactcgctc cggatggcca tcatggtgca gtcgcccatg
+      301 tttgatggaa aagtcccaca ctggtaccac ttctcctgct tctggaaggt gggccactcc
+      361 atccggcacc ctgacgttga ggtggatggg ttctctgagc ttcggtggga tgaccagcag
+      421 aaagtcaaga agacagcgga agctggagga gtgacaggca aaggccagga tggaattggt
+      481 agcaaggcag agaagactct gggtgacttt gcagcagagt atgccaagtc caacagaagt
+      541 acgtgcaagg ggtgtatgga gaagatagaa aagggccagg tgcgcctgtc caagaagatg
+      601 gtggacccgg agaagccaca gctaggcatg attgaccgct ggtaccatcc aggctgcttt
+      661 gtcaagaaca gggaggagct gggtttccgg cccgagtaca gtgcgagtca gctcaagggc
+      721 ttcagcctcc ttgctacaga ggataaagaa gccctgaaga agcagctccc aggagtcaag
+      781 agtgaaggaa agagaaaagg cgatgaggtg gatggagtgg atgaagtggc gaagaagaaa
+      841 tctaaaaaag aaaaagacaa ggatagtaag cttgaaaaag ccctaaaggc tcagaacgac
+      901 ctgatctgga acatcaagga cgagctaaag aaagtgtgtt caactaatga cctgaaggag
+      961 ctactcatct tcaacaagca gcaagtgcct tctggggagt cggcgatctt ggaccgagta
+     1021 gctgatggca tggtgttcgg tgccctcctt ccctgcgagg aatgctcggg tcagctggtc
+     1081 ttcaagagcg atgcctatta ctgcactggg gacgtcactg cctggaccaa gtgtatggtc
+     1141 aagacacaga cacccaaccg gaaggagtgg gtaaccccaa aggaattccg agaaatctct
+     1201 tacctcaaga aattgaaggt taaaaaacag gaccgtatat tccccccaga aaccagcgcc
+     1261 tccgtggcgg ccacgcctcc gccctccaca gcctcggctc ctgctgctgt gaactcctct
+     1321 gcttcagcag ataagccatt atccaacatg aagatcctga ctctcgggaa gctgtcccgg
+     1381 aacaaggatg aagtgaaggc catgattgag aaactcgggg ggaagttgac ggggacggcc
+     1441 aacaaggctt ccctgtgcat cagcaccaaa aaggaggtgg aaaagatgaa taagaagatg
+     1501 gaggaagtaa aggaagccaa catccgagtt gtgtctgagg acttcctcca ggacgtctcc
+     1561 gcctccacca agagccttca ggagttgttc ttagcgcaca tcttgtcccc ttggggggca
+     1621 gaggtgaagg cagagcctgt tgaagttgtg gccccaagag ggaagtcagg ggctgcgctc
+     1681 tccaaaaaaa gcaagggcca ggtcaaggag gaaggtatca acaaatctga aaagagaatg
+     1741 aaattaactc ttaaaggagg agcagctgtg gatcctgatt ctggactgga acactctgcg
+     1801 catgtcctgg agaaaggtgg gaaggtcttc agtgccaccc ttggcctggt ggacatcgtt
+     1861 aaaggaacca actcctacta caagctgcag cttctggagg acgacaagga aaacaggtat
+     1921 tggatattca ggtcctgggg ccgtgtgggt acggtgatcg gtagcaacaa actggaacag
+     1981 atgccgtcca aggaggatgc cattgagcac ttcatgaaat tatatgaaga aaaaaccggg
+     2041 aacgcttggc actccaaaaa tttcacgaag tatcccaaaa agttctaccc cctggagatt
+     2101 gactatggcc aggatgaaga ggcagtgaag aagctgacag taaatcctgg caccaagtcc
+     2161 aagctcccca agccagttca ggacctcatc aagatgatct ttgatgtgga aagtatgaag
+     2221 aaagccatgg tggagtatga gatcgacctt cagaagatgc ccttggggaa gctgagcaaa
+     2281 aggcagatcc aggccgcata ctccatcctc agtgaggtcc agcaggcggt gtctcagggc
+     2341 agcagcgact ctcagatcct ggatctctca aatcgctttt acaccctgat cccccacgac
+     2401 tttgggatga agaagcctcc gctcctgaac aatgcagaca gtgtgcaggc caaggtggaa
+     2461 atgcttgaca acctgctgga catcgaggtg gcctacagtc tgctcagggg agggtctgat
+     2521 gatagcagca aggatcccat cgatgtcaac tatgagaagc tcaaaactga cattaaggtg
+     2581 gttgacagag attctgaaga agccgagatc atcaggaagt atgttaagaa cactcatgca
+     2641 accacacaca atgcgtatga cttggaagtc atcgatatct ttaagataga gcgtgaaggc
+     2701 gaatgccagc gttacaagcc ctttaagcag cttcataacc gaagattgct gtggcacggg
+     2761 tccaggacca ccaactttgc tgggatcctg tcccagggtc ttcggatagc cccgcctgaa
+     2821 gcgcccgtga caggctacat gtttggtaaa gggatctatt tcgctgacat ggtctccaag
+     2881 agtgccaact actgccatac gtctcaggga gacccaatag gcttaatcct gttgggagaa
+     2941 gttgcccttg gaaacatgta tgaactgaag cacgcttcac atatcagcaa gttacccaag
+     3001 ggcaagcaca gtgtcaaagg tttgggcaaa actacccctg atccttcagc taacattagt
+     3061 ctggatggtg tagacgttcc tcttgggacc gggatttcat ctggtgtgaa tgacacctct
+     3121 ctactatata acgagtacat tgtctatgat attgctcagg taaatctgaa gtatctgctg
+     3181 aaactgaaat tcaattttaa gacctccctg tggtaattgg gagaggtagc cgagtcacac
+     3241 ccggtggctc tggtatgaat tcacccgaag cgcttctgca ccaactcacc tggccgctaa
+     3301 gttgctgatg ggtagtacct gtactaaacc acctcagaaa ggattttaca gaaacgtgtt
+     3361 aaaggttttc tctaacttct caagtccctt gttttgtgtt gtgtctgtgg ggaggggttg
+     3421 ttttggggtt gtttttgttt tttcttgcca ggtagataaa actgacatag agaaaaggct
+     3481 ggagagagat tctgttgcat agactagtcc tatggaaaaa accaagcttc gttagaatgt
+     3541 ctgccttact ggtttcccca gggaaggaaa aatacacttc cacccttttt tctaagtgtt
+     3601 cgtctttagt tttgattttg gaaagatgtt aagcatttat ttttagttaa aaataaaaac
+     3661 taatttcata ctatttagat tttctttttt atcttgcact tattgtcccc tttttagttt
+     3721 tttttgtttg cctcttgtgg tgaggggtgt gggaagacca aaggaaggaa cgctaacaat
+     3781 ttctcatact tagaaacaaa aagagctttc cttctccagg aatactgaac atgggagctc
+     3841 ttgaaatatg tagtattaaa agttgcattt gaaattcttg actttcttat gggcactttt
+     3901 gtcttccaaa ttaaaactct accacaaata tacttaccca agggctaata gtaatactcg
+     3961 attaaaaatg cagatgcctt ctctaaaaaa aaaaaaaaaa a
+//
+

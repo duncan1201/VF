@@ -1,0 +1,272 @@
+LOCUS       NM_001206542            2178 bp    mRNA    linear   PRI 09-SEP-2011
+DEFINITION  Homo sapiens caspase 10, apoptosis-related cysteine peptidase
+            (CASP10), transcript variant 5, mRNA.
+ACCESSION   NM_001206542
+VERSION     NM_001206542.1  GI:330864683
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2178)
+  AUTHORS   Lopez,D., Jimenez,M., Garcia-Calvo,M. and Del Val,M.
+  TITLE     Concerted antigen processing of a short viral antigen by human
+            caspase-5 and -10
+  JOURNAL   J. Biol. Chem. 286 (19), 16910-16913 (2011)
+   PUBMED   21454616
+  REMARK    GeneRIF: analysis of concerted antigen processing of a short viral
+            antigen by human caspase-5 and -10
+REFERENCE   2  (bases 1 to 2178)
+  AUTHORS   Muhlethaler-Mottet,A., Flahaut,M., Bourloud,K.B., Nardou,K.,
+            Coulon,A., Liberman,J., Thome,M. and Gross,N.
+  TITLE     Individual caspase-10 isoforms play distinct and opposing roles in
+            the initiation of death receptor-mediated tumour cell apoptosis
+  JOURNAL   Cell Death Dis 2, E125 (2011)
+   PUBMED   21368896
+  REMARK    GeneRIF: Caspase-10 isoforms play distinct and opposing roles in
+            the initiation of death receptor-mediated tumour cell apoptosis.
+            Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 2178)
+  AUTHORS   Kim,D.H., Kong,J.H., Byeun,J.Y., Jung,C.W., Xu,W., Liu,X.,
+            Kamel-Reid,S., Kim,Y.K., Kim,H.J. and Lipton,J.H.
+  TITLE     The IFNG (IFN-gamma) genotype predicts cytogenetic and molecular
+            response to imatinib therapy in chronic myeloid leukemia
+  JOURNAL   Clin. Cancer Res. 16 (21), 5339-5350 (2010)
+   PUBMED   20959405
+  REMARK    GeneRIF: Observational study of gene-disease association. (HuGE
+            Navigator)
+REFERENCE   4  (bases 1 to 2178)
+  AUTHORS   Engel,C., Versmold,B., Wappenschmidt,B., Simard,J., Easton,D.F.,
+            Peock,S., Cook,M., Oliver,C., Frost,D., Mayes,R., Evans,D.G.,
+            Eeles,R., Paterson,J., Brewer,C., McGuffog,L., Antoniou,A.C.,
+            Stoppa-Lyonnet,D., Sinilnikova,O.M., Barjhoux,L., Frenay,M.,
+            Michel,C., Leroux,D., Dreyfus,H., Toulas,C., Gladieff,L.,
+            Uhrhammer,N., Bignon,Y.J., Meindl,A., Arnold,N., Varon-Mateeva,R.,
+            Niederacher,D., Preisler-Adams,S., Kast,K., Deissler,H., Sutter,C.,
+            Gadzicki,D., Chenevix-Trench,G., Spurdle,A.B., Chen,X., Beesley,J.,
+            Olsson,H., Kristoffersson,U., Ehrencrona,H., Liljegren,A., van der
+            Luijt,R.B., van Os,T.A., van Leeuwen,F.E., Domchek,S.M.,
+            Rebbeck,T.R., Nathanson,K.L., Osorio,A., Ramon y Cajal,T.,
+            Konstantopoulou,I., Benitez,J., Friedman,E., Kaufman,B.,
+            Laitman,Y., Mai,P.L., Greene,M.H., Nevanlinna,H., Aittomaki,K.,
+            Szabo,C.I., Caldes,T., Couch,F.J., Andrulis,I.L., Godwin,A.K.,
+            Hamann,U. and Schmutzler,R.K.
+  CONSRTM   Epidemiological Study of Familial Breast Cancer (EMBRACE); Kathleen
+            Cuningham Foundation Consortium for Research into Familial Breast
+            Cancer (kConFab); Swedish Breast Cancer Study, Sweden (SWE-BRCA);
+            Hereditary Breast and Ovarian cancer group Netherlands (HEBON);
+            Consortium of Investigators of Modifiers of BRCA1/2 (CIMBA)
+  TITLE     Association of the variants CASP8 D302H and CASP10 V410I with
+            breast and ovarian cancer risk in BRCA1 and BRCA2 mutation carriers
+  JOURNAL   Cancer Epidemiol. Biomarkers Prev. 19 (11), 2859-2868 (2010)
+   PUBMED   20978178
+  REMARK    GeneRIF: The CASP10 V410I polymorphism was not associated with
+            breast or ovarian cancer risk for BRCA1 or BRCA2 mutation carriers.
+            GeneRIF: Observational study of gene-disease association and
+            gene-gene interaction. (HuGE Navigator)
+REFERENCE   5  (bases 1 to 2178)
+  AUTHORS   Ng,P.W., Porter,A.G. and Janicke,R.U.
+  TITLE     Molecular cloning and characterization of two novel pro-apoptotic
+            isoforms of caspase-10
+  JOURNAL   J. Biol. Chem. 274 (15), 10301-10308 (1999)
+   PUBMED   10187817
+REFERENCE   6  (bases 1 to 2178)
+  AUTHORS   Fernandes-Alnemri,T., Takahashi,A., Armstrong,R., Krebs,J.,
+            Fritz,L., Tomaselli,K.J., Wang,L., Yu,Z., Croce,C.M., Salveson,G.
+            et al.
+  TITLE     Mch3, a novel human apoptotic cysteine protease highly related to
+            CPP32
+  JOURNAL   Cancer Res. 55 (24), 6045-6052 (1995)
+   PUBMED   8521391
+REFERENCE   7  (bases 1 to 2178)
+  AUTHORS   DuBridge,R.B., Tang,P., Hsia,H.C., Leong,P.M., Miller,J.H. and
+            Calos,M.P.
+  TITLE     Analysis of mutation in human cells by using an Epstein-Barr virus
+            shuttle system
+  JOURNAL   Mol. Cell. Biol. 7 (1), 379-387 (1987)
+   PUBMED   3031469
+REFERENCE   8  (bases 1 to 2178)
+  AUTHORS   Clements,G.B., Klein,G. and Povey,S.
+  TITLE     Production by EBV infection of an EBNA-positive subline from an
+            EBNA-negative human lymphoma cell line without detectable EBV DNA
+  JOURNAL   Int. J. Cancer 16 (1), 125-133 (1975)
+   PUBMED   170210
+REFERENCE   9  (bases 1 to 2178)
+  AUTHORS   Baumann,K., de Rouffignac,C., Roinel,N., Rumrich,G. and
+            Ullrich,K.J.
+  TITLE     Renal phosphate transport: inhomogeneity of local proximal
+            transport rates and sodium dependence
+  JOURNAL   Pflugers Arch. 356 (4), 287-298 (1975)
+   PUBMED   1171445
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA456072.1, BC042844.1,
+            AJ487679.1, BX089180.1 and AC007283.3.
+            
+            Summary: This gene encodes a protein which is a member of the
+            cysteine-aspartic acid protease (caspase) family. Sequential
+            activation of caspases plays a central role in the execution-phase
+            of cell apoptosis. Caspases exist as inactive proenzymes which
+            undergo proteolytic processing at conserved aspartic residues to
+            produce two subunits, large and small, that dimerize to form the
+            active enzyme. This protein cleaves and activates caspases 3 and 7,
+            and the protein itself is processed by caspase 8. Mutations in this
+            gene are associated with type IIA autoimmune lymphoproliferative
+            syndrome, non-Hodgkin lymphoma and gastric cancer. Alternatively
+            spliced transcript variants encoding different isoforms have been
+            described for this gene. [provided by RefSeq, Apr 2011].
+            
+            Transcript Variant: This variant (5) lacks two in-frame coding
+            exons and contains an alternate 3' terminal exon compared to
+            variant 1. This results in a shorter isoform (5) missing an
+            internal protein segment and with a distinct C-terminus compared to
+            isoform 1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-136               DA456072.1         18-153
+            137-545             DA456072.1         155-563
+            546-1102            BC042844.1         282-838
+            1103-1900           AJ487679.1         806-1603
+            1901-2016           BX089180.1         449-564
+            2017-2178           AC007283.3         7114-7275           c
+FEATURES             Location/Qualifiers
+     source          1..2178
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="2"
+                     /map="2q33-q34"
+     gene            1..2178
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /note="caspase 10, apoptosis-related cysteine peptidase"
+                     /db_xref="GeneID:843"
+                     /db_xref="HGNC:1500"
+                     /db_xref="MIM:601762"
+     exon            1..411
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=1
+     misc_feature    407..409
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /note="upstream in-frame stop codon"
+     exon            412..765
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=2
+     CDS             419..1855
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /EC_number="3.4.22.63"
+                     /note="isoform 5 preproprotein is encoded by transcript
+                     variant 5; caspase 10, apoptosis-related cysteine
+                     protease; FADD-like ICE2; apoptotic protease MCH-4;
+                     ICE-like apoptotic protease 4; interleukin-1B-converting
+                     enzyme 2; caspase-10; CASP-10; FAS-associated death domain
+                     protein interleukin-1B-converting enzyme 2"
+                     /codon_start=1
+                     /product="caspase-10 isoform 5 preproprotein"
+                     /protein_id="NP_001193471.1"
+                     /db_xref="GI:330864684"
+                     /db_xref="CCDS:CCDS56160.1"
+                     /db_xref="GeneID:843"
+                     /db_xref="HGNC:1500"
+                     /db_xref="MIM:601762"
+                     /translation="MKSQGQHWYSSSDKNCKVSFREKLLIIDSNLGVQDVENLKFLCI
+                     GLVPNKKLEKSSSASDVFEHLLAEDLLSEEDPFFLAELLYIIRQKKLLQHLNCTKEEV
+                     ERLLPTRQRVSLFRNLLYELSEGIDSENLKDMIFLLKDSLPKTEMTSLSFLAFLEKQG
+                     KIDEDNLTCLEDLCKTVVPKLLRNIEKYKREKAIQIVTPPVDKEAESYQGEEELVSQT
+                     DVKTFLEALPRAAVYRMNRNHRGLCVIVNNHSFTSLKDRQGTHKDAEILSHVFQWLGF
+                     TVHIHNNVTKVEMEMVLQKQKCNPAHADGDCFVFCILTHGRFGAVYSSDEALIPIREI
+                     MSHFTALQCPRLAEKPKLFFIQACQGEEIQPSVSIEADALNPEQAPTSLQDSIPAEAD
+                     FLLGLATVPGYVSFRHVEEGSWYIQSLCNHLKKLVPRMLKFLEKTMEIRGRKRTVWGA
+                     KQISATSLPTAISAQTPRPPMRRWSSVS"
+     mat_peptide     1076..1534
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /product="caspase-10 isoform 5 large subunit"
+     mat_peptide     1535..1852
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /product="caspase-10 isoform 5 small subunit"
+     exon            766..859
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3
+     exon            860..995
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            996..1102
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            1103..1211
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=8
+     exon            1212..1704
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=9
+     STS             1299..1669
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /standard_name="PMC230316P3"
+                     /db_xref="UniSTS:272181"
+     exon            1705..2178
+                     /gene="CASP10"
+                     /gene_synonym="ALPS2; FLICE2; MCH4"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=11
+ORIGIN      
+        1 aaggaaatgg agatccaaag gaaagcctga agcactttgt ggcttccacg ggttcgtttc
+       61 taggaagctt ttgctttacc tggggaaacc ccaagctcta cagtgagaaa gttgtaaatt
+      121 agcctttagg agacgctgtt tgtcaaagtt atcttaaccc tggaaaaggg gagggaaaaa
+      181 ggcagataag cagtgatgac atcagcagga aactagtatc aggctaccca gtcctgaaga
+      241 ttcagttttc acttaaacaa ccagcaagtc ttgaagtctc ttcccaagca aatgggagct
+      301 tctttggacc ttggagcaca cagaggattc tactttcttt aaaactttgt tttcaggcaa
+      361 tttccctgag aaccgtttac ttccagaaga ttggtggagc ttgatctgaa ggctggccat
+      421 gaaatctcaa ggtcaacatt ggtattccag ttcagataaa aactgtaaag tgagctttcg
+      481 tgagaagctt ctgattattg attcaaacct gggggtccaa gatgtggaga acctcaagtt
+      541 tctctgcata ggattggtcc ccaacaagaa gctggagaag tccagctcag cctcagatgt
+      601 ttttgaacat ctcttggcag aggatctgct gagtgaggaa gaccctttct tcctggcaga
+      661 actcctctat atcatacggc agaagaagct gctgcagcac ctcaactgta ccaaagagga
+      721 agtggagcga ctgctgccca cccgacaaag ggtttctctg tttagaaacc tgctctacga
+      781 actgtcagaa ggcattgact cagagaactt aaaggacatg atcttccttc tgaaagactc
+      841 gcttcccaaa actgaaatga cctccctaag tttcctggca tttctagaga aacaaggtaa
+      901 aatagatgaa gataatctga catgcctgga ggacctctgc aaaacagttg tacctaaact
+      961 tttgagaaac atagagaaat acaaaagaga gaaagctatc cagatagtga cacctcctgt
+     1021 agacaaggaa gccgagtcgt atcaaggaga ggaagaacta gtttcccaaa cagatgttaa
+     1081 gacattcttg gaagccttac cgagggcagc tgtgtacagg atgaatcgga accacagagg
+     1141 cctctgtgtc attgtcaaca accacagctt tacctccctg aaggacagac aaggaaccca
+     1201 taaagatgct gagatcctga gtcatgtgtt ccagtggctt gggttcacag tgcatataca
+     1261 caataatgtg acgaaagtgg aaatggagat ggtcctgcag aagcagaagt gcaatccagc
+     1321 ccatgccgac ggggactgct tcgtgttctg tattctgacc catgggagat ttggagctgt
+     1381 ctactcttcg gatgaggccc tcattcccat tcgggagatc atgtctcact tcacagccct
+     1441 gcagtgccct agactggctg aaaaacctaa actctttttc atccaggcct gccaaggtga
+     1501 agagatacag ccttccgtat ccatcgaagc agatgctctg aaccctgagc aggcacccac
+     1561 ttccctgcag gacagtattc ctgccgaggc tgacttccta cttggtctgg ccactgtccc
+     1621 aggctatgta tcctttcggc atgtggagga aggcagctgg tatattcagt ctctgtgtaa
+     1681 tcatctgaag aaattggtcc caaggatgct gaaatttctg gaaaagacaa tggaaatcag
+     1741 gggcaggaag agaacagtgt ggggtgctaa acagatctca gcaacctccc tgcccacggc
+     1801 catctctgcg cagacacctc gaccccccat gcgcaggtgg agcagcgttt cctagttctt
+     1861 tccagaggct tccttctgcc tgccttccag ccacatcgcc tgagattgac aacgccctac
+     1921 agcaagacgg aaacctccct ttacagcacc accttgcgat tctgcagcca caaagttgag
+     1981 acttctgaac gtggcactct tctgttccct tactgtttca cgtgtacctg tgtcatcttt
+     2041 cttgtttcat cgtaaacata cttctaaaat tcccattttc tttatttaga aatagaacta
+     2101 caagcggatg gttaaacaat ttaaacaaat ggtccatggg gaaaagtgaa tttcacactg
+     2161 tcccccaaac tttcagtg
+//
+

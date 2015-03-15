@@ -1,0 +1,247 @@
+LOCUS       NM_008238               2503 bp    mRNA    linear   ROD 29-OCT-2011
+DEFINITION  Mus musculus forkhead box N1 (Foxn1), mRNA.
+ACCESSION   NM_008238
+VERSION     NM_008238.1  GI:6680210
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 2503)
+  AUTHORS   Gordon,J. and Manley,N.R.
+  TITLE     Mechanisms of thymus organogenesis and morphogenesis
+  JOURNAL   Development 138 (18), 3865-3878 (2011)
+   PUBMED   21862553
+REFERENCE   2  (bases 1 to 2503)
+  AUTHORS   Terme,M., Ullrich,E., Aymeric,L., Meinhardt,K., Desbois,M.,
+            Delahaye,N., Viaud,S., Ryffel,B., Yagita,H., Kaplanski,G.,
+            Prevost-Blondel,A., Kato,M., Schultze,J.L., Tartour,E., Kroemer,G.,
+            Chaput,N. and Zitvogel,L.
+  TITLE     IL-18 induces PD-1-dependent immunosuppression in cancer
+  JOURNAL   Cancer Res. 71 (16), 5393-5399 (2011)
+   PUBMED   21724589
+REFERENCE   3  (bases 1 to 2503)
+  AUTHORS   Krawczyk,P.M., Eppink,B., Essers,J., Stap,J., Rodermond,H.,
+            Odijk,H., Zelensky,A., van Bree,C., Stalpers,L.J., Buist,M.R.,
+            Soullie,T., Rens,J., Verhagen,H.J., O'Connor,M.J., Franken,N.A.,
+            Ten Hagen,T.L., Kanaar,R. and Aten,J.A.
+  TITLE     Mild hyperthermia inhibits homologous recombination, induces BRCA2
+            degradation, and sensitizes cancer cells to poly (ADP-ribose)
+            polymerase-1 inhibition
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 108 (24), 9851-9856 (2011)
+   PUBMED   21555554
+REFERENCE   4  (bases 1 to 2503)
+  AUTHORS   Gawronska-Kozak,B.
+  TITLE     Scarless skin wound healing in FOXN1 deficient (nude) mice is
+            associated with distinctive matrix metalloproteinase expression
+  JOURNAL   Matrix Biol. 30 (4), 290-300 (2011)
+   PUBMED   21539913
+REFERENCE   5  (bases 1 to 2503)
+  AUTHORS   Teitz,T., Stanke,J.J., Federico,S., Bradley,C.L., Brennan,R.,
+            Zhang,J., Johnson,M.D., Sedlacik,J., Inoue,M., Zhang,Z.M.,
+            Frase,S., Rehg,J.E., Hillenbrand,C.M., Finkelstein,D.,
+            Calabrese,C., Dyer,M.A. and Lahti,J.M.
+  TITLE     Preclinical models for neuroblastoma: establishing a baseline for
+            treatment
+  JOURNAL   PLoS ONE 6 (4), E19133 (2011)
+   PUBMED   21559450
+  REMARK    Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 2503)
+  AUTHORS   Stutman,O.
+  TITLE     Spontaneous tumors in nude mice: effect of the viable yellow gene
+  JOURNAL   Exp. Cell Biol. 47 (2), 129-135 (1979)
+   PUBMED   446837
+REFERENCE   7  (bases 1 to 2503)
+  AUTHORS   Gershwin,M.E., Ahmed,A., Ikeda,R.M., Shifrine,M. and Wilson,F.
+  TITLE     Immunobiology of congenitally athymic-asplenic mice
+  JOURNAL   Immunology 34 (4), 631-642 (1978)
+   PUBMED   721133
+REFERENCE   8  (bases 1 to 2503)
+  AUTHORS   Eaton,G.J.
+  TITLE     Hair growth cycles and wave patterns in 'nude' mice
+  JOURNAL   Transplantation 22 (3), 217-222 (1976)
+   PUBMED   788248
+REFERENCE   9  (bases 1 to 2503)
+  AUTHORS   Gershwin,M.E., Merchant,B., Gelfand,M.C., Vickers,J.,
+            Steinberg,A.D. and Hansen,C.T.
+  TITLE     The natural history and immunopathology of outbred athymic (nude)
+            mice
+  JOURNAL   Clin. Immunol. Immunopathol. 4 (3), 324-340 (1975)
+   PUBMED   1104226
+REFERENCE   10 (bases 1 to 2503)
+  AUTHORS   Gregory,C.J., McCulloch,E.A. and Till,J.E.
+  TITLE     The cellular basis for the defect in haemopoiesis in flexed-tailed
+            mice. III. Restriction of the defect to erythropoietic progenitors
+            capable of transient colony formation in vivo
+  JOURNAL   Br. J. Haematol. 30 (4), 401-410 (1975)
+   PUBMED   1201223
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X81593.1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+FEATURES             Location/Qualifiers
+     source          1..2503
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="BALB/c"
+                     /db_xref="taxon:10090"
+                     /chromosome="11"
+                     /map="11 45.0 cM"
+     gene            1..2503
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /note="forkhead box N1"
+                     /db_xref="GeneID:15218"
+                     /db_xref="MGI:102949"
+     exon            1..64
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=1
+     misc_feature    58..60
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /note="upstream in-frame stop codon"
+     exon            65..216
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=2
+     CDS             94..2040
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /note="HFH-11; winged-helix transcription factor nude;
+                     hepatocyte nuclear factor 3 forkhead homolog 11;
+                     HNF-3/forkhead homolog 11"
+                     /codon_start=1
+                     /product="forkhead box protein N1"
+                     /protein_id="NP_032264.1"
+                     /db_xref="GI:6680211"
+                     /db_xref="CCDS:CCDS25102.1"
+                     /db_xref="GeneID:15218"
+                     /db_xref="MGI:102949"
+                     /translation="MVSLLPPQSDVTLPGSTRLEGEPQGDLMQAPGLPDSPAPQNKHA
+                     NFSCSSFVPDGPPERTPSLPPHSPSIASPDPEQIQGHCTAGPGPGSFRLSPSEKYPGF
+                     GFEEGPAGSPGRFLKGNHMPFHPYKRHFHEDIFSEAQTAMALDGHSFKTQGALEAFEE
+                     IPVDMGDAEAFLPSFPAEAWCNKLPYPSQEHNQILQGSEVKVKPQALDSGPGMYCYQP
+                     PLQHMYCSSQPAFHQYSPGGGSYPVPYLGSPHYPYQRIAPQANAEGHQPLFPKPIYSY
+                     SILIFMALKNSKTGSLPVSEIYNFMTEHFPYFKTAPDGWKNSVRHNLSLNKCFEKVEN
+                     KSGSSSRKGCLWALNPSKIDKMQEELQKWKRKDPIAVRKSMAKPEELDSLIGDKREKL
+                     GSPLLGCPPPGLAGPGPIRPMAPSAGLSQPLHPMHPAPGPMPGKNPLQDLLGGHAPSC
+                     YGQTYPHLSPSLAPSGHQQPLFPQPDGHLELQAQPGTPQDSPLPAHTPPSHGAKLMAE
+                     PSSARTMHDTLLPDGDLGTDLDAINPSLTDFDFQGNLWEQLKDDSLALDPLVLVTSSP
+                     TSSSMLPPPPAAHCFPPGPCLAETGNEAGELAPPGSGGSGALGDMHLSTLYSAFVELE
+                     STPSSAAAGPAVYLSPGSKPLALA"
+     exon            217..678
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=3
+     STS             237..479
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /standard_name="Foxn1"
+                     /db_xref="UniSTS:526078"
+     STS             412..579
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /standard_name="Foxn1"
+                     /db_xref="UniSTS:143339"
+     exon            679..792
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=4
+     exon            793..923
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=5
+     exon            924..1020
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=6
+     exon            1021..1228
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=7
+     STS             1046..1181
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /standard_name="D11Seg19"
+                     /db_xref="UniSTS:141792"
+     exon            1229..1720
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=8
+     exon            1721..2503
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /inference="alignment:Splign"
+                     /number=9
+     STS             2128..2257
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /standard_name="X81593"
+                     /db_xref="UniSTS:163509"
+     STS             2227..2388
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /standard_name="X81593"
+                     /db_xref="UniSTS:125866"
+     STS             2239..2498
+                     /gene="Foxn1"
+                     /gene_synonym="D11Bhm185e; Hfh11; nu; nude; Whn"
+                     /standard_name="Foxn1"
+                     /db_xref="UniSTS:531516"
+ORIGIN      
+        1 cagacggtcg gagctcctgg ccccccagac ccaggccccc acgccgacct gcttcactga
+       61 gcagctggct ttcttcgagg ccaggactgg gtgatggtgt cgctactccc tccgcagtct
+      121 gacgtcacac ttccaggctc cacccgactg gagggcgaac cccaagggga cctcatgcag
+      181 gctccgggcc tcccagactc ccctgcccca cagaacaagc atgctaactt cagctgctcg
+      241 tcgtttgtgc ctgacggccc tccagagagg acaccctcac tgcccccaca cagccccagc
+      301 atcgcatctc cagacccaga gcagatccag ggccactgca cagccggacc cggcccgggc
+      361 tccttccgcc tttctccttc agaaaagtat cctggctttg gctttgagga gggcccagca
+      421 ggcagcccag ggcgcttcct caagggcaac cacatgcctt tccaccccta caagaggcac
+      481 ttccatgagg acatcttctc tgaggcccag acggccatgg cacttgatgg acactccttt
+      541 aagactcagg gggcactgga agcctttgag gagatccctg tggacatggg cgatgctgag
+      601 gccttcctgc ctagcttccc agcagaggct tggtgcaata aactccctta ccccagccag
+      661 gaacacaacc aaattctgca ggggtcagag gtcaaggtca agccccaagc tctggacagt
+      721 ggtcctggga tgtactgcta ccagcctccc ttgcaacata tgtactgttc ttctcagcct
+      781 gccttccatc agtactcccc gggtggaggc agctaccctg tgccctacct gggctcacct
+      841 cactatccct atcagaggat tgcaccccag gccaacgccg aaggtcacca gccactcttc
+      901 ccaaagccca tctactctta cagcatcctc atcttcatgg cccttaagaa cagtaagacc
+      961 ggaagccttc cagtcagtga aatctacaat ttcatgacgg agcacttccc ttacttcaag
+     1021 actgctcctg atggctggaa gaattctgtt cgccataacc tgtccctcaa caagtgcttt
+     1081 gagaaggtgg agaataaatc cggaagttcc tctcgaaagg gctgtctgtg ggccctcaat
+     1141 ccttccaaaa tcgacaagat gcaggaagaa ctgcagaagt ggaagaggaa agaccccatt
+     1201 gctgtgcgca aaagcatggc caaaccagaa gagctggaca gcctcattgg agacaaaagg
+     1261 gaaaaactgg gctctccgct gctgggctgt ccaccccctg ggctggcagg cccaggtccc
+     1321 atccggccca tggcaccatc agctggtctt tcccagcctc tgcacccaat gcatccagct
+     1381 ccaggcccca tgcctggcaa gaaccccctg caggacctac tgggtggcca tgctccctcc
+     1441 tgctatgggc agacctaccc acacctttcc cccagcctgg ccccttctgg acaccagcag
+     1501 ccattgttcc cacagccaga tgggcatctt gagctgcagg cccagccagg caccccccag
+     1561 gactcacctc tacctgccca cacaccaccc agccacggtg ccaagctgat ggctgagcct
+     1621 tcctcagcca ggaccatgca cgatactcta ctgccagatg gagaccttgg gactgacctg
+     1681 gatgctatca acccttctct cactgacttc gacttccagg gaaatctgtg ggagcagctg
+     1741 aaggatgaca gcttggccct ggaccccctc gtattggtga cctcgtcgcc gacgtcatcc
+     1801 tccatgttgc cacccccacc agcagcccat tgcttccccc cagggccttg tctggcagaa
+     1861 acaggcaatg aggcaggtga actggcacct ccaggcagcg gcggctccgg tgctctggga
+     1921 gacatgcacc tcagcactct ctactccgcc tttgtggaac tggagtccac gccctcctca
+     1981 gcagctgccg gccctgccgt gtacctcagt cccggctcaa agccattggc tctggcttga
+     2041 gctatgccca acatcagctg cggcctttgc ctagctggct gccccatatt gggctcacct
+     2101 taaaggtcaa agaaggaaaa cactacctgt ctcctatgcc actcagccaa cttatttgtt
+     2161 agccagaagt tgggggcatc catctaggat gctacctggt ggacccgcat ctcacacggg
+     2221 gcccccagca aggaaagtgt cggaaaagaa gcaacagcgc gccccctagc gccagctcac
+     2281 tcgaacttca gctctcgagc gtgaactcaa gctctacaca cctgctcatc atgtgcctta
+     2341 cactcagagg aagccttggg tcacagagtc tgatttgatt tctggggcag ctgagagcta
+     2401 aaagctttag ttagcaaagc tcagggccag tgtgacaggt caaagatcac ccctccaaac
+     2461 ctcatcccaa tccccatgtg ctctacagac ttggccctct ccc
+//
+

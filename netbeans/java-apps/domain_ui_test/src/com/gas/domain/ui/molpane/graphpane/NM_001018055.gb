@@ -1,0 +1,281 @@
+LOCUS       NM_001018055            2877 bp    mRNA    linear   PRI 09-SEP-2011
+DEFINITION  Homo sapiens BRCA1/BRCA2-containing complex, subunit 3 (BRCC3),
+            transcript variant 2, mRNA.
+ACCESSION   NM_001018055
+VERSION     NM_001018055.2  GI:336285484
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2877)
+  AUTHORS   Miskinyte,S., Butler,M.G., Herve,D., Sarret,C., Nicolino,M.,
+            Petralia,J.D., Bergametti,F., Arnould,M., Pham,V.N., Gore,A.V.,
+            Spengos,K., Gazal,S., Woimant,F., Steinberg,G.K., Weinstein,B.M.
+            and Tournier-Lasserve,E.
+  TITLE     Loss of BRCC3 deubiquitinating enzyme leads to abnormal
+            angiogenesis and is associated with syndromic moyamoya
+  JOURNAL   Am. J. Hum. Genet. 88 (6), 718-728 (2011)
+   PUBMED   21596366
+  REMARK    GeneRIF: these data strongly suggest that BRCC3, a deubiquitinating
+            enzyme that is part of the cellular BRCA1 and BRISC complexes, is
+            an important player in angiogenesis and that BRCC3 loss-of-function
+            mutations are associated with moyamoya angiopathy.
+REFERENCE   2  (bases 1 to 2877)
+  AUTHORS   Coleman,K.A. and Greenberg,R.A.
+  TITLE     The BRCA1-RAP80 complex regulates DNA repair mechanism utilization
+            by restricting end resection
+  JOURNAL   J. Biol. Chem. 286 (15), 13669-13680 (2011)
+   PUBMED   21335604
+REFERENCE   3  (bases 1 to 2877)
+  AUTHORS   Hu,X., Kim,J.A., Castillo,A., Huang,M., Liu,J. and Wang,B.
+  TITLE     NBA1/MERIT40 and BRE interaction is required for the integrity of
+            two distinct deubiquitinating enzyme BRCC36-containing complexes
+  JOURNAL   J. Biol. Chem. 286 (13), 11734-11745 (2011)
+   PUBMED   21282113
+  REMARK    GeneRIF: NBA1/MERIT40 and BRE interaction is required for the
+            integrity of two distinct deubiquitinating enzyme BRCC36-containing
+            complexes
+REFERENCE   4  (bases 1 to 2877)
+  AUTHORS   Feng,L., Wang,J. and Chen,J.
+  TITLE     The Lys63-specific deubiquitinating enzyme BRCC36 is regulated by
+            two scaffold proteins localizing in different subcellular
+            compartments
+  JOURNAL   J. Biol. Chem. 285 (40), 30982-30988 (2010)
+   PUBMED   20656690
+  REMARK    GeneRIF: scaffold proteins not only participate in the regulation
+            of BRCC36 activity but also determine its subcellular localization
+            and cellular functions.
+REFERENCE   5  (bases 1 to 2877)
+  AUTHORS   Cooper,E.M., Boeke,J.D. and Cohen,R.E.
+  TITLE     Specificity of the BRISC deubiquitinating enzyme is not due to
+            selective binding to Lys63-linked polyubiquitin
+  JOURNAL   J. Biol. Chem. 285 (14), 10344-10352 (2010)
+   PUBMED   20032457
+REFERENCE   6  (bases 1 to 2877)
+  AUTHORS   Shao,G., Lilli,D.R., Patterson-Fortin,J., Coleman,K.A.,
+            Morrissey,D.E. and Greenberg,R.A.
+  TITLE     The Rap80-BRCC36 de-ubiquitinating enzyme complex antagonizes
+            RNF8-Ubc13-dependent ubiquitination events at DNA double strand
+            breaks
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 106 (9), 3166-3171 (2009)
+   PUBMED   19202061
+REFERENCE   7  (bases 1 to 2877)
+  AUTHORS   Boudreau,H.E., Broustas,C.G., Gokhale,P.C., Kumar,D., Mewani,R.R.,
+            Rone,J.D., Haddad,B.R. and Kasid,U.
+  TITLE     Expression of BRCC3, a novel cell cycle regulated molecule, is
+            associated with increased phospho-ERK and cell proliferation
+  JOURNAL   Int. J. Mol. Med. 19 (1), 29-39 (2007)
+   PUBMED   17143545
+  REMARK    GeneRIF: These findings demonstrate that BRCC3 is a novel effector
+            of Raf-1, and implicate a role of BRCC3 in modulation of p-ERK,
+            cell survival and proliferation.
+REFERENCE   8  (bases 1 to 2877)
+  AUTHORS   Dong,Y., Hakimi,M.A., Chen,X., Kumaraswamy,E., Cooch,N.S.,
+            Godwin,A.K. and Shiekhattar,R.
+  TITLE     Regulation of BRCC, a holoenzyme complex containing BRCA1 and
+            BRCA2, by a signalosome-like subunit and its role in DNA repair
+  JOURNAL   Mol. Cell 12 (5), 1087-1099 (2003)
+   PUBMED   14636569
+REFERENCE   9  (bases 1 to 2877)
+  AUTHORS   Fisch,P., Forster,A., Sherrington,P.D., Dyer,M.J. and Rabbitts,T.H.
+  TITLE     The chromosomal translocation t(X;14)(q28;q11) in T-cell
+            pro-lymphocytic leukaemia breaks within one gene and activates
+            another
+  JOURNAL   Oncogene 8 (12), 3271-3276 (1993)
+   PUBMED   8247530
+REFERENCE   10 (bases 1 to 2877)
+  AUTHORS   Kenwrick,S., Levinson,B., Taylor,S., Shapiro,A. and Gitschier,J.
+  TITLE     Isolation and sequence of two genes associated with a CpG island 5'
+            of the factor VIII gene
+  JOURNAL   Hum. Mol. Genet. 1 (3), 179-186 (1992)
+   PUBMED   1303175
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from BP304352.1, X64643.1,
+            BX293995.4 and BC002999.1.
+            On Jun 17, 2011 this sequence version replaced gi:64762483.
+            
+            Summary: This gene encodes a subunit of the BRCA1-BRCA2-containing
+            complex (BRCC), which is an E3 ubiquitin ligase. This complex plays
+            a role in the DNA damage response, where it is responsible for the
+            stable accumulation of BRCA1 at DNA break sites. The component
+            encoded by this gene can specifically cleave Lys 63-linked
+            polyubiquitin chains, and it regulates the abundance of these
+            polyubiquitin chains in chromatin. The loss of this gene results in
+            abnormal angiogenesis and is associated with syndromic moyamoya, a
+            cerebrovascular angiopathy. Alternative splicing results in
+            multiple transcript variants. A related pseudogene has been
+            identified on chromosome 5. [provided by RefSeq, Jun 2011].
+            
+            Transcript Variant: This variant (2) lacks an alternate in-frame
+            exon in the central coding region, compared to variant 1, resulting
+            in an isoform (2) that is shorter than isoform 1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-102               BP304352.1         1-102
+            103-1844            X64643.1           1-1742
+            1845-2839           BX293995.4         66759-67753         c
+            2840-2877           BC002999.1         2809-2846
+FEATURES             Location/Qualifiers
+     source          1..2877
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="X"
+                     /map="Xq28"
+     gene            1..2877
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /note="BRCA1/BRCA2-containing complex, subunit 3"
+                     /db_xref="GeneID:79184"
+                     /db_xref="HGNC:24185"
+                     /db_xref="MIM:300617"
+     exon            1..231
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=1
+     CDS             109..984
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /EC_number="3.1.2.15"
+                     /note="isoform 2 is encoded by transcript variant 2;
+                     lys-63-specific deubiquitinase BRCC36;
+                     BRCA1/BRCA2-containing complex subunit 36; BRISC complex
+                     subunit BRCC36; BRCA1-A complex subunit BRCC36"
+                     /codon_start=1
+                     /product="lys-63-specific deubiquitinase BRCC36 isoform 2"
+                     /protein_id="NP_001018065.1"
+                     /db_xref="GI:64762484"
+                     /db_xref="CCDS:CCDS56612.1"
+                     /db_xref="GeneID:79184"
+                     /db_xref="HGNC:24185"
+                     /db_xref="MIM:300617"
+                     /translation="MAVQVVQAVQAVHLESDAFLVCLNHALSTEKEEVMGLCIGELND
+                     DTRSDSKFAYTGTEMRTVAEKVDAVRIVHIHSVIILRRSDKRKDRVEISPEQLSAAST
+                     EAERLAELTGRPMRVVGWYHSHPHITVWPSHVDVRTQAMYQMMDQGFVGLIFSCFIED
+                     KNTKTGRVLYTCFQSIQAQKSSEYERIEIPIHIVPHVTIGKVCLESAVELPKILCQEE
+                     QDAYRRIHSLTHLDSVTKIHNGSVFTKNLCSQMSAVSGPLLQWLEDRLEQNQQHLQEL
+                     QQEKEELMQELSSLE"
+     STS             168..315
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /standard_name="STS-X64643"
+                     /db_xref="UniSTS:35369"
+     exon            232..248
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=2
+     exon            249..303
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3b
+     exon            304..423
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            424..511
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            512..600
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=6
+     exon            601..656
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=7
+     exon            657..788
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=9
+     exon            789..832
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=10
+     exon            833..1002
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=11
+     exon            1003..2853
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=12
+     STS             2267..2447
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+                     /standard_name="RH79163"
+                     /db_xref="UniSTS:87186"
+     polyA_signal    2827..2832
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+     polyA_site      2854
+                     /gene="BRCC3"
+                     /gene_synonym="BRCC36; C6.1A; CXorf53; RP11-143H17.2"
+ORIGIN      
+        1 aggcctgggc ggagcgcaca gcgctgggcg ctggggaggc tgcgccgcag cacccggttg
+       61 gtcaggacca agtgggcccg aggcggacgt gagaagggtc gggccaagat ggcggtgcag
+      121 gtggtgcagg cggtgcaggc ggttcatctc gagtctgacg ctttcctcgt ttgtctcaac
+      181 cacgctctga gcacagagaa ggaggaagta atggggctgt gcatagggga gttgaacgat
+      241 gatacaagga gtgactccaa atttgcatat actggaactg aaatgcgcac agttgctgaa
+      301 aaggttgatg ccgtcagaat tgttcacatt cattctgtca tcatcttacg acgttctgat
+      361 aagaggaagg accgagtaga aatttctcca gagcagctgt ctgcagcttc aacagaggca
+      421 gagaggttgg ctgaactgac aggccgcccc atgagagttg tgggctggta tcattcccat
+      481 cctcatataa ctgtttggcc ttcacatgtt gatgttcgca cacaagccat gtaccagatg
+      541 atggatcaag gctttgtagg acttattttt tcctgtttca tagaagataa gaacacaaag
+      601 actggccggg tactctacac ttgcttccaa tccatacagg cccaaaagag ttcagagtat
+      661 gagagaatcg aaatcccaat ccatattgta cctcatgtca ctatcgggaa agtgtgcctt
+      721 gaatcagcag tagagctgcc caagatcctg tgccaggagg agcaggatgc gtataggagg
+      781 atccacagcc ttacacatct ggactcagta accaagatcc ataatggctc agtgtttacc
+      841 aagaatctgt gcagtcagat gtcggcagtc agcgggcctc tcctacagtg gttggaggac
+      901 agactggagc aaaaccaaca gcatttgcag gaattacaac aagaaaagga agagcttatg
+      961 caagaacttt cttctctaga ataaatcagg agacaaaatg gggaaagatg aaaatatcca
+     1021 gtgtaaagtt acttaagcta aatcaatttc aaagaagaaa aacttggagg actcatttta
+     1081 cctgacttca agacttacta taaagctata gtaatcaaga tagatggtat tggcagagga
+     1141 acagacacat acgtcaatgg aacagatgag agaacccaga aataaaccca tataaatatg
+     1201 ctcagctgat tttgaaaaag tgaaaaagca attcaatgga ggaagaatag cctttctgac
+     1261 aaattatgct agagcaatta gacacccatg gcgaggagaa aaaagaacct ctacttaaac
+     1321 ctcacatctt atataaaatt taactcaaaa tgtataacgg acttaaatgt gatacataaa
+     1381 actagataac tttgaaaaaa gccacaggag aaaaatcttc aggatcttgg gctaggtgac
+     1441 aagttcttgg actttgcccc gaaagcacat ccataaaaga caaaatctga tatattggac
+     1501 ttcttcaaaa tttaaaaact tgtgatttaa gaagaggaaa agataagcta cagattgaga
+     1561 tgaatttgca aaccatatat ctgatcaatt tggaatatat aaagtgtact aaaaactcaa
+     1621 ctgaagtcag gcatggtagc tcatgcttgt aatctcacca ctttgggagg ccaagatggg
+     1681 aggagtgctt gaggttaggc gttccagacc agcctgggca acatagtgag actcttgtct
+     1741 ctacaaaaag tttttttaaa aaattaactg ggcaccatga cacacaccag tagtcccagc
+     1801 tactagggag gcaggaggat cacttgagcc caggagtttg aggctgcggt gagctgtgat
+     1861 cacaccacca cactccaacc tgtgtaacag agtgaggcct catctcaaaa aaaaaaaaag
+     1921 gccacaaaac tcaacaataa aaacaaacag tccaattaga aaatgggcaa aagacatgaa
+     1981 tagatgtttc actgaagagg atctatagat ggcaagtaag catatgaaaa gctgttaaac
+     2041 tccataagtc atcagggaat gcaaattgaa accacagcga ggctatgact tacttatctc
+     2101 aatggctaaa gaaaaaatag tgaaaatacc aaatactgat gaggatacaa actggatatt
+     2161 ttatacattg ctgacaggaa tgtaaaatgg tacagccact ctgggaaaga gtttatgaat
+     2221 ttcttatcaa gttaaacata attttttaat caagttaaac ataagaccca gcagttgtgc
+     2281 tcctggacat tcattccaga gaaatgaaaa cctatattgt acttgtactc aaatattcat
+     2341 aggagcttta tttgtaatag ccccaaactg gaaacaaccc agatgtccta caacaggtac
+     2401 atggttaaac aaaccatcca taacttggaa tactgctctg gaatgaaaag gaactaactg
+     2461 ttgatacaag aacttggttg tacctcaggg gtattatggt gaacaaaaaa aaaaccagtc
+     2521 tcaaatggtc acatactgta tgatcgcatt tatataacat tcttgaggtg acaaaattat
+     2581 tgaaatgaag aacagattaa tggttgccag ggatagggac tggagggggt gtggggtatg
+     2641 tatgactata aagggatgac gcaaggagtt cctttgtgct gatggaacag ttctatatga
+     2701 ttatgatgat tacgatgttg attataacat ttgattatga ggttaagcac atgagtcttt
+     2761 acctgtgctg aagttgtatg gacctacata cacacaaatg aatgcatgta aaatctggtg
+     2821 atactgaata aagtctgtgg tctagatagc agtaaaaaaa aaaaaaaaaa aaaaaaa
+//
+
