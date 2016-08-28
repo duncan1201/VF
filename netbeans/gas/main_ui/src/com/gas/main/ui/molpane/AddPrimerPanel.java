@@ -17,6 +17,7 @@ import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
@@ -76,7 +77,12 @@ class AddPrimerPanel extends JPanel {
     
     private JPanel createTmCalculationPanel(){
         JPanel ret = new JPanel(new CardLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Tm Settings", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Tm Settings", //
+                TitledBorder.LEFT, // 
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         primerSettingsPanel = new PrimerTmCalSettingsPanel();
         primerSettingsPanel.populateUI(userInput);
         ret.add(primerSettingsPanel, PRIMER_SETTINGS_PANEL);

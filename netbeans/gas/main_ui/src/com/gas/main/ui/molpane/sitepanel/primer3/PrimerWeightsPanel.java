@@ -24,6 +24,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
@@ -107,7 +108,12 @@ public class PrimerWeightsPanel extends javax.swing.JPanel {
         PRIMER_WT_TM_GT = new JSpinner();
         PRIMER_WT_NUM_NS = new JSpinner();
 
-        setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.LIGHT_GRAY), "Individual Primer", TitledBorder.LEADING, TitledBorder.TOP));
+        setBorder(BorderFactory.createTitledBorder(//
+                new LineBorder(Color.LIGHT_GRAY), //
+                "Individual Primer", //
+                TitledBorder.LEADING, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
 
         setLayout(new GridBagLayout());
         GridBagConstraints c;

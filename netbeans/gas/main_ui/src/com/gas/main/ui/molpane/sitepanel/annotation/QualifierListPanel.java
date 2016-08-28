@@ -19,6 +19,7 @@ import java.util.Collections;
 import java.util.List;
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import org.openide.util.Lookup;
@@ -62,7 +63,12 @@ public class QualifierListPanel extends javax.swing.JPanel implements IVDialog{
         jScrollPane1 = new javax.swing.JScrollPane();
         qualifierList = new javax.swing.JList();
 
-        jPanel1.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.LIGHT_GRAY), "All Qualifiers", TitledBorder.LEADING, TitledBorder.TOP));
+        jPanel1.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.LIGHT_GRAY), //
+                "All Qualifiers", //
+                TitledBorder.LEADING, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
 
         qualifierList.setModel(getListModel());
         qualifierList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);

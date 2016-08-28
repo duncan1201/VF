@@ -25,6 +25,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
@@ -89,7 +90,12 @@ public class PrimerPairWeightsPanel extends javax.swing.JPanel {
         PRIMER_PAIR_WT_TEMPLATE_MISPRIMING_TH = new JSpinner();
         PRIMER_PAIR_WT_COMPL_ANY_TH = new JSpinner();
         
-        setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.LIGHT_GRAY), "Primer Pairs", TitledBorder.LEADING, TitledBorder.TOP));
+        setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.LIGHT_GRAY), //
+                "Primer Pairs", //
+                TitledBorder.LEADING, //
+                TitledBorder.TOP, 
+                UIManager.getFont("TitledBorder.font")));
         setLayout(new GridBagLayout());
         GridBagConstraints c;
 

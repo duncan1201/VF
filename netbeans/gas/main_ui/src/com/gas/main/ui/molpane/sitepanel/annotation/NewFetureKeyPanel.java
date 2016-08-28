@@ -95,7 +95,11 @@ public class NewFetureKeyPanel extends javax.swing.JPanel implements IVDialog {
 
         jLabel1.setText("Type:"); // NOI18N
 
-        jPanel1.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Qualifiers", TitledBorder.LEFT, TitledBorder.TOP)); // NOI18N
+        jPanel1.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Qualifiers", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP)); // NOI18N
 
         qualifierList.setModel(getListModel());
         qualifierList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);

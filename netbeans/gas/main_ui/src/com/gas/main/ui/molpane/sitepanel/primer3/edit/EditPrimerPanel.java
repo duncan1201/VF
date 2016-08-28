@@ -46,6 +46,7 @@ import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import javax.swing.SwingConstants;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.AbstractDocument;
@@ -184,7 +185,12 @@ public class EditPrimerPanel extends JPanel implements IEditPrimerUI{
     
     private JPanel createPrimerSeqPanel(){
         JPanel ret = new JPanel();
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Primer Sequence", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder(//
+                new LineBorder(Color.GRAY), //
+                "Primer Sequence", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         ret.setLayout(new GridBagLayout());
         GridBagConstraints c;
         
@@ -240,7 +246,12 @@ public class EditPrimerPanel extends JPanel implements IEditPrimerUI{
     
     private JPanel createEditPanel(){
         JPanel ret = new JPanel();
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Edit", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Edit", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         ret.setLayout(new GridBagLayout());
         GridBagConstraints c;
         

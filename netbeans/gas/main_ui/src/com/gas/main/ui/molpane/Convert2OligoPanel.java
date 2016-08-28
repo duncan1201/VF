@@ -22,6 +22,7 @@ import javax.swing.ButtonGroup;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import org.jdesktop.swingx.JXHyperlink;
@@ -170,7 +171,12 @@ public class Convert2OligoPanel extends JPanel {
     
     private JPanel createTmCalculationPanels(){
         JPanel ret = new JPanel(new BorderLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Tm Calculation Settings", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Tm Calculation Settings", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         
         contentPanel = new JPanel(new CardLayout());
         primerSettingsPanel = new PrimerTmCalSettingsPanel();

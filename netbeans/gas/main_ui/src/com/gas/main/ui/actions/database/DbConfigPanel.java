@@ -26,6 +26,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import org.openide.util.Lookup;
@@ -122,7 +123,12 @@ public class DbConfigPanel extends JPanel {
     private JPanel createInfoPanel(){
         JPanel ret = new JPanel();
         ret.setOpaque(false);
-        TitledBorder border = BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Database Config", TitledBorder.LEFT, TitledBorder.TOP);
+        TitledBorder border = BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Database Config", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font"));
         Font oldFont = border.getTitleFont();        
         border.setTitleFont(oldFont.deriveFont(Font.BOLD));        
         ret.setBorder(border);
@@ -185,7 +191,12 @@ public class DbConfigPanel extends JPanel {
     private JPanel createBackupPanel(){
         JPanel ret = new JPanel();
         ret.setOpaque(false);
-        TitledBorder border = BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Backup", TitledBorder.LEFT, TitledBorder.TOP);
+        TitledBorder border = BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Backup", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font"));
         Font oldFont = border.getTitleFont();        
         border.setTitleFont(oldFont.deriveFont(Font.BOLD));        
         ret.setBorder(border);
@@ -207,7 +218,12 @@ public class DbConfigPanel extends JPanel {
     private JPanel createRestorePanel(){
         JPanel ret = new JPanel(new GridBagLayout());
         ret.setOpaque(false);
-        TitledBorder border = BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Restore", TitledBorder.LEFT, TitledBorder.TOP);
+        TitledBorder border = BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Restore", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font"));
         Font oldFont = border.getTitleFont();        
         border.setTitleFont(oldFont.deriveFont(Font.BOLD));        
         ret.setBorder(border);

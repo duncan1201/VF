@@ -25,6 +25,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
@@ -59,7 +60,12 @@ public class InternalOligoWeightsPanel extends javax.swing.JPanel {
         
         PRIMER_INTERNAL_WT_NUM_NS = new JSpinner();
 
-        setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.LIGHT_GRAY), "DNA Probes", TitledBorder.LEADING, TitledBorder.TOP));
+        setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.LIGHT_GRAY), //
+                "DNA Probes", //
+                TitledBorder.LEADING, // 
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
 
         setLayout(new GridBagLayout());
         GridBagConstraints c;
