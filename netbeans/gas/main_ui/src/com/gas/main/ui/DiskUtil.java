@@ -13,6 +13,8 @@ import java.io.FileWriter;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
+import org.apache.commons.lang3.StringUtils;
+import org.h2.util.IOUtils;
 import org.openide.util.Utilities;
 
 class DiskUtil {
@@ -28,7 +30,32 @@ class DiskUtil {
     }
 
     static String getFingerprintMac() {
-        throw new UnsupportedOperationException();
+        String ret = null;
+        String cmd = "ioreg -l | awk '/IOPlatformSerialNumber/ { print $4;}'";
+        ProcessBuilder pb = new ProcessBuilder("bash", "-c", cmd);
+        pb.redirectErrorStream(true);
+        Process process = null;
+        try {
+            process = pb.start();
+            String s;
+            // read from the process's combined stdout & stderr
+            BufferedReader stdout = new BufferedReader(
+                new InputStreamReader(process.getInputStream()));
+            while ((s = stdout.readLine()) != null) {
+                ret = StringUtils.strip(s, "\"");
+            }
+            System.out.println("Exit value: " + process.waitFor());
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        } finally {
+            if (process != null) {
+                IOUtils.closeSilently(process.getInputStream());
+                IOUtils.closeSilently(process.getOutputStream());
+                IOUtils.closeSilently(process.getErrorStream());
+            }
+        }
+        return ret;
     }
 
     static String getFingerprintWindows() {
