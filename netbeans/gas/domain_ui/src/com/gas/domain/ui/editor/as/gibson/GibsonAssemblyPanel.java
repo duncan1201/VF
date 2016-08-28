@@ -39,6 +39,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JSpinner;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingConstants;
+import javax.swing.UIManager;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 import org.openide.DialogDescriptor;
@@ -125,7 +126,12 @@ public class GibsonAssemblyPanel extends JPanel {
 
     private JPanel createPrimersPanel() {
         JPanel ret = new JPanel(new GridBagLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Primers", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Primers", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         GridBagConstraints c;
 
         c = new GridBagConstraints();
@@ -262,7 +268,12 @@ public class GibsonAssemblyPanel extends JPanel {
 
     JPanel createOverlapRegionPanel() {
         JPanel ret = new JPanel(new GridBagLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Overlapping region", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Overlapping region", // 
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         GridBagConstraints c;
         int gridy = 0;
 
@@ -335,7 +346,12 @@ public class GibsonAssemblyPanel extends JPanel {
 
     JPanel createAnnealingRegion() {
         JPanel ret = new JPanel(new GridBagLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Annealing region", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Annealing region", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         GridBagConstraints c;
         int gridy = 0;
 
@@ -355,7 +371,12 @@ public class GibsonAssemblyPanel extends JPanel {
 
     JPanel createConcentrationsPanel() {
         JPanel ret = new JPanel(new GridBagLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Reagents Conc.", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Reagents Conc.", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         GridBagConstraints c = null;
         int gridy = 0;
 

@@ -269,6 +269,8 @@ public class TableActions {
             this.table = table;
             if (Utilities.isWindows()) {
                 putValue(Action.ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_DELETE, ActionEvent.SHIFT_MASK));
+            } else if (Utilities.isMac()) {
+                putValue(Action.ACCELERATOR_KEY, KeyStroke.getKeyStroke(KeyEvent.VK_DELETE, ActionEvent.SHIFT_MASK));
             } else {
                 throw new UnsupportedOperationException();
             }

@@ -120,7 +120,12 @@ public class LigatePanel extends JPanel {
     
     private JPanel createPreviewPanel(){
         JPanel ret = new JPanel(new GridBagLayout());
-        ret.setBorder(BorderFactory.createTitledBorder(new LineBorder(Color.GRAY), "Preview", TitledBorder.LEFT, TitledBorder.TOP));
+        ret.setBorder(BorderFactory.createTitledBorder( //
+                new LineBorder(Color.GRAY), //
+                "Preview", //
+                TitledBorder.LEFT, //
+                TitledBorder.TOP, //
+                UIManager.getFont("TitledBorder.font")));
         GridBagConstraints c;
         
         c = new GridBagConstraints();
