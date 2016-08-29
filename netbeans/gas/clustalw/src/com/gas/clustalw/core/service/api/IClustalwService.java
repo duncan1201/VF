@@ -8,6 +8,7 @@ import com.gas.domain.core.msa.clustalw.ClustalTreeParam;
 import com.gas.domain.core.msa.clustalw.ClustalwParam;
 import com.gas.domain.core.misc.api.Newick;
 import com.gas.domain.core.msa.MSA;
+import java.io.File;
 
 /**
  *
@@ -42,6 +43,10 @@ public interface IClustalwService {
 
 
     MSA msa(ClustalwParam msaParams);
+    
+    boolean isExecutablePresent();
+    
+    File getExecutableDirectory();
 
     Newick phylogeneticTree(ClustalTreeParam params);
 
