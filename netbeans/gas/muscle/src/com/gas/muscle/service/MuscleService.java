@@ -26,42 +26,42 @@ import org.openide.util.lookup.ServiceProvider;
  *
  * @author dq
  */
-@ServiceProvider(service=IMuscleService.class)
-public class MuscleService implements IMuscleService{
-    
+@ServiceProvider(service = IMuscleService.class)
+public class MuscleService implements IMuscleService {
+
     @Override
-    public MSA align(MuscleParam param){
-        MSA ret = new MSA();  
+    public MSA align(MuscleParam param) {
+        MSA ret = new MSA();
         ret.setMuscleParam(param);
-        if(param.getOut() == null){
+        if (param.getOut() == null) {
             File outFile = FileHelper.getUniqueFile(true);
             param.setOut(outFile);
         }
-        FastaParser fastaParser = new FastaParser();                
-        byte[] outStr = execute(param);        
-        
+        FastaParser fastaParser = new FastaParser();
+        byte[] outStr = execute(param);
+
         Fasta outFasta = fastaParser.parse(outStr);
         ret.setEntries(outFasta);
-        ret.setType(ret.isDnaByGuess()?"DNA": "Protein");
+        ret.setType(ret.isDnaByGuess() ? "DNA" : "Protein");
         ret.setLastModifiedDate(new Date());
         return ret;
     }
-    
+
     @Override
-    public boolean validate(MuscleParam params){
+    public boolean validate(MuscleParam params) {
         boolean ret = true;
-        if(params.getIn() == null){
+        if (params.getIn() == null) {
             ret = false;
         }
         return ret;
     }
-    
-    private byte[] execute(MuscleParam params){
+
+    private byte[] execute(MuscleParam params) {
         byte[] ret = null;
         String arguments = params.toString();
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         Executor executor = createExcutor(outputStream);
-        CommandLine commandLine = new CommandLine(getExecutablePath());  
+        CommandLine commandLine = new CommandLine(getExecutablePath());
         commandLine.addArguments(arguments);
         try {
             executor.execute(commandLine);
@@ -74,18 +74,29 @@ public class MuscleService implements IMuscleService{
         }
         return ret;
     }
-    
+
     private org.apache.commons.exec.Executor createExcutor(OutputStream outputStream) {
-        
+
         ByteArrayOutputStream errorOutStream = new ByteArrayOutputStream();
         org.apache.commons.exec.Executor exec = new DefaultExecutor();
         exec.setStreamHandler(new PumpStreamHandler(outputStream, errorOutStream));
 
         return exec;
-    }  
-    
+    }
+
+    @Override
+    public boolean isExecutablePresent() {
+        File file = null;
+        if (Utilities.isWindows()) {
+            file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86win32.exe", "com.gas.muscle", false);
+        } else if (Utilities.isMac()) {
+            file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86win32.exe", "com.gas.muscle", false);
+        }
+        return file != null;
+    }
+
     private String getExecutablePath() {
-       File file = null;
+        File file = null;
         if (Utilities.isWindows()) {
             file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86win32.exe", "com.gas.muscle", false);
         } else if (Utilities.isMac()) {
@@ -94,11 +105,7 @@ public class MuscleService implements IMuscleService{
             throw new IllegalStateException("Your OS not supported yet");
         }
 
-        if (file == null) {
-            file = new File("D:\\unfuddle_gas_svn\\netbeans\\gas\\muscle\\release\\modules\\ext\\muscle3.8.31_i86win32.exe");
-        }
-
         file.setExecutable(true);
         return file.getAbsolutePath();
-    }    
+    }
 }

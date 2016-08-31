@@ -15,4 +15,5 @@ public interface IMuscleService {
 
     MSA align(MuscleParam params);   
     boolean validate(MuscleParam params);
+    boolean isExecutablePresent();
 }
