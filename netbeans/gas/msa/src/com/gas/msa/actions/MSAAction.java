@@ -36,6 +36,7 @@ import com.gas.domain.core.msa.muscle.MuscleParam;
 import com.gas.domain.core.msa.vfmsa.IVfMsaService;
 import com.gas.domain.core.msa.vfmsa.IVfMsaUI;
 import com.gas.domain.core.msa.vfmsa.VfMsaParam;
+import com.gas.msa.common.IExecutableService;
 import com.gas.muscle.ui.MuscleUI;
 import java.awt.Component;
 import java.awt.Frame;
@@ -59,16 +60,24 @@ import org.openide.windows.WindowManager;
 @ServiceProvider(service = IMSAUIService.class)
 public class MSAAction extends AbstractAction implements IMSAUIService {
 
-    private IFolderService folderService = Lookup.getDefault().lookup(IFolderService.class);
-    private IAnnotatedSeqService asService = Lookup.getDefault().lookup(IAnnotatedSeqService.class);
-    private IVfMsaService vfMsaService = Lookup.getDefault().lookup(IVfMsaService.class);
-    private IMSAService msaService = Lookup.getDefault().lookup(IMSAService.class);
-    private IClustalwService clustalService = Lookup.getDefault().lookup(IClustalwService.class);
-    private IMuscleService muscleService = Lookup.getDefault().lookup(IMuscleService.class);
+    private IFolderService folderService = null;
+    private IAnnotatedSeqService asService = null;
+    private IVfMsaService vfMsaService = null;
+    private IMSAService msaService = null;
+    private IClustalwService clustalService = null;
+    private IMuscleService muscleService = null;
+    private IExecutableService executableService = null;
     //private IMafftService mafftService = Lookup.getDefault().lookup(IMafftService.class);
 
     public MSAAction() {
         super("Multiple Sequence Alignment...", ImageHelper.createImageIcon(ImageNames.ATG_16));
+        folderService = Lookup.getDefault().lookup(IFolderService.class);
+        asService = Lookup.getDefault().lookup(IAnnotatedSeqService.class);
+        vfMsaService = Lookup.getDefault().lookup(IVfMsaService.class);
+        msaService = Lookup.getDefault().lookup(IMSAService.class);
+        clustalService = Lookup.getDefault().lookup(IClustalwService.class);
+        muscleService = Lookup.getDefault().lookup(IMuscleService.class);
+        executableService = Lookup.getDefault().lookup(IExecutableService.class);
     }
 
     /**
@@ -107,7 +116,7 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
                     ret = checkDuplicateSeqs(msaList, new AnnotatedSeqList(input));
                 }
             } else if (profiles.size() == 1) {
-                if (input.size() == 0) {
+                if (input.isEmpty()) {
                     msg = "<html>Only one alignment is selected. <br/><br/>Please select another alignment or sequences for profile alignment</html>";
                     ret = false;
                 } else {
@@ -316,6 +325,7 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
                 }
             }
         } else if (selected instanceof MuscleUI) {
+            
         }
     }
 
