@@ -23,15 +23,14 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.prefs.Preferences;
 import org.apache.commons.exec.CommandLine;
 import org.apache.commons.exec.DefaultExecutor;
 import org.apache.commons.exec.ExecuteException;
 import org.apache.commons.exec.Executor;
 import org.apache.commons.exec.PumpStreamHandler;
-import org.apache.commons.io.FileUtils;
-import org.openide.modules.InstalledFileLocator;
-import org.openide.util.Exceptions;
-import org.openide.util.Lookup;
+ import org.openide.modules.InstalledFileLocator;
+ import org.openide.util.Lookup;
 import org.openide.util.Utilities;
 import org.openide.util.lookup.ServiceProvider;
 
@@ -42,8 +41,10 @@ import org.openide.util.lookup.ServiceProvider;
 @ServiceProvider(service = IClustalwService.class)
 public class ClustalwService implements IClustalwService {
 
-    private static Logger logger = Logger.getLogger(ClustalwService.class.getName());
+    private final static Logger logger = Logger.getLogger(ClustalwService.class.getName());
 
+    private final Preferences pref = Preferences.systemNodeForPackage(IClustalwService.class);
+    
     @Override
     public MSA msa(ClustalwParam clustalwParam) {
         STATE state = validate(clustalwParam);
@@ -139,24 +140,25 @@ public class ClustalwService implements IClustalwService {
     }
 
     @Override
-    public boolean isExecutablePresent() {
-        File file = null;
-        if (Utilities.isWindows()) {
-            file = InstalledFileLocator.getDefault().locate("modules/ext/clustalw2.exe", "com.gas.clustalw.core", false);
-        } else if (Utilities.isMac()) {
-            file = InstalledFileLocator.getDefault().locate("modules/ext/clustalw2", "com.gas.clustalw.core", false);
-        } else {
-            throw new UnsupportedOperationException(Utilities.getOperatingSystem() + " is not supported");
-        }
-        return file != null;
-    }
-
-    public File getExecutableDirectory() {
+    public File getDefaultExecutableDirectory() {
         final File dir = InstalledFileLocator.getDefault().locate("modules/ext", "com.gas.clustalw.core", false);
         return dir;
     }
+    
+    @Override
+    public void setExecutable(File file) {
+        pref.put("executablePath", file.getAbsolutePath());
+    }
 
-    private String getExecutablePath() {
+    @Override
+    public String getExecutablePath() {
+        String ret = pref.get("executablePath", getDefaultExecutablePath());
+        File file = new File(ret);
+        file.setExecutable(true);
+        return file.getAbsolutePath();
+    }
+    
+    private String getDefaultExecutablePath() {
         File file = null;
         if (Utilities.isWindows()) {
             file = InstalledFileLocator.getDefault().locate("modules/ext/clustalw2.exe", "com.gas.clustalw.core", false);
@@ -166,7 +168,6 @@ public class ClustalwService implements IClustalwService {
             throw new UnsupportedOperationException(Utilities.getOperatingSystem() + " is not supported");
         }
 
-        file.setExecutable(true);
         return file.getAbsolutePath();
     }
 }

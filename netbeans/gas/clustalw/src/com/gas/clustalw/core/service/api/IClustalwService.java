@@ -41,12 +41,13 @@ public interface IClustalwService {
         NJ, PHYLIP, DIST, NEXUS
     };
 
-
     MSA msa(ClustalwParam msaParams);
+        
+    File getDefaultExecutableDirectory();
     
-    boolean isExecutablePresent();
+    void setExecutable(File file);
     
-    File getExecutableDirectory();
+    String getExecutablePath();
 
     Newick phylogeneticTree(ClustalTreeParam params);
 

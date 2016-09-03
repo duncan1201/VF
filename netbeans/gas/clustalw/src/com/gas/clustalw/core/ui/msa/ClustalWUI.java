@@ -4,6 +4,7 @@
  */
 package com.gas.clustalw.core.ui.msa;
 
+import com.gas.clustalw.core.service.api.IClustalwService;
 import com.gas.common.ui.misc.RichSeparator;
 import com.gas.common.ui.util.CommonUtil;
 import com.gas.domain.core.msa.clustalw.GeneralParam;
@@ -20,7 +21,9 @@ import javax.swing.Box;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 import org.jdesktop.swingx.JXHyperlink;
+import org.openide.util.Lookup;
 
 /**
  *
@@ -36,6 +39,10 @@ public class ClustalWUI extends JPanel implements IClustalWUI {
     private ClustalwParam clustalwParam;
     String profile1;
     String profile2;
+    JTextField exeField;
+    JButton changeButton;
+    IClustalwService clustalwService = Lookup.getDefault().lookup(IClustalwService.class);
+    
 
     public ClustalWUI(boolean vertical, String profile1, String profile2) {
         this.profile1 = profile1;
@@ -92,6 +99,12 @@ public class ClustalWUI extends JPanel implements IClustalWUI {
         ret.add(comp, c);
         return ret;
     }
+    
+    @Override
+    public void setExeField(String path){
+        exeField.setText(path);
+        exeField.setToolTipText(path);
+    }
 
     void updateProfilesLabel() {
         label.setText(String.format("<html>Aligning <b>%s</b> to <b>%s</b></html>", profile2, profile1));
@@ -137,6 +150,17 @@ public class ClustalWUI extends JPanel implements IClustalWUI {
             c = new GridBagConstraints();
             c.gridx = 0;
             c.gridy = GridBagConstraints.RELATIVE;
+            c.fill = GridBagConstraints.HORIZONTAL;
+            c.weightx = 1;
+            c.insets = new Insets(insets.top, 0, insets.bottom, 0);
+            JPanel executablePanel = executablePanel();
+            add(executablePanel, c);
+        }
+        
+        if (!vertical) {
+            c = new GridBagConstraints();
+            c.gridx = 0;
+            c.gridy = GridBagConstraints.RELATIVE;
             JPanel citationPanel = citationPanel();
             add(citationPanel, c);
         }
@@ -149,6 +173,32 @@ public class ClustalWUI extends JPanel implements IClustalWUI {
         c.weighty = 1;
         Component filler = Box.createRigidArea(new Dimension(1, 1));
         add(filler, c);
+    }
+    
+    private JPanel executablePanel() {
+        JPanel ret = new JPanel(new GridBagLayout());
+        
+        GridBagConstraints c = new GridBagConstraints();
+        c.gridy = 0;
+        ret.add(new JLabel("Executable:"), c);
+        
+        exeField = new JTextField();
+        exeField.setEnabled(false);
+        exeField.setText(clustalwService.getExecutablePath());
+        exeField.setToolTipText(exeField.getText());
+        c = new GridBagConstraints();
+        c.gridy = 0;
+        c.weightx = 1;
+        c.fill = GridBagConstraints.HORIZONTAL;
+        ret.add(exeField, c);
+        
+        changeButton = new JButton("Change...");
+        c = new GridBagConstraints();
+        c.gridx = GridBagConstraints.RELATIVE;
+        c.gridy = 0;
+        ret.add(changeButton, c);
+        
+        return ret;
     }
 
     private JPanel citationPanel() {
@@ -170,6 +220,9 @@ public class ClustalWUI extends JPanel implements IClustalWUI {
         addPropertyChangeListener(new ClustalWUIListeners.PtyListener());
         if (switchProfileBtn != null) {
             switchProfileBtn.addActionListener(new ClustalWUIListeners.SwitchListener());
+        }
+        if (changeButton != null) {
+            changeButton.addActionListener(new ClustalWUIListeners.ChangeListener());
         }
     }
 
