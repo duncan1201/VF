@@ -5,6 +5,7 @@
 package com.gas.clustalw.core.ui.msa;
 
 import com.gas.clustalw.core.service.api.IClustalwService;
+import com.gas.common.ui.util.ExecutableFileFilter;
 import com.gas.common.ui.util.UIUtil;
 import com.gas.domain.core.msa.clustalw.GeneralParam;
 import com.gas.domain.core.msa.clustalw.ClustalwParam;
@@ -37,18 +38,9 @@ class ClustalWUIListeners {
             JFileChooser fc = new JFileChooser();
             fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
             fc.setAcceptAllFileFilterUsed(false);
-            fc.setFileFilter(new FileFilter(){
-
-                @Override
-                public boolean accept(File f) {
-                    return f.canExecute();
-                }
-
-                @Override
-                public String getDescription() {
-                    return "Executables";
-                }
-            });
+            FileFilter fileFilter = new ExecutableFileFilter(); 
+            fc.addChoosableFileFilter(fileFilter);
+            fc.setFileFilter(fileFilter);
             int answer = UIUtil.showDialog(fc, source);        
             if (answer == JFileChooser.APPROVE_OPTION) {
                 File file = fc.getSelectedFile();
