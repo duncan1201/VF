@@ -79,7 +79,7 @@ public class ParamsPanel extends JPanel {
 
     public void createUI(MuscleParam param) {
         IMuscleUIFactory factory = Lookup.getDefault().lookup(IMuscleUIFactory.class);
-        muscleUI = factory.create(null, null);
+        muscleUI = factory.create(false, null, null);
 
         JScrollPane scrollPane = new JScrollPane((Component) muscleUI);
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);

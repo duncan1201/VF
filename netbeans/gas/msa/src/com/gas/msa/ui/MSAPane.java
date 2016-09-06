@@ -66,6 +66,10 @@ public class MSAPane extends JPanel implements IZoomable {
         addPropertyChangeListener(new MSAPaneListeners.PtyListener());
         tabbedPanel.addChangeListener(new MSAPaneListeners.TabbedPanelSelectListener());
     }
+    
+    public void setSelectedTab(String pane){
+        tabbedPanel.setSelectedTab(pane);
+    }
 
     public void setMsa(MSA msa) {
         MSA old = getMsa();

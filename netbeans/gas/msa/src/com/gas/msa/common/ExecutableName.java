@@ -10,6 +10,8 @@ package com.gas.msa.common;
  *
  * @author Dunqiang
  */
-public interface IExecutableService {
+public enum ExecutableName {
+    MUSCLE, CLUSTALW;
     
+    ExecutableName(){}
 }

@@ -36,7 +36,7 @@ import com.gas.domain.core.msa.muscle.MuscleParam;
 import com.gas.domain.core.msa.vfmsa.IVfMsaService;
 import com.gas.domain.core.msa.vfmsa.IVfMsaUI;
 import com.gas.domain.core.msa.vfmsa.VfMsaParam;
-import com.gas.msa.common.IExecutableService;
+import com.gas.msa.common.ExecutableName;
 import com.gas.muscle.ui.MuscleUI;
 import java.awt.Component;
 import java.awt.Frame;
@@ -54,7 +54,6 @@ import org.openide.util.lookup.ServiceProvider;
 import org.openide.windows.WindowManager;
 
 /**
- *
  * @author dq
  */
 @ServiceProvider(service = IMSAUIService.class)
@@ -66,8 +65,7 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
     private IMSAService msaService = null;
     private IClustalwService clustalService = null;
     private IMuscleService muscleService = null;
-    private IExecutableService executableService = null;
-    //private IMafftService mafftService = Lookup.getDefault().lookup(IMafftService.class);
+     //private IMafftService mafftService = Lookup.getDefault().lookup(IMafftService.class);
 
     public MSAAction() {
         super("Multiple Sequence Alignment...", ImageHelper.createImageIcon(ImageNames.ATG_16));
@@ -77,8 +75,7 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
         msaService = Lookup.getDefault().lookup(IMSAService.class);
         clustalService = Lookup.getDefault().lookup(IClustalwService.class);
         muscleService = Lookup.getDefault().lookup(IMuscleService.class);
-        executableService = Lookup.getDefault().lookup(IExecutableService.class);
-    }
+     }
 
     /**
      * 1) Make sure the data are of the same type(all proteins or all
@@ -133,9 +130,6 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
         return ret;
     }
 
-    /**
-     * @param data: could
-     */
     @Override
     public void openDialog(final List<AnnotatedSeq> input, final List<MSA> profiles) {
         boolean ok = validate(input, profiles);
@@ -191,8 +185,7 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
 
                 @Override
                 public void run(ProgressHandle handle) {
-                    checkExecutable(selected);
-                    handle.progress("Preparing data...");
+                     handle.progress("Preparing data...");
                     handle.setIndeterminate(true);
                     File inFile = null;
                     File fileProfile1 = null;
@@ -311,21 +304,6 @@ public class MSAAction extends AbstractAction implements IMSAUIService {
                     editor.requestActive();
                 }
             }, "Multiple Sequence Alignment");
-        }
-    }
-
-    private void checkExecutable(Component selected) {
-        if (selected instanceof ClustalWUI) {
-            if (!clustalService.isExecutablePresent()) {
-                File dir = clustalService.getExecutableDirectory();
-                try {
-                    FileUtils.copyFileToDirectory(new File("//Users//Dunqiang//Documents//clustalw2"), dir);
-                } catch (IOException ex) {
-                    Exceptions.printStackTrace(ex);
-                }
-            }
-        } else if (selected instanceof MuscleUI) {
-            
         }
     }
 

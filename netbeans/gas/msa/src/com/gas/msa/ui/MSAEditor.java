@@ -143,9 +143,14 @@ public final class MSAEditor extends AbstractSavableEditor implements IMSAEditor
         this.msa = msa;
         firePropertyChange("msa", old, this.msa);
     }
-
+    
     @Override
     public void refreshUI() {
+        refreshUI(null);
+    }
+
+    @Override
+    public void refreshUI(String selectedPane) {
         Newick newick = msa.getNewick();
         if (newick != null) {
             if (msaPaneRef.get().getTreePane() == null) {
@@ -154,6 +159,9 @@ public final class MSAEditor extends AbstractSavableEditor implements IMSAEditor
             msaPaneRef.get().getTreePane().refreshUI(msa);
         }
         msaPaneRef.get().getAlignPane().getMsaScroll().refreshUI();
+        if (selectedPane != null) {
+            msaPaneRef.get().setSelectedTab(selectedPane);
+        }
     }
 
     @Override

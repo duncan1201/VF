@@ -10,7 +10,8 @@ import com.gas.domain.core.msa.muscle.IMuscleUI;
 import com.gas.domain.core.msa.muscle.IMuscleUIFactory;
 import com.gas.domain.core.msa.vfmsa.IVfMsaUI;
 import com.gas.domain.core.msa.vfmsa.IVfMsaUIFactory;
-import java.awt.Component;
+import com.gas.msa.common.ExecutableName;
+ import java.awt.Component;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.LayoutManager;
@@ -30,7 +31,7 @@ public class MSAPanel extends JPanel {
     private IMuscleUI muscleUI;
     private IClustalWUI clustalWUI;
     private Component selected;
-
+ 
     public MSAPanel(String profile1, String profile2) {
         LayoutManager layout = new GridBagLayout();
         setLayout(layout);
@@ -67,13 +68,12 @@ public class MSAPanel extends JPanel {
             vfMsaUI = factoryVfMsaUI.create();
             tabbedPane.add((JComponent) vfMsaUI, "VectorFriends Aligner");
         }
-        
         IClustalWUIFactory facotryClustalwUI = Lookup.getDefault().lookup(IClustalWUIFactory.class);
         clustalWUI = facotryClustalwUI.create(false, profile1, profile2);
         tabbedPane.add((JComponent) clustalWUI, "ClustalW");
 
         IMuscleUIFactory factoryMuscle = Lookup.getDefault().lookup(IMuscleUIFactory.class);
-        muscleUI = factoryMuscle.create(profile1, profile2);
+        muscleUI = factoryMuscle.create(true, profile1, profile2);
         tabbedPane.add((JComponent) muscleUI, "Muscle");
                 
     }
