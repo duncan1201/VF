@@ -25,6 +25,10 @@ public class LogUtil {
         log(logger, level, msg, null);
     }
     
+    public static void severe(Logger logger, String msg){
+        log(logger, Level.SEVERE, msg);
+    }
+    
     public static void log(Logger logger, Level level, String msg, Throwable t){
         String stackTrace = null;
         if (t != null) {

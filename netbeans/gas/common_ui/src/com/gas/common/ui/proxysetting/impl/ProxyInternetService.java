@@ -127,6 +127,10 @@ public class ProxyInternetService implements IProxyInternetService {
     public HttpPost createHttpRequest(String uri) {
         return createHttpRequest(uri, HttpPost.class);
     }
+    
+    public HttpGet createHttpGet(String uri) {
+        return createHttpRequest(uri, HttpGet.class);
+    }
 
     @Override
     public <T> T createHttpRequest(String uri, Class<T> clazz) {
