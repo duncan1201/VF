@@ -10,5 +10,5 @@ package com.gas.domain.core.msa.muscle;
  */
 public interface IMuscleUIFactory {
 
-    IMuscleUI create(String profile1, String profile2);
+    IMuscleUI create(boolean includeExePanel, String profile1, String profile2);
 }

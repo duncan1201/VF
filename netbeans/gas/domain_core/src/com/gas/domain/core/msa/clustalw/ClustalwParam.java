@@ -99,7 +99,7 @@ public class ClustalwParam implements Cloneable {
         return dataParams;
     }
 
-    public void setFast(Fast fast) {
+    public final void setFast(Fast fast) {
         fasts.clear();
         fasts.add(fast);
     }
@@ -126,7 +126,7 @@ public class ClustalwParam implements Cloneable {
         this.generalParams = generalParams;
     }
 
-    public void setGeneralParam(GeneralParam param) {
+    public final void setGeneralParam(GeneralParam param) {
         this.generalParams.clear();
         this.generalParams.add(param);
     }

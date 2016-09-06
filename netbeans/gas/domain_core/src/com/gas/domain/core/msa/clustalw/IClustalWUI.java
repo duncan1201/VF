@@ -20,4 +20,6 @@ public interface IClustalWUI {
     String getProfile1();
 
     String getProfile2();
+    
+    void setExeField(String path);
 }
