@@ -17,6 +17,7 @@ import java.io.OutputStream;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.prefs.Preferences;
 import org.apache.commons.exec.*;
 import org.openide.modules.InstalledFileLocator;
 import org.openide.util.Utilities;
@@ -29,6 +30,8 @@ import org.openide.util.lookup.ServiceProvider;
 @ServiceProvider(service = IMuscleService.class)
 public class MuscleService implements IMuscleService {
 
+    private final Preferences pref = Preferences.systemNodeForPackage(IMuscleService.class);
+    
     @Override
     public MSA align(MuscleParam param) {
         MSA ret = new MSA();
@@ -61,7 +64,7 @@ public class MuscleService implements IMuscleService {
         String arguments = params.toString();
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         Executor executor = createExcutor(outputStream);
-        CommandLine commandLine = new CommandLine(getExecutablePath());
+        CommandLine commandLine = new CommandLine(getDefaultExecutablePath());
         commandLine.addArguments(arguments);
         try {
             executor.execute(commandLine);
@@ -84,23 +87,24 @@ public class MuscleService implements IMuscleService {
         return exec;
     }
 
-    @Override
-    public boolean isExecutablePresent() {
-        File file = null;
-        if (Utilities.isWindows()) {
-            file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86win32.exe", "com.gas.muscle", false);
-        } else if (Utilities.isMac()) {
-            file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86win32.exe", "com.gas.muscle", false);
+    public String getExecutablePath() {
+        final String KEY = "executable_path";
+        String path = pref.get(KEY, "");
+        if (path.isEmpty()) {
+            path = getDefaultExecutablePath();
+            pref.put(KEY, path);
         }
-        return file != null;
+        
+        return path;
+        
     }
 
-    private String getExecutablePath() {
+    private String getDefaultExecutablePath() {
         File file = null;
         if (Utilities.isWindows()) {
             file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86win32.exe", "com.gas.muscle", false);
         } else if (Utilities.isMac()) {
-            throw new IllegalStateException("MAC OS not supported yet");
+            file = InstalledFileLocator.getDefault().locate("modules/ext/muscle3.8.31_i86darwin64", "com.gas.muscle", false);
         } else {
             throw new IllegalStateException("Your OS not supported yet");
         }

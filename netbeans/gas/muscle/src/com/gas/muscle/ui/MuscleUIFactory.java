@@ -15,8 +15,8 @@ import org.openide.util.lookup.ServiceProvider;
 @ServiceProvider(service=IMuscleUIFactory.class)
 public class MuscleUIFactory implements IMuscleUIFactory{
     @Override
-    public IMuscleUI create(String profile1, String profile2){
-        IMuscleUI muscleUI = new MuscleUI(profile1, profile2);
+    public IMuscleUI create(boolean includeExePanel, String profile1, String profile2){
+        IMuscleUI muscleUI = new MuscleUI(includeExePanel, profile1, profile2);
         return muscleUI;
     }
 }

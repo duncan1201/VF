@@ -9,24 +9,25 @@ import com.gas.common.ui.util.CommonUtil;
 import com.gas.common.ui.util.UIUtil;
 import com.gas.domain.core.msa.muscle.IMuscleUI;
 import com.gas.domain.core.msa.muscle.MuscleParam;
+import com.gas.muscle.service.api.IMuscleService;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.awt.Insets;
 import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.lang.ref.WeakReference;
 import javax.swing.AbstractAction;
-import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
+import javax.swing.JTextField;
 import javax.swing.SpinnerNumberModel;
 import org.jdesktop.swingx.JXHyperlink;
+import org.openide.util.Lookup;
 
 /**
  *
@@ -41,20 +42,23 @@ public class MuscleUI extends JPanel implements IMuscleUI {
     WeakReference<JCheckBox> anchorOptRef;
     WeakReference<JButton> switchBtnRef;
     WeakReference<JLabel> labelRef;
+    WeakReference<JTextField> exeRf;
+    WeakReference<JButton> changeRf;
     String profile1;
     String profile2;
+    private final IMuscleService muscleService = Lookup.getDefault().lookup(IMuscleService.class);
 
-    public MuscleUI(String profile1, String profile2) {        
+    public MuscleUI(boolean includeExePanel, String profile1, String profile2) {        
         UIUtil.setDefaultBorder(this);
         this.profile1 = profile1;
         this.profile2 = profile2;
         LayoutManager layout = new GridBagLayout();
         setLayout(layout);
-        createComponents();
+        createComponents(includeExePanel);
         hookupListeners();
     }
 
-    private void createComponents() {
+    private void createComponents(boolean includeExePanel) {
         GridBagConstraints c;
 
         if (profile1 != null && !profile1.isEmpty() && profile2 != null && !profile2.isEmpty()) {
@@ -72,6 +76,16 @@ public class MuscleUI extends JPanel implements IMuscleUI {
         JPanel alignmentPanel = createAlignmentPanel();
         add(alignmentPanel, c);
 
+        
+        if (includeExePanel) {
+            c = new GridBagConstraints();
+            c.gridx = 0;
+            c.fill = GridBagConstraints.HORIZONTAL;
+            c.weightx = 1;
+            JPanel exePanel = executablePanel();
+            add(exePanel, c);
+        }
+        
         c = new GridBagConstraints();
         c.gridx = 0;
         JPanel citationPanel = citationPanel();
@@ -83,6 +97,39 @@ public class MuscleUI extends JPanel implements IMuscleUI {
         c.weighty = 1;
         Component comp = Box.createRigidArea(new Dimension(1, 1));
         add(comp, c);
+    }
+    
+    private JPanel executablePanel(){
+        JPanel ret = new JPanel(new GridBagLayout());
+        GridBagConstraints c = new GridBagConstraints();
+        ret.add(new JLabel("Executable:"), c);
+        
+        
+        c = new GridBagConstraints();
+        c.gridy = 0;
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.weightx = 1;
+        JTextField exeField = new JTextField();
+        exeField.setEnabled(false);
+        ret.add(exeField, c);
+        exeRf = new WeakReference<JTextField>(exeField);
+         
+        setExtPath(muscleService.getExecutablePath());
+        
+        c = new GridBagConstraints();
+        c.gridy = 0;
+        JButton changeButton = new JButton("Change...");
+        ret.add(changeButton, c);
+        changeRf = new WeakReference<JButton>(changeButton);
+        
+        return ret;
+    }
+    
+    public void setExtPath(String path){
+        if (exeRf != null && exeRf.get() != null) {
+            exeRf.get().setText(path);
+            exeRf.get().setToolTipText(path);
+        }
     }
     
     private JPanel citationPanel(){
@@ -312,16 +359,19 @@ public class MuscleUI extends JPanel implements IMuscleUI {
     }
 
     private void hookupListeners() {
-        if (switchBtnRef != null) {
+        if (switchBtnRef != null && switchBtnRef.get() != null) {
             switchBtnRef.get().addActionListener(new MuscleUIListeners.SwitchListener());
         }
         maxItrSpinner.addChangeListener(new MuscleUIListeners.SpinnersListener());
         maxTreeSpinner.addChangeListener(new MuscleUIListeners.SpinnersListener());
-        if (diagnalOptRef != null) {
+        if (diagnalOptRef != null && diagnalOptRef.get() != null) {
             diagnalOptRef.get().addItemListener(new MuscleUIListeners.BoxListener());
         }
-        if (anchorOptRef != null) {
+        if (anchorOptRef != null && anchorOptRef.get() != null) {
             anchorOptRef.get().addItemListener(new MuscleUIListeners.BoxListener());
+        }
+        if (changeRf != null && changeRf.get() != null) {
+            changeRf.get().addActionListener(new MuscleUIListeners.ChangeBtnListener());
         }
         addPropertyChangeListener(new MuscleUIListeners.PtyListener());
     }

@@ -4,16 +4,20 @@
  */
 package com.gas.muscle.ui;
 
+import com.gas.common.ui.util.ExecutableFileFilter;
 import com.gas.common.ui.util.UIUtil;
 import com.gas.domain.core.msa.muscle.MuscleParam;
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.io.File;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JFileChooser;
 import javax.swing.JSpinner;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -23,6 +27,24 @@ import javax.swing.event.ChangeListener;
  * @author dq
  */
 class MuscleUIListeners {
+    
+    static class ChangeBtnListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            Component source = (Component)e.getSource();
+            MuscleUI muscleUI = UIUtil.getParent(source, MuscleUI.class);
+            JFileChooser fc = new JFileChooser();
+            fc.setFileSelectionMode(JFileChooser.FILES_ONLY);
+            fc.setAcceptAllFileFilterUsed(false);
+            fc.setFileFilter(new ExecutableFileFilter());
+            Integer answer = UIUtil.showDialog(fc, source);
+            if (answer.equals(JFileChooser.APPROVE_OPTION)) {
+                File file = fc.getSelectedFile();
+                muscleUI.setExtPath(file.getAbsolutePath());
+            }
+        }
+    }
     
     static class SwitchListener implements ActionListener{
 
