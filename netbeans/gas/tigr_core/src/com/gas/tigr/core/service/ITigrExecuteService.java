@@ -14,6 +14,6 @@ import java.util.Collection;
  * @author dq
  */
 public interface ITigrExecuteService {
-    TigrProject assembly(Collection<Kromatogram> kromatograms, byte[] qual, TIGRSettings settings);
-    <T> T assembly(byte[] seq, byte[] qual, TIGRSettings settings, Class<T> retType);
+    TigrProject assembly(Collection<Kromatogram> kromatograms, byte[] qual, TIGRSettings settings) ;
+    <T> T assembly(byte[] seq, byte[] qual, TIGRSettings settings, Class<T> retType) ;
 }

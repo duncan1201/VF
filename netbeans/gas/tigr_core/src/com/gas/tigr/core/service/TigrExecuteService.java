@@ -9,6 +9,7 @@ import org.apache.commons.exec.DefaultExecutor;
 import org.apache.commons.exec.Executor;
 import org.apache.commons.exec.PumpStreamHandler;
 import com.gas.common.ui.util.FileHelper;
+import com.gas.common.ui.util.LogUtil;
 import com.gas.domain.core.tasm.Condig;
 import com.gas.domain.core.tasm.TasmParser;
 import com.gas.domain.core.tigr.Kromatogram;
@@ -19,6 +20,8 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.openide.modules.InstalledFileLocator;
 import org.openide.util.Utilities;
 import org.openide.util.lookup.ServiceProvider;
@@ -26,6 +29,8 @@ import org.openide.util.lookup.ServiceProvider;
 @ServiceProvider(service = ITigrExecuteService.class)
 public class TigrExecuteService implements ITigrExecuteService {
 
+    private static final Logger log = Logger.getLogger(ITigrExecuteService.class.getName());
+    
     /**
      *
      */
@@ -96,18 +101,15 @@ public class TigrExecuteService implements ITigrExecuteService {
         return error;
     }
 
-    private String getExecutablePath() {
+    private String getDefaultExecutablePath() {
         File file = null;
         if (Utilities.isWindows()) {
             file = InstalledFileLocator.getDefault().locate("modules/ext/TIGR_Assembler_win.exe", "com.gas.tigr.core", false);
         } else if (Utilities.isMac()) {
+            file = InstalledFileLocator.getDefault().locate("modules/ext/LIGR_Assembler", "com.gas.tigr.core", false);
             throw new IllegalStateException("MAC OS not supported yet");
         } else {
             throw new IllegalStateException("Your OS not supported yet");
-        }
-
-        if (file == null) {
-            file = new File("D:\\sequenceanalysis_vf\\trunk\\netbeans\\gas\\tigr_core\\release\\modules\\ext\\TIGR_Assembler_win.exe");
         }
 
         file.setExecutable(true);
@@ -178,14 +180,14 @@ public class TigrExecuteService implements ITigrExecuteService {
             error = errorOutStream.toString();
 
 
-        } catch (Exception e) {
-            System.out.print("");
+        } catch (Throwable e) {
+            LogUtil.log(log, Level.SEVERE, e);
         }
         return ret;
     }
 
     private CommandLine getCommandLine(TIGRSettings settings) {
-        String exePath = getExecutablePath();
+        String exePath = getDefaultExecutablePath();
         CommandLine ret = new CommandLine(exePath);
 
         if (alignmentDir != null) {
