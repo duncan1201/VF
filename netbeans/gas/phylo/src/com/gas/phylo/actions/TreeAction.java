@@ -72,7 +72,8 @@ public class TreeAction extends AbstractAction {
                 msa.setNewick(newick);
 
                 editor.setCanSave();
-                editor.refreshUI();
+                editor.refreshUI("Tree");
+                
             }else{
                 
             }
