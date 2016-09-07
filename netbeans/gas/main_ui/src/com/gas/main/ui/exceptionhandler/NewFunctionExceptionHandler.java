@@ -10,6 +10,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.concurrent.Callable;
 import java.util.logging.Handler;
+import java.util.logging.Level;
 import java.util.logging.LogRecord;
 import javax.swing.JButton;
 import javax.swing.SwingUtilities;
@@ -27,7 +28,7 @@ public class NewFunctionExceptionHandler extends Handler implements Callable<JBu
     
     @Override
     public void publish(LogRecord record) {
-        if(record.getThrown() != null){
+        if(record.getThrown() != null && record.getLevel() != Level.SEVERE){
             newFunctionActionListener.setLogRecord(record);
         }
     }
@@ -52,8 +53,7 @@ public class NewFunctionExceptionHandler extends Handler implements Callable<JBu
     private class NewFunctionActionListener implements ActionListener {
 
         private LogRecord logRecord;
-        private IEmailService emailSvc = Lookup.getDefault().lookup(IEmailService.class);
-
+ 
         public NewFunctionActionListener() {
         }
 
@@ -66,8 +66,7 @@ public class NewFunctionExceptionHandler extends Handler implements Callable<JBu
             StringWriter stringWriter = new StringWriter();
             PrintWriter writer = new PrintWriter(stringWriter);
             throwable.printStackTrace(writer);            
-            emailSvc.sendEmail(emailSvc.getReportBugsEmail(), "Exception occurred", stringWriter.toString());
-            System.out.println();
+            System.out.println(stringWriter.toString());
         }
 
         public void setLogRecord(LogRecord logRecord) {

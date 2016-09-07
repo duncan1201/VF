@@ -19,6 +19,7 @@ import com.gas.database.core.service.api.IDefaultDatabaseService;
 import com.gas.domain.core.filesystem.Folder;
 import com.gas.domain.core.filesystem.FolderNames;
 import com.gas.main.ui.exceptionhandler.NewFunctionExceptionHandler;
+import com.gas.main.ui.exceptionhandler.SevereExceptionHandler;
 import com.gas.main.ui.molpane.IMolPaneFactory;
 import com.gas.update.service.api.ISoftProductService;
 import com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel;
@@ -114,7 +115,7 @@ public class Installer extends ModuleInstall {
         WindowManager.getDefault().invokeWhenUIReady(new Runnable() {
             @Override
             public void run() {
-                Logger.getLogger("").addHandler(new NewFunctionExceptionHandler());
+                Logger.getLogger("").addHandler(new SevereExceptionHandler());
 
                 boolean f = ToolbarPool.getDefault().isFinished();
                 CommonUtil.maximizeMainFrame();

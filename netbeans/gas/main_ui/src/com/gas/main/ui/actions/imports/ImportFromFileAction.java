@@ -10,6 +10,7 @@ import com.gas.common.ui.progress.ProgRunnable;
 import com.gas.common.ui.progress.ProgressHandle;
 import com.gas.common.ui.progress.ProgressHelper;
 import com.gas.common.ui.util.CommonUtil;
+import com.gas.common.ui.util.LogUtil;
 import com.gas.common.ui.util.UIUtil;
 import com.gas.database.core.api.IDomainUtil;
 import com.gas.database.core.as.service.api.IAnnotatedSeqService;
@@ -28,8 +29,6 @@ import com.gas.domain.core.msa.MSA;
 import com.gas.domain.core.nexus.api.Nexus;
 import com.gas.domain.ui.banner.BannerTC;
 import com.gas.domain.ui.explorer.ExplorerTC;
-import com.gas.main.ui.exceptionhandler.IEmailService;
-import com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel;
 import java.awt.FileDialog;
 import java.awt.Frame;
 import java.awt.event.ActionEvent;
@@ -38,9 +37,10 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.AbstractAction;
 import javax.swing.JFileChooser;
-import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import org.openide.DialogDescriptor;
@@ -67,6 +67,7 @@ public final class ImportFromFileAction extends AbstractAction {
     IAnnotatedSeqService asService = Lookup.getDefault().lookup(IAnnotatedSeqService.class);
     IDomainUtil domainUtil = Lookup.getDefault().lookup(IDomainUtil.class);
     static String TITLE = "Import From File";
+    private static Logger log = Logger.getLogger(ImportFromFileAction.class.getName());
     
     
     public ImportFromFileAction() {
@@ -171,7 +172,7 @@ public final class ImportFromFileAction extends AbstractAction {
         }
     }
     
-    private void tryToReportImportError(File file){        
+    private void tryToReportImportError(File file) {        
         String fileName = file.getName();
         String title = TITLE;
         String msg = String.format("File '%s' cannot be recognized. Click 'Yes' to report the problem", fileName);        
@@ -182,9 +183,8 @@ public final class ImportFromFileAction extends AbstractAction {
         }
     }
     
-    private void reportImportError(File file){
-        IEmailService emailSvc = Lookup.getDefault().lookup(IEmailService.class);                
-        emailSvc.sendEmail(emailSvc.getReportBugsEmail(), "Cannot import file", "Cannot import file", file);        
+    private void reportImportError(File file) {
+        LogUtil.severe(log, "Cannot import file");
     }
 
     private void processFolderElement(IFolderElement folderElement, Folder folder) {

@@ -45,7 +45,7 @@ import javax.swing.SwingUtilities;
  *
  * @author dunqiang
  */
-class GraphPanelLayout implements LayoutManager {
+public class GraphPanelLayout implements LayoutManager {
 
     private CNST.LAYOUT state;
     private Integer start;
