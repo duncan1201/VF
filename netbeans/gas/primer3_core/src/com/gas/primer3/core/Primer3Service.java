@@ -183,31 +183,15 @@ public class Primer3Service implements IPrimer3Service {
         File file = null;
 
         if (lib == MisprimingLib.DROSOPHILA) {
-            if (Utilities.isWindows()) {
-                file = InstalledFileLocator.getDefault().locate("modules/ext/drosophila_w_transposons.txt", "com.gas.primer3.core", false);
-            } else {
-                throw new UnsupportedOperationException();
-            }
+            file = InstalledFileLocator.getDefault().locate("modules/ext/drosophila_w_transposons.txt", "com.gas.primer3.core", false);
         } else if (lib == MisprimingLib.HUMAN) {
-            if (Utilities.isWindows()) {
-                file = InstalledFileLocator.getDefault().locate("modules/ext/humrep_and_simple.txt", "com.gas.primer3.core", false);
-            } else {
-                throw new UnsupportedOperationException();
-            }
+            file = InstalledFileLocator.getDefault().locate("modules/ext/humrep_and_simple.txt", "com.gas.primer3.core", false); 
         } else if (lib == MisprimingLib.NONE) {
             // nothing to do
         } else if (lib == MisprimingLib.RODENT) {
-            if (Utilities.isWindows()) {
-                file = InstalledFileLocator.getDefault().locate("modules/ext/rodent_ref.txt", "com.gas.primer3.core", false);
-            } else {
-                throw new UnsupportedOperationException();
-            }
+            file = InstalledFileLocator.getDefault().locate("modules/ext/rodent_ref.txt", "com.gas.primer3.core", false);
         } else if (lib == MisprimingLib.RODENT_AND_SIMPLE) {
-            if (Utilities.isWindows()) {
-                file = InstalledFileLocator.getDefault().locate("modules/ext/rodrep_and_simple.txt", "com.gas.primer3.core", false);
-            } else {
-                throw new UnsupportedOperationException();
-            }
+            file = InstalledFileLocator.getDefault().locate("modules/ext/rodrep_and_simple.txt", "com.gas.primer3.core", false);
         }
         if (file != null) {
             return file.toString();
@@ -332,8 +316,8 @@ public class Primer3Service implements IPrimer3Service {
         if (Utilities.isWindows()) {
             file = InstalledFileLocator.getDefault().locate("modules/ext/primer3_config", "com.gas.primer3.core", false);
         } else if (Utilities.isMac()) {
-            throw new IllegalStateException("MAC OS not supported yet");
-        } else {
+            file = InstalledFileLocator.getDefault().locate("modules/ext/primer3_config", "com.gas.primer3.core", false);
+         } else {
             throw new IllegalStateException("Your OS not supported yet");
         }
      
@@ -346,13 +330,9 @@ public class Primer3Service implements IPrimer3Service {
         if (Utilities.isWindows()) {
             file = InstalledFileLocator.getDefault().locate("modules/ext/primer3_core.exe", "com.gas.primer3.core", false);
         } else if (Utilities.isMac()) {
-            throw new IllegalStateException("MAC OS not supported yet");
-        } else {
+            file = InstalledFileLocator.getDefault().locate("modules/ext/primer3_core", "com.gas.primer3.core", false);
+         } else {
             throw new IllegalStateException("Your OS not supported yet");
-        }
-
-        if (file == null) {
-            file = new File("C:\\Downloads\\primer3\\primer3-2.3.5\\src\\primer3_core.exe");
         }
 
         file.setExecutable(true);
