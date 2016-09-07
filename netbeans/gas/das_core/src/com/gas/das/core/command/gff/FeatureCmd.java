@@ -58,7 +58,7 @@ public class FeatureCmd {
         IProxyInternetService internetSvc = Lookup.getDefault().lookup(IProxyInternetService.class);
         
         CloseableHttpClient httpclient = internetSvc.createHttpClient();
-        List<NameValuePair> nvps = new ArrayList<NameValuePair>();
+        List<NameValuePair> nvps = new ArrayList();
         HttpPost httpPost = internetSvc.createHttpRequest(uri);
 
         for (Seg seg : getSegments()) {
