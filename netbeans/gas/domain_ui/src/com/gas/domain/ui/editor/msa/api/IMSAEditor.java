@@ -19,4 +19,6 @@ public interface IMSAEditor extends ISavableEditor, IPrintEditor {
     void setMsa(MSA msa);
 
     void refreshUI();
+    
+    void refreshUI(String selectedPane);
 }
