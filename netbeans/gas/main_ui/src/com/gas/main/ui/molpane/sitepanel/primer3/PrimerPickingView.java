@@ -898,7 +898,7 @@ class PrimerPickingView extends JPanel implements IOutlookPanel {
             return;
         }
         TaskPanel taskPanel = primer3View.getTaskPanel();
-        UIUtil.enabledRecursively(this, taskPanel.leftPickPanel.isPicking()
-                || taskPanel.rightPickPanel.isPicking());
+        UIUtil.enabledRecursively(this, taskPanel.getLeftPickPanel().isPicking()
+                || taskPanel.getRightPickPanel().isPicking());
     }
 }

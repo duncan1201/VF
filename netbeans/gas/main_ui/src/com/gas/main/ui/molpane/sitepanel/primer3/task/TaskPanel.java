@@ -21,15 +21,18 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
+import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.AbstractAction;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
+import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
+import javax.swing.JTextField;
 import javax.swing.SpinnerNumberModel;
 import org.jdesktop.swingx.JXHyperlink;
 
@@ -39,12 +42,12 @@ import org.jdesktop.swingx.JXHyperlink;
  */
 public class TaskPanel extends JPanel implements IOutlookPanel {
 
-    public PickPanel leftPickPanel;
-    public PickPanel rightPickPanel;
-    public PickPanel internalPickPanel;
+    private final WeakReference<PickPanel> leftPickPanelRef;
+    private final WeakReference<PickPanel> rightPickPanelRef;
+    private final WeakReference<PickPanel> internalPickPanelRef;
+    private WeakReference<JButton> changeButtonRef;
     private JSpinner PRIMER_NUM_RETURN;
     private JComboBox PRIMER_MISPRIMING_LIBRARY;
-    //private JComboBox PRIMER_TASK;    
     
     public TaskPanel() {
         Insets insets = UIUtil.getDefaultInsets();
@@ -56,22 +59,25 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
         c.gridx = 0;
         c.fill = GridBagConstraints.HORIZONTAL;
         c.weightx = 1;
-        leftPickPanel = new PickPanel(PickPanel.TYPE.LEFT);
+        PickPanel leftPickPanel = new PickPanel(PickPanel.TYPE.LEFT);
         add(leftPickPanel, c);
+        leftPickPanelRef = new WeakReference(leftPickPanel);
 
         c = new GridBagConstraints();
         c.gridx = 0;
         c.fill = GridBagConstraints.HORIZONTAL;
         c.weightx = 1;
-        internalPickPanel = new PickPanel(PickPanel.TYPE.INTERNAL);
+        PickPanel internalPickPanel = new PickPanel(PickPanel.TYPE.INTERNAL);
         add(internalPickPanel, c);
+        internalPickPanelRef = new WeakReference(internalPickPanel);
 
         c = new GridBagConstraints();
         c.gridx = 0;
         c.fill = GridBagConstraints.HORIZONTAL;
         c.weightx = 1;
-        rightPickPanel = new PickPanel(PickPanel.TYPE.RIGHT);
+        PickPanel rightPickPanel = new PickPanel(PickPanel.TYPE.RIGHT);
         add(rightPickPanel, c);
+        rightPickPanelRef = new WeakReference(rightPickPanel);
 
         c = new GridBagConstraints();
         c.gridx = 0;
@@ -85,6 +91,11 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
         c.weightx = 1;
         add(createNumToReturnPanel(), c);
         
+        c = new GridBagConstraints();
+        c.gridx = 0;
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.weightx = 1;
+        add(createExePanel(), c);
         
         c = new GridBagConstraints();
         c.gridx = 0;
@@ -95,10 +106,40 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
 
         c = new GridBagConstraints();
         c.gridx = 0;
-        JPanel citePanel = createCitePanel();
-        add(citePanel, c);
+        add(createCitePanel(), c);
 
         hookupListeners();
+    }
+    
+    public PickPanel getLeftPickPanel() {
+        return leftPickPanelRef.get();
+    }
+    
+    public PickPanel getInternalPickPanel() {
+        return internalPickPanelRef.get();
+    }
+    
+    public PickPanel getRightPickPanel(){
+        return rightPickPanelRef.get();
+    }
+    
+    private JPanel createExePanel(){
+        JPanel ret = new JPanel(new GridBagLayout());
+        GridBagConstraints c;
+        
+        c = new GridBagConstraints();
+        c.gridx = 0;
+        c.gridy = 0;
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.weightx = 1;
+        JTextField exeField = new JTextField();
+        ret.add(exeField, c);
+        
+        c = new GridBagConstraints();
+        JButton changeButton = new JButton("...");
+        ret.add(changeButton, c);
+        changeButtonRef = new WeakReference(changeButton);
+        return ret;
     }
 
     private JPanel createCitePanel() {
@@ -122,6 +163,7 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
     }
 
     private void hookupListeners() {
+        changeButtonRef.get().addActionListener(new TaskPanelListeners.ChangeBtnListener());
     }
 
 
@@ -204,27 +246,27 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
     }
 
     public List<String> validateInput(AnnotatedSeq as) {
-        List<String> ret = new ArrayList<String>();
+        List<String> ret = new ArrayList();
 
-        ret.addAll(leftPickPanel.validateInput(as));
+        ret.addAll(getLeftPickPanel().validateInput(as));
         if (!ret.isEmpty()) {
             return ret;
         }
-        ret.addAll(internalPickPanel.validateInput(as));
+        ret.addAll(getInternalPickPanel().validateInput(as));
         if (!ret.isEmpty()) {
             return ret;
         }
-        ret.addAll(rightPickPanel.validateInput(as));
+        ret.addAll(getRightPickPanel().validateInput(as));
         if (!ret.isEmpty()) {
             return ret;
         }
 
-        if (!leftPickPanel.isPicking() 
-                && !leftPickPanel.isUseExisting()
-                && !internalPickPanel.isPicking()
-                && !internalPickPanel.isPicking()
-                && !rightPickPanel.isPicking()
-                && !rightPickPanel.isUseExisting()) {
+        if (!getLeftPickPanel().isPicking() 
+                && !getLeftPickPanel().isUseExisting()
+                && !getInternalPickPanel().isPicking()
+                && !getInternalPickPanel().isPicking()
+                && !getRightPickPanel().isPicking()
+                && !getRightPickPanel().isUseExisting()) {
             ret.add(String.format(CNST.MSG_FORMAT, "No task selected", "Please select at least one task(e.g., \"Forward Primer\")"));
         }
         return ret;
@@ -236,9 +278,9 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
         userInput.enablePickAnyway();
         userInput.getData().put("PRIMER_NUM_RETURN", PRIMER_NUM_RETURN.getValue().toString());
 
-        leftPickPanel.updateUserInputFromUI(userInput, as);
-        rightPickPanel.updateUserInputFromUI(userInput, as);
-        internalPickPanel.updateUserInputFromUI(userInput, as);
+        getLeftPickPanel().updateUserInputFromUI(userInput, as);
+        getRightPickPanel().updateUserInputFromUI(userInput, as);
+        getInternalPickPanel().updateUserInputFromUI(userInput, as);
 
         String name = (String) PRIMER_MISPRIMING_LIBRARY.getSelectedItem();
         userInput.getData().put("PRIMER_MISPRIMING_LIBRARY", name);
@@ -248,9 +290,9 @@ public class TaskPanel extends JPanel implements IOutlookPanel {
         if (userInput == null) {
             return;
         }
-        leftPickPanel.populateUI(userInput);
-        rightPickPanel.populateUI(userInput);
-        internalPickPanel.populateUI(userInput);
+        getLeftPickPanel().populateUI(userInput);
+        getRightPickPanel().populateUI(userInput);
+        getInternalPickPanel().populateUI(userInput);
 
         String primerNumReturn = userInput.get("PRIMER_NUM_RETURN");
         PRIMER_NUM_RETURN.setValue(Integer.parseInt(primerNumReturn));

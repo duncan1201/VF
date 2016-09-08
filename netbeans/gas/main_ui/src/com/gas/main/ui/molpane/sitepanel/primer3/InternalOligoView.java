@@ -441,6 +441,6 @@ class InternalOligoView extends JPanel implements IOutlookPanel {
             return;
         }
         TaskPanel taskPanel = primer3view.getTaskPanel();
-        UIUtil.enabledRecursively(this, taskPanel.internalPickPanel.isPicking());
+        UIUtil.enabledRecursively(this, taskPanel.getInternalPickPanel().isPicking());
     }
 }
